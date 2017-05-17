@@ -9,6 +9,12 @@
 	],
 "creatorBuild": "25813",
 "files": {
+	"\/.gitignore": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/.gitignore",
+		"oF": 0
+		},
 	"\/app\/images\/artwork\/case__realo--mobilefirst.png": {
 		"ft": 32768,
 		"iS": 686641,
