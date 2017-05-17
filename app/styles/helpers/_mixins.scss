@@ -1,0 +1,123 @@
+// =======================================================================
+// Mixins
+// =======================================================================
+
+// Font families
+@mixin ff--sans-serif($font-weight: normal) {
+	font-family: -apple-system, 'Libre Franklin', Helvetica Neue, Helvetica, Arial, sans-serif;
+	font-weight: $font-weight;
+}
+
+@mixin ff--monospaced($font-weight: normal) {
+	font-family: Menlo, monospace;
+	font-weight: $font-weight;
+}
+
+// Font sizes
+@mixin fs--body {
+	font-size: 0.9375rem; //15px
+	@media (min-width: $b__medium) {
+		font-size: 1rem; //16px
+	}
+	@media (min-width: $b__large) {
+		font-size: 1.125rem; //18px
+	}
+}
+@mixin fs--heading-1 {
+	//font-size: 2.25rem; //36px
+	font-size: 2rem; //32px
+	line-height: 1.2;
+	@media (min-width: $b__medium) {
+		font-size: 2.75rem; //44px
+	}
+	@media (min-width: $b__large) {
+		font-size: 3.25rem; //52px
+	}
+}
+@mixin fs--heading-2 {
+	font-size: 1.5rem; //24px
+	line-height: 1.35;
+	@media (min-width: $b__medium) {
+		font-size: 1.875rem; //30px
+	}
+	@media (min-width: $b__large) {
+		font-size: 2.25rem; //32px
+	}
+}
+@mixin fs--heading-3 {
+	font-size: 1rem; //16px
+	@media (min-width: $b__medium) {
+		font-size: 1.125rem; //18px
+	}
+	@media (min-width: $b__large) {
+		font-size: 1.25rem; //20px
+	}
+}
+@mixin fs--heading-4 {
+	@include fs--small;
+}
+@mixin fs--small {
+	font-size: 0.75rem; //12px
+	line-height: 1.25;
+	@media (min-width: $b__large) {
+      font-size: 0.8125rem; //13px
+		line-height: 1.5;
+   }
+}
+@mixin fs--figcaption {
+	@include fs--small;
+}
+@mixin fs--code {
+	@include fs--small;
+}
+
+// CSS Gradients
+@mixin linearGradient($top, $bottom){
+   background: $top;
+   background: -moz-linear-gradient(top,  $top 0%, $bottom 100%);
+   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,$top), color-stop(100%,$bottom));
+   background: -webkit-linear-gradient(top,  $top 0%,$bottom 100%);
+   background: -o-linear-gradient(top,  $top 0%,$bottom 100%);
+   background: -ms-linear-gradient(top,  $top 0%,$bottom 100%);
+   background: linear-gradient(to bottom,  $top 0%,$bottom 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#000000',GradientType=0 );
+}
+
+// Wait Animate
+@mixin waitAnimate($options: ()) {
+  $options: map-merge((
+    animationName: waitAnimate,
+    duration: 1,
+    waitTime: 0,
+    timingFunction: linear,
+    iterationCount: infinite
+  ), $options);
+  $name: map-get($options, animationName);
+  $kf: map-get($options, keyframes);
+  $kfLength: length($kf);
+  $duration: map-get($options, duration);
+  $direction: map-get($options, direction);
+  $waitTime: map-get($options, waitTime);
+  $timingFunction: map-get($options, timingFunction);
+  $iterationCount: map-get($options, iterationCount);
+  $counter: 1; // index of 'each'
+  @keyframes #{$name} {
+    @each $frame, $prop in $kf {
+      #{$frame * $duration / ($duration + $waitTime)}% {
+        @each $k, $v in $prop {
+          #{$k}: #{$v}
+        }
+      }
+      // if last in loop and waitTime is not 0, add the last frame as 100% (this is what creates the pause)
+      @if $counter == $kfLength and $waitTime > 0 {
+        100% {
+          @each $k, $v in $prop {
+            #{$k}: #{$v}
+          }
+        }
+      }
+      $counter: $counter+1;
+    }
+  }
+  animation: #{$name} #{$duration + $waitTime}s #{$timingFunction} #{$iterationCount} #{$direction};
+}

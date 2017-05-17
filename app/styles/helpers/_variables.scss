@@ -1,0 +1,45 @@
+// =======================================================================
+// Global Variables
+// =======================================================================
+
+// Units
+$u__base-line-height: 1.6;
+$u__max-width: 70em; //1120px
+
+// Colours
+$c__neutral--black: #000;
+$c__neutral--darkest: #111;
+$c__neutral--dark: #282828;
+$c__neutral--mid: #666;
+$c__neutral--light: #999;
+$c__neutral--lightest: #eee;
+$c__neutral--white: #fff;
+
+//$c__matter--beige: hsb(45, 4, 85);
+$c__matter--beige: hsb(300, 0, 86);
+$c__realo--blue: hsb(220, 78, 80);
+$c__diabetik--green: hsb(144, 78, 80);
+
+$c__muted--light: transparentize($c__neutral--white, .45);
+$c__muted--dark: transparentize($c__neutral--black, .45);
+$c__faint--light: transparentize($c__neutral--white, .9);
+$c__faint--dark: transparentize($c__neutral--black, .9);
+
+$c__selection: transparentize($c__neutral--black, .9);
+
+$c__form--loading: hsb(21, 64, 100);
+$c__form--success: hsb(112, 40, 90);
+$c__form--error: #ff5d5d;
+
+// Font weights
+$fw__light: 300;
+$fw__regular: 400;
+$fw__semibold: 600;
+$fw__bold: 700;
+$fw__extrabold: 800;
+
+// Breakpoints
+$b__small: 360px;
+$b__medium: 680px;
+$b__large: 1040px;
+$b__xlarge: 1280px;

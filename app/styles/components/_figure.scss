@@ -1,0 +1,45 @@
+// =======================================================================
+// Figures
+// =======================================================================
+
+.c-figure {
+   margin-bottom: 1.5rem; //24px
+   &:last-child {
+      margin-bottom: 0;
+   }
+   img {
+      margin-bottom: 1rem; //16px
+      &:last-child {
+         margin-bottom: 0;
+      }
+   }
+   figcaption {
+      text-align: center;
+   }
+}
+.c-figure--scroller {
+   overflow: hidden;
+   &:last-child {
+      margin-bottom: 0;
+   }
+   img {
+      margin-left: -5%;
+      width: 240%;
+      max-width: none;
+      animation: figureScroller 35s linear infinite alternate;
+   }
+   @media (min-width: $b__medium) {
+      margin-bottom: 3rem; //48px
+      img {
+         width: 140%;
+      }
+   }
+   @media (min-width: $b__large) {
+      //overflow: visible;
+      margin-bottom: 6rem; //96px
+   }
+}
+.c-figure--illustration {
+   width: 100px;
+   height: 100px;
+}

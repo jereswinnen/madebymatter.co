@@ -1,0 +1,21 @@
+// =======================================================================
+// Debug
+// =======================================================================
+
+html:before {
+   position: absolute;
+   @include ff--sans-serif($fw__regular);
+   color: $c__neutral--light;
+   @media (min-width: $b__medium) {
+      content: '$b__medium';
+   }
+   @media (min-width: $b__large) {
+      content: '$b__large';
+   }
+   @media (min-width: $b__xlarge) {
+      content: '$b__xlarge';
+   }
+   @media (min-width: $b__xxlarge) {
+      content: '$b__xxlarge';
+   }
+}

@@ -1,0 +1,107 @@
+// =======================================================================
+// Primary & secondary calls to action
+// =======================================================================
+//Primary
+.c-cta__button {
+   position: relative;
+   padding: 0.625rem 0.875rem; //10px 14px
+   overflow: hidden;
+   display: inline-block;
+   font-size: 0.75rem; //12px
+	line-height: 1.25;
+   font-weight: $fw__semibold;
+   text-align: center;
+   color: $c__neutral--black;
+   box-shadow: 0 2px 3px transparentize($c__neutral--black, .925);
+   transition: background-color .125s, color .125s, padding .25s, fill .25s;
+   &:before {
+      background-color: $c__neutral--white;
+      z-index: 1;
+   }
+   &:after, &:before {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      content: '';
+   }
+   &:after {
+      background-color: $c__neutral--black;
+      transform: translate3d(-100%, 0%, 0);
+      transition: transform .25s;
+      z-index: 2;
+   }
+   & > span {
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      white-space: nowrap;
+      z-index: 3;
+   }
+   .svgChevron {
+      position: relative;
+      margin-left: 0.625rem; //10px
+      fill: currentColor;
+      transform: translateZ(0);
+      transition: transform .25s, fill 75ms;
+      z-index: 2;
+   }
+   &:hover {
+      color: $c__neutral--white;
+      &:after {
+         transform: translateZ(0);
+      }
+      .svgChevron {
+         transform: translate3d(5px, 0, 0);
+         fill: $c__neutral--white;
+      }
+   }
+   &:active {
+      box-shadow: none;
+   }
+   @media (min-width: $b__medium) {
+      padding: 0.75rem 1rem; //12px 16px
+      font-size: 0.8125rem; //13px
+      .svgChevron {
+         margin-top: 0.0625rem; //1px
+      }
+   }
+}
+.c-cta__link {
+   position: relative;
+   display: inline-block;
+   vertical-align: middle;
+   overflow: hidden;
+   font-weight: $fw__regular;
+   &:after, &:before {
+      position: absolute;
+      bottom: 1px;
+      display: block;
+      content: '';
+      width: 100%;
+      height: 1px;
+      background: currentColor;
+   }
+   &:before {
+      transform: translate3d(-102%, 0, 0);
+      opacity: .35;
+      transition: background .8s cubic-bezier(.19, 1, .22, 1), transform .5s cubic-bezier(1, 0, 0, 1) .1s;
+   }
+   &:after {
+      transform: translate3d(-102%, 0, 0);
+      transition: background .8s cubic-bezier(.19, 1, .22, 1), transform .8s cubic-bezier(.19, 1, .22, 1);
+   }
+   &:hover:before {
+      transform: translate3d(102%, 0, 0);
+      transition: background .6s cubic-bezier(.19, 1, .22, 1), transform .6s cubic-bezier(.19, 1, .22, 1) .1s;
+   }
+   &:hover:after {
+      transform: translate3d(0, 0, 0);
+      transition: background .6s cubic-bezier(.19, 1, .22, 1), transform .6s cubic-bezier(.19, 1, .22, 1) .05s;
+   }
+   &:hover:before {
+      transform: translate3d(0, 0, 0) !important;
+   }
+}

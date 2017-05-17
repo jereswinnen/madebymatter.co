@@ -1,0 +1,42 @@
+// =======================================================================
+// Forms
+// =======================================================================
+
+.c-form {
+   //font-weight: $fw__semibold;
+   .c-form__input {
+      margin-bottom: 2rem; //32px
+      padding-bottom: 1rem; //16px
+      width: 100%;
+      color: $c__neutral--white;
+      border: 0;
+      border-radius: 0;
+      border-bottom: 1px solid $c__neutral--mid;
+      transition: border-bottom .35s ease, background .35s ease;
+      &:focus {
+         border-bottom: 1px solid $c__neutral--white;
+      }
+      &:last-child {
+         margin-bottom: 0;
+      }
+   }
+   .c-form__input--textarea {
+      height: 140px;
+      resize: none;
+   }
+   .c-cta__button {
+      margin-bottom: 1.5rem; //24px
+   }
+   .c-form__alert a {
+      color: $c__neutral--white;
+   }
+   .c-form__alert--loading {
+      color: $c__form--loading;
+   }
+   .c-form__alert--success {
+      color: $c__form--success;
+   }
+   .c-form__alert--error {
+      color: $c__form--error;
+   }
+}

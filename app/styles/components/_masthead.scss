@@ -1,0 +1,18 @@
+// =======================================================================
+// Masthead
+// =======================================================================
+
+.c-masthead {
+   padding: 2rem 0; //32px 0
+   @media (min-width: $b__small) {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+   }
+   @media (min-width: $b__medium) {
+      padding: 3rem 0; //48px 0
+   }
+   @media (min-width: $b__large) {
+      padding: 4rem 0; //64px 0
+   }
+}

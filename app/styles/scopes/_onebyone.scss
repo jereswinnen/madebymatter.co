@@ -1,0 +1,22 @@
+// =======================================================================
+// One by one
+// =======================================================================
+
+.s-onebyone {
+   @media (min-width: $b__medium) {
+      //@include grid-container;
+      //@include grid-collapse;
+      display: flex;
+      &:last-child .c-section {
+         margin-bottom: -3.125rem; //50px
+      }
+      .c-section {
+         flex-basis: 50%;
+      }
+   }
+   @media (min-width: $b__large) {
+      &:last-child .c-section {
+         margin-bottom: -5.625rem; //90px
+      }
+   }
+}

@@ -1,0 +1,16 @@
+// =======================================================================
+// Branding
+// =======================================================================
+
+.c-branding {
+   margin-bottom: -0.5rem; //8px
+   .c-branding__svg {
+      width: 100px;
+      @media (min-width: $b__medium) {
+         width: 120px;
+      }
+   }
+   &:hover .c-branding__svg {
+      opacity: .5;
+   }
+}

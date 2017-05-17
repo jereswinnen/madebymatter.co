@@ -1,0 +1,1 @@
+var switches=Snap.select("#switches"),topswitch=switches.select("#topswitch"),bottomswitch=switches.select("#bottomswitch");switches.animate({},200,mina.linear,function(){topswitch.animate({transform:"t-16,0"},750),bottomswitch.animate({transform:"t16,0"},750)});

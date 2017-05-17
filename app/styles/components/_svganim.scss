@@ -1,0 +1,90 @@
+// =======================================================================
+// SVG Animation
+// =======================================================================
+
+svg.c-svg-switches {
+   display: block;
+   margin: 0 auto;
+   width: 82px;
+   height: 82px;
+   .c-svg-switches__switchrailTop {
+      @include waitAnimate(
+         (
+            animationName: railIn,
+            keyframes: (
+               0: (
+                  fill: #F2797A
+               ),
+               100: (
+                  fill: #F9CFB7
+               )
+            ),
+            duration: 1,
+            waitTime: 1,
+            timingFunction: ease-in-out,
+            iterationCount: infinite,
+            direction: alternate
+         )
+      );
+   }
+   .c-svg-switches__switchrailBottom {
+      @include waitAnimate(
+         (
+            animationName: railOut,
+            keyframes: (
+               0: (
+                  fill: #F9CFB7
+               ),
+               100: (
+                  fill: #F2797A
+               )
+            ),
+            duration: 1,
+            waitTime: 1,
+            timingFunction: ease-in-out,
+            iterationCount: infinite,
+            direction: alternate
+         )
+      );
+   }
+   .c-svg-switches__switchknobTop {
+      @include waitAnimate(
+         (
+            animationName: knobMove,
+            keyframes: (
+               0: (
+                  transform: translateX(0)
+               ),
+               100: (
+                  transform: translateX(-16px)
+               )
+            ),
+            duration: 1,
+            waitTime: 1,
+            timingFunction: ease-in-out,
+            iterationCount: infinite,
+            direction: alternate
+         )
+      );
+   }
+   .c-svg-switches__switchknobBottom {
+      @include waitAnimate(
+         (
+            animationName: knobMoveRev,
+            keyframes: (
+               0: (
+                  transform: translateX(0)
+               ),
+               100: (
+                  transform: translateX(16px)
+               )
+            ),
+            duration: 1,
+            waitTime: 1,
+            timingFunction: ease-in-out,
+            iterationCount: infinite,
+            direction: alternate
+         )
+      );
+   }
+}
