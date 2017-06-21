@@ -4,7 +4,7 @@
 	{
 		"name": "Process All Remaining Files and Folders",
 		"stepType": 1,
-		"uuidString": "30B173FA-B8CD-4D23-A465-3C3BAF05CAAD"
+		"uuidString": "6FA68E00-E574-4E18-B633-6FD006A64B87"
 		}
 	],
 "creatorBuild": "25813",
@@ -680,15 +680,15 @@
 		"uL": 1
 		},
 	"\/app\/styles\/global.scss": {
-		"aP": 1,
-		"bl": 1,
+		"aP": 0,
+		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/dist\/styles\/global.css",
-		"oF": 2,
+		"oAP": "\/app\/styles\/global.css",
+		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
@@ -837,144 +837,144 @@
 		},
 	"\/dist\/images\/artwork\/case__diabetik--ipadaddentry.png": {
 		"ft": 32768,
-		"iS": 282952,
+		"iS": 81668,
 		"oA": 0,
 		"oAP": "\/dist\/images\/artwork\/case__diabetik--ipadaddentry.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
 	"\/dist\/images\/artwork\/case__diabetik--ipadaddentry@2x.png": {
 		"ft": 32768,
-		"iS": 801306,
+		"iS": 227816,
 		"oA": 0,
 		"oAP": "\/dist\/images\/artwork\/case__diabetik--ipadaddentry@2x.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
 	"\/dist\/images\/artwork\/case__diabetik--ipadjournal.png": {
 		"ft": 32768,
-		"iS": 178254,
+		"iS": 48665,
 		"oA": 0,
 		"oAP": "\/dist\/images\/artwork\/case__diabetik--ipadjournal.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
 	"\/dist\/images\/artwork\/case__diabetik--ipadjournal@2x.png": {
 		"ft": 32768,
-		"iS": 502341,
+		"iS": 132282,
 		"oA": 0,
 		"oAP": "\/dist\/images\/artwork\/case__diabetik--ipadjournal@2x.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
 	"\/dist\/images\/artwork\/case__diabetik--ipadlistmenu.png": {
 		"ft": 32768,
-		"iS": 418269,
+		"iS": 124556,
 		"oA": 0,
 		"oAP": "\/dist\/images\/artwork\/case__diabetik--ipadlistmenu.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
 	"\/dist\/images\/artwork\/case__diabetik--ipadlistmenu@2x.png": {
 		"ft": 32768,
-		"iS": 1187648,
+		"iS": 357827,
 		"oA": 0,
 		"oAP": "\/dist\/images\/artwork\/case__diabetik--ipadlistmenu@2x.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
 	"\/dist\/images\/artwork\/case__diabetik--ipadtimeline.png": {
 		"ft": 32768,
-		"iS": 422811,
+		"iS": 126100,
 		"oA": 0,
 		"oAP": "\/dist\/images\/artwork\/case__diabetik--ipadtimeline.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
 	"\/dist\/images\/artwork\/case__diabetik--ipadtimeline@2x.png": {
 		"ft": 32768,
-		"iS": 1283759,
+		"iS": 367533,
 		"oA": 0,
 		"oAP": "\/dist\/images\/artwork\/case__diabetik--ipadtimeline@2x.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
 	"\/dist\/images\/artwork\/case__diabetik--listmenujournaladdentry.png": {
 		"ft": 32768,
-		"iS": 330823,
+		"iS": 90551,
 		"oA": 0,
 		"oAP": "\/dist\/images\/artwork\/case__diabetik--listmenujournaladdentry.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
 	"\/dist\/images\/artwork\/case__diabetik--listmenujournaladdentry@2x.png": {
 		"ft": 32768,
-		"iS": 698612,
+		"iS": 212795,
 		"oA": 0,
 		"oAP": "\/dist\/images\/artwork\/case__diabetik--listmenujournaladdentry@2x.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
 	"\/dist\/images\/artwork\/case__realo--branding.png": {
 		"ft": 32768,
-		"iS": 25936,
+		"iS": 7527,
 		"oA": 0,
 		"oAP": "\/dist\/images\/artwork\/case__realo--branding.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
 	"\/dist\/images\/artwork\/case__realo--branding@2x.png": {
 		"ft": 32768,
-		"iS": 69604,
+		"iS": 15766,
 		"oA": 0,
 		"oAP": "\/dist\/images\/artwork\/case__realo--branding@2x.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
 	"\/dist\/images\/artwork\/case__realo--mobilefirst.png": {
 		"ft": 32768,
-		"iS": 201133,
+		"iS": 201118,
 		"oA": 0,
 		"oAP": "\/dist\/images\/artwork\/case__realo--mobilefirst.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -984,85 +984,85 @@
 		"oA": 0,
 		"oAP": "\/dist\/images\/artwork\/case__realo--mobilefirst@2x.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
 	"\/dist\/images\/artwork\/case__realo--searchhomeagency.png": {
 		"ft": 32768,
-		"iS": 770788,
+		"iS": 202887,
 		"oA": 0,
 		"oAP": "\/dist\/images\/artwork\/case__realo--searchhomeagency.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
 	"\/dist\/images\/artwork\/case__realo--searchhomeagency@2x.png": {
 		"ft": 32768,
-		"iS": 2752887,
+		"iS": 627202,
 		"oA": 0,
 		"oAP": "\/dist\/images\/artwork\/case__realo--searchhomeagency@2x.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
 	"\/dist\/images\/artwork\/case__realo--styleguide.png": {
 		"ft": 32768,
-		"iS": 85186,
+		"iS": 26021,
 		"oA": 0,
 		"oAP": "\/dist\/images\/artwork\/case__realo--styleguide.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
 	"\/dist\/images\/artwork\/case__realo--styleguide@2x.png": {
 		"ft": 32768,
-		"iS": 199928,
+		"iS": 58967,
 		"oA": 0,
 		"oAP": "\/dist\/images\/artwork\/case__realo--styleguide@2x.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
 	"\/dist\/images\/artwork\/case__realo--tabletportraitlandscape.png": {
 		"ft": 32768,
-		"iS": 690763,
+		"iS": 189911,
 		"oA": 0,
 		"oAP": "\/dist\/images\/artwork\/case__realo--tabletportraitlandscape.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
 	"\/dist\/images\/artwork\/case__realo--tabletportraitlandscape@2x.png": {
 		"ft": 32768,
-		"iS": 2065165,
+		"iS": 575817,
 		"oA": 0,
 		"oAP": "\/dist\/images\/artwork\/case__realo--tabletportraitlandscape@2x.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
 	"\/dist\/images\/artwork\/home__diabetik--scroller.png": {
 		"ft": 32768,
-		"iS": 143726,
+		"iS": 143266,
 		"oA": 0,
 		"oAP": "\/dist\/images\/artwork\/home__diabetik--scroller.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -1072,74 +1072,74 @@
 		"oA": 0,
 		"oAP": "\/dist\/images\/artwork\/home__diabetik--scroller@2x.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
 	"\/dist\/images\/artwork\/home__hocusfocus--peek.png": {
 		"ft": 32768,
-		"iS": 177446,
+		"iS": 32267,
 		"oA": 0,
 		"oAP": "\/dist\/images\/artwork\/home__hocusfocus--peek.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
 	"\/dist\/images\/artwork\/home__hocusfocus--peek@2x.png": {
 		"ft": 32768,
-		"iS": 579777,
+		"iS": 112940,
 		"oA": 0,
 		"oAP": "\/dist\/images\/artwork\/home__hocusfocus--peek@2x.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
 	"\/dist\/images\/artwork\/home__realo--scroller.png": {
 		"ft": 32768,
-		"iS": 997388,
+		"iS": 266588,
 		"oA": 0,
 		"oAP": "\/dist\/images\/artwork\/home__realo--scroller.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
 	"\/dist\/images\/artwork\/home__realo--scroller@2x.png": {
 		"ft": 32768,
-		"iS": 3299359,
+		"iS": 859324,
 		"oA": 0,
 		"oAP": "\/dist\/images\/artwork\/home__realo--scroller@2x.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
 	"\/dist\/images\/artwork\/home__reedr--peek.png": {
 		"ft": 32768,
-		"iS": 282145,
+		"iS": 77391,
 		"oA": 0,
 		"oAP": "\/dist\/images\/artwork\/home__reedr--peek.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
 	"\/dist\/images\/artwork\/home__reedr--peek@2x.png": {
 		"ft": 32768,
-		"iS": 911825,
+		"iS": 238192,
 		"oA": 0,
 		"oAP": "\/dist\/images\/artwork\/home__reedr--peek@2x.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -1290,15 +1290,15 @@
 "manualImportLinks": {
 	},
 "projectAttributes": {
-	"creationDate": 511184235,
+	"creationDate": 519760747,
 	"displayValue": "Matter",
 	"displayValueWasSetByUser": 1,
-	"iconImageName": "brackets_gray"
+	"iconImageName": "meme-yesBaby"
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
 	"alwaysUseExternalServer": 0,
-	"animateCSSInjections": 0,
+	"animateCSSInjections": 1,
 	"autoBuildNewItems": 1,
 	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
 	"babelAuxiliaryCommentAfter": "",
@@ -2074,7 +2074,7 @@
 			"optionString": ""
 			},
 		"no-extra-parens": {
-			"active": 1,
+			"active": 0,
 			"optionString": "'all', {'conditionalAssign': false, 'returnAssign': false, 'nestedBinaryExpressions': false, 'ignoreJSX': 'none'}"
 			},
 		"no-extra-semi": {
@@ -2094,7 +2094,7 @@
 			"optionString": ""
 			},
 		"no-global-assign": {
-			"active": 0,
+			"active": 1,
 			"optionString": "{'exceptions': []}"
 			},
 		"no-implicit-coercion": {
@@ -2302,7 +2302,7 @@
 			"optionString": "{'props': false}"
 			},
 		"no-self-compare": {
-			"active": 1,
+			"active": 0,
 			"optionString": ""
 			},
 		"no-sequences": {
@@ -2330,7 +2330,7 @@
 			"optionString": ""
 			},
 		"no-template-curly-in-string": {
-			"active": 1,
+			"active": 0,
 			"optionString": ""
 			},
 		"no-ternary": {
@@ -2386,12 +2386,12 @@
 			"optionString": ""
 			},
 		"no-unsafe-negation": {
-			"active": 0,
+			"active": 1,
 			"optionString": ""
 			},
 		"no-unused-expressions": {
 			"active": 0,
-			"optionString": "{'allowShortCircuit': false, 'allowTernary': false}"
+			"optionString": "{'allowShortCircuit': false, 'allowTernary': false, 'allowTaggedTemplates': false}"
 			},
 		"no-unused-labels": {
 			"active": 1,
@@ -2410,7 +2410,7 @@
 			"optionString": ""
 			},
 		"no-useless-computed-key": {
-			"active": 1,
+			"active": 0,
 			"optionString": ""
 			},
 		"no-useless-concat": {
@@ -2546,7 +2546,7 @@
 			"optionString": "{'require': {'FunctionDeclaration': true, 'MethodDefinition': false, 'ClassDeclaration': false, 'ArrowFunctionExpression': false}}"
 			},
 		"require-yield": {
-			"active": 0,
+			"active": 1,
 			"optionString": ""
 			},
 		"rest-spread-spacing": {
