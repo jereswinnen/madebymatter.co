@@ -1,10 +1,10 @@
 // =======================================================================
-// Scarlett v1.06
+// Matter v1.02
 // Written by Jeremy Swinnen (http://twitter.com/@jereswinnen)
 // =======================================================================
 
 // Frameworks
-@import "frameworks/neat";
+@import "frameworks/grid";
 
 // Helpers
 @import "helpers/functions";
@@ -24,15 +24,11 @@
 @import "scopes/body";
 @import "scopes/onebyone";
 @import "scopes/triad";
-//@import "scopes/shorten";
 
 // Utilities
-@import "utilities/layout";
 @import "utilities/bleed";
 
 // Components
-
-@import "components/svganim";
 
 @import "components/link";
 @import "components/button";

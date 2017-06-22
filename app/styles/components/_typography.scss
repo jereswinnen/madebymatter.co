@@ -4,68 +4,44 @@
 
 // Headings
 h1 {
-   margin-bottom: 1.5rem; //24px
-   @include ff--sans-serif($fw__extrabold);
-   @include fs--heading-1;
+   //margin-bottom: 1.5rem; //24px
+   @include ff--sans-serif($fw__heavy);
+   @include fs__mega;
    color: $c__neutral--white;
-   &:last-child {
-      margin-bottom: 0;
+   .t-heading1--secondary, &.t-heading1--secondary {
+      color: $c__neutral--light;
    }
-   @media (min-width: $b__large) {
-		margin-bottom: 2.5rem; //48px
-	}
 }
 h2 {
-   margin-bottom: 1rem; //16px
+   //margin-bottom: 1rem; //16px
    @include ff--sans-serif($fw__light);
-   @include fs--heading-2;
+   @include fs__maxi;
    color: $c__muted--dark;
-   &:last-child {
-      margin-bottom: 0;
+   .t-heading2--secondary, &.t-heading2--secondary, &.c-header__summary {
+      @include ff__sans-serif($fw__light);
+      color: $c__neutral--mid;
+   }
+   span {
+      display: block;
    }
 }
 h3 {
-   margin-bottom: 1rem; //16px
+   //margin-bottom: 1rem; //16px
    @include ff--sans-serif($fw__semibold);
-   @include fs--heading-3;
+   @include fs__midi;
    color: $c__neutral--dark;
-   @media (min-width: $b__medium) {
-		margin-bottom: 1.5rem; //24px
-	}
-   @media (min-width: $b__large) {
-		margin-bottom: 2rem; //32px
-	}
 }
 h4 {
-   margin-bottom: 2rem; //32px
+   //margin-bottom: 2rem; //32px
    @include ff--sans-serif($fw__semibold);
-   @include fs--heading-4;
+   @include fs__micro;
    color: $c__muted--dark;
-   &.h-heading4--decorated {
-      &:after {
-         display: block;
-         margin-top: 0.75rem; //12px
-         width: 20%;
-         height: 1px;
-         background: currentColor;
-         content: '';
-         @media (min-width: $b__medium) {
-      		width: 8%;
-      	}
-      }
-   }
-   &.h-heading4--uppercase {
-      letter-spacing: 0.0625rem; //1px
-      text-transform: uppercase;
-   }
-   @media (min-width: $b__medium) {
-      &.h-heading4--decorated, &.h-heading4--uppercase {
-         margin-bottom: 3rem; //48px
-      }
-      &.h-heading4--decorated:after {
-         margin-top: 1rem; //16px
-      }
-   }
+}
+h5 {
+   //margin-bottom: 1rem; //16px
+   @include ff__sans-serif($fw__medium);
+   @include fs__mini;
+   color: $c__neutral--mid;
 }
 b {
    font-weight: $fw__semibold;
@@ -74,7 +50,7 @@ strong {
    font-weight: $fw__bold;
 }
 small {
-   @include fs--small;
+   @include fs__micro;
    color: $c__muted--dark;
 }
 p {
@@ -84,19 +60,20 @@ p {
    }
 }
 code {
-   padding: 0.25rem; //4px
-   @include ff--monospaced;
-   @include fs--code;
+   padding: 0.1875rem; //3px
+   @include ff__monospaced;
+   @include fs__micro;
    background: $c__faint--dark;
+   border-radius: $radius__micro;
+   @media(min-width: $b__large) {
+      //padding: 0.3125rem; //5px
+   }
 }
 
 //Figcaption
 figcaption {
-   h4 {
-      margin-bottom: 0.5rem; //8px
-   }
    p {
-      @include fs--figcaption;
+      @include fs__micro;;
       color: $c__neutral--mid;
    }
 }
@@ -108,11 +85,11 @@ blockquote {
    p {
       margin-bottom: 0.5rem; //8px
       @include ff--sans-serif($fw__light);
-      @include fs--heading-2;
+      @include fs__maxi;
       color: $c__muted--dark;
    }
    cite {
-      @include fs--body;
+      @include fs__base;
       color: $c__neutral--white;
    }
    @media (min-width: $b__large) {

@@ -4,12 +4,10 @@
 
 a {
    color: $c__neutral--black;
-   font-weight: $fw__semibold;
-
+   font-weight: $fw__medium;
    &:hover {
       color: $c__neutral--mid;
    }
-
    &:active {
       color: $c__neutral--light;
    }

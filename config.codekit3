@@ -406,19 +406,6 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/app\/styles\/components\/_svganim.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/app\/styles\/components\/_svganim.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
 	"\/app\/styles\/components\/_typography.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -432,7 +419,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/app\/styles\/frameworks\/_neat.scss": {
+	"\/app\/styles\/frameworks\/_grid.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -440,12 +427,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/app\/styles\/frameworks\/_neat.css",
+		"oAP": "\/app\/styles\/frameworks\/_grid.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/app\/styles\/frameworks\/neat\/functions\/_neat-append-grid-visual.scss": {
+	"\/app\/styles\/frameworks\/grid\/_grid.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -453,12 +440,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/app\/styles\/frameworks\/neat\/functions\/_neat-append-grid-visual.css",
+		"oAP": "\/app\/styles\/frameworks\/grid\/_grid.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/app\/styles\/frameworks\/neat\/functions\/_neat-column-default.scss": {
+	"\/app\/styles\/frameworks\/grid\/_variables.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -466,12 +453,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/app\/styles\/frameworks\/neat\/functions\/_neat-column-default.css",
+		"oAP": "\/app\/styles\/frameworks\/grid\/_variables.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/app\/styles\/frameworks\/neat\/functions\/_neat-column-ratio.scss": {
+	"\/app\/styles\/frameworks\/grid\/mixins\/_breakpoints.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -479,12 +466,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/app\/styles\/frameworks\/neat\/functions\/_neat-column-ratio.css",
+		"oAP": "\/app\/styles\/frameworks\/grid\/mixins\/_breakpoints.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/app\/styles\/frameworks\/neat\/functions\/_neat-column-width.scss": {
+	"\/app\/styles\/frameworks\/grid\/mixins\/_clearfix.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -492,12 +479,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/app\/styles\/frameworks\/neat\/functions\/_neat-column-width.css",
+		"oAP": "\/app\/styles\/frameworks\/grid\/mixins\/_clearfix.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/app\/styles\/frameworks\/neat\/functions\/_neat-float-direction.scss": {
+	"\/app\/styles\/frameworks\/grid\/mixins\/_grid-framework.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -505,12 +492,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/app\/styles\/frameworks\/neat\/functions\/_neat-float-direction.css",
+		"oAP": "\/app\/styles\/frameworks\/grid\/mixins\/_grid-framework.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/app\/styles\/frameworks\/neat\/functions\/_neat-merge-defaults.scss": {
+	"\/app\/styles\/frameworks\/grid\/mixins\/_grid.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -518,12 +505,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/app\/styles\/frameworks\/neat\/functions\/_neat-merge-defaults.css",
+		"oAP": "\/app\/styles\/frameworks\/grid\/mixins\/_grid.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/app\/styles\/frameworks\/neat\/functions\/_neat-opposite-direction.scss": {
+	"\/app\/styles\/frameworks\/grid\/utilities\/_display.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -531,12 +518,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/app\/styles\/frameworks\/neat\/functions\/_neat-opposite-direction.css",
+		"oAP": "\/app\/styles\/frameworks\/grid\/utilities\/_display.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/app\/styles\/frameworks\/neat\/functions\/_neat-parse-columns.scss": {
+	"\/app\/styles\/frameworks\/grid\/utilities\/_flex.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -544,137 +531,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/app\/styles\/frameworks\/neat\/functions\/_neat-parse-columns.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/app\/styles\/frameworks\/neat\/functions\/_neat-parse-media.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/app\/styles\/frameworks\/neat\/functions\/_neat-parse-media.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/app\/styles\/frameworks\/neat\/functions\/_retrieve-neat-settings.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/app\/styles\/frameworks\/neat\/functions\/_retrieve-neat-settings.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/app\/styles\/frameworks\/neat\/mixins\/_grid-collapse.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/app\/styles\/frameworks\/neat\/mixins\/_grid-collapse.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/app\/styles\/frameworks\/neat\/mixins\/_grid-column.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/app\/styles\/frameworks\/neat\/mixins\/_grid-column.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/app\/styles\/frameworks\/neat\/mixins\/_grid-container.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/app\/styles\/frameworks\/neat\/mixins\/_grid-container.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/app\/styles\/frameworks\/neat\/mixins\/_grid-media.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/app\/styles\/frameworks\/neat\/mixins\/_grid-media.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/app\/styles\/frameworks\/neat\/mixins\/_grid-push.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/app\/styles\/frameworks\/neat\/mixins\/_grid-push.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/app\/styles\/frameworks\/neat\/mixins\/_grid-shift.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/app\/styles\/frameworks\/neat\/mixins\/_grid-shift.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/app\/styles\/frameworks\/neat\/mixins\/_grid-visual.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/app\/styles\/frameworks\/neat\/mixins\/_grid-visual.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/app\/styles\/frameworks\/neat\/settings\/_settings.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/app\/styles\/frameworks\/neat\/settings\/_settings.css",
+		"oAP": "\/app\/styles\/frameworks\/grid\/utilities\/_flex.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -687,8 +544,8 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/app\/styles\/global.css",
-		"oF": 0,
+		"oAP": "\/dist\/styles\/global.css",
+		"oF": 2,
 		"oS": 0,
 		"uL": 1
 		},
@@ -783,19 +640,6 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/app\/styles\/scopes\/_shorten.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/app\/styles\/scopes\/_shorten.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
 	"\/app\/styles\/scopes\/_triad.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -818,19 +662,6 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/app\/styles\/utilities\/_bleed.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/app\/styles\/utilities\/_layout.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/app\/styles\/utilities\/_layout.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -1271,18 +1102,6 @@
 		"pME": 1,
 		"rFN": 0,
 		"uCM": 0
-		},
-	"\/styleguide.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/styleguide.html",
-		"oF": 0
-		},
-	"\/svganim.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/svganim.html",
-		"oF": 0
 		}
 	},
 "hooks": [

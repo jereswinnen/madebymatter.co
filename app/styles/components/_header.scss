@@ -3,45 +3,15 @@
 // =======================================================================
 
 .c-header {
-   margin-bottom: 2rem; //32px
-   &:last-child {
-      margin-bottom: 0;
+   //margin-bottom: $u__base-spacing;
+   p {
+      @include ff--sans-serif($fw__light);
+      @include fs__midi;
    }
    @media (min-width: $b__medium) {
-      margin-bottom: 4rem; //64px
+      //margin-bottom: 4rem; //64px
    }
    @media (min-width: $b__large) {
-      margin-bottom: 6rem; //96px
-   }
-}
-.c-header--centered {
-   @media (min-width: $b__medium) {
-      text-align: center;
-      h2 {
-         margin-bottom: 1.5rem;
-         &:last-child {
-            margin-bottom: 0;
-         }
-      }
-      .h-heading4--decorated:after {
-         margin: 0.75rem auto 0 auto;
-      }
-   }
-   @media (min-width: $b__large) {
-      h1 {
-         margin-left: auto;
-         margin-right: auto;
-         max-width: 85%;
-      }
-      h2 {
-         margin: 0 auto 1.5rem auto;
-         max-width: 60%;
-      }
-   }
-}
-.c-article .c-header {
-   margin-bottom: 4rem; //64px
-   @media (min-width: $b__large) {
-      margin-bottom: 6rem; //96px
+      //margin-bottom: 6rem; //96px
    }
 }

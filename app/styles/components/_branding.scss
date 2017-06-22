@@ -3,12 +3,16 @@
 // =======================================================================
 
 .c-branding {
-   margin-bottom: -0.5rem; //8px
+   //margin-bottom: -0.5rem; //8px
    .c-branding__svg {
-      width: 100px;
-      @media (min-width: $b__medium) {
-         width: 120px;
+      margin-bottom: $u__base-spacing / 2.5;
+      width: 120px;
+      @media (min-width: $b__large) {
+         width: 140px;
       }
+   }
+   .c-branding__svg--light {
+      fill: $c__neutral--white;
    }
    &:hover .c-branding__svg {
       opacity: .5;

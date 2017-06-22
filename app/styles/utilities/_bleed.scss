@@ -3,29 +3,8 @@
 // =======================================================================
 
 .u-bleed {
-   margin-left: -1.875rem; //30px
-   margin-right: -1.875rem; //30px
-   @media (min-width: $b__medium) {
-      margin-left: -3.125rem; //50px
-      margin-right: -3.125rem; //50px
-   }
-   @media (min-width: $b__large) {
-      margin-left: -5.625rem; //90px
-      margin-right: -5.625rem; //90px
-   }
-}
-.u-bleed.c-figure figcaption {
-   padding: 0 1.875rem; //0 30px
-}
-.u-bleed.c-figure--scroller {
-   margin-left: -3rem; //48px (origin padding + .u-container padding)
-   margin-right: -3rem; //48px (origin padding + .u-container padding)
-   @media (min-width: $b__medium) {
-      margin-left: -4.25rem; //68px (origin padding + .u-container padding)
-      margin-right: -4.25rem; //68px (origin padding + .u-container padding)
-   }
-   @media (min-width: $b__large) {
-      margin-left: -5.625rem; //90px (origin padding + .u-container padding)
-      margin-right: -5.625rem; //90px (origin padding + .u-container padding)
-   }
+   position: relative;
+   margin-left: -50vw;
+   left: 50%;
+   width: 100vw;
 }

@@ -31,12 +31,12 @@
       color: $c__neutral--white;
    }
    .c-form__alert--loading {
-      color: $c__form--loading;
+      color: $c__status--loading;
    }
    .c-form__alert--success {
-      color: $c__form--success;
+      color: $c__status--success;
    }
    .c-form__alert--error {
-      color: $c__form--error;
+      color: $c__status--error;
    }
 }

@@ -4,5 +4,5 @@
 
 .s-body {
    margin: 0;
-   @include fs--body;
+   @include fs__base;
 }
