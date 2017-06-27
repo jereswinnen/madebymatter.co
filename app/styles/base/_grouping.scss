@@ -3,6 +3,7 @@
 // =======================================================================
 
 html {
+   background: $c__neutral--darkest;
    box-sizing: border-box;
    -ms-text-size-adjust: 100%;
   	-webkit-text-size-adjust: 100%;
@@ -10,14 +11,14 @@ html {
 }
 
 ::selection {
-   background: $c__faint--dark;
+   background: $c__faint--light;
 }
 
 body {
    font-size: 100%;
    @include ff--sans-serif($fw__regular);
    line-height: $u__base-line-height;
-   color: $c__neutral--dark;
+   color: $c__neutral--light;
 }
 
 article, aside, footer, header, main, nav, section {

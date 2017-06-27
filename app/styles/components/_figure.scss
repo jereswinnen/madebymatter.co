@@ -3,11 +3,29 @@
 // =======================================================================
 
 .c-figure {
-   margin-bottom: $u__base-spacing;
+   //margin-bottom: $u__base-spacing;
    img {
-      margin-bottom: $u__base-spacing / 2;
-      &:last-child {
-         margin-bottom: 0;
+      //margin-bottom: $u__base-spacing / 2;
+   }
+}
+.c-figure--scroller {
+   margin-bottom: 5vh;
+   overflow: hidden;
+   img {
+      margin-left: -10vw;
+      width: 240%;
+      max-width: none;
+   }
+   @media(min-width: $b__medium) {
+      img {
+         width: 140%;
+      }
+   }
+   @media(min-width: $b__large) {
+      img {
+         //margin-left: 0;
+         width: auto;
+         max-width: 100%;
       }
    }
 }

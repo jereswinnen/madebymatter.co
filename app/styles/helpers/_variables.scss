@@ -13,20 +13,19 @@ $c__neutral--white: #fff;
 $c__neutral--lightest: #eee;
 $c__neutral--light: #999;
 $c__neutral--mid: #666;
-$c__neutral--dark: #282828;
-$c__neutral--darkest: #111;
+$c__neutral--dark: #333;
+$c__neutral--darkest: #1e1e1e;
 $c__neutral--black: #000;
 
 $c__muted--light: transparentize($c__neutral--white, .45);
 $c__muted--dark: transparentize($c__neutral--black, .45);
-$c__faint--light: transparentize($c__neutral--white, .9);
-$c__faint--dark: transparentize($c__neutral--black, .9);
+$c__faint--light: transparentize($c__neutral--white, .95);
+$c__faint--dark: transparentize($c__neutral--black, .95);
 
 /// Primary
-$c__matter--beige: hsb(300, 0, 86);
-$c__realo--blue: hsb(220, 78, 80);
-$c__diabetik--green: hsb(144, 78, 80);
+$c__primary: hsb(65, 88, 91);
 
+/// Status
 $c__status--loading: hsb(21, 64, 100);
 $c__status--success: hsb(112, 40, 90);
 $c__status--error: #ff5d5d;

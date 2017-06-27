@@ -3,8 +3,34 @@
 // =======================================================================
 
 .c-section {
+   padding-top: 10vh;
+   padding-bottom: 10vh;
    //margin-bottom: $u__base-spacing * 2;
-   &:last-child {
-      margin-bottom: 0;
+}
+.c-section--lighten, .c-footer--lighten {
+   color: $c__neutral--dark;
+   background: #e6e6e6;
+   ::selection {
+      background: $c__faint--dark;
    }
+   a {
+      color: $c__neutral--black;
+      &:active {
+         color: $c__neutral--light;
+      }
+   }
+   h2 .t-heading-2--secondary, h2.t-heading-2--secondary, h3 {
+      color: $c__neutral--dark;
+   }
+   h4, small {
+      color: $c__neutral--light;
+   }
+}
+.c-section--highlight-1 {
+   margin-bottom: 0;
+   background: #3f3f3f;
+}
+.c-section--highlight-2 {
+   margin-bottom: 0;
+   background: $c__neutral--dark;
 }

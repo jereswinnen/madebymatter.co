@@ -1241,21 +1241,37 @@ html {
   100% {
     transform: translate3d(0%, 0%, 0); } }
 
+html:before {
+  position: absolute;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  color: #999; }
+  @media (min-width: 680px) {
+    html:before {
+      content: '$b__medium'; } }
+  @media (min-width: 1040px) {
+    html:before {
+      content: '$b__large'; } }
+  @media (min-width: 1280px) {
+    html:before {
+      content: '$b__xlarge'; } }
+
 html {
+  background: #1e1e1e;
   box-sizing: border-box;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased; }
 
 ::selection {
-  background: rgba(0, 0, 0, 0.1); }
+  background: rgba(255, 255, 255, 0.05); }
 
 body {
   font-size: 100%;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   font-weight: 400;
   line-height: 1.6;
-  color: #282828; }
+  color: #999; }
 
 article, aside, footer, header, main, nav, section {
   display: block; }
@@ -1388,169 +1404,8 @@ textarea {
   left: 50%;
   width: 100vw; }
 
-a {
-  color: #000;
-  font-weight: 500; }
-  a:hover {
-    color: #666; }
-  a:active {
-    color: #999; }
-
-.c-cta__button {
-  position: relative;
-  padding: 0.625rem 0.875rem;
-  overflow: hidden;
-  display: inline-block;
-  font-size: 0.75rem;
-  line-height: 1.25;
-  font-weight: 600;
-  text-align: center;
-  color: #000;
-  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.075);
-  transition: background-color .125s, color .125s, padding .25s, fill .25s; }
-  .c-cta__button:before {
-    background-color: #fff;
-    z-index: 1; }
-  .c-cta__button:after, .c-cta__button:before {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    content: ''; }
-  .c-cta__button:after {
-    background-color: #000;
-    transform: translate3d(-100%, 0%, 0);
-    transition: transform .25s;
-    z-index: 2; }
-  .c-cta__button > span {
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    white-space: nowrap;
-    z-index: 3; }
-  .c-cta__button .svgChevron {
-    position: relative;
-    margin-left: 0.625rem;
-    fill: currentColor;
-    transform: translateZ(0);
-    transition: transform .25s, fill 75ms;
-    z-index: 2; }
-  .c-cta__button:hover {
-    color: #fff; }
-    .c-cta__button:hover:after {
-      transform: translateZ(0); }
-    .c-cta__button:hover .svgChevron {
-      transform: translate3d(5px, 0, 0);
-      fill: #fff; }
-  .c-cta__button:active {
-    box-shadow: none; }
-  @media (min-width: 680px) {
-    .c-cta__button {
-      padding: 0.75rem 1rem;
-      font-size: 0.8125rem; }
-      .c-cta__button .svgChevron {
-        margin-top: 0.0625rem; } }
-
-.c-cta__link {
-  position: relative;
-  display: inline-block;
-  vertical-align: middle;
-  overflow: hidden;
-  font-weight: 400; }
-  .c-cta__link:after, .c-cta__link:before {
-    position: absolute;
-    bottom: 1px;
-    display: block;
-    content: '';
-    width: 100%;
-    height: 1px;
-    background: currentColor; }
-  .c-cta__link:before {
-    transform: translate3d(-102%, 0, 0);
-    opacity: .35;
-    transition: background 0.8s cubic-bezier(0.19, 1, 0.22, 1), transform 0.5s cubic-bezier(1, 0, 0, 1) 0.1s; }
-  .c-cta__link:after {
-    transform: translate3d(-102%, 0, 0);
-    transition: background 0.8s cubic-bezier(0.19, 1, 0.22, 1), transform 0.8s cubic-bezier(0.19, 1, 0.22, 1); }
-  .c-cta__link:hover:before {
-    transform: translate3d(102%, 0, 0);
-    transition: background 0.6s cubic-bezier(0.19, 1, 0.22, 1), transform 0.6s cubic-bezier(0.19, 1, 0.22, 1) 0.1s; }
-  .c-cta__link:hover:after {
-    transform: translate3d(0, 0, 0);
-    transition: background 0.6s cubic-bezier(0.19, 1, 0.22, 1), transform 0.6s cubic-bezier(0.19, 1, 0.22, 1) 0.05s; }
-  .c-cta__link:hover:before {
-    transform: translate3d(0, 0, 0) !important; }
-
-.c-figure {
-  margin-bottom: 20px; }
-  .c-figure img {
-    margin-bottom: 10px; }
-    .c-figure img:last-child {
-      margin-bottom: 0; }
-
-.c-list {
-  padding: 0;
-  margin-bottom: 1rem;
-  list-style: none; }
-  .c-list .c-list__item {
-    margin-bottom: 20px;
-    color: #666; }
-
-.c-list--horizontal .c-list__item {
-  display: inline; }
-
-.c-section:last-child {
-  margin-bottom: 0; }
-
-.c-branding .c-branding__svg {
-  margin-bottom: 8px;
-  width: 120px; }
-  @media (min-width: 1040px) {
-    .c-branding .c-branding__svg {
-      width: 140px; } }
-
-.c-branding .c-branding__svg--light {
-  fill: #fff; }
-
-.c-branding:hover .c-branding__svg {
-  opacity: .5; }
-
-.c-nav .c-nav__items {
-  padding: 0;
-  list-style: none; }
-  .c-nav .c-nav__items .c-nav__item {
-    display: inline;
-    margin-right: 1rem; }
-    .c-nav .c-nav__items .c-nav__item:last-child {
-      margin-right: 0; }
-    .c-nav .c-nav__items .c-nav__item a {
-      font-size: 0.8125rem;
-      font-weight: 400;
-      color: #111; }
-      .c-nav .c-nav__items .c-nav__item a:hover {
-        color: #666; }
-    .c-nav .c-nav__items .c-nav__item.c-nav__item--selected a {
-      font-weight: 600; }
-    @media (min-width: 680px) {
-      .c-nav .c-nav__items .c-nav__item {
-        margin-right: 2.5rem; }
-        .c-nav .c-nav__items .c-nav__item a {
-          font-size: 0.875rem; } }
-
-.c-header p {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-  font-weight: 300;
-  font-size: 1.25rem; }
-  @media (min-width: 680px) {
-    .c-header p {
-      font-size: 1.375rem; } }
-
-.c-footer {
-  padding: 20px 0; }
-
 h1 {
+  margin-bottom: 4vh;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   font-weight: 800;
   font-size: 2.25rem;
@@ -1559,60 +1414,48 @@ h1 {
   @media (min-width: 680px) {
     h1 {
       font-size: 2.75rem; } }
-  @media (min-width: 1040px) {
-    h1 {
-      font-size: 3.25rem; } }
-  h1 .t-heading1--secondary, h1.t-heading1--secondary {
+  h1 .t-heading-1--secondary, h1.t-heading-1--secondary {
+    font-weight: 300;
     color: #999; }
 
 h2 {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   font-weight: 300;
-  font-size: 1.5rem;
+  font-size: 1.625rem;
   line-height: 1.35;
-  color: rgba(0, 0, 0, 0.55); }
+  color: #999; }
   @media (min-width: 680px) {
     h2 {
       font-size: 1.875rem; } }
   @media (min-width: 1040px) {
     h2 {
       font-size: 2rem; } }
-  h2 .t-heading2--secondary, h2.t-heading2--secondary, h2.c-header__summary {
+  h2 .t-heading-2--secondary, h2.t-heading-2--secondary {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-    font-weight: 300;
-    color: #666; }
-  h2 span {
-    display: block; }
+    font-weight: 600;
+    color: #fff; }
 
 h3 {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 1.25rem;
-  color: #282828; }
+  color: #fff; }
   @media (min-width: 680px) {
     h3 {
       font-size: 1.375rem; } }
 
 h4 {
+  margin-bottom: 20px;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 0.75rem;
   line-height: 1.25;
-  color: rgba(0, 0, 0, 0.55); }
+  color: rgba(255, 255, 255, 0.55);
+  text-transform: uppercase;
+  letter-spacing: 0.1rem; }
   @media (min-width: 1040px) {
     h4 {
       font-size: 0.8125rem;
-      line-height: 1.5; } }
-
-h5 {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-  font-weight: 500;
-  font-size: 0.875rem;
-  line-height: 1.25;
-  color: #666; }
-  @media (min-width: 1040px) {
-    h5 {
-      font-size: 0.9375rem;
       line-height: 1.5; } }
 
 b {
@@ -1624,14 +1467,14 @@ strong {
 small {
   font-size: 0.75rem;
   line-height: 1.25;
-  color: rgba(0, 0, 0, 0.55); }
+  color: rgba(255, 255, 255, 0.55); }
   @media (min-width: 1040px) {
     small {
       font-size: 0.8125rem;
       line-height: 1.5; } }
 
 p {
-  margin-bottom: 2rem; }
+  margin-bottom: 30px; }
   p:last-child {
     margin-bottom: 0; }
 
@@ -1641,7 +1484,7 @@ code {
   font-weight: normal;
   font-size: 0.75rem;
   line-height: 1.25;
-  background: rgba(0, 0, 0, 0.1);
+  background: rgba(0, 0, 0, 0.05);
   border-radius: 2px; }
   @media (min-width: 1040px) {
     code {
@@ -1663,7 +1506,7 @@ blockquote {
     margin-bottom: 0.5rem;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
     font-weight: 300;
-    font-size: 1.5rem;
+    font-size: 1.625rem;
     line-height: 1.35;
     color: rgba(0, 0, 0, 0.55); }
     @media (min-width: 680px) {
@@ -1681,6 +1524,166 @@ blockquote {
   @media (min-width: 1040px) {
     blockquote {
       text-align: center; } }
+
+a {
+  text-decoration: underline;
+  font-weight: 500;
+  color: white; }
+  a:hover {
+    text-decoration: none;
+    color: currentColor; }
+  a:active {
+    color: #eee; }
+
+.c-link--primary {
+  font-size: 1.625rem;
+  line-height: 1.35;
+  font-weight: 300;
+  color: #d7e81c; }
+  @media (min-width: 680px) {
+    .c-link--primary {
+      font-size: 1.875rem; } }
+  @media (min-width: 1040px) {
+    .c-link--primary {
+      font-size: 2rem; } }
+  .c-link--primary:hover {
+    color: #fff; }
+
+.c-figure--scroller {
+  margin-bottom: 5vh;
+  overflow: hidden; }
+  .c-figure--scroller img {
+    margin-left: -10vw;
+    width: 240%;
+    max-width: none; }
+  @media (min-width: 680px) {
+    .c-figure--scroller img {
+      width: 140%; } }
+  @media (min-width: 1040px) {
+    .c-figure--scroller img {
+      width: auto;
+      max-width: 100%; } }
+
+.c-list {
+  padding: 0;
+  margin-bottom: 1rem;
+  list-style: none; }
+  .c-list .c-list__item {
+    margin-bottom: 20px;
+    color: #666; }
+
+.c-list--horizontal .c-list__item {
+  display: inline; }
+
+.c-item .c-figure {
+  margin-bottom: -7px; }
+
+.c-item .c-article {
+  padding: 40px 20px 20px;
+  color: #999;
+  background: #fff; }
+
+.c-section {
+  padding-top: 10vh;
+  padding-bottom: 10vh; }
+
+.c-section--lighten, .c-footer--lighten {
+  color: #333;
+  background: #e6e6e6; }
+  .c-section--lighten ::selection, .c-footer--lighten ::selection {
+    background: rgba(0, 0, 0, 0.05); }
+  .c-section--lighten a, .c-footer--lighten a {
+    color: #000; }
+    .c-section--lighten a:active, .c-footer--lighten a:active {
+      color: #999; }
+  .c-section--lighten h2 .t-heading-2--secondary, .c-section--lighten h2.t-heading-2--secondary, .c-section--lighten h3, .c-footer--lighten h2 .t-heading-2--secondary, .c-footer--lighten h2.t-heading-2--secondary, .c-footer--lighten h3 {
+    color: #333; }
+  .c-section--lighten h4, .c-section--lighten small, .c-footer--lighten h4, .c-footer--lighten small {
+    color: #999; }
+
+.c-section--highlight-1 {
+  margin-bottom: 0;
+  background: #3f3f3f; }
+
+.c-section--highlight-2 {
+  margin-bottom: 0;
+  background: #333; }
+
+.c-footer {
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  border-top: 1px solid rgba(0, 0, 0, 0.05); }
+
+.c-masthead {
+  padding-top: 10vh;
+  padding-bottom: 10vh; }
+
+.c-branding {
+  margin-bottom: 3vh; }
+  .c-branding .c-branding__svg {
+    width: 120px;
+    fill: #999; }
+    @media (min-width: 680px) {
+      .c-branding .c-branding__svg {
+        width: 130px; } }
+    @media (min-width: 1040px) {
+      .c-branding .c-branding__svg {
+        width: 140px; } }
+  .c-branding:hover .c-branding__svg {
+    opacity: .5; }
+
+.c-nav .c-nav__items {
+  padding: 0;
+  list-style: none; }
+  .c-nav .c-nav__items .c-nav__item {
+    display: inline;
+    margin-right: 5vw; }
+    .c-nav .c-nav__items .c-nav__item:last-child {
+      margin-right: 0; }
+    .c-nav .c-nav__items .c-nav__item a {
+      font-size: 1.25rem;
+      font-weight: 300;
+      color: #999;
+      text-decoration: none; }
+      @media (min-width: 680px) {
+        .c-nav .c-nav__items .c-nav__item a {
+          font-size: 1.375rem; } }
+      .c-nav .c-nav__items .c-nav__item a:hover {
+        color: #fff; }
+    .c-nav .c-nav__items .c-nav__item.c-nav__item--selected a {
+      color: #fff;
+      text-decoration: line-through; }
+
+.c-nav--secondary .c-nav__items .c-nav__item a {
+  font-size: 0.875rem;
+  line-height: 1.25;
+  font-weight: 500;
+  color: #999;
+  text-decoration: underline; }
+  @media (min-width: 1040px) {
+    .c-nav--secondary .c-nav__items .c-nav__item a {
+      font-size: 0.9375rem;
+      line-height: 1.5; } }
+  .c-nav--secondary .c-nav__items .c-nav__item a:hover {
+    color: #999;
+    text-decoration: none; }
+  .c-nav--secondary .c-nav__items .c-nav__item a:active {
+    color: #666; }
+
+.c-nav--secondary .c-nav__items .c-nav__item.c-nav__item--selected a {
+  color: #999;
+  text-decoration: line-through; }
+
+.c-header p {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  font-weight: 300;
+  font-size: 1.25rem; }
+  @media (min-width: 680px) {
+    .c-header p {
+      font-size: 1.375rem; } }
+
+.c-article {
+  margin-bottom: 8vh; }
 
 .c-form .c-form__input {
   margin-bottom: 2rem;
@@ -1714,3 +1717,7 @@ blockquote {
 
 .c-form .c-form__alert--error {
   color: #ff5d5d; }
+
+.c-hero {
+  padding-top: 5vh;
+  padding-bottom: 15vh; }

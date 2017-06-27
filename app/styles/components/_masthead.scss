@@ -3,12 +3,7 @@
 // =======================================================================
 
 .c-masthead {
+   padding-top: 10vh;
+   padding-bottom: 10vh;
    //margin-bottom: $u__base-spacing * 2;
-   //padding: $u__base-spacing * 2 0;
-   @media (min-width: $b__medium) {
-      //padding: 3rem 0; //48px 0
-   }
-   @media (min-width: $b__large) {
-      //padding: 4rem 0; //64px 0
-   }
 }

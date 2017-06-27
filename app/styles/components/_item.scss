@@ -1,0 +1,14 @@
+// =======================================================================
+// Item
+// =======================================================================
+
+.c-item {
+   .c-figure {
+      margin-bottom: -7px;
+   }
+   .c-article {
+      padding: $u__base-spacing * 2 $u__base-spacing $u__base-spacing;
+      color: $c__neutral--light;
+      background: $c__neutral--white;
+   }
+}
