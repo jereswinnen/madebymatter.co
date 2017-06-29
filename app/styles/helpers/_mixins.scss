@@ -27,17 +27,20 @@
 	font-size: 2.25rem; //36px
 	line-height: 1.2;
 	@media(min-width: $b__medium) {
-		font-size: 2.75rem; //44px
+		font-size: 2.875rem; //46px
+	}
+	@media(min-width: $b__large) {
+		font-size: 3.25rem; //52px
 	}
 }
 @mixin fs__maxi {
 	font-size: 1.625rem; //26px
 	line-height: 1.35;
 	@media (min-width: $b__medium) {
-		font-size: 1.875rem; //30px
+		font-size: 2rem; //32px
 	}
 	@media (min-width: $b__large) {
-		font-size: 2rem; //32px
+		font-size: 2.25rem; //36px
 	}
 }
 @mixin fs__midi {
@@ -49,8 +52,8 @@
 @mixin fs__base {
 	font-size: 1rem; //16px
 	@media (min-width: $b__large) {
-		//font-size: 1.125rem; //18px
-		font-size: 1.0625rem; //17px
+		font-size: 1.125rem; //18px
+		//font-size: 1.0625rem; //17px
 	}
 }
 @mixin fs__mini {
