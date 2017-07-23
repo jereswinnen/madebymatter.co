@@ -1,10 +1,7 @@
 // =======================================================================
-// Matter v1.02
+// Novo v1.0 "Cobalt"
 // Written by Jeremy Swinnen (http://twitter.com/@jereswinnen)
 // =======================================================================
-
-// Frameworks
-@import "frameworks/grid";
 
 // Helpers
 @import "helpers/functions";
@@ -13,6 +10,9 @@
 @import "helpers/animations";
 @import "helpers/debug";
 
+// Frameworks
+@import "frameworks/neat";
+
 // Base
 @import "base/grouping";
 @import "base/links";
@@ -20,29 +20,21 @@
 @import "base/embed";
 @import "base/forms";
 
-// Scopes
-@import "scopes/body";
-@import "scopes/onebyone";
-@import "scopes/triad";
-
-// Utilities
-@import "utilities/bleed";
+// Layout
+@import "layout/base";
+@import "layout/bleed";
 
 // Components
 @import "components/typography";
 @import "components/link";
-//@import "components/button";
+@import "components/button";
+@import "components/masthead";
+@import "components/nav";
+@import "components/branding";
 @import "components/figure";
 @import "components/list";
 @import "components/item";
 @import "components/section";
-@import "components/footer";
-@import "components/masthead";
-@import "components/branding";
-@import "components/nav";
-@import "components/main";
-@import "components/header";
 @import "components/article";
+@import "components/footer";
 @import "components/form";
-@import "components/hero";
-//@import "components/gallery";

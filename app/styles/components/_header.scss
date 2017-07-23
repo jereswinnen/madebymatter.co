@@ -4,10 +4,6 @@
 
 .c-header {
    //margin-bottom: $u__base-spacing;
-   p {
-      @include ff--sans-serif($fw__light);
-      @include fs__midi;
-   }
    @media (min-width: $b__medium) {
       //margin-bottom: 4rem; //64px
    }

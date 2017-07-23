@@ -3,10 +3,10 @@
 // =======================================================================
 
 .c-branding {
-   margin-bottom: 3vh;
    .c-branding__svg {
+      margin-right: 5vw;
       width: 120px;
-      fill: $c__neutral--light;
+      fill: $c__neutral--dark;
       @media (min-width: $b__medium) {
          width: 130px;
       }

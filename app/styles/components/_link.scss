@@ -5,13 +5,13 @@
 a {
    text-decoration: underline;
    font-weight: $fw__medium;
-   color: white;
+   color: $c__neutral--black;
    &:hover {
       text-decoration: none;
       color: currentColor;
    }
    &:active {
-      color: $c__neutral--lightest;
+      color: $c__neutral--mid;
    }
 }
 .c-link--primary {

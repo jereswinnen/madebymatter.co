@@ -9,9 +9,11 @@
    }
 }
 .c-figure--scroller {
-   margin-bottom: 5vh;
+   //margin-bottom: 5vh;
+   margin-bottom: 0;
    overflow: hidden;
    img {
+      margin-bottom: 0;
       margin-left: -10vw;
       width: 240%;
       max-width: none;
@@ -23,9 +25,10 @@
    }
    @media(min-width: $b__large) {
       img {
-         //margin-left: 0;
-         width: auto;
-         max-width: 100%;
+         margin-left: 0;
+         width: 90%;
+         //width: auto;
+         //max-width: 100%;
       }
    }
 }

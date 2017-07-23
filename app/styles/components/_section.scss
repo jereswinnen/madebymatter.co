@@ -3,9 +3,25 @@
 // =======================================================================
 
 .c-section {
-   padding-top: 10vh;
-   padding-bottom: 10vh;
-   //margin-bottom: $u__base-spacing * 2;
+   margin-bottom: 6vh;
+   padding-top: 6vh;
+   padding-bottom: 6vh;
+}
+.c-section--mb0 {
+   margin-bottom: 0;
+}
+.c-section--padded {
+   padding-left: 8vw;
+   padding-right: 8vw;
+}
+.c-section--featured {
+   background: #2D62CC;
+}
+.c-section--darken {
+   background: $c__neutral--black;
+   h1, h2 {
+      color: $c__neutral--white;
+   }
 }
 .c-section--lighten, .c-footer--lighten {
    color: $c__neutral--dark;
@@ -25,12 +41,4 @@
    h4, small {
       color: $c__neutral--light;
    }
-}
-.c-section--highlight-1 {
-   margin-bottom: 0;
-   background: #3f3f3f;
-}
-.c-section--highlight-2 {
-   margin-bottom: 0;
-   background: $c__neutral--dark;
 }

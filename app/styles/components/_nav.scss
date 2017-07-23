@@ -3,6 +3,7 @@
 // =======================================================================
 
 .c-nav {
+   display: flex;
    .c-nav__items {
       padding: 0;
       list-style: none;
@@ -13,17 +14,17 @@
             margin-right: 0;
          }
          a {
-            @include fs__midi;
-            font-weight: $fw__light;
+            @include fs__base;
+            font-weight: $fw__regular;
             color: $c__neutral--light;
             text-decoration: none;
             &:hover {
-               color: $c__neutral--white;
+               color: $c__neutral--dark;
             }
          }
          &.c-nav__item--selected a {
-            color: $c__neutral--white;
-            text-decoration: line-through;
+            font-weight: $fw__semibold;
+            color: $c__neutral--black;
          }
       }
    }
