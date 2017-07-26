@@ -9,10 +9,13 @@ html {
    -webkit-font-smoothing: antialiased;
 }
 ::selection {
-   background: $c__faint--light;
+   //background: rgba(255, 255, 0, 0.33);
+   background: $c__faint--dark;
 }
 body {
-   font-size: 100%;
+   margin: 0;
+   //font-size: 100%;
+   @include fs__base;
    @include ff--sans-serif($fw__regular);
    line-height: $u__base-line-height;
    color: $c__neutral--dark;

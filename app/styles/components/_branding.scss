@@ -5,13 +5,10 @@
 .c-branding {
    .c-branding__svg {
       margin-right: 5vw;
-      width: 120px;
+      width: 130px;
       fill: $c__neutral--dark;
-      @media (min-width: $b__medium) {
-         width: 130px;
-      }
       @media (min-width: $b__large) {
-         width: 140px;
+         width: 150px;
       }
    }
    &:hover .c-branding__svg {

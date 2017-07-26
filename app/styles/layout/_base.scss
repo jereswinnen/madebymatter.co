@@ -5,9 +5,13 @@
 .l-container {
    @include grid-container;
    margin: 0 auto;
+   padding: 0 5vw;
    max-width: $u__max-width;
+   @media(min-width: $u__max-width) {
+      padding: 0;
+   }
    &--fluid {
-      padding: 0 4vw;
+      padding: 0 5vw;
       max-width: none;
    }
 }

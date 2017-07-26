@@ -2,13 +2,68 @@
 // Item
 // =======================================================================
 
-.c-item {
-   .c-figure {
-      margin-bottom: -3vh;
+.c-item--index {
+   @include grid-column(12);
+   position: relative;
+   margin-bottom: 8vh;
+   padding: 8vh 0;
+   header h2 {
+      color: rgba(0, 0, 0, .5);
    }
-   .c-article {
-      padding: $u__base-spacing * 2 $u__base-spacing $u__base-spacing;
-      color: $c__neutral--light;
-      background: $c__neutral--white;
+   &:last-child {
+      margin-bottom: 0;
+   }
+   &:after {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      width: 80vw;
+      content: '';
+      z-index: -1;
+   }
+   &:nth-child(odd):after {
+      //right: -5vw;
+      right: -9.1vw;
+   }
+   &:nth-child(even):after {
+      //left: -5vw;
+      left: -9vw;
+   }
+   &:first-child:after {
+      background: url('/dist/images/patterns/bg__item--one.svg'), #f5d547;
+   }
+   &:nth-child(2):after {
+      background: url('/dist/images/patterns/bg__item--four.svg'), #a3e8eb;
+   }
+   &:nth-child(3):after {
+      background: url('/dist/images/patterns/bg__item--two.svg'), #b078f5;
+   }
+   &:nth-child(4):after {
+      background: url('/dist/images/patterns/bg__item--four.svg'), #47b5f5;
+   }
+   &:nth-child(5):after {
+      background: url('/dist/images/patterns/bg__item--one.svg'), #de4239;
+   }
+   &:last-child:after {
+      background: url('/dist/images/patterns/bg__item--four.svg'), #3ed662;
+   }
+   @media(min-width: $b__medium) {
+      .c-article {
+         @include grid-column(8);
+      }
+      &:after {
+         width: 60vw;
+      }
+   }
+   @media(min-width: $b__large) {
+      &:after {
+         width: 50vw;
+      }
+      &:nth-child(odd):after {
+         right: -4vw;
+      }
+      &:nth-child(even):after {
+         left: -4vw;
+      }
    }
 }

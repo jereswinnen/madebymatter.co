@@ -318,7 +318,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/app\/styles\/components\/_header.scss": {
+	"\/app\/styles\/components\/_hero.scss": {
 		"aP": 1,
 		"bl": 1,
 		"dP": 10,
@@ -326,7 +326,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/dist\/styles\/_header.css",
+		"oAP": "\/dist\/styles\/_hero.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -773,6 +773,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/app\/styles\/layout\/_sixfive.scss": {
+		"aP": 1,
+		"bl": 1,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/dist\/styles\/_sixfive.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/dist\/images\/artwork\/case__diabetik--ipadaddentry.png": {
 		"ft": 32768,
 		"iS": 81668,
@@ -1125,6 +1138,164 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/dist\/images\/icons\/home__process--concept--alt.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/dist\/images\/icons\/home__process--concept--alt.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/dist\/images\/icons\/home__process--concept--alt2.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/dist\/images\/icons\/home__process--concept--alt2.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/dist\/images\/icons\/home__process--concept.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/dist\/images\/icons\/home__process--concept.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/dist\/images\/patterns\/bg__item--four.png": {
+		"ft": 32768,
+		"iS": 72583,
+		"oA": 0,
+		"oAP": "\/dist\/images\/patterns\/bg__item--four.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/dist\/images\/patterns\/bg__item--four.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/dist\/images\/patterns\/bg__item--four.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/dist\/images\/patterns\/bg__item--four@2x.png": {
+		"ft": 32768,
+		"iS": 179698,
+		"oA": 0,
+		"oAP": "\/dist\/images\/patterns\/bg__item--four@2x.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/dist\/images\/patterns\/bg__item--one.png": {
+		"ft": 32768,
+		"iS": 92465,
+		"oA": 0,
+		"oAP": "\/dist\/images\/patterns\/bg__item--one.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/dist\/images\/patterns\/bg__item--one.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/dist\/images\/patterns\/bg__item--one.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/dist\/images\/patterns\/bg__item--one@2x.png": {
+		"ft": 32768,
+		"iS": 230938,
+		"oA": 0,
+		"oAP": "\/dist\/images\/patterns\/bg__item--one@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/dist\/images\/patterns\/bg__item--three.png": {
+		"ft": 32768,
+		"iS": 70598,
+		"oA": 0,
+		"oAP": "\/dist\/images\/patterns\/bg__item--three.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/dist\/images\/patterns\/bg__item--three.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/dist\/images\/patterns\/bg__item--three.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/dist\/images\/patterns\/bg__item--three@2x.png": {
+		"ft": 32768,
+		"iS": 173465,
+		"oA": 0,
+		"oAP": "\/dist\/images\/patterns\/bg__item--three@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/dist\/images\/patterns\/bg__item--two.png": {
+		"ft": 32768,
+		"iS": 105003,
+		"oA": 0,
+		"oAP": "\/dist\/images\/patterns\/bg__item--two.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/dist\/images\/patterns\/bg__item--two.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/dist\/images\/patterns\/bg__item--two.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/dist\/images\/patterns\/bg__item--two@2x.png": {
+		"ft": 32768,
+		"iS": 259725,
+		"oA": 0,
+		"oAP": "\/dist\/images\/patterns\/bg__item--two@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/dist\/scripts\/app-min.js": {
 		"ft": 64,
 		"mi": 1,
@@ -1212,7 +1383,7 @@
 "projectSettings": {
 	"abortBuildOnError": 1,
 	"alwaysUseExternalServer": 0,
-	"animateCSSInjections": 0,
+	"animateCSSInjections": 1,
 	"autoBuildNewItems": 1,
 	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
 	"babelAuxiliaryCommentAfter": "",

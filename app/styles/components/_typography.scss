@@ -8,32 +8,36 @@ h1 {
    @include ff--sans-serif($fw__heavy);
    @include fs__mega;
    color: $c__neutral--dark;
-   .t-heading-1--secondary, &.t-heading-1--secondary {
+   span {
+      display: block;
       font-weight: $fw__light;
-      color: $c__neutral--light;
    }
 }
 h2 {
    margin-bottom: 2vh;
-   @include ff--sans-serif($fw__bold);
+   @include ff--sans-serif($fw__light);
    @include fs__maxi;
-   color: $c__neutral--dark;
-   .t-heading-2--secondary, &.t-heading-2--secondary {
-      @include ff__sans-serif($fw__light);
-      color: $c__neutral--light;
+   color: $c__neutral--light;
+   strong {
+      display: block;
+      color: $c__neutral--dark;
    }
 }
 h3 {
-   margin-bottom: 0.5vh;
+   margin-bottom: 1.5vh;
    @include ff--sans-serif($fw__medium);
    @include fs__midi;
-   color: $c__neutral--white;
+   color: currentColor;
+   span {
+      font-weight: $fw__light;
+      color: $c__neutral--light;
+   }
 }
 h4 {
    margin-bottom: 2.5vh;
    @include ff--sans-serif($fw__medium);
    @include fs__micro;
-   color: $c__muted--light;
+   color: $c__muted--dark;
    text-transform: uppercase;
    letter-spacing: 0.1rem;
 }
@@ -41,11 +45,7 @@ h5 {
    margin-bottom: 2vh;
    @include ff--sans-serif($fw__regular);
    @include fs__mini;
-   color: $c__neutral--light;
-   .t-heading-5--secondary, &.t-heading-5--secondary {
-      font-weight: $fw__semibold;
-      color: $c__neutral--dark;
-   }
+   color: $c__neutral--black;
 }
 b {
    font-weight: $fw__semibold;

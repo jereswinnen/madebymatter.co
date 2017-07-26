@@ -4,15 +4,28 @@
 
 .c-list {
    padding: 0;
-   margin-bottom: 1rem; //16px
    list-style: none;
    .c-list__item {
-      margin-bottom: $u__base-spacing;
+      margin-bottom: 1vh;
       color: $c__neutral--mid;
+      b {
+         color: $c__neutral--white;
+      }
+      &:last-child {
+         margin-bottom: 0;
+      }
+   }
+   .c-list {
+      margin-bottom: 4vh;
+      &:last-child {
+         margin-bottom: 0;
+      }
    }
 }
-.c-list--horizontal {
+.c-list--flex {
+   display: flex;
+   flex-direction: column;
    .c-list__item {
-      display: inline;
+      margin-bottom: 4vh;
    }
 }

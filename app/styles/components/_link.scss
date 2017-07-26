@@ -3,22 +3,14 @@
 // =======================================================================
 
 a {
-   text-decoration: underline;
-   font-weight: $fw__medium;
+   font-weight: $fw__semibold;
    color: $c__neutral--black;
+   text-decoration: underline;
    &:hover {
-      text-decoration: none;
       color: currentColor;
+      text-decoration: none;
    }
    &:active {
-      color: $c__neutral--mid;
-   }
-}
-.c-link--primary {
-   @include fs__maxi;
-   font-weight: $fw__light;
-   color: $c__primary;
-   &:hover {
-      color: $c__neutral--white;
+      color: $c__neutral--light;
    }
 }

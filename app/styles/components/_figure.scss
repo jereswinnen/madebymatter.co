@@ -9,14 +9,24 @@
    }
 }
 .c-figure--scroller {
-   //margin-bottom: 5vh;
-   margin-bottom: 0;
+   margin-bottom: 5vh;
    overflow: hidden;
    img {
       margin-bottom: 0;
-      margin-left: -10vw;
+      margin-left: -8vw;
       width: 240%;
       max-width: none;
+   }
+   &:after {
+      display: none;
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      width: 100vw;
+      content: '';
+      z-index: 0;
+      background: transparentize($c__neutral--black, .95);
    }
    @media(min-width: $b__medium) {
       img {
@@ -30,5 +40,12 @@
          //width: auto;
          //max-width: 100%;
       }
+   }
+}
+.c-figure--svg {
+   img {
+      margin-bottom: 0;
+      width: 79px;
+      height: 79px;
    }
 }

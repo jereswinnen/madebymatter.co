@@ -3,7 +3,6 @@
 // =======================================================================
 
 .c-nav {
-   display: flex;
    .c-nav__items {
       padding: 0;
       list-style: none;
@@ -14,37 +13,19 @@
             margin-right: 0;
          }
          a {
-            @include fs__base;
-            font-weight: $fw__regular;
-            color: $c__neutral--light;
             text-decoration: none;
             &:hover {
-               color: $c__neutral--dark;
+               text-decoration: underline;
             }
          }
-         &.c-nav__item--selected a {
-            font-weight: $fw__semibold;
-            color: $c__neutral--black;
-         }
+      }
+      .c-nav__item--right {
+         float: right;
       }
    }
-}
-.c-nav--secondary .c-nav__items .c-nav__item {
-   a {
-      @include fs__mini;
-      font-weight: $fw__medium;
-      color: $c__neutral--light;
-      text-decoration: underline;
-      &:hover {
-         color: $c__neutral--light;
-         text-decoration: none;
+   @media(min-width: $b__large) {
+      .c-nav__items .c-nav__item {
+         margin-right: 3vw;
       }
-      &:active {
-         color: $c__neutral--mid;
-      }
-   }
-   &.c-nav__item--selected a {
-      color: $c__neutral--light;
-      text-decoration: line-through;
    }
 }

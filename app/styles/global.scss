@@ -1,5 +1,5 @@
 // =======================================================================
-// Novo v1.0 "Cobalt"
+// Matter v2.1 "Cobalt"
 // Written by Jeremy Swinnen (http://twitter.com/@jereswinnen)
 // =======================================================================
 
@@ -23,6 +23,7 @@
 // Layout
 @import "layout/base";
 @import "layout/bleed";
+@import "layout/sixfive";
 
 // Components
 @import "components/typography";
@@ -38,3 +39,4 @@
 @import "components/article";
 @import "components/footer";
 @import "components/form";
+@import "components/hero";
