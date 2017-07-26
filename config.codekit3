@@ -1212,17 +1212,6 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/dist\/images\/patterns\/bg__item--four.png": {
-		"ft": 32768,
-		"iS": 72583,
-		"oA": 0,
-		"oAP": "\/dist\/images\/patterns\/bg__item--four.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
 	"\/dist\/images\/patterns\/bg__item--four.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -1233,27 +1222,15 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/dist\/images\/patterns\/bg__item--four@2x.png": {
-		"ft": 32768,
-		"iS": 179698,
-		"oA": 0,
-		"oAP": "\/dist\/images\/patterns\/bg__item--four@2x.png",
+	"\/dist\/images\/patterns\/bg__item--green.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/dist\/images\/patterns\/bg__item--green.svg",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"\/dist\/images\/patterns\/bg__item--one.png": {
-		"ft": 32768,
-		"iS": 92465,
-		"oA": 0,
-		"oAP": "\/dist\/images\/patterns\/bg__item--one.png",
-		"oF": 0,
-		"oIPL": 0,
 		"opt": 0,
-		"oT": 1,
-		"q": 100
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"\/dist\/images\/patterns\/bg__item--one.svg": {
 		"ft": 2097152,
@@ -1265,27 +1242,25 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/dist\/images\/patterns\/bg__item--one@2x.png": {
-		"ft": 32768,
-		"iS": 230938,
-		"oA": 0,
-		"oAP": "\/dist\/images\/patterns\/bg__item--one@2x.png",
+	"\/dist\/images\/patterns\/bg__item--red.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/dist\/images\/patterns\/bg__item--red.svg",
 		"oF": 0,
-		"oIPL": 0,
 		"opt": 0,
-		"oT": 1,
-		"q": 100
+		"plM": 3758088159,
+		"prP": 0
 		},
-	"\/dist\/images\/patterns\/bg__item--three.png": {
-		"ft": 32768,
-		"iS": 70598,
-		"oA": 0,
-		"oAP": "\/dist\/images\/patterns\/bg__item--three.png",
+	"\/dist\/images\/patterns\/bg__item--teal.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/dist\/images\/patterns\/bg__item--teal.svg",
 		"oF": 0,
-		"oIPL": 0,
 		"opt": 0,
-		"oT": 1,
-		"q": 100
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"\/dist\/images\/patterns\/bg__item--three.svg": {
 		"ft": 2097152,
@@ -1297,28 +1272,6 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/dist\/images\/patterns\/bg__item--three@2x.png": {
-		"ft": 32768,
-		"iS": 173465,
-		"oA": 0,
-		"oAP": "\/dist\/images\/patterns\/bg__item--three@2x.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/dist\/images\/patterns\/bg__item--two.png": {
-		"ft": 32768,
-		"iS": 105003,
-		"oA": 0,
-		"oAP": "\/dist\/images\/patterns\/bg__item--two.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
 	"\/dist\/images\/patterns\/bg__item--two.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -1329,16 +1282,15 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/dist\/images\/patterns\/bg__item--two@2x.png": {
-		"ft": 32768,
-		"iS": 259725,
-		"oA": 0,
-		"oAP": "\/dist\/images\/patterns\/bg__item--two@2x.png",
+	"\/dist\/images\/patterns\/bg__item--yellow.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/dist\/images\/patterns\/bg__item--yellow.svg",
 		"oF": 0,
-		"oIPL": 0,
 		"opt": 0,
-		"oT": 1,
-		"q": 100
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"\/dist\/scripts\/app-min.js": {
 		"ft": 64,
