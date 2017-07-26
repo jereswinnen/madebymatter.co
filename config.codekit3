@@ -1028,6 +1028,28 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/dist\/images\/artwork\/home__diabetik--scrolleralt.png": {
+		"ft": 32768,
+		"iS": 363128,
+		"oA": 0,
+		"oAP": "\/dist\/images\/artwork\/home__diabetik--scrolleralt.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/dist\/images\/artwork\/home__diabetik--scrolleralt@2x.png": {
+		"ft": 32768,
+		"iS": 1268603,
+		"oA": 0,
+		"oAP": "\/dist\/images\/artwork\/home__diabetik--scrolleralt@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/dist\/images\/artwork\/home__hocusfocus--item.png": {
 		"ft": 32768,
 		"iS": 206018,
@@ -1110,6 +1132,28 @@
 		"iS": 2308163,
 		"oA": 0,
 		"oAP": "\/dist\/images\/artwork\/home__realo--scroller@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/dist\/images\/artwork\/home__realo--scrolleralt.png": {
+		"ft": 32768,
+		"iS": 525933,
+		"oA": 0,
+		"oAP": "\/dist\/images\/artwork\/home__realo--scrolleralt.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/dist\/images\/artwork\/home__realo--scrolleralt@2x.png": {
+		"ft": 32768,
+		"iS": 1788741,
+		"oA": 0,
+		"oAP": "\/dist\/images\/artwork\/home__realo--scrolleralt@2x.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
