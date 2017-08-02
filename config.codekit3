@@ -1212,11 +1212,11 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/dist\/images\/patterns\/bg__item--four.svg": {
+	"\/dist\/images\/patterns\/bg__item--blue.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/dist\/images\/patterns\/bg__item--four.svg",
+		"oAP": "\/dist\/images\/patterns\/bg__item--blue.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -1232,21 +1232,21 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/dist\/images\/patterns\/bg__item--one.svg": {
+	"\/dist\/images\/patterns\/bg__item--orange.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/dist\/images\/patterns\/bg__item--one.svg",
+		"oAP": "\/dist\/images\/patterns\/bg__item--orange.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/dist\/images\/patterns\/bg__item--red.svg": {
+	"\/dist\/images\/patterns\/bg__item--purple.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/dist\/images\/patterns\/bg__item--red.svg",
+		"oAP": "\/dist\/images\/patterns\/bg__item--purple.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -1257,26 +1257,6 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "\/dist\/images\/patterns\/bg__item--teal.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/dist\/images\/patterns\/bg__item--three.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/dist\/images\/patterns\/bg__item--three.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/dist\/images\/patterns\/bg__item--two.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/dist\/images\/patterns\/bg__item--two.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,

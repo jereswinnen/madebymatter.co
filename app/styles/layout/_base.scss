@@ -5,15 +5,21 @@
 .l-container {
    @include grid-container;
    margin: 0 auto;
-   padding: 0 5vw;
+   padding: 0 2vw;
    max-width: $u__max-width;
    @media(min-width: $u__max-width) {
       padding: 0;
    }
    &--fluid {
-      padding: 0 5vw;
+      padding: 0 2vw;
       max-width: none;
    }
+   @media(min-width: $b__medium) {
+      padding: 0 5vw;
+   }
+}
+.l-row {
+   @include grid-column(12);
 }
 .l-col-1 {
    @include grid-column(1);
