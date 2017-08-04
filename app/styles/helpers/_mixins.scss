@@ -34,8 +34,8 @@
 	}
 }
 @mixin fs__maxi {
-	font-size: 1.5rem; //24px 
-	line-height: 1.35;
+	font-size: 1.625rem; //26px 
+	line-height: 1.25;
 	@media (min-width: $b__medium) {
 		font-size: 2rem; //32px
 	}

@@ -8,9 +8,6 @@
    .c-list__item {
       margin-bottom: 1vh;
       color: $c__neutral--mid;
-      b {
-         color: $c__neutral--white;
-      }
       &:last-child {
          margin-bottom: 0;
       }
@@ -24,8 +21,10 @@
 }
 .c-list--flex {
    display: flex;
-   flex-direction: column;
+   justify-content: space-between;
+}
+.c-list--horizontal {
    .c-list__item {
-      margin-bottom: 4vh;
+      display: inline;
    }
 }

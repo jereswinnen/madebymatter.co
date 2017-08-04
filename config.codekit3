@@ -1182,91 +1182,31 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/dist\/images\/icons\/home__process--concept--alt.svg": {
+	"\/dist\/images\/icons\/cta--eye.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/dist\/images\/icons\/home__process--concept--alt.svg",
+		"oAP": "\/dist\/images\/icons\/cta--eye.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/dist\/images\/icons\/home__process--concept--alt2.svg": {
+	"\/dist\/images\/icons\/cta--info.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/dist\/images\/icons\/home__process--concept--alt2.svg",
+		"oAP": "\/dist\/images\/icons\/cta--info.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/dist\/images\/icons\/home__process--concept.svg": {
+	"\/dist\/images\/icons\/cta--more.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/dist\/images\/icons\/home__process--concept.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/dist\/images\/patterns\/bg__item--blue.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/dist\/images\/patterns\/bg__item--blue.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/dist\/images\/patterns\/bg__item--green.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/dist\/images\/patterns\/bg__item--green.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/dist\/images\/patterns\/bg__item--orange.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/dist\/images\/patterns\/bg__item--orange.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/dist\/images\/patterns\/bg__item--purple.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/dist\/images\/patterns\/bg__item--purple.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/dist\/images\/patterns\/bg__item--teal.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/dist\/images\/patterns\/bg__item--teal.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/dist\/images\/patterns\/bg__item--yellow.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/dist\/images\/patterns\/bg__item--yellow.svg",
+		"oAP": "\/dist\/images\/icons\/cta--more.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,

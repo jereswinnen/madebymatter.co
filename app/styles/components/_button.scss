@@ -1,46 +1,56 @@
 // =======================================================================
 // Primary & secondary calls to action
 // =======================================================================
-//Primary
-.c-cta__primary {
-   display: inline-block;
-   overflow: hidden;
-   padding: 0.8rem;
+.c-cta {
+   display: inline-flex;
+   align-items: center;
+   justify-content: center;
+   padding: .5rem 1.15rem;
    @include fs__base;
-   background: $c__neutral--white;
-   //box-shadow: 0 1px 5px rgba(0, 0, 0, .04);
-   transform-origin: left;
-   transition: all .33s ease-in-out;
-   & > span {
-      position: relative;
-      z-index: 3;
-   }
-   &:after {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      content:'';
-      background: $c__neutral--black;
-      opacity: 0;
-      transform: translate3d(-100%, 0%, 0);
-      transition: transform .22s ease-in-out;
-      z-index: 2;
-   }
-   &:hover {
-      margin-left: 3%;
+   font-weight: $fw__medium;
+   border-radius: $radius__giga;
+   text-decoration: none;
+   &--primary {
       color: $c__neutral--white;
-      //box-shadow: 0 1px 5px rgba(0, 0, 0, .04), 0 5px 24px rgba(0, 0, 0, .08), -6px 6px 0 rgba(0, 0, 0, .05);
-      box-shadow: -6px 6px 0 rgba(0, 0, 0, .05);
-      transform: scale(1.09);
-      transition: all .22s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-      &:after {
-         opacity: 1;
-         transform: translateZ(0);
+      background: $c__neutral--darkest;
+      &:hover {
+         color: $c__neutral--white;
+         background: $c__neutral--dark;
+      }
+      &:active {
+         background: $c__neutral--darkest;
       }
    }
-}
-.c-cta__secondary {
-
+   &--secondary {
+      color: $c__neutral--light;
+      background: $c__neutral--offwhite;
+      &:hover {
+         color: $c__neutral--mid;
+         background: $c__neutral--lightest;
+      }
+      &:active {
+         background: $c__neutral--offwhite;
+      }
+   }
+   &--link {
+      padding: 0;
+      border-radius: none;
+   }
+   .c-svg {
+      display: flex;
+      margin-right: 8px;
+      width: 18px;
+      height: 18px;
+      &--16px {
+         margin-right: 6px;
+         width: 16px;
+         height: 16px;
+      }
+      svg {
+         fill: currentColor;
+      }
+   }
+   &:hover .c-svg svg {
+      fill: currentColor;
+   }
 }

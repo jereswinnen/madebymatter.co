@@ -5,13 +5,9 @@
 // Headings
 h1 {
    margin-bottom: 4vh;
-   @include ff--sans-serif($fw__heavy);
+   @include ff--sans-serif($fw__light);
    @include fs__mega;
-   color: $c__neutral--dark;
-   span {
-      display: block;
-      font-weight: $fw__light;
-   }
+   color: $c__neutral--darkest;
 }
 h2 {
    margin-bottom: 2vh;
@@ -19,7 +15,6 @@ h2 {
    @include fs__maxi;
    color: $c__neutral--light;
    strong {
-      display: block;
       color: $c__neutral--dark;
    }
 }
@@ -28,10 +23,6 @@ h3 {
    @include ff--sans-serif($fw__medium);
    @include fs__midi;
    color: currentColor;
-   span {
-      font-weight: $fw__light;
-      color: $c__neutral--light;
-   }
 }
 h4 {
    margin-bottom: 2.5vh;

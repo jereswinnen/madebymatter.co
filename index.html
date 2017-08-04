@@ -10,217 +10,56 @@
    <link rel="stylesheet" href="/dist/styles/global.css" type="text/css">
 </head>
 <body>
-   <div class="l-container l-container--fluid">
+   <div class="l-wrap l-wrap--fluid">
       <header class="c-masthead">
-         <nav class="c-nav">
-            <ul class="c-nav__items">
-               <li class="c-nav__item c-nav__item--selected"><a href="#">My work</a></li>
-               <li class="c-nav__item"><a href="#">Profile</a></li>
-               <li class="c-nav__item c-nav__item--right"><a href="#">Say hi!</a></li>
-            </ul>
-         </nav>
+         <a href="/" class="c-branding">
+            <svg class="c-branding__svg" viewBox="0 0 120 20"><path fill-rule="evenodd" d="M118.95 19.37h.05V0H-1h2.834L7.2 13.152 12.29 0h5.97v19.37h4.93L30.5 0h5.035l7.227 19.37h7.545V4.146H44.31V0h16.37v4.146h-6.026V19.37h16.12V4.146h-5.997V0h16.37v4.146H75.12V19.37h11.17V0h12.353v4.09h-8.007V7.8H97.9v3.817h-7.264v3.734h8.034v4.02h6.16V0h7.732c.954 0 1.82.156 2.6.467.78.31 1.444.74 1.995 1.29.55.55.976 1.195 1.28 1.936.302.74.453 1.542.453 2.403 0 1.318-.34 2.457-1.018 3.418-.68.96-1.623 1.652-2.834 2.073l3.913 7.783zm-4.784 0h-4.988v-7.15h1.54l3.448 7.15zm-76.134 0H27.756l1.368-3.856h7.54l1.368 3.856zm-24.037 0H8.943l5.052-12.808V19.37zm-8.65 0H.292V6.727l5.05 12.643z"/></svg>
+         </a>
+         <div class="l-flex">
+            <div class="c-masthead__projects">
+               <a href="#" class="trigger">Selected work</a>
+               <ul class="c-list">
+                  <li class="c-list__item"><a href="#">Shelf</a></li>
+                  <li class="c-list__item"><a href="#">Realo</a></li>
+                  <li class="c-list__item"><a href="#">Diabetik</a></li>
+                  <li class="c-list__item"><a href="#">Castaway</a></li>
+                  <li class="c-list__item"><a href="#">Nintendo</a></li>
+               </ul>
+            </div><!--end c-masthead__projects-->
+            <nav class="c-nav">
+               <ul class="c-nav__items">
+                  <li class="c-nav__item"><a href="#">Profile</a></li>
+                  <li class="c-nav__item"><a href="#">Say hi!</a></li>
+               </ul>
+            </nav>
+         </div><!--end l-flex-->
       </header>
-   </div>
-   <div class="l-container">
-      <section class="c-hero">
-         <article class="c-article">
-            <header>
-               <a href="/" class="c-branding">
-                  <svg class="c-branding__svg" viewBox="0 0 120 20"><path fill-rule="evenodd" d="M118.95 19.37h.05V0H-1h2.834L7.2 13.152 12.29 0h5.97v19.37h4.93L30.5 0h5.035l7.227 19.37h7.545V4.146H44.31V0h16.37v4.146h-6.026V19.37h16.12V4.146h-5.997V0h16.37v4.146H75.12V19.37h11.17V0h12.353v4.09h-8.007V7.8H97.9v3.817h-7.264v3.734h8.034v4.02h6.16V0h7.732c.954 0 1.82.156 2.6.467.78.31 1.444.74 1.995 1.29.55.55.976 1.195 1.28 1.936.302.74.453 1.542.453 2.403 0 1.318-.34 2.457-1.018 3.418-.68.96-1.623 1.652-2.834 2.073l3.913 7.783zm-4.784 0h-4.988v-7.15h1.54l3.448 7.15zm-76.134 0H27.756l1.368-3.856h7.54l1.368 3.856zm-24.037 0H8.943l5.052-12.808V19.37zm-8.65 0H.292V6.727l5.05 12.643z"/></svg>
-               </a>
-            </header>
-            <h2><strong>Hello, I'm Jeremy.</strong> I am a Product Designer and Creative Developer from Belgium. I create delightful interfaces for mobile platforms.</h2>
-         </article>
-      </section>
       <main>
-         <div class="l-row">
-            <header>
-               <h1>Selected work. <span>2012-2017</span></h1>
-            </header>
-         </div>
-         <section class="c-section">
-            <section class="c-item c-item--index">
-               <figure class="l-bleed c-figure c-figure--scroller">
-                  <a href="#"><img src="/dist/images/artwork/home__realo--scrolleralt.png" alt=""></a>
-               </figure>
+         <section class="c-hero">
+            <article class="c-article">
+               <h1><strong>Hi, I'm Jeremy.</strong> I'm a full-stack designer and creative developer from Belgium.</h1>
+               <ul class="c-list c-list--flex">
+                  <li class="c-list__item"><a href="#" class="c-cta c-cta--primary"><span class="c-svg"><img src="/dist/images/icons/cta--eye.svg"></span>Browse work</a></li>
+                  <li class="c-list__item"><a href="#" class="c-cta c-cta--secondary"><span class="c-svg"><img src="/dist/images/icons/cta--info.svg"></span>View profile</a></li>
+               </ul>
+            </article>
+         </section><!--end c-hero-->
+         <section class="l-bleed c-section c-section--grey c-section--pad-s">
+            <div class="l-wrap">
                <article class="c-article">
-                  <header>
-                     <h2><strong>Realo.</strong>Building a Next Generation Real Estate Platform.</h2>
+                  <header class="centered">
+                     <h2><strong>Realo.</strong> Building a Next Generation Real Estate Platform.</h2>
+                     <a href="#" class="c-cta c-cta--link">
+                        <span class="c-svg c-svg--16px"><svg><path d="M8 0C3.582 0 0 3.582 0 8s3.582 8 8 8 8-3.582 8-8c0-2.122-.843-4.157-2.343-5.657S10.122 0 8 0zm0 14c-3.314 0-6-2.686-6-6s2.686-6 6-6 6 2.686 6 6c0 1.59-.632 3.117-1.757 4.243C11.117 13.368 9.59 14 8 14zm1-7h2.5v2H9v2.5H7V9H4.5V7H7V4.5h2V7z"/></svg></span>View case study</a>
                   </header>
-                  <p>Lorem ipsum dolor sit amet, <a href="#">consectetur</a> adipisicing elit. Voluptatibus inventore nulla ducimus quae eum. Tenetur perferendis ad eaque eveniet porro accusantium impedit non, ullam <a href="#">consectetur</a> dolore fugit illo obcaecati dicta. Lorem ipsum dolor sit amet, <a href="#">consectetur</a> adipisicing elit.</p>
-                  <a href="" class="c-cta__primary"><span>View case study</span></a>
                </article>
-            </section>
-            <section class="c-item c-item--index">
-               <figure class="l-bleed c-figure c-figure--scroller">
-                  <a href="#"><img src="/dist/images/artwork/home__diabetik--scrolleralt.png" alt=""></a>
+               <figure class="c-figure">
+                  
                </figure>
-               <article class="c-article">
-                  <header>
-                     <h2><strong>Shelf.</strong>Drag. Drop. Do.</h2>
-                  </header>
-                  <p>Lorem ipsum dolor sit amet, <a href="#">consectetur</a> adipisicing elit. Voluptatibus inventore nulla ducimus quae eum. Tenetur perferendis ad eaque eveniet porro accusantium impedit non, ullam <a href="#">consectetur</a> dolore fugit illo obcaecati dicta. Lorem ipsum dolor sit amet, <a href="#">consectetur</a> adipisicing elit.</p>
-                  <a href="" class="c-cta__primary"><span>View case study</span></a>
-               </article>
-            </section>
-            <section class="c-item c-item--index">
-               <figure class="l-bleed c-figure c-figure--scroller">
-                  <a href="#"><img src="/dist/images/artwork/home__realo--scrolleralt.png" alt=""></a>
-               </figure>
-               <article class="c-article">
-                  <header>
-                     <h2><strong>Diabetik.</strong>A New Kind of Diabetes Management App for iOS.</h2>
-                  </header>
-                  <p>Lorem ipsum dolor sit amet, <a href="#">consectetur</a> adipisicing elit. Voluptatibus inventore nulla ducimus quae eum. Tenetur perferendis ad eaque eveniet porro accusantium impedit non, ullam <a href="#">consectetur</a> dolore fugit illo obcaecati dicta. Lorem ipsum dolor sit amet, <a href="#">consectetur</a> adipisicing elit.</p>
-                  <a href="" class="c-cta__primary"><span>View case study</span></a>
-               </article>
-            </section>
-            <section class="c-item c-item--index">
-               <figure class="l-bleed c-figure c-figure--scroller">
-                  <a href="#"><img src="/dist/images/artwork/home__diabetik--scrolleralt.png" alt=""></a>
-               </figure>
-               <article class="c-article">
-                  <header>
-                     <h2><strong>Castaway.</strong>Podcasts on macOS, Reimagined.</h2>
-                  </header>
-                  <p>Lorem ipsum dolor sit amet, <a href="#">consectetur</a> adipisicing elit. Voluptatibus inventore nulla ducimus quae eum. Tenetur perferendis ad eaque eveniet porro accusantium impedit non, ullam <a href="#">consectetur</a> dolore fugit illo obcaecati dicta. Lorem ipsum dolor sit amet, <a href="#">consectetur</a> adipisicing elit.</p>
-                  <a href="" class="c-cta__primary"><span>View case study</span></a>
-               </article>
-            </section>
-            <section class="c-item c-item--index">
-               <figure class="l-bleed c-figure c-figure--scroller">
-                  <a href="#"><img src="/dist/images/artwork/home__realo--scrolleralt.png" alt=""></a>
-               </figure>
-               <article class="c-article">
-                  <header>
-                     <h2><strong>Nintendo Switch.</strong>A Companion That Feels Right at Home on Your iPhone.</h2>
-                  </header>
-                  <p>Lorem ipsum dolor sit amet, <a href="#">consectetur</a> adipisicing elit. Voluptatibus inventore nulla ducimus quae eum. Tenetur perferendis ad eaque eveniet porro accusantium impedit non, ullam <a href="#">consectetur</a> dolore fugit illo obcaecati dicta. Lorem ipsum dolor sit amet, <a href="#">consectetur</a> adipisicing elit.</p>
-                  <a href="" class="c-cta__primary"><span>View case study</span></a>
-               </article>
-            </section>
-            <section class="c-item c-item--index">
-               <figure class="l-bleed c-figure c-figure--scroller">
-                  <a href="#"><img src="/dist/images/artwork/home__diabetik--scrolleralt.png" alt=""></a>
-               </figure>
-               <article class="c-article">
-                  <header>
-                     <h2><strong>Switch.</strong>A New Digital Storefront for the Largest</h2>
-                  </header>
-                  <p>Lorem ipsum dolor sit amet, <a href="#">consectetur</a> adipisicing elit. Voluptatibus inventore nulla ducimus quae eum. Tenetur perferendis ad eaque eveniet porro accusantium impedit non, ullam <a href="#">consectetur</a> dolore fugit illo obcaecati dicta. Lorem ipsum dolor sit amet, <a href="#">consectetur</a> adipisicing elit.</p>
-                  <a href="" class="c-cta__primary"><span>View case study</span></a>
-               </article>
-            </section>
+            </div>
          </section>
       </main>
-   </div>
-   <section class="c-section c-section--darken">
-      <div class="l-container l-container--fluid">
-         <div class="l-sixfive">
-            <div class="l-sixfive__left">
-               <article class="c-article">
-               <header class="c-article__lede">
-                  <p><b>Profile</b></p>
-                  <h1>Designer by day. <span>Developer by night.</span></h1>
-                  <figure class="c-figure" style="display:none;">
-                     <div class="l-bleed">
-                        <img src="https://images.unsplash.com/photo-1487017159836-4e23ece2e4cf?dpr=2&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop=" alt="">
-                     </div>
-                  </figure>
-                  <h3>I specialise in creating delightful user interfaces for the phone in your pocket, the watch on your wrist and the computer on your lap or desk. I also build mobile-first websites with a focus on progressive enhancement, maintainability and consistency.</h3>
-               </header>
-               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus <a href="#">temporibus</a> rerum, rem, quasi voluptatibus sunt perspiciatis veniam eaque dignissimos, nesciunt impedit neque. Beatae consectetur praesentium <a href="#">temporibus</a> mollitia doloremque similique excepturi! Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-            </article>
-               <section class="c-section">
-                  <header class="c-article__lede">
-                     <h2><strong>Design process.</strong> From start to finish.</h2>
-                  </header>
-                  <ul class="c-list c-list--flex">
-                     <li class="c-list__item">
-                        <figure class="c-figure c-figure--svg" style="display:none;">
-                           <img src="/dist/images/icons/home__process--concept.svg" alt="">
-                        </figure>
-                        <h3><span>1.</span> Concept</h3>
-                        <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                     </li>
-                     <li class="c-list__item">
-                        <h3><span>2.</span> Design</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore mollitia animi, sint nihil. Modi iusto ut odio error, nisi magni?</p>
-                     </li>
-                     <li class="c-list__item">
-                        <h3><span>3.</span> Build</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                     </li>
-                  </ul>
-            </section>
-            </div>
-            <div class="l-sixfive__right">
-               <section class="c-section">
-                  <header class="c-article__lede">
-                     <h2><strong>Skills and services.</strong> The full package.</h2>
-                     <p>While I focus on designing user interfaces for iOS, macOS and the web, I'm also a creative developer which means I'm able to translate my designs into valid and clean code. Underneath is an overview of my skills.</p>
-                  </header>
-                  <ul class="c-list">
-                     <li class="c-list__item">
-                        <b>Design</b>
-                     </li>
-                     <ul class="c-list">
-                        <li class="c-list__item">
-                           <p>Web design</p>
-                        </li>
-                        <li class="c-list__item">
-                           <p>User interface design</p>
-                        </li>
-                        <li class="c-list__item">
-                           <p>Interaction design</p>
-                        </li>
-                        <li class="c-list__item">
-                           <p>User experience design</p>
-                        </li>
-                        <li class="c-list__item">
-                           <p>Branding, layout &amp; color theory</p>
-                        </li>
-                     </ul>
-                     <li class="c-list__item">
-                        <b>Development</b>
-                     </li>
-                     <ul class="c-list">
-                        <li class="c-list__item">
-                           <p>CSS &amp; <a href="http://sass-lang.com">SCSS</a></p>
-                        </li>
-                        <li class="c-list__item">
-                           <p>HTML 5</p>
-                        </li>
-                        <li class="c-list__item">
-                           <p>Javascript &amp; <a href="http://jquery.com">jQuery</a></p>
-                        </li>
-                        <li class="c-list__item">
-                           <p><a href="http://getbem.com">BEM (Block Element Modifier)</a></p>
-                        </li>
-                        <li class="c-list__item">
-                           <p>Pattern/Component libraries</p>
-                        </li>
-                     </ul>
-                     <li class="c-list__item">
-                        <b>Motion and Prototyping</b>
-                     </li>
-                     <ul class="c-list">
-                        <li class="c-list__item">
-                           <p><a href="http://framer.com">Framer</a></p>
-                        </li>
-                        <li class="c-list__item">
-                           <p>Principle</p>
-                        </li>
-                        <li class="c-list__item">
-                           <p>Adobe After Effects</p>
-                        </li>
-                     </ul>
-                  </ul>
-               </section>
-            </div>
-         </div>
-      </div>
-   </section>
+   </div><!--end l-wrap-->
 <script src="/dist/scripts/retina-min.js"></script>
 <script src="/dist/scripts/site-min.js"></script>
 </body>

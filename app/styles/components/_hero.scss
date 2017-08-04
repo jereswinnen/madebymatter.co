@@ -3,19 +3,5 @@
 // =======================================================================
 
 .c-hero {
-   @include grid-column(12);
-   padding: 15vh 0 10vh 0;
-   .c-article {
-      header {
-         margin-bottom: 10vh;
-      }
-   }
-   @media(min-width: $b__medium) {
-      .c-article {
-         @include grid-column(10);
-      }
-   }
-   @media(min-width: $b__large) {
-      margin-bottom: 4vh;
-   }
+   padding: 10vh 0;
 }
