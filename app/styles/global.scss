@@ -11,7 +11,8 @@
 @import "helpers/debug";
 
 // Frameworks
-@import "frameworks/neat";
+//@import "frameworks/neat";
+@import "frameworks/swiper";
 
 // Base
 @import "base/grouping";
@@ -23,7 +24,7 @@
 // Layout
 @import "layout/base";
 @import "layout/bleed";
-@import "layout/sixfive";
+//@import "layout/sixfive";
 
 // Components
 @import "components/typography";

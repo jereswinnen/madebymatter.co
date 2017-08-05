@@ -4,15 +4,16 @@
 
 .c-article {
    header {
-      //margin-bottom: 2vh;
-      &.c-article__lede {
-         //margin-bottom: 8vh;
+      margin-bottom: 1.875rem;
+   }
+   &--lede {
+      //margin-bottom: 8vh;
+      p {
+         @include fs__midi;
+         font-weight: $fw__light;
       }
-      &.centered {
-         text-align: center;
-      }
-      @media(min-width: $b__medium) {
-         //width: 30vw;
+      .c-list--flex {
+         justify-content: center;
       }
    }
 }

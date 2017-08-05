@@ -1,0 +1,133 @@
+// =======================================================================
+// Swiper
+// =======================================================================
+
+.c-swiper__container {
+   margin-left: auto;
+   margin-right: auto;
+   position: relative;
+   overflow: hidden; //issue on big screens
+   /* Fix of Webkit flickering */
+   z-index: 1;
+}
+.c-swiper__container-no-flexbox .swiper-slide {
+   float: left;
+}
+.swiper-wrapper {
+   position: relative;
+   width: 100%;
+   height: 100%;
+   z-index: 1;
+   display: flex;
+   transition-property: transform;
+   box-sizing: content-box;
+}
+.c-swiper__container-android .swiper-slide,
+.swiper-wrapper {
+   transform: translate3d(0px, 0, 0);
+}
+.c-swiper__container-multirow > .swiper-wrapper {
+   flex-wrap: wrap;
+}
+.c-swiper__container-free-mode > .swiper-wrapper {
+   transition-timing-function: ease-out;
+   margin: 0 auto;
+}
+.swiper-slide {
+   flex-shrink: 0;
+   width: 100%;
+   //height: 100%;
+   height: auto;
+   position: relative;
+}
+/* IE10 Windows Phone 8 Fixes */
+.swiper-wp8-horizontal {
+   touch-action: pan-y;
+}
+/* Pagination Styles */
+.swiper-pagination {
+   //position: absolute;
+   text-align: center;
+   transition: 300ms;
+   transform: translate3d(0, 0, 0);
+   z-index: 10;
+}
+.swiper-pagination.swiper-pagination-hidden {
+   opacity: 0;
+}
+/* Common Styles */
+.swiper-pagination-fraction,
+.swiper-pagination-custom,
+.c-swiper__container-horizontal > .swiper-pagination-bullets {
+   //bottom: 10px;
+   left: 0;
+   width: 100%;
+}
+/* Bullets */
+.swiper-pagination-bullet {
+   //width: 8px;
+   //height: 8px;
+   width: 20px;
+   height: 2px;
+   display: inline-block;
+   //border-radius: 100%;
+   background: $c__neutral--light;
+}
+button.swiper-pagination-bullet {
+   border: none;
+   margin: 0;
+   padding: 0;
+   box-shadow: none;
+   appearance: none;
+}
+.swiper-pagination-clickable .swiper-pagination-bullet {
+   cursor: pointer;
+}
+.swiper-pagination-bullet-active {
+   background: $c__neutral--darkest;
+}
+.c-swiper__container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet {
+   margin: 0 5px;
+}
+/* Progress */
+.swiper-pagination-progress {
+   background: $c__neutral--light;
+   //position: absolute;
+}
+.swiper-pagination-progress .swiper-pagination-progressbar {
+   background: $c__neutral--darkest;
+   position: absolute;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+   transform: scale(0);
+   transform-origin: left top;
+}
+.c-swiper__container-rtl .swiper-pagination-progress .swiper-pagination-progressbar {
+   transform-origin: right top;
+}
+.swiper-container-horizontal > .swiper-pagination-progress {
+   width: 100%;
+   height: 1px;
+   left: 0;
+   top: 0;
+}
+.swiper-pagination-progress.swiper-pagination-white {
+   background: rgba(255, 255, 255, 0.5);
+}
+/* Fade */
+.c-swiper__container-fade.swiper-container-free-mode .swiper-slide {
+   transition-timing-function: ease-out;
+}
+.c-swiper__container-fade .swiper-slide {
+   pointer-events: none;
+   transition-property: opacity;
+}
+.c-swiper__container-fade .swiper-slide .swiper-slide {
+   pointer-events: none;
+}
+.c-swiper__container-fade .swiper-slide-active,
+.c-swiper__container-fade .swiper-slide-active .swiper-slide-active {
+   pointer-events: auto;
+}

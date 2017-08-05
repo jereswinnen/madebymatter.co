@@ -36,7 +36,7 @@
       </header>
       <main>
          <section class="c-hero">
-            <article class="c-article">
+            <article class="c-article c-article__lede">
                <h1><strong>Hi, I'm Jeremy.</strong> I'm a full-stack designer and creative developer from Belgium.</h1>
                <ul class="c-list c-list--flex">
                   <li class="c-list__item"><a href="#" class="c-cta c-cta--primary"><span class="c-svg"><img src="/dist/images/icons/cta--eye.svg"></span>Browse work</a></li>
@@ -44,23 +44,81 @@
                </ul>
             </article>
          </section><!--end c-hero-->
-         <section class="l-bleed c-section c-section--grey c-section--pad-s">
+         <section class="l-bleed l-padded--s c-section c-section--grey">
             <div class="l-wrap">
-               <article class="c-article">
-                  <header class="centered">
-                     <h2><strong>Realo.</strong> Building a Next Generation Real Estate Platform.</h2>
-                     <a href="#" class="c-cta c-cta--link">
-                        <span class="c-svg c-svg--16px"><svg><path d="M8 0C3.582 0 0 3.582 0 8s3.582 8 8 8 8-3.582 8-8c0-2.122-.843-4.157-2.343-5.657S10.122 0 8 0zm0 14c-3.314 0-6-2.686-6-6s2.686-6 6-6 6 2.686 6 6c0 1.59-.632 3.117-1.757 4.243C11.117 13.368 9.59 14 8 14zm1-7h2.5v2H9v2.5H7V9H4.5V7H7V4.5h2V7z"/></svg></span>View case study</a>
+               <div class="c-swiper__container">
+                  <div class="swiper-wrapper">
+                     <div class="swiper-slide" data-swiper-autoplay="4000">
+                        <article class="c-article" data-swiper-parallax="-200">
+                           <header class="l-text--center">
+                              <h2><strong>Shelf.</strong> Manage Files on iOS Like a Professional.</h2>
+                              <a href="#" class="c-cta c-cta--link">
+                                 <span class="c-svg c-svg--16px"><svg><path d="M8 0C3.582 0 0 3.582 0 8s3.582 8 8 8 8-3.582 8-8c0-2.122-.843-4.157-2.343-5.657S10.122 0 8 0zm0 14c-3.314 0-6-2.686-6-6s2.686-6 6-6 6 2.686 6 6c0 1.59-.632 3.117-1.757 4.243C11.117 13.368 9.59 14 8 14zm1-7h2.5v2H9v2.5H7V9H4.5V7H7V4.5h2V7z"/></svg></span>View case study</a>
+                           </header>
+                        </article>
+                        <figure class="c-figure" data-swiper-parallax="-50">
+                           <a href="#"><img src="/dist/images/artwork/home__realo--cover.png"></a>
+                        </figure>
+                     </div>
+                     <div class="swiper-slide">
+                        <article class="c-article" data-swiper-parallax="-200">
+                           <header class="l-text--center">
+                              <h2><strong>Diabetik.</strong> A New Kind of Diabetes Management App for iOS.</h2>
+                              <a href="#" class="c-cta c-cta--link">
+                                 <span class="c-svg c-svg--16px"><svg><path d="M8 0C3.582 0 0 3.582 0 8s3.582 8 8 8 8-3.582 8-8c0-2.122-.843-4.157-2.343-5.657S10.122 0 8 0zm0 14c-3.314 0-6-2.686-6-6s2.686-6 6-6 6 2.686 6 6c0 1.59-.632 3.117-1.757 4.243C11.117 13.368 9.59 14 8 14zm1-7h2.5v2H9v2.5H7V9H4.5V7H7V4.5h2V7z"/></svg></span>View case study</a>
+                           </header>
+                        </article>
+                        <figure class="c-figure" data-swiper-parallax="-50">
+                           <a href="#"><img src="/dist/images/artwork/home__diabetik--cover.png"></a>
+                        </figure>
+                     </div>
+                     <div class="swiper-slide">
+                        <article class="c-article" data-swiper-parallax="-200">
+                           <header class="l-text--center">
+                              <h2><strong>Realo.</strong> Building a Next Generation Real Estate Platform.</h2>
+                              <a href="#" class="c-cta c-cta--link">
+                                 <span class="c-svg c-svg--16px"><svg><path d="M8 0C3.582 0 0 3.582 0 8s3.582 8 8 8 8-3.582 8-8c0-2.122-.843-4.157-2.343-5.657S10.122 0 8 0zm0 14c-3.314 0-6-2.686-6-6s2.686-6 6-6 6 2.686 6 6c0 1.59-.632 3.117-1.757 4.243C11.117 13.368 9.59 14 8 14zm1-7h2.5v2H9v2.5H7V9H4.5V7H7V4.5h2V7z"/></svg></span>View case study</a>
+                           </header>
+                        </article>
+                        <figure class="c-figure" data-swiper-parallax="-50">
+                           <a href="#"><img src="/dist/images/artwork/home__realo--cover.png"></a>
+                        </figure>
+                     </div>
+                  </div>
+                  <div class="swiper-pagination"></div>
+               </div>
+            </div>
+         </section>
+         <section class="l-bleed l-padded--s c-section c-section--black">
+            <div class="l-wrap">
+               <article class="c-article c-article--lede">
+                  <header class="l-text--center">
+                     <h1>Great design <strong>matters</strong>.</h1>
+                     <p>Matter is the creative outlet of full-stack designer and creative developer Jeremy Swinnen. I design and build modern interfaces for mobile platforms. You can find me all over the internet&mdash;I ramble on <a href="https://twitter.com/jereswinnen">Twitter</a>, push work-in-progress pixels on <a href="https://dribbble.com/jereswinnen">Dribbble</a>, and recently started stashing code on <a href="https://github.com/jereswinnen">Github</a>.</p>
                   </header>
+                  <ul class="c-list c-list--flex">
+                     <li class="c-list__item"><a href="#" class="c-cta c-cta--primary"><span class="c-svg"><img src="/dist/images/icons/cta--message.svg"></span>Get in touch</a></li>
+                     <li class="c-list__item"><a href="#" class="c-cta c-cta--secondary"><span class="c-svg"><img src="/dist/images/icons/cta--info.svg"></span>View profile</a></li>
+                  </ul>
                </article>
-               <figure class="c-figure">
-                  
-               </figure>
             </div>
          </section>
       </main>
+      <footer class="l-bleed l-padded--s l-text--center c-footer">
+         <div class="l-wrap">
+            <nav class="c-nav c-nav--secondary">
+               <ul class="l-flx c-nav__items">
+                  <li class="c-nav__item"><a href="#">Email</a></li>
+                  <li class="c-nav__item"><a href="https://twitter.com/jereswinnen">Twitter</a></li>
+                  <li class="c-nav__item"><a href="https://dribbble.com/jereswinnen">Dribbble</a></li>
+                  <li class="c-nav__item"><a href="https://dribbble.com/jereswinnen">Github</a></li>
+               </ul>
+            </nav>
+            <small>All Rights Reserved &copy; 2017 <a href="#">Matter</a>. All screenshots and artwork &copy; Jeremy Swinnen unless noted otherwise.</small>
+         </div><!--end l-wrap-->
+      </footer>
    </div><!--end l-wrap-->
-<script src="/dist/scripts/retina-min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/js/swiper.min.js"></script>
 <script src="/dist/scripts/site-min.js"></script>
 </body>
 </html>

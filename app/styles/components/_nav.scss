@@ -20,6 +20,10 @@
          }
       }
    }
+   &--secondary {
+      @include fs__micro;
+
+   }
    @media(min-width: $b__large) {
       .c-nav__items .c-nav__item {
          margin-right: 3vw;

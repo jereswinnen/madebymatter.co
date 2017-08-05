@@ -21,3 +21,18 @@
 .l-flex {
    display: flex;
 }
+.l-text--center {
+   text-align: center;
+}
+.l-padded--s {
+   padding: 3.75rem 0; //60px 0
+   .c-article header {
+      margin-bottom: 1.875rem; //30px
+   }
+}
+.l-padded--m {
+   padding: 7.5rem 0; //120px 0
+   .c-article header {
+      margin-bottom: 3.75rem; //60px
+   }
+}

@@ -157,15 +157,6 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/app\/scripts\/app.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/dist\/styles\/app-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
 	"\/app\/scripts\/retina.js": {
 		"ft": 64,
 		"mi": 1,
@@ -173,6 +164,15 @@
 		"oAP": "\/dist\/styles\/retina-min.js",
 		"oF": 0,
 		"sC": 1,
+		"tS": 0
+		},
+	"\/app\/scripts\/site.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/dist\/scripts\/site-min.js",
+		"oF": 2,
+		"sC": 0,
 		"tS": 0
 		},
 	"\/app\/styles\/base\/_embed.scss": {
@@ -431,6 +431,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/dist\/styles\/_neat.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/app\/styles\/frameworks\/_swiper.scss": {
+		"aP": 1,
+		"bl": 1,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/dist\/styles\/_swiper.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -773,19 +786,6 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/app\/styles\/layout\/_sixfive.scss": {
-		"aP": 1,
-		"bl": 1,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/dist\/styles\/_sixfive.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
 	"\/dist\/images\/artwork\/case__diabetik--ipadaddentry.png": {
 		"ft": 32768,
 		"iS": 81668,
@@ -1006,6 +1006,28 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/dist\/images\/artwork\/home__diabetik--cover.png": {
+		"ft": 32768,
+		"iS": 263128,
+		"oA": 0,
+		"oAP": "\/dist\/images\/artwork\/home__diabetik--cover.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/dist\/images\/artwork\/home__diabetik--cover@2x.png": {
+		"ft": 32768,
+		"iS": 1234111,
+		"oA": 0,
+		"oAP": "\/dist\/images\/artwork\/home__diabetik--cover@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/dist\/images\/artwork\/home__diabetik--scroller.png": {
 		"ft": 32768,
 		"iS": 386956,
@@ -1028,88 +1050,22 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/dist\/images\/artwork\/home__diabetik--scrolleralt.png": {
+	"\/dist\/images\/artwork\/home__realo--cover.png": {
 		"ft": 32768,
-		"iS": 363128,
+		"iS": 581997,
 		"oA": 0,
-		"oAP": "\/dist\/images\/artwork\/home__diabetik--scrolleralt.png",
+		"oAP": "\/dist\/images\/artwork\/home__realo--cover.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/dist\/images\/artwork\/home__diabetik--scrolleralt@2x.png": {
+	"\/dist\/images\/artwork\/home__realo--cover@2x.png": {
 		"ft": 32768,
-		"iS": 1268603,
+		"iS": 1951445,
 		"oA": 0,
-		"oAP": "\/dist\/images\/artwork\/home__diabetik--scrolleralt@2x.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/dist\/images\/artwork\/home__hocusfocus--item.png": {
-		"ft": 32768,
-		"iS": 206018,
-		"oA": 0,
-		"oAP": "\/dist\/images\/artwork\/home__hocusfocus--item.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/dist\/images\/artwork\/home__hocusfocus--item@2x.png": {
-		"ft": 32768,
-		"iS": 829314,
-		"oA": 0,
-		"oAP": "\/dist\/images\/artwork\/home__hocusfocus--item@2x.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/dist\/images\/artwork\/home__illustration--item.png": {
-		"ft": 32768,
-		"iS": 259497,
-		"oA": 0,
-		"oAP": "\/dist\/images\/artwork\/home__illustration--item.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/dist\/images\/artwork\/home__illustration--item@2x.png": {
-		"ft": 32768,
-		"iS": 683797,
-		"oA": 0,
-		"oAP": "\/dist\/images\/artwork\/home__illustration--item@2x.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/dist\/images\/artwork\/home__ninswitch--item.png": {
-		"ft": 32768,
-		"iS": 174767,
-		"oA": 0,
-		"oAP": "\/dist\/images\/artwork\/home__ninswitch--item.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/dist\/images\/artwork\/home__ninswitch--item@2x.png": {
-		"ft": 32768,
-		"iS": 617279,
-		"oA": 0,
-		"oAP": "\/dist\/images\/artwork\/home__ninswitch--item@2x.png",
+		"oAP": "\/dist\/images\/artwork\/home__realo--cover@2x.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -1138,50 +1094,6 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/dist\/images\/artwork\/home__realo--scrolleralt.png": {
-		"ft": 32768,
-		"iS": 525933,
-		"oA": 0,
-		"oAP": "\/dist\/images\/artwork\/home__realo--scrolleralt.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/dist\/images\/artwork\/home__realo--scrolleralt@2x.png": {
-		"ft": 32768,
-		"iS": 1788741,
-		"oA": 0,
-		"oAP": "\/dist\/images\/artwork\/home__realo--scrolleralt@2x.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/dist\/images\/artwork\/home__switchbe--item.png": {
-		"ft": 32768,
-		"iS": 208919,
-		"oA": 0,
-		"oAP": "\/dist\/images\/artwork\/home__switchbe--item.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/dist\/images\/artwork\/home__switchbe--item@2x.png": {
-		"ft": 32768,
-		"iS": 843650,
-		"oA": 0,
-		"oAP": "\/dist\/images\/artwork\/home__switchbe--item@2x.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
 	"\/dist\/images\/icons\/cta--eye.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -1202,6 +1114,16 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/dist\/images\/icons\/cta--message.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/dist\/images\/icons\/cta--message.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/dist\/images\/icons\/cta--more.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -1212,15 +1134,6 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/dist\/scripts\/app-min.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/dist\/styles\/app-min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
 	"\/dist\/scripts\/retina-min.js": {
 		"ft": 64,
 		"mi": 1,
@@ -1230,11 +1143,11 @@
 		"sC": 1,
 		"tS": 0
 		},
-	"\/dist\/styles\/app-min.js": {
+	"\/dist\/scripts\/site-min.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/dist\/styles\/app-min-min.js",
+		"oAP": "\/dist\/styles\/site-min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0

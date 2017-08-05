@@ -22,6 +22,15 @@
 .c-list--flex {
    display: flex;
    justify-content: space-between;
+   .c-list__item {
+      margin-right: 1.25rem;
+      &:last-child {
+         margin-right: 0;
+      }
+   }
+   @media(min-width: 450px) {
+      justify-content: flex-start;
+   }
 }
 .c-list--horizontal {
    .c-list__item {

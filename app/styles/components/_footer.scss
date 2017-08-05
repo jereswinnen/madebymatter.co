@@ -3,7 +3,23 @@
 // =======================================================================
 
 .c-footer {
-   padding-top: 5vh;
-   padding-bottom: 5vh;
-   border-top: 1px solid $c__faint--dark;
+   background: $c__neutral--black;
+   a {
+      color: $c__neutral--white;
+      &:hover {
+         color: $c__neutral--light;
+      }
+      &:active {
+         color: $c__neutral--lightest;
+      }
+   }
+   small a {
+      color: currentColor;
+   }
+   .c-nav--secondary {
+      margin-bottom: 1rem;
+      .c-nav__items {
+         justify-content: space-between;
+      }
+   }
 }

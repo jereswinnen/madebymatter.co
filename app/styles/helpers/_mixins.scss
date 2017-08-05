@@ -85,3 +85,12 @@
    background: linear-gradient(to bottom,  $top 0%,$bottom 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#000000',GradientType=0 );
 }
+
+// Grid Container
+@mixin grid-container {
+	&::after {
+   	clear: both;
+   	content: "";
+   	display: block;
+	}
+}

@@ -7,42 +7,43 @@
    &--grey {
       background: $c__neutral--lightest;
    }
-   &--pad-s {
-      padding: 3.75rem 0; //60px 0
-   }
-   &--pad-m {
-      padding: 7.5rem 0; //120px 0
+   &--black {
+      color: #ccc;
+      background: $c__neutral--darkest;
+      &:last-child {
+         margin-bottom: 0;
+      }
+      h1 {
+         color: $c__neutral--white;
+      }
+      a {
+         color: $c__neutral--white;
+         &:hover {
+            color: $c__neutral--light;
+         }
+         &:active {
+            color: $c__neutral--lightest;
+         }
+      }
+      .c-cta--primary {
+         color: $c__neutral--darkest;
+         background: $c__neutral--white;
+         &:hover {
+            color: $c__neutral--dark;
+            background: $c__neutral--lightest;
+         }
+      }
+      .c-cta--secondary {
+         color: $c__neutral--light;
+         background: $c__neutral--dark;
+         &:hover {
+            color: $c__neutral--lightest;
+            background: $c__neutral--mid;
+         }
+      }
    }
    @media(min-width: $b__medium) {
       //padding: 8vh 0;
       margin-bottom: 4vh;
-   }
-}
-.c-section--darken {
-   color: $c__neutral--white;
-   background: $c__neutral--black;
-   &:last-of-type {
-      margin-bottom: 0;
-   }
-   a {
-      color: currentColor;
-      &:active {
-         color: $c__neutral--light;
-      }
-   }
-   h1 {
-      color: $c__neutral--white;
-   }
-   h2, h3 {
-      color: $c__neutral--light;
-      strong {
-         color: $c__neutral--white;
-      }
-   }
-   .c-list .c-list__item {
-      color: $c__neutral--light;
-      h3 {
-         color: $c__neutral--white;
-      }
    }
 }
