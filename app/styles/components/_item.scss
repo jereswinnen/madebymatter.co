@@ -2,6 +2,15 @@
 // Item
 // =======================================================================
 
-.c-item--index {
-
+.c-item {
+   padding: 2rem;
+   header {
+      margin-bottom: 2rem;
+   }
+   .c-figure, .c-figure img {
+      margin-bottom: 0
+   }
+   @media(min-width: $b__large) {
+      padding: 4rem;
+   }
 }

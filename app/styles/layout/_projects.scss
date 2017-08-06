@@ -1,0 +1,44 @@
+// =======================================================================
+// Projects Masonry
+// =======================================================================
+
+.l-projects {
+   .l-flex {
+      flex-direction: column;
+   }
+   .c-item {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 0.5rem;
+      background: $c__neutral--offwhite;
+      h3 strong {
+         color: $c__neutral--dark;
+      }
+      .c-figure {
+         margin-top: auto;
+      }
+      &--40 {
+         width: 40%;
+      }
+      &--50 {
+         width: 50%;
+      }
+      &--60 {
+         width: 60%;
+      }
+      &--100 {
+         flex: 1;
+      }
+      &--40, &--50, &--60 {
+         margin-right: 0.5rem;
+         &:last-child {
+            margin-right: 0;
+         }
+      }
+   }
+   @media(min-width: $b__medium) {
+      .l-flex {
+         flex-direction: row;
+      }
+   }
+}
