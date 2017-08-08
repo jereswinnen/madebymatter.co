@@ -305,19 +305,6 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/app\/styles\/components\/_form.scss": {
-		"aP": 1,
-		"bl": 1,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/dist\/styles\/_form.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
 	"\/app\/styles\/components\/_hero.scss": {
 		"aP": 1,
 		"bl": 1,

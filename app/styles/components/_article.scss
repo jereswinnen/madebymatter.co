@@ -7,22 +7,15 @@
       margin-bottom: 1.875rem;
    }
    &__lede {
-      //margin-bottom: 8vh;
       p {
          @include fs__midi;
          font-weight: $fw__light;
-      }
-      .c-list--flex {
-         justify-content: center;
       }
    }
 }
 @media(min-width: $b__medium) {
    .c-hero .c-article, .c-page .c-page__header {
       width: 80%;
-   }
-   .c-article {
-      margin: 0 auto;
    }
 }
 @media(min-width: $b__large) {
@@ -31,8 +24,5 @@
    }
    .c-article__lede {
       width: 80%;
-   }
-   .c-article, .c-article__lede {
-      margin: 0 auto;
    }
 }
