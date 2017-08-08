@@ -5,18 +5,19 @@
 // Units
 $u__base-line-height: 1.6;
 $u__base-spacing: 20px;
-$u__max-width: 70em; //1120px
+$u__max-width: 67.5rem; //1080px
 
 // Colours
 /// Neutral
 $c__neutral--white: #fff;
-$c__neutral--offwhite: #f0f0f0;
 $c__neutral--lightest: #eee;
 $c__neutral--light: #999;
 $c__neutral--mid: #555;
 $c__neutral--dark: #333;
 $c__neutral--darkest: #111;
 $c__neutral--black: #000;
+
+$c__stone--lightest: #eeede7;
 
 $c__muted--light: transparentize($c__neutral--white, .45);
 $c__muted--dark: transparentize($c__neutral--black, .45);

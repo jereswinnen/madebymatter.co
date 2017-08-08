@@ -4,21 +4,5 @@
 
 .c-masthead {
    padding-top: 5vh;
-   .c-masthead__projects {
-      flex: 1;
-      a.trigger {
-         font-weight: $fw__regular;
-         color: $c__neutral--light;
-         text-decoration: none;
-      }
-      .c-list {
-         display: none;
-      }
-   }
-   @media(min-width: $b__medium) {
-      .c-branding {
-         float: left;
-         margin-right: 5vw;
-      }
-   }
+   justify-content: space-between;
 }

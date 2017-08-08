@@ -396,6 +396,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/app\/styles\/components\/_page.scss": {
+		"aP": 1,
+		"bl": 1,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/dist\/styles\/_page.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/app\/styles\/components\/_section.scss": {
 		"aP": 1,
 		"bl": 1,
@@ -773,19 +786,6 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/app\/styles\/layout\/_bleed.scss": {
-		"aP": 1,
-		"bl": 1,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/dist\/styles\/_bleed.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
 	"\/app\/styles\/layout\/_projects.scss": {
 		"aP": 1,
 		"bl": 1,
@@ -1137,6 +1137,16 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/dist\/images\/icons\/cta--messagealt.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/dist\/images\/icons\/cta--messagealt.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/dist\/images\/icons\/cta--more.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -1187,6 +1197,12 @@
 		"oAP": "\/index_ori.html",
 		"oF": 0
 		},
+	"\/profile.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/profile.html",
+		"oF": 0
+		},
 	"\/readme.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -1210,12 +1226,6 @@
 		"pME": 1,
 		"rFN": 0,
 		"uCM": 0
-		},
-	"\/work.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/work.html",
-		"oF": 0
 		}
 	},
 "hooks": [

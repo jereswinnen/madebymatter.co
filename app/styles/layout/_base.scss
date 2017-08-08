@@ -14,9 +14,16 @@
       padding: 0 6vw;
       max-width: none;
    }
-   @media(min-width: $b__medium) {
-      //padding: 0 5vw;
-   }
+}
+.l-flush--left {
+   float: left;
+   margin: 0 4vw 2vh -6vw;
+   width: 60%;
+}
+.l-flush--right {
+   float: right;
+   margin: 0 -6vw 2vh 4vw;
+   width: 60%;
 }
 .l-flex {
    display: flex;
@@ -35,4 +42,12 @@
    .c-article header {
       margin-bottom: 3.75rem; //60px
    }
+}
+
+// Bleed
+.l-bleed {
+   position: relative;
+   margin-left: -50vw;
+   left: 50%;
+   width: 100vw;
 }

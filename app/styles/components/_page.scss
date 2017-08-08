@@ -1,0 +1,21 @@
+// =======================================================================
+// Page
+// =======================================================================
+
+.c-page {
+   margin: 12vh 0 3.75rem 0;
+   .c-page__header {
+      margin-bottom: 1.875rem; //30px
+      h1 {
+         margin-bottom: 1rem;
+      }
+      h2, h3 {
+         color: $c__neutral--dark;
+      }
+   }
+   @media(min-width: $b__medium) {
+      .c-page__header {
+         margin-bottom: 3.125rem; //50px
+      }
+   }
+}

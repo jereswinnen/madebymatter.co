@@ -4,15 +4,21 @@
 
 .c-section {
    margin-bottom: 1.875rem; //30px
+   @media(min-width: $b__medium) {
+      margin-bottom: 4vh;
+   }
+   &--mb0 {
+      margin-bottom: 0;
+   }
    &--grey {
       background: $c__neutral--lightest;
+   }
+   &--stone {
+      background: $c__stone--lightest;
    }
    &--black {
       color: #ccc;
       background: $c__neutral--darkest;
-      &:last-child {
-         margin-bottom: 0;
-      }
       h1 {
          color: $c__neutral--white;
       }
@@ -41,9 +47,5 @@
             background: $c__neutral--mid;
          }
       }
-   }
-   @media(min-width: $b__medium) {
-      //padding: 8vh 0;
-      margin-bottom: 4vh;
    }
 }

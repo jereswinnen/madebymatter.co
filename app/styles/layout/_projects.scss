@@ -3,42 +3,28 @@
 // =======================================================================
 
 .l-projects {
-   .l-flex {
-      flex-direction: column;
-   }
+   display: grid;
+   grid-row-gap: 1.5vw;
    .c-item {
       display: flex;
       flex-direction: column;
-      margin-bottom: 0.5rem;
-      background: $c__neutral--offwhite;
-      h3 strong {
-         color: $c__neutral--dark;
-      }
-      .c-figure {
-         margin-top: auto;
-      }
-      &--40 {
-         width: 40%;
-      }
-      &--50 {
-         width: 50%;
-      }
-      &--60 {
-         width: 60%;
-      }
-      &--100 {
-         flex: 1;
-      }
-      &--40, &--50, &--60 {
-         margin-right: 0.5rem;
-         &:last-child {
-            margin-right: 0;
+      justify-content: space-between;
+      background: $c__neutral--lightest;
+      .c-item__title {
+         display: inline-block;
+         a {
+            display: inline;
+            &:after {
+               margin: 0 0.2rem;
+               font-weight: $fw__regular;
+               color: $c__neutral--light;
+               content: "\2014";
+            }
          }
       }
    }
    @media(min-width: $b__medium) {
-      .l-flex {
-         flex-direction: row;
-      }
+      grid-template-columns: 2fr 2fr;
+      grid-column-gap: 1.5vw;
    }
 }

@@ -23,9 +23,7 @@
 
 // Layout
 @import "layout/base";
-@import "layout/bleed";
 @import "layout/projects";
-//@import "layout/sixfive";
 
 // Components
 @import "components/typography";
@@ -40,5 +38,6 @@
 @import "components/section";
 @import "components/article";
 @import "components/footer";
-@import "components/form";
+//@import "components/form";
 @import "components/hero";
+@import "components/page";

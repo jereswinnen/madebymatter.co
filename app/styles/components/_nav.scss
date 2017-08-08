@@ -9,6 +9,11 @@
       .c-nav__item {
          display: inline;
          margin-right: 5vw;
+         &.c-nav__item--selected a {
+            color: $c__neutral--light;
+            //padding-bottom: 0.5rem;
+            //border-bottom: 2px solid currentColor;
+         }
          &:last-child {
             margin-right: 0;
          }

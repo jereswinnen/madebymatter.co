@@ -8,32 +8,39 @@
    padding: .5rem 1.15rem;
    @include fs__base;
    font-weight: $fw__medium;
-   border-radius: $radius__giga;
+   //border-radius: $radius__giga;
    text-decoration: none;
    &--primary {
-      color: $c__neutral--white;
-      background: $c__neutral--darkest;
+      //color: $c__neutral--white;
+      //background: $c__neutral--darkest;
+      color: transparentize($c__neutral--white, .1);
+      background: transparentize($c__neutral--black, .2);
+      box-shadow: 0 2px 3px rgba(0, 0, 0, .25);
       &:hover {
-         color: $c__neutral--white;
-         background: $c__neutral--dark;
+         //color: $c__neutral--white;
+         //background: $c__neutral--dark;
+         color: transparentize($c__neutral--white, 0);
+         background: transparentize($c__neutral--black, 0);
       }
       &:active {
          background: $c__neutral--darkest;
+         box-shadow: none;
       }
    }
    &--secondary {
       color: $c__neutral--light;
-      background: $c__neutral--offwhite;
+      background: $c__neutral--lightest;
       &:hover {
          color: $c__neutral--mid;
          background: $c__neutral--lightest;
       }
       &:active {
-         background: $c__neutral--offwhite;
+         background: $c__neutral--lightest;
       }
    }
    &--link {
       padding: 0;
+      font-weight: $fw__semibold;
       border-radius: none;
    }
    .c-svg {
