@@ -8,11 +8,8 @@
 @import "helpers/variables";
 @import "helpers/mixins";
 @import "helpers/animations";
-@import "helpers/debug";
-
-// Frameworks
-//@import "frameworks/neat";
-@import "frameworks/swiper";
+@import "helpers/layout";
+//@import "helpers/debug";
 
 // Base
 @import "base/grouping";
@@ -21,22 +18,17 @@
 @import "base/embed";
 @import "base/forms";
 
-// Layout
-@import "layout/base";
-@import "layout/projects";
-
 // Components
 @import "components/typography";
 @import "components/link";
-@import "components/button";
+@import "components/cta";
 @import "components/masthead";
-@import "components/nav";
 @import "components/branding";
+@import "components/nav";
+@import "components/section";
+@import "components/hero";
+@import "components/article";
+@import "components/footer";
 @import "components/figure";
 @import "components/list";
 @import "components/item";
-@import "components/section";
-@import "components/article";
-@import "components/footer";
-@import "components/hero";
-@import "components/page";

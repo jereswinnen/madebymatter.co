@@ -3,26 +3,8 @@
 // =======================================================================
 
 .c-article {
-   header {
-      margin-bottom: 1.875rem;
-   }
-   &__lede {
-      p {
-         @include fs__midi;
-         font-weight: $fw__light;
-      }
-   }
-}
-@media(min-width: $b__medium) {
-   .c-hero .c-article, .c-page .c-page__header {
-      width: 80%;
-   }
-}
-@media(min-width: $b__large) {
-   .c-hero .c-article, .c-page .c-page__header {
-      width: 60%;
-   }
+   //margin-bottom: ;
    .c-article__lede {
-      width: 80%;
+
    }
 }

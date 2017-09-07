@@ -1,0 +1,72 @@
+// =======================================================================
+// Layout
+// =======================================================================
+
+// Defining global CSS Grid layout
+body {
+   display: grid;
+   grid-column-gap: 2rem;
+
+   //grid-template-columns: [bleed-start] minmax(7rem, 1fr) [wrap-start] repeat(2, minmax(0, 7.8rem)) [inner-start] repeat(6, minmax(0, 7.8rem)) [inner-end] repeat(2, minmax(0, 7.8rem)) [wrap-end] minmax(7rem, 1fr) [bleed-end];
+
+   //bleed: 1120 wrap: 960 inner: 720
+
+   grid-template-columns: 1fr 1fr minmax(1fr, 750px) 1fr 1fr;
+}
+
+/*
+   CSS Grid needs to be defined op top level so it's applied on global site.
+
+   Grid child elements can then be laid out on the parent grid, smaller in most cases, but can have a subgrid applied to them that's as wide as the parent grid. In that case you can lay out elements 'out' of the child grid.
+*/
+
+.c-masthead {
+   //grid-column: bleed;
+   background: pink;
+}
+.c-main {
+   //display: grid;
+   //grid-template-columns: inherit;
+   //grid-column: bleed;
+   background: salmon;
+   .c-main__content {
+      //grid-column: wrap;
+   }
+}
+.c-footer {
+   //display: grid;
+   //grid-template-columns: inherit;
+   //grid-column: bleed;
+   background: tomato;
+   .c-footer__content {
+      //grid-column: inner;
+      background: black;
+   }
+   .c-footer__onebyone {
+      //display: grid;
+      //grid-column-gap: 2rem;
+      //grid-template-columns: inherit;
+      //grid-column: wrap;
+      .left {
+         //grid-column: 1/7;
+         background: black;
+      }
+      .right {
+         //grid-column: 7/13;
+         background: black;
+      }
+   }
+}
+
+// Flex container
+.l-flex {
+   display: flex;
+}
+// Align right
+.l-align--right {
+
+}
+// Alig left
+.l-align--left {
+
+}

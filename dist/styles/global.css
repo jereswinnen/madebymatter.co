@@ -20,160 +20,39 @@
     -webkit-transform: translate3d(0%, 0%, 0);
             transform: translate3d(0%, 0%, 0); } }
 
-html:before {
-  display: none;
-  position: absolute;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-  font-weight: 400;
-  color: #999; }
-  @media (min-width: 680px) {
-    html:before {
-      content: '$b__medium'; } }
-  @media (min-width: 1040px) {
-    html:before {
-      content: '$b__large'; } }
-  @media (min-width: 1280px) {
-    html:before {
-      content: '$b__xlarge'; } }
+body {
+  display: grid;
+  grid-column-gap: 2rem;
+  grid-template-columns: 1fr 1fr minmax(1fr, 750px) 1fr 1fr; }
 
-.c-swiper__container {
-  margin-left: auto;
-  margin-right: auto;
-  position: relative;
-  overflow: hidden;
-  /* Fix of Webkit flickering */
-  z-index: 1; }
+/*
+   CSS Grid needs to be defined op top level so it's applied on global site.
 
-.c-swiper__container-no-flexbox .swiper-slide {
-  float: left; }
+   Grid child elements can then be laid out on the parent grid, smaller in most cases, but can have a subgrid applied to them that's as wide as the parent grid. In that case you can lay out elements 'out' of the child grid.
+*/
+.c-masthead {
+  background: pink; }
 
-.swiper-wrapper {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  z-index: 1;
+.c-main {
+  background: salmon; }
+
+.c-footer {
+  background: tomato; }
+  .c-footer .c-footer__content {
+    background: black; }
+  .c-footer .c-footer__onebyone .left {
+    background: black; }
+  .c-footer .c-footer__onebyone .right {
+    background: black; }
+
+.l-flex {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
-  transition-property: -webkit-transform;
-  transition-property: transform;
-  transition-property: transform, -webkit-transform;
-  box-sizing: content-box; }
-
-.c-swiper__container-android .swiper-slide,
-.swiper-wrapper {
-  -webkit-transform: translate3d(0px, 0, 0);
-          transform: translate3d(0px, 0, 0); }
-
-.c-swiper__container-multirow > .swiper-wrapper {
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap; }
-
-.c-swiper__container-free-mode > .swiper-wrapper {
-  transition-timing-function: ease-out;
-  margin: 0 auto; }
-
-.swiper-slide {
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
-  width: 100%;
-  height: auto;
-  position: relative; }
-
-/* IE10 Windows Phone 8 Fixes */
-.swiper-wp8-horizontal {
-  -ms-touch-action: pan-y;
-      touch-action: pan-y; }
-
-/* Pagination Styles */
-.swiper-pagination {
-  text-align: center;
-  transition: 300ms;
-  -webkit-transform: translate3d(0, 0, 0);
-          transform: translate3d(0, 0, 0);
-  z-index: 10; }
-
-.swiper-pagination.swiper-pagination-hidden {
-  opacity: 0; }
-
-/* Common Styles */
-.swiper-pagination-fraction,
-.swiper-pagination-custom,
-.c-swiper__container-horizontal > .swiper-pagination-bullets {
-  left: 0;
-  width: 100%; }
-
-/* Bullets */
-.swiper-pagination-bullet {
-  width: 20px;
-  height: 2px;
-  display: inline-block;
-  background: #999; }
-
-button.swiper-pagination-bullet {
-  border: none;
-  margin: 0;
-  padding: 0;
-  box-shadow: none;
-  -webkit-appearance: none;
-     -moz-appearance: none;
-          appearance: none; }
-
-.swiper-pagination-clickable .swiper-pagination-bullet {
-  cursor: pointer; }
-
-.swiper-pagination-bullet-active {
-  background: #111; }
-
-.c-swiper__container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet {
-  margin: 0 5px; }
-
-/* Progress */
-.swiper-pagination-progress {
-  background: #999; }
-
-.swiper-pagination-progress .swiper-pagination-progressbar {
-  background: #111;
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  -webkit-transform: scale(0);
-          transform: scale(0);
-  -webkit-transform-origin: left top;
-          transform-origin: left top; }
-
-.c-swiper__container-rtl .swiper-pagination-progress .swiper-pagination-progressbar {
-  -webkit-transform-origin: right top;
-          transform-origin: right top; }
-
-.swiper-container-horizontal > .swiper-pagination-progress {
-  width: 100%;
-  height: 1px;
-  left: 0;
-  top: 0; }
-
-.swiper-pagination-progress.swiper-pagination-white {
-  background: rgba(255, 255, 255, 0.5); }
-
-/* Fade */
-.c-swiper__container-fade.swiper-container-free-mode .swiper-slide {
-  transition-timing-function: ease-out; }
-
-.c-swiper__container-fade .swiper-slide {
-  pointer-events: none;
-  transition-property: opacity; }
-
-.c-swiper__container-fade .swiper-slide .swiper-slide {
-  pointer-events: none; }
-
-.c-swiper__container-fade .swiper-slide-active,
-.c-swiper__container-fade .swiper-slide-active .swiper-slide-active {
-  pointer-events: auto; }
+  display: flex; }
 
 html {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased; }
@@ -303,84 +182,6 @@ textarea {
 
 :focus {
   outline: none; }
-
-.l-wrap {
-  margin: 0 auto;
-  padding: 0 6vw;
-  max-width: 67.5rem; }
-  .l-wrap::after {
-    clear: both;
-    content: "";
-    display: block; }
-  @media (min-width: 67.5rem) {
-    .l-wrap {
-      padding: 0; } }
-  .l-wrap--fluid {
-    padding: 0 6vw;
-    max-width: none; }
-
-.l-flush--left {
-  float: left;
-  margin: 0 4vw 2vh -6vw;
-  width: 60%; }
-
-.l-flush--right {
-  float: right;
-  margin: 0 -6vw 2vh 4vw;
-  width: 60%; }
-
-.l-flex {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex; }
-
-.l-padded--s {
-  padding: 3.75rem 0; }
-  .l-padded--s .c-article header {
-    margin-bottom: 1.875rem; }
-
-.l-padded--m {
-  padding: 7.5rem 0; }
-  .l-padded--m .c-article header {
-    margin-bottom: 3.75rem; }
-
-.l-bleed {
-  position: relative;
-  margin-left: -50vw;
-  left: 50%;
-  width: 100vw; }
-
-.l-projects {
-  display: -ms-grid;
-  display: grid;
-  grid-row-gap: 2vh; }
-  .l-projects .c-item {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    background: #eee; }
-    .l-projects .c-item .c-item__title {
-      display: inline-block; }
-      .l-projects .c-item .c-item__title a {
-        display: inline; }
-        .l-projects .c-item .c-item__title a:after {
-          margin: 0 0.2rem;
-          font-weight: 400;
-          color: #999;
-          content: "\2014"; }
-  @media (min-width: 1040px) {
-    .l-projects {
-      -ms-grid-columns: 2fr 2fr;
-          grid-template-columns: 2fr 2fr;
-      grid-column-gap: 1.5vw;
-      grid-row-gap: 1.5vw; } }
 
 h1 {
   margin-bottom: 1.625rem;
@@ -529,13 +330,15 @@ a {
   .c-cta--primary {
     color: rgba(255, 255, 255, 0.9);
     background: rgba(0, 0, 0, 0.8);
-    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.25); }
+    -webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.25);
+            box-shadow: 0 2px 3px rgba(0, 0, 0, 0.25); }
     .c-cta--primary:hover {
       color: white;
       background: black; }
     .c-cta--primary:active {
       background: #111;
-      box-shadow: none; }
+      -webkit-box-shadow: none;
+              box-shadow: none; }
   .c-cta--secondary {
     color: #999;
     background: #eee; }
@@ -564,11 +367,18 @@ a {
   .c-cta:hover .c-svg svg {
     fill: currentColor; }
 
-.c-masthead {
-  padding-top: 5vh;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between; }
+.c-branding {
+  display: inline-block;
+  margin-bottom: 2vh; }
+  .c-branding .c-branding__svg {
+    width: 130px;
+    fill: #111; }
+    @media (min-width: 1040px) {
+      .c-branding .c-branding__svg {
+        width: 150px; } }
+  @media (min-width: 680px) {
+    .c-branding {
+      margin-bottom: 0; } }
 
 .c-nav .c-nav__items {
   padding: 0;
@@ -595,18 +405,64 @@ a {
   .c-nav .c-nav__items .c-nav__item {
     margin-right: 3vw; } }
 
-.c-branding {
-  display: inline-block;
-  margin-bottom: 2vh; }
-  .c-branding .c-branding__svg {
-    width: 130px;
-    fill: #111; }
-    @media (min-width: 1040px) {
-      .c-branding .c-branding__svg {
-        width: 150px; } }
+.c-section {
+  margin-bottom: 1.875rem; }
   @media (min-width: 680px) {
-    .c-branding {
-      margin-bottom: 0; } }
+    .c-section {
+      margin-bottom: 4vh; } }
+  .c-section--mb0 {
+    margin-bottom: 0; }
+  .c-section--grey {
+    background: #eee; }
+  .c-section--stone {
+    background: #eeede7; }
+  .c-section--black {
+    color: #ccc;
+    background: #111; }
+    .c-section--black h1 {
+      color: #fff; }
+    .c-section--black a {
+      color: #fff; }
+      .c-section--black a:hover {
+        color: #999; }
+      .c-section--black a:active {
+        color: #eee; }
+    .c-section--black .c-cta--primary {
+      color: #111;
+      background: #fff; }
+      .c-section--black .c-cta--primary:hover {
+        color: #333;
+        background: #eee; }
+    .c-section--black .c-cta--secondary {
+      color: #999;
+      background: #333; }
+      .c-section--black .c-cta--secondary:hover {
+        color: #eee;
+        background: #555; }
+
+.c-hero {
+  padding: 15vh 0; }
+  .c-hero .c-list--flex {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start; }
+
+.c-footer a {
+  color: #fff; }
+  .c-footer a:hover {
+    color: #999; }
+  .c-footer a:active {
+    color: #eee; }
+
+.c-footer small a {
+  color: currentColor; }
+
+.c-footer .c-nav--secondary {
+  margin-bottom: 1rem; }
+  .c-footer .c-nav--secondary .c-nav__items {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
 
 .c-figure {
   margin-bottom: 2vh; }
@@ -683,95 +539,3 @@ a {
   @media (min-width: 1040px) {
     .c-item {
       padding: 4rem; } }
-
-.c-section {
-  margin-bottom: 1.875rem; }
-  @media (min-width: 680px) {
-    .c-section {
-      margin-bottom: 4vh; } }
-  .c-section--mb0 {
-    margin-bottom: 0; }
-  .c-section--grey {
-    background: #eee; }
-  .c-section--stone {
-    background: #eeede7; }
-  .c-section--black {
-    color: #ccc;
-    background: #111; }
-    .c-section--black h1 {
-      color: #fff; }
-    .c-section--black a {
-      color: #fff; }
-      .c-section--black a:hover {
-        color: #999; }
-      .c-section--black a:active {
-        color: #eee; }
-    .c-section--black .c-cta--primary {
-      color: #111;
-      background: #fff; }
-      .c-section--black .c-cta--primary:hover {
-        color: #333;
-        background: #eee; }
-    .c-section--black .c-cta--secondary {
-      color: #999;
-      background: #333; }
-      .c-section--black .c-cta--secondary:hover {
-        color: #eee;
-        background: #555; }
-
-.c-article header {
-  margin-bottom: 1.875rem; }
-
-.c-article__lede p {
-  font-size: 1.25rem;
-  line-height: 1.4;
-  font-weight: 300; }
-  @media (min-width: 680px) {
-    .c-article__lede p {
-      font-size: 1.375rem; } }
-
-@media (min-width: 680px) {
-  .c-hero .c-article, .c-page .c-page__header {
-    width: 80%; } }
-
-@media (min-width: 1040px) {
-  .c-hero .c-article, .c-page .c-page__header {
-    width: 60%; }
-  .c-article__lede {
-    width: 80%; } }
-
-.c-footer {
-  background: #000; }
-  .c-footer a {
-    color: #fff; }
-    .c-footer a:hover {
-      color: #999; }
-    .c-footer a:active {
-      color: #eee; }
-  .c-footer small a {
-    color: currentColor; }
-  .c-footer .c-nav--secondary {
-    margin-bottom: 1rem; }
-    .c-footer .c-nav--secondary .c-nav__items {
-      -webkit-box-pack: justify;
-          -ms-flex-pack: justify;
-              justify-content: space-between; }
-
-.c-hero {
-  padding: 15vh 0; }
-  .c-hero .c-list--flex {
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start; }
-
-.c-page {
-  margin: 12vh 0 3.75rem 0; }
-  .c-page .c-page__header {
-    margin-bottom: 1.875rem; }
-    .c-page .c-page__header h1 {
-      margin-bottom: 1rem; }
-    .c-page .c-page__header h2, .c-page .c-page__header h3 {
-      color: #333; }
-  @media (min-width: 680px) {
-    .c-page .c-page__header {
-      margin-bottom: 3.125rem; } }
