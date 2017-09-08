@@ -21,34 +21,49 @@
             transform: translate3d(0%, 0%, 0); } }
 
 body {
-  display: grid;
-  grid-column-gap: 2rem;
-  grid-template-columns: 1fr 1fr minmax(1fr, 750px) 1fr 1fr; }
+  padding: 0 6vw; }
+  @media (min-width: 680px) {
+    body {
+      padding: 0;
+      display: grid;
+      grid-column-gap: 2rem;
+      grid-template-columns: [bleed-start] 1fr [extend-start] 1fr [content-start] minmax(0, 36.25em) [content-end] 1fr [extend-end] 1fr [bleed-end]; }
+      body .c-masthead {
+        padding: 0 4vw;
+        grid-column: bleed; }
+      body .c-main {
+        display: grid;
+        grid-column: bleed;
+        grid-template-columns: inherit; }
+        body .c-main .c-hero {
+          grid-column: content; }
+        body .c-main .c-section--extend {
+          grid-column: extend; }
+        body .c-main .c-section--bleed {
+          display: grid;
+          grid-column: bleed;
+          grid-template-columns: inherit; }
+          body .c-main .c-section--bleed .c-section__content--inner {
+            grid-column: extend; }
+      body .c-footer {
+        padding: 0 4vw;
+        grid-column: bleed; } }
 
-/*
-   CSS Grid needs to be defined op top level so it's applied on global site.
-
-   Grid child elements can then be laid out on the parent grid, smaller in most cases, but can have a subgrid applied to them that's as wide as the parent grid. In that case you can lay out elements 'out' of the child grid.
-*/
-.c-masthead {
-  background: pink; }
-
-.c-main {
-  background: salmon; }
-
-.c-footer {
-  background: tomato; }
-  .c-footer .c-footer__content {
-    background: black; }
-  .c-footer .c-footer__onebyone .left {
-    background: black; }
-  .c-footer .c-footer__onebyone .right {
-    background: black; }
-
-.l-flex {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex; }
+@media (min-width: 680px) {
+  .l-flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+    .l-flex.l-flex--abreast > * {
+      -webkit-box-flex: 1;
+          -ms-flex: 1 0 50%;
+              flex: 1 0 50%;
+      max-width: 50%; }
+    .l-flex.l-flex--triad {
+      -webkit-box-flex: 1;
+          -ms-flex: 1 0 33.33333%;
+              flex: 1 0 33.33333%;
+      max-width: 33.33333%; } }
 
 html {
   -webkit-box-sizing: border-box;
@@ -185,8 +200,8 @@ textarea {
 
 h1 {
   margin-bottom: 1.625rem;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-  font-weight: 300;
+  font-family: 'Lora', Georgia, serif;
+  font-weight: normal;
   font-size: 1.875rem;
   line-height: 1.2;
   color: #111; }
@@ -198,6 +213,9 @@ h1 {
   @media (min-width: 1040px) {
     h1 {
       font-size: 3rem; } }
+  h1 strong {
+    font-family: 'Lora', Georgia, serif;
+    font-weight: 700; }
 
 h2 {
   margin-bottom: 1rem;
@@ -212,13 +230,11 @@ h2 {
   @media (min-width: 1040px) {
     h2 {
       font-size: 2.25rem; } }
-  h2 strong {
-    color: #333; }
 
 h3 {
   margin-bottom: 1rem;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-  font-weight: 400;
+  font-weight: normal;
   font-size: 1.25rem;
   line-height: 1.4;
   color: currentColor; }
@@ -249,7 +265,7 @@ strong {
 small {
   font-size: 0.75rem;
   line-height: 1.25;
-  color: rgba(255, 255, 255, 0.55); }
+  color: rgba(0, 0, 0, 0.55); }
   @media (min-width: 1040px) {
     small {
       font-size: 0.8125rem;
@@ -292,13 +308,6 @@ blockquote {
     @media (min-width: 1040px) {
       blockquote cite {
         font-size: 1.125rem; } }
-  blockquote.l-flush--right {
-    padding: 2rem;
-    border-right: 15px solid lightblue;
-    background: #eee; }
-  @media (min-width: 1040px) {
-    blockquote {
-      text-align: center; } }
 
 a {
   font-weight: 600;
@@ -367,6 +376,11 @@ a {
   .c-cta:hover .c-svg svg {
     fill: currentColor; }
 
+.c-masthead {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
 .c-branding {
   display: inline-block;
   margin-bottom: 2vh; }
@@ -392,18 +406,6 @@ a {
       margin-right: 0; }
     .c-nav .c-nav__items .c-nav__item a {
       text-decoration: none; }
-
-.c-nav--secondary {
-  font-size: 0.75rem;
-  line-height: 1.25; }
-  @media (min-width: 1040px) {
-    .c-nav--secondary {
-      font-size: 0.8125rem;
-      line-height: 1.5; } }
-
-@media (min-width: 1040px) {
-  .c-nav .c-nav__items .c-nav__item {
-    margin-right: 3vw; } }
 
 .c-section {
   margin-bottom: 1.875rem; }
@@ -446,23 +448,6 @@ a {
     -webkit-box-pack: start;
         -ms-flex-pack: start;
             justify-content: flex-start; }
-
-.c-footer a {
-  color: #fff; }
-  .c-footer a:hover {
-    color: #999; }
-  .c-footer a:active {
-    color: #eee; }
-
-.c-footer small a {
-  color: currentColor; }
-
-.c-footer .c-nav--secondary {
-  margin-bottom: 1rem; }
-  .c-footer .c-nav--secondary .c-nav__items {
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between; }
 
 .c-figure {
   margin-bottom: 2vh; }
@@ -529,13 +514,3 @@ a {
 
 .c-list--horizontal .c-list__item {
   display: inline; }
-
-.c-item {
-  padding: 2rem; }
-  .c-item header {
-    margin-bottom: 2rem; }
-  .c-item .c-figure, .c-item .c-figure img {
-    margin-bottom: 0; }
-  @media (min-width: 1040px) {
-    .c-item {
-      padding: 4rem; } }

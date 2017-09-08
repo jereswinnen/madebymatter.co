@@ -5,22 +5,22 @@
 // Headings
 h1 {
    margin-bottom: 1.625rem;
-   @include ff--sans-serif($fw__light);
+   @include ff--serif;
    @include fs__mega;
    color: $c__neutral--darkest;
+   strong {
+      @include ff--serif($fw__bold);
+   }
 }
 h2 {
    margin-bottom: 1rem;
    @include ff--sans-serif($fw__light);
    @include fs__maxi;
    color: $c__neutral--light;
-   strong {
-      color: $c__neutral--dark;
-   }
 }
 h3 {
    margin-bottom: 1rem;
-   @include ff--sans-serif($fw__regular);
+   @include ff--sans-serif;
    @include fs__midi;
    color: currentColor;
 }
@@ -40,7 +40,7 @@ strong {
 }
 small {
    @include fs__micro;
-   color: $c__muted--light;
+   color: $c__muted--dark;
 }
 p {
    margin-bottom: $u__base-spacing * 1.5;
@@ -54,9 +54,6 @@ code {
    @include fs__micro;
    background: $c__faint--dark;
    border-radius: $radius__micro;
-   @media(min-width: $b__large) {
-      //padding: 0.3125rem; //5px
-   }
 }
 
 //Figcaption
@@ -79,13 +76,5 @@ blockquote {
    cite {
       @include fs__base;
       color: $c__neutral--white;
-   }
-   &.l-flush--right {
-      padding: 2rem;
-      border-right: 15px solid lightblue;
-      background: $c__neutral--lightest;
-   }
-   @media (min-width: $b__large) {
-      text-align: center;
    }
 }

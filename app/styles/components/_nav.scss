@@ -11,8 +11,6 @@
          margin-right: 5vw;
          &.c-nav__item--selected a {
             color: $c__neutral--light;
-            //padding-bottom: 0.5rem;
-            //border-bottom: 2px solid currentColor;
          }
          &:last-child {
             margin-right: 0;
@@ -20,15 +18,6 @@
          a {
             text-decoration: none;
          }
-      }
-   }
-   &--secondary {
-      @include fs__micro;
-
-   }
-   @media(min-width: $b__large) {
-      .c-nav__items .c-nav__item {
-         margin-right: 3vw;
       }
    }
 }

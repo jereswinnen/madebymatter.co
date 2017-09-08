@@ -4,22 +4,4 @@
 
 .c-footer {
    
-   a {
-      color: $c__neutral--white;
-      &:hover {
-         color: $c__neutral--light;
-      }
-      &:active {
-         color: $c__neutral--lightest;
-      }
-   }
-   small a {
-      color: currentColor;
-   }
-   .c-nav--secondary {
-      margin-bottom: 1rem;
-      .c-nav__items {
-         justify-content: space-between;
-      }
-   }
 }

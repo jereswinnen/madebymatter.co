@@ -147,11 +147,11 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/app\/images\/icon__navtoggle.svg": {
+	"\/app\/images\/icons\/c-nav__toggle.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/app\/images\/icon__navtoggle.svg",
+		"oAP": "\/app\/images\/icons\/c-nav__toggle.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -813,51 +813,11 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/dist\/images\/icons\/cta--eye.svg": {
+	"\/dist\/images\/icons\/c-nav__toggle.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/dist\/images\/icons\/cta--eye.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/dist\/images\/icons\/cta--info.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/dist\/images\/icons\/cta--info.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/dist\/images\/icons\/cta--message.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/dist\/images\/icons\/cta--message.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/dist\/images\/icons\/cta--messagealt.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/dist\/images\/icons\/cta--messagealt.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/dist\/images\/icons\/cta--more.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/dist\/images\/icons\/cta--more.svg",
+		"oAP": "\/dist\/images\/icons\/c-nav__toggle.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
