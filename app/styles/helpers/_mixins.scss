@@ -18,11 +18,8 @@
 
 // Font sizes
 @mixin fs__mega {
-	font-size: 1.875rem; //30px
-	line-height: 1.2;
-	strong {
-		font-weight: $fw__heavy;
-	}
+	font-size: 1.75rem; //28px
+	line-height: 1.3;
 	@media(min-width: $b__medium) {
 		font-size: 2.375rem; //38px
 	}

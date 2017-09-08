@@ -3,5 +3,8 @@
 // =======================================================================
 
 .c-masthead {
-   display: flex;   
+   display: flex;
+   justify-content: space-between;
+   padding-top: 5vh;
+   padding-bottom: 5vh;
 }
