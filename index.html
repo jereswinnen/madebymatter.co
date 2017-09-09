@@ -28,9 +28,11 @@
             <li class="c-nav__item"><a href="/profile.html">Profile</a></li>
             <li class="c-nav__item"><a href="/blog.html">Blog</a></li>
             <li class="c-nav__item"><a href="/contact.html">Contact</a></li>
-            <li class="c-nav__item"><a href="https://twitter.com/jereswinnen">Twitter</a></li>
          </ul>
       </nav>
+      <div class="c-masthead__twitter">
+         <a href="https://twitter.com/jereswinnen">Twitter</a>
+      </div>
       <nav class="c-nav--mobile">
          <ul class="c-nav__items">
             <li class="c-nav__item"><a href="/work.html">Work</a></li>
@@ -49,25 +51,43 @@
          </article>
       </section>
       <section class="c-section c-section--extend">
-         <h4>Selected work</h4>
-         <div class="c-item c-item--work">
-            <figure class="c-figure"><img src="/dist/images/work/shelf__index.png" srcset="/dist/images/work/shelf__index.png 1x, /dist/images/work/shelf__index@2x.png 2x" alt="Shelf for iPad"></figure>
-            <p><a href="/work/shelf/">Shelf for iPad.</a> Branding, UI design, Iconography, Web design and development</p>
-         </div>
-         <div class="c-item c-item--work">
-            <figure class="c-figure"><img src="/dist/images/work/realo__index.png" srcset="/dist/images/work/realo__index.png 1x, /dist/images/work/realo__index@2x.png 2x" alt="Realo"></figure>
-            <p><a href="/work/realo/">Realo.</a> Pattern library, UI design, Iconography, Web design.</p>
-         </div>
-         <div class="c-item c-item--work">
-            <figure class="c-figure"><img src="/dist/images/work/diabetik__index.png" srcset="/dist/images/work/diabetik__index.png 1x, /dist/images/work/diabetik__index@2x.png 2x" alt="Diabetik"></figure>
-            <p><a href="/work/diabetik/">Diabetik.</a> UI design, Iconography, Web design and development</p>
-         </div>
-         <div class="c-item c-item--work">
-            <figure class="c-figure"><img src="/dist/images/work/castaway__index.png" srcset="/dist/images/work/castaway__index.png 1x, /dist/images/work/castaway__index@2x.png 2x" alt="Castaway"></figure>
-            <p><a href="/work/castaway/">Castaway.</a> UI design, Iconography, User experience</p>
-         </div>
+         <h4 style="display:none;">Selected work</h4>
+         <div class="l-flex l-flex--collage">
+            <div class="l-flex--collage__row1">
+               <div class="c-item c-item--work">
+                  <a href="#">
+                     <article class="c-item__meta">
+                        <h2>Shelf for iPad</h2>
+                        <a href="#">View case study</a>
+                     </article>
+                     <figure class="c-figure"><img src="/dist/images/artwork/collage__shelf--quicklook.png" srcset="/dist/images/artwork/collage__shelf--quicklook.png 1x, /dist/images/artwork/collage__shelf--quicklook@2x.png 2x" alt="Shelf for iPad"></figure>
+                     <p><a href="/work/shelf/">Shelf for iPad</a></p>
+                  </a>
+               </div>
+               <div class="c-item c-item--work">
+                  <a href="#">
+                     <figure class="c-figure"><img src="/dist/images/artwork/collage__diabetik--twins.png" srcset="/dist/images/artwork/collage__diabetik--twins.png 1x, /dist/images/artwork/collage__diabetik--twins@2x.png 2x" alt="Diabetik"></figure>
+                     <p><a href="/work/diabetik/">Diabetik</a></p>
+                  </a>
+               </div>
+            </div><!--end row1-->
+            <div class="l-flex--collage__row2">
+               <div class="c-item c-item--work">
+                  <a href="#">
+                     <figure class="c-figure"><img src="/dist/images/artwork/collage__realo--phonebrowser.png" srcset="/dist/images/artwork/collage__realo--phonebrowser.png 1x, /dist/images/artwork/collage__realo--phonebrowser@2x.png 2x" alt="Realo"></figure>
+                     <p><a href="/work/realo/">Realo</a></p>
+                  </a>
+               </div>
+               <div class="c-item c-item--work">
+                  <a href="#">
+                     <figure class="c-figure"><img src="/dist/images/artwork/collage__nintendo--triad.png" srcset="/dist/images/artwork/collage__nintendo--triad.png 1x, /dist/images/artwork/collage__nintendo--triad@2x.png 2x" alt="Nintendo Switch"></figure>
+                     <p><a href="/work/nintendo/">Nintendo Switch</a></p>
+                  </a>
+               </div>
+            </div><!--end row1-->
+         </div><!--end flex-collage-->
       </section>
-      <section class="c-section c-section--extend">
+      <section class="c-section c-section--extend" style="display:none;">
          <h4>Recent articles</h4>
          <div class="c-item c-item--article">
             <article>
@@ -85,7 +105,7 @@
          </div>
          <a href="#" class="c-cta c-cta--primary">Browse archive</a>
       </section>
-      <section class="c-section c-section--bleed c-section--darken">
+      <section class="c-section c-section--bleed c-section--darken" style="display:none;">
          <div class="c-section__content--inner">
             <div class="l-flex l-flex--abreast">
                <article class="c-article">
@@ -112,7 +132,7 @@
          </div>
       </section>
    </main>
-   <footer class="c-footer">
+   <footer class="c-footer" style="display:none;">
       <small>&copy; 2017 <a href="#">Matter</a>. All screenshots and artwork &copy; <a href="#">Jeremy Swinnen</a>, unless noted otherwise.</small>
    </footer>
    <script src="/dist/scripts/site-min.js"></script>

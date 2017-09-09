@@ -14,9 +14,9 @@ h1 {
 }
 h2 {
    margin-bottom: 1rem;
-   @include ff--sans-serif($fw__light);
+   @include ff--sans-serif;
    @include fs__maxi;
-   color: $c__neutral--light;
+   color: $c__neutral--dark;
 }
 h3 {
    margin-bottom: 1rem;
