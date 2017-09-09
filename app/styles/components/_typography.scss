@@ -17,6 +17,9 @@ h2 {
    @include ff--sans-serif;
    @include fs__maxi;
    color: $c__neutral--dark;
+   strong {
+      display: block;
+   }
 }
 h3 {
    margin-bottom: 1rem;

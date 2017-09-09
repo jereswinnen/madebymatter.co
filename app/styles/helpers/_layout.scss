@@ -3,7 +3,7 @@
 // =======================================================================
 
 body {
-   .c-masthead, .c-hero, .c-section--extend, .c-section--bleed, .c-footer {
+   .c-masthead, .c-hero, .c-section, .c-footer {
       padding-left: 6vw;
       padding-right: 6vw;
    }
@@ -11,8 +11,8 @@ body {
       padding: 0;
       display: grid;
       grid-column-gap: 2rem;
-      grid-template-columns: [bleed-start] 1fr [extend-start] 1fr [content-start] minmax(0, 36em) [content-end] 1fr [extend-end] 1fr [bleed-end];
-      .c-masthead, .c-hero, .c-section--extend, .c-section--bleed, .c-footer {
+      grid-template-columns: [bleed-start] 1fr [extend-start] 1fr [content-start] minmax(0, 40em) [content-end] 1fr [extend-end] 1fr [bleed-end];
+      .c-masthead, .c-hero, .c-section, .c-footer {
          padding-left: 0;
          padding-right: 0;
       }
@@ -31,14 +31,22 @@ body {
          .c-section--extend {
             grid-column: extend;
          }
-         .c-section--abreast, .c-section--triad, .c-section--bleed .c-section--abreast, .c-section--bleed .c-section--triad, {
+         .c-section--abreast, .c-section--abreastreverse, .c-section--triad, .c-section--bleed .c-section__abreast, .c-section--bleed .c-section__abreast--reverse, .c-section--bleed .c-section__triad, {
             display: grid;
             grid-column: extend;
             grid-column-gap: 2rem;
             grid-template-columns: repeat(2, minmax(0, 1fr));
          }
-         .c-section--triad, .c-section--bleed .c-section--triad {
+         .c-section--triad, .c-section--bleed .c-section__triad {
             grid-template-columns: repeat(3, minmax(0, 1fr));
+         }
+         .c-section--abreastreverse, .c-section--bleed .c-section__abreast--reverse {
+            *:first-child {
+               order: 2;
+            }
+            *:last-child {
+               order: 1;
+            }
          }
          .c-section--bleed {
             display: grid;
@@ -63,9 +71,6 @@ body {
          padding-right: 4vw;
          grid-column: bleed;
       }
-   }
-   @media(min-width: $b__xlarge) {
-      grid-template-columns: [bleed-start] 1fr [extend-start] 1fr [content-start] minmax(0, 40em) [content-end] 1fr [extend-end] 1fr [bleed-end];
    }
 }
 

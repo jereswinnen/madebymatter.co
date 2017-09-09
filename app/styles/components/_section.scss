@@ -7,11 +7,10 @@
    &--extend {
       margin-bottom: 10vh;
    }
-   &--bleed {
+   &--bleed, &--stone {
       padding: 10vh 0;
    }
    &--stone {
-      //padding: 10vh 0;
       background: $c__stone--lightest;
    }
    &--darken {
@@ -35,7 +34,7 @@
             color: $c__neutral--light;
          }
       }
-      h1, h3 {
+      h1, h2, h3 {
          color: $c__neutral--white;
       }
       h4 {
