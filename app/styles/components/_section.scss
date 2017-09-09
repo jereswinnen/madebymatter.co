@@ -10,6 +10,10 @@
    &--bleed {
       padding: 10vh 0;
    }
+   &--stone {
+      //padding: 10vh 0;
+      background: $c__stone--lightest;
+   }
    &--darken {
       ::selection {
          background: $c__faint--light;

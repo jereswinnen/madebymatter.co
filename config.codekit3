@@ -595,12 +595,6 @@
 		"oAP": "\/index.html",
 		"oF": 0
 		},
-	"\/index_ori.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/index_ori.html",
-		"oF": 0
-		},
 	"\/profile.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -630,6 +624,12 @@
 		"pME": 1,
 		"rFN": 0,
 		"uCM": 0
+		},
+	"\/work.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/work.html",
+		"oF": 0
 		}
 	},
 "hooks": [

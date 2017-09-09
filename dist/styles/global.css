@@ -45,6 +45,13 @@ body .c-masthead, body .c-hero, body .c-section--extend, body .c-section--bleed,
         grid-column: content; }
       body .c-main .c-section--extend {
         grid-column: extend; }
+      body .c-main .c-section--abreast, body .c-main .c-section--triad, body .c-main .c-section--bleed .c-section--abreast, body .c-main .c-section--bleed .c-section--triad {
+        display: grid;
+        grid-column: extend;
+        grid-column-gap: 2rem;
+        grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      body .c-main .c-section--triad, body .c-main .c-section--bleed .c-section--triad {
+        grid-template-columns: repeat(3, minmax(0, 1fr)); }
       body .c-main .c-section--bleed {
         display: grid;
         grid-column: bleed;
@@ -70,25 +77,7 @@ body .c-masthead, body .c-hero, body .c-section--extend, body .c-section--bleed,
   .l-flex {
     display: -webkit-box;
     display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between; }
-    .l-flex.l-flex--abreast > * {
-      -webkit-box-flex: 1;
-          -ms-flex: 1 0 50%;
-              flex: 1 0 50%;
-      max-width: 50%; }
-    .l-flex.l-flex--abreastgutter > * {
-      -webkit-box-flex: 1;
-          -ms-flex: 1 0 47%;
-              flex: 1 0 47%;
-      max-width: 47%; }
-    .l-flex.l-flex--triad > * {
-      -webkit-box-flex: 1;
-          -ms-flex: 1 0 33.33333%;
-              flex: 1 0 33.33333%;
-      max-width: 33.33333%; }
+    display: flex; }
     .l-flex.l-flex--collage {
       -webkit-box-orient: vertical;
       -webkit-box-direction: normal;
@@ -481,6 +470,8 @@ a {
     margin-bottom: 10vh; }
   .c-section--bleed {
     padding: 10vh 0; }
+  .c-section--stone {
+    background: #eeede7; }
   .c-section--darken {
     margin-bottom: 0;
     color: rgba(255, 255, 255, 0.5);
