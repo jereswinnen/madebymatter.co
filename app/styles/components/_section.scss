@@ -3,48 +3,33 @@
 // =======================================================================
 
 .c-section {
-   margin-bottom: 1.875rem; //30px
-   @media(min-width: $b__medium) {
-      margin-bottom: 4vh;
+   margin-bottom: 5vh;
+   &--extend {
+      margin-bottom: 10vh;
    }
-   &--mb0 {
+   &--bleed {
+      padding: 10vh 0;
+   }
+   &--darken {
       margin-bottom: 0;
-   }
-   &--grey {
-      background: $c__neutral--lightest;
-   }
-   &--stone {
-      background: $c__stone--lightest;
-   }
-   &--black {
-      color: #ccc;
+      color: $c__muted--light;
       background: $c__neutral--darkest;
-      h1 {
-         color: $c__neutral--white;
-      }
       a {
          color: $c__neutral--white;
-         &:hover {
+         &:active {
             color: $c__neutral--light;
          }
-         &:active {
-            color: $c__neutral--lightest;
-         }
       }
-      .c-cta--primary {
-         color: $c__neutral--darkest;
-         background: $c__neutral--white;
-         &:hover {
-            color: $c__neutral--dark;
-            background: $c__neutral--lightest;
-         }
+      h1, h3 {
+         color: $c__neutral--white;
       }
-      .c-cta--secondary {
-         color: $c__neutral--light;
-         background: $c__neutral--dark;
-         &:hover {
-            color: $c__neutral--lightest;
-            background: $c__neutral--mid;
+      h4 {
+         color: $c__neutral--mid;
+      }
+      .c-list--segmented .c-list__item {
+         border-bottom: 1px solid $c__neutral--dark;
+         &:first-child {
+            border-top: 1px solid $c__neutral--dark;
          }
       }
    }

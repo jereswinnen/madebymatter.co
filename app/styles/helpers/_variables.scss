@@ -19,8 +19,8 @@ $c__neutral--black: #000;
 
 $c__stone--lightest: #eeede7;
 
-$c__muted--light: transparentize($c__neutral--white, .45);
-$c__muted--dark: transparentize($c__neutral--black, .45);
+$c__muted--light: transparentize($c__neutral--white, .5);
+$c__muted--dark: transparentize($c__neutral--black, .5);
 $c__faint--light: transparentize($c__neutral--white, .95);
 $c__faint--dark: transparentize($c__neutral--black, .95);
 

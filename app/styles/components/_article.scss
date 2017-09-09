@@ -3,6 +3,10 @@
 // =======================================================================
 
 .c-article {
+   margin-bottom: 10vh;
+   .c-article__header {
+      margin-bottom: 5vh;
+   }
    .c-article__lede {
       font-size: 1.125rem;
    }

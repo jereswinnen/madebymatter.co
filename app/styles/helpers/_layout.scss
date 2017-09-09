@@ -3,12 +3,19 @@
 // =======================================================================
 
 body {
-   padding: 0 6vw;
+   .c-masthead, .c-hero, .c-section--extend, .c-section--bleed, .c-footer {
+      padding-left: 6vw;
+      padding-right: 6vw;
+   }
    @media(min-width: $b__medium) {
       padding: 0;
       display: grid;
       grid-column-gap: 2rem;
       grid-template-columns: [bleed-start] 1fr [extend-start] 1fr [content-start] minmax(0, 36.25em) [content-end] 1fr [extend-end] 1fr [bleed-end];
+      .c-masthead, .c-hero, .c-section--extend, .c-section--bleed, .c-footer {
+         padding-left: 0;
+         padding-right: 0;
+      }
       .c-masthead {
          padding-left: 4vw;
          padding-right: 4vw;
@@ -29,8 +36,16 @@ body {
             grid-column: bleed;
             grid-template-columns: inherit;
             .c-section__content--inner {
+               display: grid;
                grid-column: extend;
+               grid-template-columns: inherit;
                //grid-column: 1/4; //ability to play with assymetry
+               .c-article {
+                  grid-column: content;
+               }
+               .c-section__content--extend {
+                  grid-column: bleed;
+               }
             }
          }
       }
