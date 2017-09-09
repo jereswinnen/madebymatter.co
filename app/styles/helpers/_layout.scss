@@ -11,7 +11,9 @@ body {
       padding: 0;
       display: grid;
       grid-column-gap: 2rem;
-      grid-template-columns: [bleed-start] 1fr [extend-start] 1fr [content-start] minmax(0, 36.25em) [content-end] 1fr [extend-end] 1fr [bleed-end];
+      grid-template-columns: [bleed-start] 1fr [extend-start] 1fr [content-start] minmax(0, 36em) [content-end] 1fr [extend-end] 1fr [bleed-end];
+
+      //grid-template-columns: [bleed-start] 1fr [extend-start] 1fr [content-start] repeat(2, minmax(0, 18em)) [content-end] 1fr [extend-end] 1fr [bleed-end];
       .c-masthead, .c-hero, .c-section--extend, .c-section--bleed, .c-footer {
          padding-left: 0;
          padding-right: 0;
@@ -57,6 +59,7 @@ body {
    }
    @media(min-width: $b__xlarge) {
       grid-template-columns: [bleed-start] 1fr [extend-start] 1fr [content-start] minmax(0, 40em) [content-end] 1fr [extend-end] 1fr [bleed-end];
+      //grid-template-columns: [bleed-start] 1fr [extend-start] 1fr [content-start] repeat(2, minmax(0, 20em)) [content-end] 1fr [extend-end] 1fr [bleed-end];
    }
 }
 
@@ -64,12 +67,17 @@ body {
 .l-flex {
    @media(min-width: $b__medium) {
       display: flex;
+      justify-content: space-between;
       &.l-flex--abreast > * {
          flex: 1 0 50%;
          max-width: 50%;
          &:nth-child(2) {
             //ability to play with colour
          }
+      }
+      &.l-flex--abreastgutter > * {
+         flex: 1 0 47%;
+         max-width: 47%;
       }
       &.l-flex--triad > * {
          flex: 1 0 33.33333%;

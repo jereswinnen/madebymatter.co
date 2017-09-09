@@ -2,62 +2,39 @@
 // Primary & secondary calls to action
 // =======================================================================
 .c-cta {
-   display: inline-flex;
-   align-items: center;
-   justify-content: center;
-   padding: .5rem 1.15rem;
-   @include fs__base;
-   font-weight: $fw__medium;
-   //border-radius: $radius__giga;
+   display: inline-block;
+   padding: 0.75rem 1.15rem;
    text-decoration: none;
    &--primary {
-      //color: $c__neutral--white;
-      //background: $c__neutral--darkest;
-      color: transparentize($c__neutral--white, .1);
-      background: transparentize($c__neutral--black, .2);
-      box-shadow: 0 2px 3px rgba(0, 0, 0, .25);
+      @include ff--sans-serif($fw__semibold);
+      @include fs__micro;
+      text-transform: uppercase;
+      letter-spacing: 0.1rem;
+      color: $c__neutral--lightest;
+      background: $c__neutral--darkest;
+      border-radius: $radius__mini;
       &:hover {
-         //color: $c__neutral--white;
-         //background: $c__neutral--dark;
-         color: transparentize($c__neutral--white, 0);
-         background: transparentize($c__neutral--black, 0);
+         color: $c__neutral--lightest;
+         background: $c__neutral--mid;
       }
       &:active {
-         background: $c__neutral--darkest;
-         box-shadow: none;
-      }
-   }
-   &--secondary {
-      color: $c__neutral--light;
-      background: $c__neutral--lightest;
-      &:hover {
-         color: $c__neutral--mid;
-         background: $c__neutral--lightest;
-      }
-      &:active {
-         background: $c__neutral--lightest;
+         opacity: .8;
       }
    }
    &--link {
       padding: 0;
-      font-weight: $fw__semibold;
-      border-radius: none;
-   }
-   .c-svg {
-      display: flex;
-      margin-right: 8px;
-      width: 18px;
-      height: 18px;
-      &--16px {
-         margin-right: 6px;
-         width: 16px;
-         height: 16px;
+      line-height: 0.75;
+      span:after {
+         display: inline-block;
+         width: 1%;
+         height: 2px;
+         content: '';
+         background: $c__neutral--white;
+         transition: all .25s ease-in-out;
       }
-      svg {
-         fill: currentColor;
+      &:hover span:after {
+         width: 100%;
+         background: $c__neutral--lightest;
       }
-   }
-   &:hover .c-svg svg {
-      fill: currentColor;
    }
 }

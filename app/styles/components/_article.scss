@@ -3,11 +3,17 @@
 // =======================================================================
 
 .c-article {
-   margin-bottom: 10vh;
+   margin-bottom: 5vh;
    .c-article__header {
       margin-bottom: 5vh;
    }
    .c-article__lede {
       font-size: 1.125rem;
    }
+   @media(min-width: $b__medium) {
+      margin-bottom: 0;
+   }
+}
+.c-section__content--inner .c-article:first-child {
+   margin-bottom: 10vh;
 }

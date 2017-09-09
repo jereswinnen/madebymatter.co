@@ -11,9 +11,20 @@
       padding: 10vh 0;
    }
    &--darken {
+      ::selection {
+         background: $c__faint--light;
+      }
       margin-bottom: 0;
       color: $c__muted--light;
       background: $c__neutral--darkest;
+      .c-cta--link {
+         span:after {
+            background: $c__neutral--darkest;
+         }
+         &:hover span:after {
+            background: $c__neutral--white;
+         }
+      }
       a {
          color: $c__neutral--white;
          &:active {
