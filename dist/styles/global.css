@@ -318,9 +318,7 @@ small {
       line-height: 1.5; } }
 
 p {
-  margin-bottom: 30px; }
-  p:last-child {
-    margin-bottom: 0; }
+  margin-bottom: 2rem; }
 
 code {
   padding: 0.1875rem;
@@ -477,7 +475,7 @@ a {
   .c-section--bleed, .c-section--stone {
     padding: 10vh 0; }
   .c-section--stone {
-    background: #eeede7; }
+    background: #f0efeb; }
   .c-section--darken {
     margin-bottom: 0;
     color: rgba(255, 255, 255, 0.5);
@@ -486,6 +484,12 @@ a {
       background: rgba(255, 255, 255, 0.05); }
     .c-section--darken ::selection {
       background: rgba(255, 255, 255, 0.05); }
+    .c-section--darken .c-cta--primary {
+      color: #111;
+      background: #eee; }
+      .c-section--darken .c-cta--primary:hover {
+        color: #eee;
+        background: #555; }
     .c-section--darken .c-cta--link span:after {
       background: #111; }
     .c-section--darken .c-cta--link:hover span:after {
@@ -590,7 +594,7 @@ a {
 .c-item--work {
   margin-bottom: 4vh;
   padding: 6vw;
-  background: #eeede7; }
+  background: #f0efeb; }
   .c-item--work .c-figure, .c-item--work .c-figure * {
     margin-bottom: 0; }
   .c-item--work p {

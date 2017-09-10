@@ -4,7 +4,6 @@
 
 // Units
 $u__base-line-height: 1.6;
-$u__base-spacing: 20px;
 $u__max-width: 67.5rem; //1080px
 
 // Colours
@@ -17,14 +16,13 @@ $c__neutral--dark: #333;
 $c__neutral--darkest: #111;
 $c__neutral--black: #000;
 
-$c__stone--lightest: #eeede7;
-
 $c__muted--light: transparentize($c__neutral--white, .5);
 $c__muted--dark: transparentize($c__neutral--black, .5);
 $c__faint--light: transparentize($c__neutral--white, .95);
 $c__faint--dark: transparentize($c__neutral--black, .95);
 
-/// Primary
+/// Palette
+$c__stone--lightest: hsb(50, 2, 94);
 $c__prmary: #fff;
 
 /// Status
@@ -52,9 +50,9 @@ $radius__mini: 4px;
 $radius__base: 6px;
 $radius__midi: 8px;
 $radius__maxi: 12px;
-$radius__mega: 20px;
-$radius__giga: 50px;
-$radius__full: 50%;
+
+// Timing functions
+$cubic-bezier: cubic-bezier(.03,.98,.52,.99);
 
 // Breakpoints
 $b__small: 360px;

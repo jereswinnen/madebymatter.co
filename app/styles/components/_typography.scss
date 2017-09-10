@@ -46,9 +46,9 @@ small {
    color: $c__muted--dark;
 }
 p {
-   margin-bottom: $u__base-spacing * 1.5;
+   margin-bottom: 2rem; //32px
    &:last-child {
-      margin-bottom: 0;
+      //margin-bottom: 0;
    }
 }
 code {
