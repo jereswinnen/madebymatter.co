@@ -8,16 +8,17 @@
       margin-bottom: 10vh;
    }
    &--bleed, &--stone {
+      margin-bottom: 0;
+      //margin-bottom: 1vh;
       padding: 10vh 0;
    }
    &--stone {
       background: $c__stone--lightest;
    }
-   &--darken {
+   &--darkest {
       ::selection {
          background: $c__faint--light;
       }
-      margin-bottom: 0;
       color: $c__muted--light;
       background: $c__neutral--darkest;
       .c-cta {
