@@ -28,19 +28,24 @@ body {
          .c-hero {
             grid-column: content;
          }
-         .c-section--extend {
+         .c-section, .c-section--extend {
             grid-column: extend;
          }
-         .c-section--abreast, .c-section--abreastreverse, .c-section--triad, .c-section--bleed .c-section__abreast, .c-section--bleed .c-section__abreast--reverse, .c-section--bleed .c-section__triad, {
+         .c-section--abreast,
+         .c-section--abreastreverse,
+         .c-section--triad,
+         .c-section .c-section__abreast,
+         .c-section .c-section__abreast--reverse,
+         .c-section .c-section__triad {
             display: grid;
             grid-column: extend;
             grid-column-gap: 2rem;
             grid-template-columns: repeat(2, minmax(0, 1fr));
          }
-         .c-section--triad, .c-section--bleed .c-section__triad {
+         .c-section--triad, .c-section .c-section__triad {
             grid-template-columns: repeat(3, minmax(0, 1fr));
          }
-         .c-section--abreastreverse, .c-section--bleed .c-section__abreast--reverse {
+         .c-section--abreastreverse, .c-section__abreast--reverse {
             *:first-child {
                order: 2;
             }
@@ -57,6 +62,9 @@ body {
                grid-column: extend;
                grid-template-columns: inherit;
                //grid-column: 1/4; //ability to play with assymetry
+               header {
+                  grid-column: bleed;
+               }
                .c-article {
                   grid-column: content;
                }
@@ -84,20 +92,29 @@ body {
             position: relative;
             margin-bottom: 2vw;
             display: flex;
-            //max-width: 96%;
+            //max-width: 94%;
             &:last-child {
                margin-bottom: 0;
             }
             .c-item {
                margin-right: 2vw;
                box-sizing: border-box;
+               /*a {
+                  .c-figure img {
+                     transform: translate3d(0, 0, 0);
+                     transition: transform .32s ease-in-out;
+                  }
+                  &:hover .c-figure img {
+                     transform: translate3d(0, -10px, 0);
+                  }
+               }*/
                &:nth-child(even) {
                   margin-right: 0;
                }
             }
          }
          .l-flex--collage__row1 {
-            left: -5%;
+            left: -6%;
             align-items: flex-end;
             .c-item:nth-child(1) {
                //flex: 1 0 60%;
@@ -112,7 +129,7 @@ body {
             }
          }
          .l-flex--collage__row2 {
-            left: 5%;
+            left: 6%;
             align-self: flex-end;
             .c-item {
                //flex: 1 0 50%;

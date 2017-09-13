@@ -8,54 +8,135 @@
    <link rel="shortcut icon" href="" type="image/ico">
    <link rel="apple-touch-icon" href="" type="image/png">
    <link rel="stylesheet" href="/dist/styles/global.css" type="text/css">
+   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700">
 </head>
 <body>
-   <div class="l-wrap l-wrap--fluid">
-      <header class="l-flex c-masthead">
-         <a href="/" class="c-branding">
-            <svg class="c-branding__svg" viewBox="0 0 120 20"><path fill-rule="evenodd" d="M118.95 19.37h.05V0H-1h2.834L7.2 13.152 12.29 0h5.97v19.37h4.93L30.5 0h5.035l7.227 19.37h7.545V4.146H44.31V0h16.37v4.146h-6.026V19.37h16.12V4.146h-5.997V0h16.37v4.146H75.12V19.37h11.17V0h12.353v4.09h-8.007V7.8H97.9v3.817h-7.264v3.734h8.034v4.02h6.16V0h7.732c.954 0 1.82.156 2.6.467.78.31 1.444.74 1.995 1.29.55.55.976 1.195 1.28 1.936.302.74.453 1.542.453 2.403 0 1.318-.34 2.457-1.018 3.418-.68.96-1.623 1.652-2.834 2.073l3.913 7.783zm-4.784 0h-4.988v-7.15h1.54l3.448 7.15zm-76.134 0H27.756l1.368-3.856h7.54l1.368 3.856zm-24.037 0H8.943l5.052-12.808V19.37zm-8.65 0H.292V6.727l5.05 12.643z"/></svg>
-         </a>
-         <nav class="c-nav">
-            <ul class="c-nav__items">
-               <li class="c-nav__item c-nav__item--selected"><a href="#">Profile</a></li>
-               <li class="c-nav__item"><a href="#">Say hi!</a></li>
-            </ul>
-         </nav>
-      </header>
-   </div>
-   <div class="l-wrap">
-      <main>
-         <article class="c-page">
-            <header class="c-page__header">
-               <h1><strong>About Me</strong></h1>
-               <h2>I'm a self-taught designer and creative developer. I design and build interfaces for mobile platforms.</h2>
-               <p style="display:none;">Over the past couple of years I had the utmost pleasure to work on some challenging projects together with great people from all over the world.</p>
+   <header class="c-masthead">
+      <a href="/" class="c-branding">
+         <svg class="c-branding__svg" viewBox="0 0 120 20"><path fill-rule="evenodd" d="M118.95 19.37h.05V0H-1h2.834L7.2 13.152 12.29 0h5.97v19.37h4.93L30.5 0h5.035l7.227 19.37h7.545V4.146H44.31V0h16.37v4.146h-6.026V19.37h16.12V4.146h-5.997V0h16.37v4.146H75.12V19.37h11.17V0h12.353v4.09h-8.007V7.8H97.9v3.817h-7.264v3.734h8.034v4.02h6.16V0h7.732c.954 0 1.82.156 2.6.467.78.31 1.444.74 1.995 1.29.55.55.976 1.195 1.28 1.936.302.74.453 1.542.453 2.403 0 1.318-.34 2.457-1.018 3.418-.68.96-1.623 1.652-2.834 2.073l3.913 7.783zm-4.784 0h-4.988v-7.15h1.54l3.448 7.15zm-76.134 0H27.756l1.368-3.856h7.54l1.368 3.856zm-24.037 0H8.943l5.052-12.808V19.37zm-8.65 0H.292V6.727l5.05 12.643z"/></svg>
+      </a>
+      <nav class="c-nav">
+         <div class="c-nav__toggle c-nav__toggle--active">
+            <svg width="24" height="14" viewBox="0 0 24 14">
+               <rect width="18" height="2" x="3" y="0"></rect>
+               <rect width="18" height="2" x="3" y="6"></rect>
+               <rect width="18" height="2" x="3" y="12"></rect>
+            </svg>
+         </div>
+         <ul class="c-nav__items">
+            <li class="c-nav__item"><a href="/work.html">Work</a></li>
+            <li class="c-nav__item"><a href="/profile.html">Profile</a></li>
+            <li class="c-nav__item"><a href="/blog.html">Blog</a></li>
+            <li class="c-nav__item"><a href="/contact.html">Contact</a></li>
+         </ul>
+      </nav>
+      <div class="c-masthead__twitter">
+         <a href="https://twitter.com/jereswinnen">Twitter</a>
+      </div>
+      <nav class="c-nav--mobile">
+         <ul class="c-nav__items">
+            <li class="c-nav__item"><a href="/work.html">Work</a></li>
+            <li class="c-nav__item"><a href="/profile.html">Profile</a></li>
+            <li class="c-nav__item"><a href="/blog.html">Blog</a></li>
+            <li class="c-nav__item"><a href="/contact.html">Contact</a></li>
+            <li class="c-nav__item"><a href="https://twitter.com/jereswinnen">Twitter</a></li>
+         </ul>
+      </nav>
+   </header>
+   <main class="c-main">
+      <section class="c-hero">
+         <article class="c-article">
+            <header class="c-article__header">
+               <h1><strong>Matter</strong> is the online playground of digital product designer, <strong>Jeremy Swinnen</strong>.</h1>
             </header>
-            <figure class="l-flush--left c-figure"><img src="https://images.unsplash.com/photo-1496360784265-52a2509684f3?dpr=2&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop="></figure>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <h3><strong>About this site</strong></h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <blockquote class="l-flush--right"><p>Paul is an excellent designer and front-end developer. He has a lot of experience working with UX designers and researchers, and is comfortable collaborating in that tricky zone where a project is a tangle and needs careful unpicking before being put back together again.</p></blockquote>
-            <figure style="display:none;" class="l-flush--right c-figure"><img src="https://images.unsplash.com/photo-1468793195345-d9d67818016d?dpr=2&auto=format&fit=crop&w=1500&h=994&q=80&cs=tinysrgb&crop="></figure>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p class="c-article__lede">Over the years, I had the privilege to work on some awesome projects together with talented people from all over the world.</p>
          </article>
-      </main>
-      <footer class="l-bleed l-padded--s l-text--center c-footer" style="display:none;">
-         <div class="l-wrap">
-            <nav class="c-nav c-nav--secondary">
-               <ul class="l-flx c-nav__items">
-                  <li class="c-nav__item"><a href="#">Email</a></li>
-                  <li class="c-nav__item"><a href="https://twitter.com/jereswinnen">Twitter</a></li>
-                  <li class="c-nav__item"><a href="https://dribbble.com/jereswinnen">Dribbble</a></li>
-                  <li class="c-nav__item"><a href="https://dribbble.com/jereswinnen">Github</a></li>
+      </section>
+      <section class="c-section c-section--bleed c-section--darkest">
+         <div class="c-section__content--inner">
+            <header class="c-section__header">
+               <h2><strong>Skills and services.</strong> What I can help you with.</h2>
+            </header>
+         </div>
+         <div class="c-section__triad">
+            <article class="c-article">
+               <h3>User Interface Design</h3>
+               <p>Do you have a great idea for an iOS or Android app or does your existing app requires a visual overhaul? With a sense for great and usable design, I can give your app the interface it deserves.</p>
+            </article>
+            <article class="c-article">
+               <h3>Responsive Web Design</h3>
+               <p>I start every new project with a "mobile-first" approach. This ensures that the design works perfectly on the device your visitors visit your website with the most.</p>
+            </article>
+            <article class="c-article">
+               <h3>Web Development</h3>
+               <p>Using cutting edge web technologies and by writing clean and readable code, I can make interactive prototypes of my designs as well as bring my designs to life.</p>
+            </article>
+         </div>
+      </section>
+      <section class="c-section">
+         <header class="c-section__header c-section__header--centered">
+            <h2><strong>References.</strong> What it's like to work with me.</h2>
+         </header>
+         <div class="c-section__triad">
+            <div class="c-item">
+               <h3>User Interface Design</h3>
+               <p>Do you have a great idea for an iOS or Android app or does your existing app requires a visual overhaul? With a sense for great and usable design, I can give your app the interface it deserves.</p>
+            </div>
+            <div class="c-item">
+               <h3>Responsive Web Design</h3>
+               <p>I start every new web project with a "mobile-first" approach. This ensures that the design works perfectly on the device your visitors visit your website with the most.</p>
+            </div>
+            <div class="c-item">
+               <h3>Web Development</h3>
+               <p>Using cutting edge web technologies and by writing clean and readable code, I can make interactive prototypes of my designs as well as bring my designs to life.</p>
+            </div>
+            <div class="c-item">
+               <h3>User Interface Design</h3>
+               <p>Do you have a great idea for an iOS or Android app or does your existing app requires a visual overhaul? With a sense for great and usable design, I can give your app the interface it deserves.</p>
+            </div>
+            <div class="c-item">
+               <h3>Responsive Web Design</h3>
+               <p>I start every new web project with a "mobile-first" approach. This ensures that the design works perfectly on the device your visitors visit your website with the most.</p>
+            </div>
+         </div>
+      </section>
+      <section class="c-section c-section--bleed c-section--stone">
+         <div class="c-section__content--inner">
+            <header class="c-section__header">
+               <h2><strong>Principles.</strong> 6 things I stand by in my work.</h2>
+            </header>
+         </div>
+      </section>
+      <section class="c-section c-section--bleed c-section--darkest">
+         <div class="c-section__content--inner">
+            <article class="c-article">
+               <h4>Connect with me</h4>
+               <h1>Let's make something <strong>great</strong> together.</h1>
+               <p class="c-article__lede">I'm currently looking for a position at a small to medium-sizes company where I can help solve complex problems, architect design systems and design interfaces.</p>
+               <a href="#" class="c-cta c-cta--link"><span>View profile</span></a>
+            </article>
+            <div class="c-section__content--extend">
+               <ul class="c-list c-list--segmented">
+                  <li class="c-list__item">
+                     <h4>Email</h4>
+                     <a href="#">hello@madebymatter.co</a>
+                  </li>
+                  <li class="c-list__item">
+                     <h4>Twitter</h4>
+                     <a href="https://twitter.com/jereswinnen"><span>twitter.com/</span>@jereswinnen</a>
+                  </li>
+                  <li class="c-list__item">
+                     <h4>Dribbble</h4>
+                     <a href="https://dribbble.com/jereswinnen"><span>dribbble.com/</span>jereswinnen</a>
+                  </li>
                </ul>
-            </nav>
-            <small>All Rights Reserved &copy; 2017 <a href="#">Matter</a>. All screenshots and artwork &copy; Jeremy Swinnen unless noted otherwise.</small>
-         </div><!--end l-wrap-->
-      </footer>
-   </div><!--end l-wrap-->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/js/swiper.min.js"></script>
-<script src="/dist/scripts/site-min.js"></script>
+            </div>
+         </div>
+      </section>
+   </main>
+   <footer class="c-footer" style="display:none;">
+      <small>&copy; 2017 <a href="#">Matter</a>. All screenshots and artwork &copy; <a href="#">Jeremy Swinnen</a>, unless noted otherwise.</small>
+   </footer>
+   <script src="/dist/scripts/site-min.js"></script>
 </body>
 </html>

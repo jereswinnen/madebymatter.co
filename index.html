@@ -50,29 +50,26 @@
                <h1>A <strong>creative developer</strong> and <strong>designer</strong> with a focus on digital product design for <strong>mobile platforms</strong>.</h1>
             </header>
             <p class="c-article__lede">Hi, I'm Jeremy. I design and build modern interfacest for the web and mobile platforms. You can find me all over the internet&mdash;I ramble on <a href="https://twitter.com/jereswinnen">Twitter</a>, push work-in-progress pixels on <a href="https://dribbble.com/jereswinnen">Dribbble</a> and, recently started deploying code on <a href="https://github.com/jereswinnen">Github</a>.</p>
+            <p class="c-article__lede">Hi, I'm Jeremy. I design and build modern interfaces for the web and mobile platforms. You can find me all over the internet&mdash;I ramble on <a href="https://twitter.com/jereswinnen">Twitter</a>, push work-in-progress pixels on <a href="https://dribbble.com/jereswinnen">Dribbble</a> and, recently started deploying code on <a href="https://github.com/jereswinnen">Github</a>.</p>
          </article>
       </section>
       <section class="c-section c-section--extend">
          <h4 style="display:none;">Selected work</h4>
          <div class="l-flex l-flex--collage">
             <div class="l-flex--collage__row1">
-               <div class="c-item c-item--work">
-                  <figure class="c-figure"><a href="#"><img src="/dist/images/artwork/collage__shelf--quicklook.png" srcset="/dist/images/artwork/collage__shelf--quicklook.png 1x, /dist/images/artwork/collage__shelf--quicklook@2x.png 2x" alt="Shelf for iPad"></a></figure>
-                  <p><a href="/work/shelf/">Shelf for iPad</a></p>
+               <div class="c-item c-item--work js--tilt">
+                  <a href="#"><figure class="c-figure"><img src="/dist/images/artwork/collage__shelf--quicklook.png" srcset="/dist/images/artwork/collage__shelf--quicklook.png 1x, /dist/images/artwork/collage__shelf--quicklook@2x.png 2x" alt="Shelf for iPad"></figure></a>
                </div>
-               <div class="c-item c-item--work">
-                  <figure class="c-figure"><a href="#"><img src="/dist/images/artwork/collage__diabetik--twins.png" srcset="/dist/images/artwork/collage__diabetik--twins.png 1x, /dist/images/artwork/collage__diabetik--twins@2x.png 2x" alt="Diabetik"></a></figure>
-                  <p><a href="/work/diabetik/">Diabetik</a></p>
+               <div class="c-item c-item--work js--tilt">
+                  <a href="#"><figure class="c-figure"><img src="/dist/images/artwork/collage__diabetik--twins.png" srcset="/dist/images/artwork/collage__diabetik--twins.png 1x, /dist/images/artwork/collage__diabetik--twins@2x.png 2x" alt="Diabetik"></figure></a>
                </div>
             </div><!--end row1-->
             <div class="l-flex--collage__row2">
-               <div class="c-item c-item--work">
-                  <figure class="c-figure"><a href="#"><img src="/dist/images/artwork/collage__realo--phonebrowser.png" srcset="/dist/images/artwork/collage__realo--phonebrowser.png 1x, /dist/images/artwork/collage__realo--phonebrowser@2x.png 2x" alt="Realo"></a></figure>
-                  <p><a href="/work/realo/">Realo</a></p>
+               <div class="c-item c-item--work js--tilt">
+                  <a href="#"><figure class="c-figure"><img src="/dist/images/artwork/collage__realo--phonebrowser.png" srcset="/dist/images/artwork/collage__realo--phonebrowser.png 1x, /dist/images/artwork/collage__realo--phonebrowser@2x.png 2x" alt="Realo"></figure></a>
                </div>
-               <div class="c-item c-item--work">
-                  <figure class="c-figure"><a href="#"><img src="/dist/images/artwork/collage__nintendo--triad.png" srcset="/dist/images/artwork/collage__nintendo--triad.png 1x, /dist/images/artwork/collage__nintendo--triad@2x.png 2x" alt="Nintendo Switch"></a></figure>
-                  <p><a href="/work/nintendo/">Nintendo Switch</a></p>
+               <div class="c-item c-item--work js--tilt">
+                  <a href="#"><figure class="c-figure"><img src="/dist/images/artwork/collage__nintendo--triad.png" srcset="/dist/images/artwork/collage__nintendo--triad.png 1x, /dist/images/artwork/collage__nintendo--triad@2x.png 2x" alt="Nintendo Switch"></figure></a>
                </div>
             </div><!--end row1-->
          </div><!--end flex-collage-->
@@ -80,13 +77,6 @@
       <section class="c-section c-section--extend" style="display:none;">
          <h4>Recent articles / <a href="#">View all</a></h4>
          <div class="l-flex l-flex--abreastgutter">
-            <div class="c-item c-item--article">
-               <article class="c-article">
-                  <time datetime="2017-09-05"><small>Posted on September 5, 2017</small></time>
-                  <h2><a href="#">Thoughts on Nintendo Switch and Breath of the Wild</a></h2>
-                  <p>Starting in 2017, I was able to make Game Maker's Toolkit my full time job. So, Patreon is now my primary source of income. <a href="#">Read more</a></p>
-               </article>
-            </div>
             <div class="c-item c-item--article">
                <article class="c-article">
                   <time datetime="2017-09-05"><small>Posted on September 5, 2017</small></time>
@@ -116,7 +106,7 @@
                   </li>
                   <li class="c-list__item">
                      <h4>Dribbble</h4>
-                     <a href="https://dribbble.com/jereswinnen"><span>dribbble.com/</span>@jereswinnen</a>
+                     <a href="https://dribbble.com/jereswinnen"><span>dribbble.com/</span>jereswinnen</a>
                   </li>
                </ul>
             </div>
@@ -126,6 +116,15 @@
    <footer class="c-footer" style="display:none;">
       <small>&copy; 2017 <a href="#">Matter</a>. All screenshots and artwork &copy; <a href="#">Jeremy Swinnen</a>, unless noted otherwise.</small>
    </footer>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
    <script src="/dist/scripts/site-min.js"></script>
+   <script>
+      $('.js--tilt').tilt({
+         maxTilt: 8,
+         perspective: 500,
+         speed: 2200,
+         scale: 1.04
+      });
+   </script>
 </body>
 </html>

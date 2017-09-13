@@ -22,8 +22,8 @@ $c__faint--light: transparentize($c__neutral--white, .95);
 $c__faint--dark: transparentize($c__neutral--black, .95);
 
 /// Palette
-$c__stone--lightest: hsb(50, 2, 94);
 $c__prmary: #fff;
+$c__stone--lightest: hsb(50, 2, 94);
 
 /// Status
 $c__status--loading: hsb(21, 64, 100);
@@ -52,7 +52,7 @@ $radius__midi: 8px;
 $radius__maxi: 12px;
 
 // Timing functions
-$cubic-bezier: cubic-bezier(.03,.98,.52,.99);
+$easing__bezier: cubic-bezier(.03,.98,.52,.99);
 
 // Breakpoints
 $b__small: 360px;
