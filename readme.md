@@ -3,7 +3,7 @@
 The bread and butter of my online identity, Matter.
 
 ## Information
-All the code that lives inside this repository is hand-written by me, Jeremy Swinnen. I’m a product designer and creative developer from Belgium.
+All the code that lives inside this repository is hand-written by me, Jeremy Swinnen. I’m a digital product designer and creative developer from Belgium.
 
 ## Libraries Used
 - Novo: https://github.com/jereswinnen/Novo
