@@ -7,7 +7,13 @@
    .c-article__header {
       margin-bottom: 5vh;
    }
-   .c-article__lede {
+   h2.c-article__lede {
+      @include fs__maxi;
+      strong {
+         display: inline;
+      }
+   }
+   p.c-article__lede {
       font-size: 1.125rem;
    }
    @media(min-width: $b__medium) {

@@ -25,6 +25,9 @@
    &--stone {
       background: $c__stone--lightest;
    }
+   &--diabetik {
+      background: $c__realo;
+   }
    &--darkest {
       ::selection {
          background: $c__faint--light;

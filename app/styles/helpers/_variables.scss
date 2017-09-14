@@ -22,7 +22,7 @@ $c__faint--light: transparentize($c__neutral--white, .95);
 $c__faint--dark: transparentize($c__neutral--black, .95);
 
 /// Palette
-$c__prmary: #fff;
+$c__realo: #171982;
 $c__stone--lightest: hsb(50, 2, 94);
 
 /// Status
@@ -52,7 +52,7 @@ $radius__midi: 8px;
 $radius__maxi: 12px;
 
 // Timing functions
-$easing__bezier: cubic-bezier(.03,.98,.52,.99);
+$easing__bezier: cubic-bezier(.03, .98, .52, .99);
 
 // Breakpoints
 $b__small: 360px;

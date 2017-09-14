@@ -65,12 +65,15 @@ body {
                header {
                   grid-column: bleed;
                }
-               .c-article {
+               .c-article, .c-figure {
                   grid-column: content;
                }
                .c-section__content--extend {
                   grid-column: bleed;
                }
+            }
+            .c-section__content--extend {
+               grid-column: bleed;
             }
          }
       }

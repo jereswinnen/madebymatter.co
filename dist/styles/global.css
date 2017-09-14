@@ -75,10 +75,12 @@ body .c-masthead, body .c-hero, body .c-section, body .c-footer {
           grid-template-columns: inherit; }
           body .c-main .c-section--bleed .c-section__content--inner header {
             grid-column: bleed; }
-          body .c-main .c-section--bleed .c-section__content--inner .c-article {
+          body .c-main .c-section--bleed .c-section__content--inner .c-article, body .c-main .c-section--bleed .c-section__content--inner .c-figure {
             grid-column: content; }
           body .c-main .c-section--bleed .c-section__content--inner .c-section__content--extend {
             grid-column: bleed; }
+        body .c-main .c-section--bleed .c-section__content--extend {
+          grid-column: bleed; }
     body .c-footer {
       padding-left: 4vw;
       padding-right: 4vw;
@@ -502,6 +504,8 @@ a {
     padding: 10vh 0; }
   .c-section--stone {
     background: #f0efeb; }
+  .c-section--diabetik {
+    background: #171982; }
   .c-section--darkest {
     color: rgba(255, 255, 255, 0.5);
     background: #111; }
@@ -541,7 +545,18 @@ a {
   margin-bottom: 5vh; }
   .c-article .c-article__header {
     margin-bottom: 5vh; }
-  .c-article .c-article__lede {
+  .c-article h2.c-article__lede {
+    font-size: 1.375rem;
+    line-height: 1.25; }
+    @media (min-width: 680px) {
+      .c-article h2.c-article__lede {
+        font-size: 1.5rem; } }
+    @media (min-width: 1040px) {
+      .c-article h2.c-article__lede {
+        font-size: 1.75rem; } }
+    .c-article h2.c-article__lede strong {
+      display: inline; }
+  .c-article p.c-article__lede {
     font-size: 1.125rem; }
   @media (min-width: 680px) {
     .c-article {
@@ -550,11 +565,11 @@ a {
 .c-section__content--inner .c-article:first-child {
   margin-bottom: 10vh; }
 
-.c-figure {
+.c-figure:not(.c-section--bleed .c-section__content--inner .c-figure:first-child, .c-section--bleed .c-section__content--extend .c-figure:first-child) {
   margin-bottom: 2vh; }
-  .c-figure img {
+  .c-figure:not(.c-section--bleed .c-section__content--inner .c-figure:first-child, .c-section--bleed .c-section__content--extend .c-figure:first-child) img {
     margin-bottom: 2vh; }
-  .c-figure figcaption {
+  .c-figure:not(.c-section--bleed .c-section__content--inner .c-figure:first-child, .c-section--bleed .c-section__content--extend .c-figure:first-child) figcaption {
     text-align: center; }
 
 .c-figure--scroller {

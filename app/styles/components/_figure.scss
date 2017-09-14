@@ -2,7 +2,7 @@
 // Figure
 // =======================================================================
 
-.c-figure {
+.c-figure:not(.c-section--bleed .c-section__content--inner .c-figure:first-child, .c-section--bleed .c-section__content--extend .c-figure:first-child) {
    margin-bottom: 2vh;
    img {
       margin-bottom: 2vh;
