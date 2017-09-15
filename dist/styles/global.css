@@ -86,6 +86,9 @@ body .c-masthead, body .c-hero, body .c-section, body .c-footer {
       padding-right: 4vw;
       grid-column: bleed; } }
 
+.l-nomarginb {
+  margin-bottom: 0 !important; }
+
 @media (min-width: 680px) {
   .l-flex {
     display: -webkit-box;
@@ -566,11 +569,11 @@ a {
 .c-section__content--inner .c-article:first-child {
   margin-bottom: 10vh; }
 
-.c-figure:not(.c-section--bleed .c-section__content--inner .c-figure:first-child, .c-section--bleed .c-section__content--extend .c-figure:first-child) {
+.c-figure:not(.c-section--diabetik .c-figure, .c-section--realo .c-figure, .c-section--shelf .c-figure, .c-section--immobrown .c-figure, .c-section--nintendo .c-figure, .c-section--castaway .c-figure) {
   margin-bottom: 2vh; }
-  .c-figure:not(.c-section--bleed .c-section__content--inner .c-figure:first-child, .c-section--bleed .c-section__content--extend .c-figure:first-child) img {
+  .c-figure:not(.c-section--diabetik .c-figure, .c-section--realo .c-figure, .c-section--shelf .c-figure, .c-section--immobrown .c-figure, .c-section--nintendo .c-figure, .c-section--castaway .c-figure) img {
     margin-bottom: 2vh; }
-  .c-figure:not(.c-section--bleed .c-section__content--inner .c-figure:first-child, .c-section--bleed .c-section__content--extend .c-figure:first-child) figcaption {
+  .c-figure:not(.c-section--diabetik .c-figure, .c-section--realo .c-figure, .c-section--shelf .c-figure, .c-section--immobrown .c-figure, .c-section--nintendo .c-figure, .c-section--castaway .c-figure) figcaption {
     text-align: center; }
 
 .c-figure--scroller {
