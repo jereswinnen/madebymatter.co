@@ -284,7 +284,7 @@ h2 {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   font-weight: normal;
   font-size: 1.375rem;
-  line-height: 1.25;
+  line-height: 1.35;
   color: #333; }
   @media (min-width: 680px) {
     h2 {
@@ -546,8 +546,9 @@ a {
   .c-article .c-article__header {
     margin-bottom: 5vh; }
   .c-article h2.c-article__lede {
+    margin-bottom: 2.25rem;
     font-size: 1.375rem;
-    line-height: 1.25; }
+    line-height: 1.35; }
     @media (min-width: 680px) {
       .c-article h2.c-article__lede {
         font-size: 1.5rem; } }
@@ -604,6 +605,18 @@ a {
   .c-list .c-list__item {
     margin-bottom: 1vh;
     color: #555; }
+
+.c-list--deliverables .c-list__item {
+  font-weight: 500;
+  color: #999; }
+  @media (min-width: 680px) {
+    .c-list--deliverables .c-list__item:after {
+      padding: 0 0.5rem;
+      content: '\2022';
+      color: #eee; }
+    .c-list--deliverables .c-list__item:last-child:after {
+      padding: 0;
+      content: ''; } }
 
 .c-list--segmented .c-list__item {
   padding: 1rem 0;

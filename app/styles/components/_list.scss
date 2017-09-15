@@ -10,6 +10,23 @@
       color: $c__neutral--mid;
    }
 }
+.c-list--deliverables {
+   .c-list__item {
+      font-weight: $fw__medium;
+      color: $c__neutral--light;
+      @media(min-width: $b__medium) {
+         &:after {
+            padding: 0 0.5rem;
+            content: '\2022';
+            color: $c__neutral--lightest;
+         }
+         &:last-child:after {
+            padding: 0;
+            content: '';
+         }   
+      }
+   }
+}
 .c-list--segmented {
    .c-list__item {
       padding: 1rem 0;
