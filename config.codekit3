@@ -637,10 +637,10 @@
 		"oAP": "\/profile.html",
 		"oF": 0
 		},
-	"\/readme.html": {
+	"\/README.html": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/readme.html",
+		"oAP": "\/README.html",
 		"oF": 0
 		},
 	"\/README.md": {
@@ -651,9 +651,9 @@
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/README.html",
-		"oF": 0,
+		"oF": 1,
 		"oFM": 0,
 		"oS": 0,
 		"pHT": 0,
