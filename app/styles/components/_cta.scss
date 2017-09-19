@@ -22,19 +22,22 @@
       }
    }
    &--link {
+      position: relative;
       padding: 0;
-      line-height: 0.75;
-      span:after {
-         display: inline-block;
-         width: 1%;
-         height: 2px;
-         content: '';
-         background: $c__neutral--white;
-         transition: all .25s ease-in-out;
-      }
-      &:hover span:after {
+      &:after {
+         position: absolute;
+         left: 0;
+         bottom: 0;
          width: 100%;
-         background: $c__neutral--lightest;
+         height: 100%;
+         content: '';
+         background: rgba(0, 0, 0, .5);
+         transform: scaleX(0);
+         transform-origin: bottom left;
+         transition: transform 0.3s;
+      }
+      &:hover:after {
+         transform: scaleX(1);
       }
    }
 }

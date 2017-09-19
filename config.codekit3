@@ -15,104 +15,6 @@
 		"oAP": "\/.gitignore",
 		"oF": 0
 		},
-	"\/app\/images\/artwork\/collage__diabetik--twins.png": {
-		"ft": 32768,
-		"iS": 40026,
-		"oA": 0,
-		"oAP": "\/app\/images\/artwork\/collage__diabetik--twins.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/app\/images\/artwork\/collage__diabetik--twins@2x.png": {
-		"ft": 32768,
-		"iS": 95342,
-		"oA": 0,
-		"oAP": "\/app\/images\/artwork\/collage__diabetik--twins@2x.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/app\/images\/artwork\/collage__nintendo--triad.png": {
-		"ft": 32768,
-		"iS": 186433,
-		"oA": 0,
-		"oAP": "\/app\/images\/artwork\/collage__nintendo--triad.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/app\/images\/artwork\/collage__nintendo--triad@2x.png": {
-		"ft": 32768,
-		"iS": 564525,
-		"oA": 0,
-		"oAP": "\/app\/images\/artwork\/collage__nintendo--triad@2x.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/app\/images\/artwork\/collage__realo--phonebrowser.png": {
-		"ft": 32768,
-		"iS": 185768,
-		"oA": 0,
-		"oAP": "\/app\/images\/artwork\/collage__realo--phonebrowser.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/app\/images\/artwork\/collage__realo--phonebrowser@2x.png": {
-		"ft": 32768,
-		"iS": 688350,
-		"oA": 0,
-		"oAP": "\/app\/images\/artwork\/collage__realo--phonebrowser@2x.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/app\/images\/artwork\/collage__shelf--quicklook.png": {
-		"ft": 32768,
-		"iS": 248729,
-		"oA": 0,
-		"oAP": "\/app\/images\/artwork\/collage__shelf--quicklook.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/app\/images\/artwork\/collage__shelf--quicklook@2x.png": {
-		"ft": 32768,
-		"iS": 888028,
-		"oA": 0,
-		"oAP": "\/app\/images\/artwork\/collage__shelf--quicklook@2x.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/app\/images\/icons\/c-nav__toggle.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/app\/images\/icons\/c-nav__toggle.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
 	"\/app\/scripts\/site.js": {
 		"ft": 64,
 		"ma": 0,
@@ -562,11 +464,66 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/dist\/images\/icons\/c-nav__toggle.svg": {
+	"\/dist\/images\/favicons\/apple-touch-icon--180.png": {
+		"ft": 32768,
+		"iS": 3068,
+		"oA": 0,
+		"oAP": "\/dist\/images\/favicons\/apple-touch-icon--180.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/dist\/images\/favicons\/base--16.png": {
+		"ft": 32768,
+		"iS": 414,
+		"oA": 0,
+		"oAP": "\/dist\/images\/favicons\/base--16.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/dist\/images\/favicons\/base--256.png": {
+		"ft": 32768,
+		"iS": 4881,
+		"oA": 0,
+		"oAP": "\/dist\/images\/favicons\/base--256.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/dist\/images\/favicons\/base--32.png": {
+		"ft": 32768,
+		"iS": 580,
+		"oA": 0,
+		"oAP": "\/dist\/images\/favicons\/base--32.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/dist\/images\/favicons\/base--48.png": {
+		"ft": 32768,
+		"iS": 329,
+		"oA": 0,
+		"oAP": "\/dist\/images\/favicons\/base--48.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/dist\/images\/favicons\/safari-pinned-tabs.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/dist\/images\/icons\/c-nav__toggle.svg",
+		"oAP": "\/dist\/images\/favicons\/safari-pinned-tabs.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,

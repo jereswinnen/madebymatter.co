@@ -44,11 +44,8 @@
             }
          }
          &--link {
-            span:after {
-               background: $c__neutral--darkest;
-            }
-            &:hover span:after {
-               background: $c__neutral--white;
+            &:after {
+               background: rgba(255, 255, 255, .5);
             }
          }
       }

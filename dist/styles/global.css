@@ -408,19 +408,27 @@ a {
     .c-cta--primary:active {
       opacity: .8; }
   .c-cta--link {
-    padding: 0;
-    line-height: 0.75; }
-    .c-cta--link span:after {
-      display: inline-block;
-      width: 1%;
-      height: 2px;
-      content: '';
-      background: #fff;
-      -webkit-transition: all .25s ease-in-out;
-      transition: all .25s ease-in-out; }
-    .c-cta--link:hover span:after {
+    position: relative;
+    padding: 0; }
+    .c-cta--link:after {
+      position: absolute;
+      left: 0;
+      bottom: 0;
       width: 100%;
-      background: #eee; }
+      height: 100%;
+      content: '';
+      background: rgba(0, 0, 0, 0.5);
+      -webkit-transform: scaleX(0);
+              transform: scaleX(0);
+      -webkit-transform-origin: bottom left;
+              transform-origin: bottom left;
+      -webkit-transition: -webkit-transform 0.3s;
+      transition: -webkit-transform 0.3s;
+      transition: transform 0.3s;
+      transition: transform 0.3s, -webkit-transform 0.3s; }
+    .c-cta--link:hover:after {
+      -webkit-transform: scaleX(1);
+              transform: scaleX(1); }
 
 .c-masthead {
   display: -webkit-box;
@@ -522,10 +530,8 @@ a {
       .c-section--darkest .c-cta--primary:hover {
         color: #eee;
         background: #555; }
-    .c-section--darkest .c-cta--link span:after {
-      background: #111; }
-    .c-section--darkest .c-cta--link:hover span:after {
-      background: #fff; }
+    .c-section--darkest .c-cta--link:after {
+      background: rgba(255, 255, 255, 0.5); }
     .c-section--darkest a {
       color: #fff; }
       .c-section--darkest a:active {
