@@ -22,13 +22,14 @@ $c__faint--light: transparentize($c__neutral--white, .95);
 $c__faint--dark: transparentize($c__neutral--black, .95);
 
 /// Palette
-$c__realo: #171982;
-$c__shelf: #171982;
-$c__diabetik: #171982;
-$c__nintendo: #171982;
-$c__immobrown: #171982;
-$c__castaway: #171982;
+$c__realo--hero: #171982;
+$c__shelf--hero: #171982;
+$c__diabetik--hero: #171982;
+$c__nintendo--hero: #171982;
+$c__immobrown--hero: #171982;
+$c__castaway--hero: #171982;
 $c__stone--lightest: hsb(50, 2, 94);
+$c__stone--lightest: #eff0f2;
 
 /// Status
 $c__status--loading: hsb(21, 64, 100);

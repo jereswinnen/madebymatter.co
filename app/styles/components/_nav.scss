@@ -22,16 +22,22 @@
             display: inline;
             margin-right: 6vw;
             &.c-nav__item--selected a {
-               color: $c__neutral--light;
+               font-weight: $fw__semibold;
+               color: $c__neutral--dark;
             }
             &:last-child {
                margin-right: 0;
             }
-            a {
-               text-decoration: none;
-            }
          }
       }
+   }
+}
+.c-nav__item a, .c-masthead__twitter a {
+   font-weight: $fw__medium;
+   color: $c__neutral--light;
+   text-decoration: none;
+   &:hover {
+      color: $c__neutral__mid;
    }
 }
 .c-nav--mobile {

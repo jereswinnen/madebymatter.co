@@ -28,10 +28,10 @@
          position: absolute;
          left: 0;
          bottom: 0;
-         width: 100%;
+         width: 120%;
          height: 100%;
          content: '';
-         background: rgba(0, 0, 0, .5);
+         background: rgba(0, 0, 0, .1);
          transform: scaleX(0);
          transform-origin: bottom left;
          transition: transform 0.3s;
