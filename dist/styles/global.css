@@ -107,6 +107,8 @@ body .c-masthead, body .c-hero, body .c-section, body .c-footer {
         display: flex; }
         .l-flex.l-flex--collage .l-flex--collage__row1:last-child, .l-flex.l-flex--collage .l-flex--collage__row2:last-child {
           margin-bottom: 0; }
+        .l-flex.l-flex--collage .l-flex--collage__row1 .c-figure, .l-flex.l-flex--collage .l-flex--collage__row1 .c-figure img, .l-flex.l-flex--collage .l-flex--collage__row2 .c-figure, .l-flex.l-flex--collage .l-flex--collage__row2 .c-figure img {
+          margin-bottom: 0; }
         .l-flex.l-flex--collage .l-flex--collage__row1 .c-item, .l-flex.l-flex--collage .l-flex--collage__row2 .c-item {
           margin-right: 2vw;
           -webkit-box-sizing: border-box;

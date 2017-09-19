@@ -16,6 +16,7 @@
    <link rel="mask-icon" href="/dist/images/favicons/safari-pinned-tabs.svg" color="#313237">
 
    <link rel="stylesheet" href="/dist/styles/global.css" type="text/css">
+   <link rel="stylesheet" href="/dist/styles/animate.css" type="text/css">
    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700">
 </head>
 <body>
@@ -54,10 +55,10 @@
    <main class="c-main">
       <section class="c-hero">
          <article class="c-article">
-            <header class="c-article__header">
+            <header class="c-article__header js--wow fadeInUp">
                <h1>Selected work.</h1>
             </header>
-            <p class="c-article__lede">Over the years, I had the privilege to work on some awesome projects together with talented people from all over the world.</p>
+            <p class="c-article__lede js--wow fadeInUp" data-wow-delay=".25s">Over the years, I had the privilege to work on some awesome projects together with talented people from all over the world.</p>
          </article>
       </section>
       <section class="c-section c-section--bleed c-section--stone">
@@ -135,15 +136,15 @@
                <ul class="c-list c-list--segmented">
                   <li class="c-list__item">
                      <h4>Email</h4>
-                     <a href="#">hello@madebymatter.co</a>
+                     <a href="mailto:hello@madebymatter.co?subject=I want to work with you!" class="c-cta c-cta--link">hello@madebymatter.co</a>
                   </li>
                   <li class="c-list__item">
                      <h4>Twitter</h4>
-                     <a href="https://twitter.com/jereswinnen"><span>twitter.com/</span>@jereswinnen</a>
+                     <a href="https://twitter.com/jereswinnen" class="c-cta c-cta--link"><span>twitter.com/</span>@jereswinnen</a>
                   </li>
                   <li class="c-list__item">
                      <h4>Dribbble</h4>
-                     <a href="https://dribbble.com/jereswinnen"><span>dribbble.com/</span>jereswinnen</a>
+                     <a href="https://dribbble.com/jereswinnen" class="c-cta c-cta--link"><span>dribbble.com/</span>jereswinnen</a>
                   </li>
                </ul>
             </div>
@@ -162,6 +163,9 @@
          speed: 2200,
          scale: 1.04
       });
+      new WOW({
+         boxClass: 'js--wow'
+      }).init();
    </script>
 </body>
 </html>

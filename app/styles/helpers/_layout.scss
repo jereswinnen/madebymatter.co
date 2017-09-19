@@ -104,6 +104,9 @@ body {
             &:last-child {
                margin-bottom: 0;
             }
+            .c-figure, .c-figure img {
+               margin-bottom: 0;
+            }
             .c-item {
                margin-right: 2vw;
                box-sizing: border-box;
