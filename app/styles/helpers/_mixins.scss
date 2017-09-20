@@ -20,6 +20,7 @@
 @mixin fs__mega {
 	font-size: 1.75rem; //28px
 	line-height: 1.3;
+	letter-spacing: -0.025rem;
 	@media(min-width: $b__medium) {
 		font-size: 2.25rem; //36px
 	}
@@ -52,7 +53,6 @@
 	@media(min-width: $b__large) {
 		//font-size: 1.125rem; //18px
 		font-size: 1.25rem; //20px
-		//font-size: 1.1875rem; //19px
 	}
 }
 @mixin fs__mini {

@@ -4,24 +4,7 @@
 
 .c-masthead {
    display: flex;
-   align-items: center;
    justify-content: space-between;
    padding-top: 5vh;
    padding-bottom: 5vh;
-   .c-masthead__twitter {
-      display: none;
-   }
-   @media(min-width: $b__medium) {
-      :nth-child(odd) {
-         flex: 0 0 20%;
-      }
-      :nth-child(even) {
-         flex: 0 0 60%;
-         text-align: center;
-      }
-      .c-masthead__twitter {
-         display: block;
-         text-align: right;
-      }
-   }
 }

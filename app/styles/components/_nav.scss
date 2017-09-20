@@ -20,7 +20,18 @@
          list-style: none;
          .c-nav__item {
             display: inline;
-            margin-right: 6vw;
+            margin-right: 4vw;
+            a {
+               @include fs__mini;
+               font-weight: $fw__medium;
+               color: $c__neutral--light;
+               letter-spacing: 0.075rem;
+               text-transform: uppercase;
+               text-decoration: none;
+               &:hover {
+                  color: $c__neutral__mid;
+               }
+            }
             &.c-nav__item--selected a {
                font-weight: $fw__semibold;
                color: $c__neutral--dark;
@@ -30,14 +41,11 @@
             }
          }
       }
-   }
-}
-.c-nav__item a, .c-masthead__twitter a {
-   font-weight: $fw__medium;
-   color: $c__neutral--light;
-   text-decoration: none;
-   &:hover {
-      color: $c__neutral__mid;
+      @media(min-width: $b__large) {
+         .c-nav__item {
+            margin-right: 2.4vw;
+         }
+      }
    }
 }
 .c-nav--mobile {

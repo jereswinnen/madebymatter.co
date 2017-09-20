@@ -5,11 +5,13 @@
 // Headings
 h1 {
    margin-bottom: 1.625rem;
-   @include ff--serif;
+   //@include ff--serif;
+   @include ff--sans-serif;
    @include fs__mega;
    color: $c__neutral--darkest;
    strong {
-      @include ff--serif($fw__bold);
+      //@include ff--serif($fw__bold);
+      @include ff--sans-serif($fw__bold);
    }
 }
 h2 {
@@ -75,6 +77,7 @@ blockquote {
       //@include ff--sans-serif($fw__light);
       //@include fs__maxi;
       color: $c__muted--dark;
+      hanging-punctuation: first;
    }
    cite {
       @include fs__base;
