@@ -8,7 +8,7 @@ body {
       padding-right: 6vw;
    }
    @media(min-width: $b__medium) {
-      padding: 0;
+      //padding: 0;
       display: grid;
       grid-column-gap: 4vw;
       grid-template-columns: [bleed-start] 1fr [extend-start] 1fr [content-start] minmax(0, 40em) [content-end] 1fr [extend-end] 1fr [bleed-end];
@@ -76,6 +76,12 @@ body {
          }
       }
    }
+   /*@media(min-width: 800px) {
+      .c-hero, .c-section {
+         padding-left: 0;
+         padding-right: 0;
+      }
+   }*/
 }
 
 // Layout helpers

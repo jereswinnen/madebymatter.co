@@ -25,8 +25,8 @@
                @include fs__mini;
                font-weight: $fw__medium;
                color: $c__neutral--light;
-               letter-spacing: 0.075rem;
-               text-transform: uppercase;
+               //letter-spacing: 0.075rem;
+               //text-transform: uppercase;
                text-decoration: none;
                &:hover {
                   color: $c__neutral__mid;
