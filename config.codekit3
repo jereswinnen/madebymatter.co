@@ -376,88 +376,110 @@
 		"oAP": "\/casestudy.html",
 		"oF": 0
 		},
-	"\/dist\/images\/artwork\/collage__diabetik--twins.png": {
+	"\/dist\/images\/artwork\/diabetik\/collage__twins.png": {
 		"ft": 32768,
 		"iS": 40026,
 		"oA": 0,
-		"oAP": "\/dist\/images\/artwork\/collage__diabetik--twins.png",
+		"oAP": "\/dist\/images\/artwork\/diabetik\/collage__twins.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/dist\/images\/artwork\/collage__diabetik--twins@2x.png": {
+	"\/dist\/images\/artwork\/diabetik\/collage__twins@2x.png": {
 		"ft": 32768,
 		"iS": 95342,
 		"oA": 0,
-		"oAP": "\/dist\/images\/artwork\/collage__diabetik--twins@2x.png",
+		"oAP": "\/dist\/images\/artwork\/diabetik\/collage__twins@2x.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/dist\/images\/artwork\/collage__nintendo--triad.png": {
+	"\/dist\/images\/artwork\/nintendo\/collage__triad.png": {
 		"ft": 32768,
 		"iS": 186433,
 		"oA": 0,
-		"oAP": "\/dist\/images\/artwork\/collage__nintendo--triad.png",
+		"oAP": "\/dist\/images\/artwork\/nintendo\/collage__triad.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/dist\/images\/artwork\/collage__nintendo--triad@2x.png": {
+	"\/dist\/images\/artwork\/nintendo\/collage__triad@2x.png": {
 		"ft": 32768,
 		"iS": 564525,
 		"oA": 0,
-		"oAP": "\/dist\/images\/artwork\/collage__nintendo--triad@2x.png",
+		"oAP": "\/dist\/images\/artwork\/nintendo\/collage__triad@2x.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/dist\/images\/artwork\/collage__realo--phonebrowser.png": {
+	"\/dist\/images\/artwork\/realo\/collage__phonebrowser.png": {
 		"ft": 32768,
 		"iS": 185768,
 		"oA": 0,
-		"oAP": "\/dist\/images\/artwork\/collage__realo--phonebrowser.png",
+		"oAP": "\/dist\/images\/artwork\/realo\/collage__phonebrowser.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/dist\/images\/artwork\/collage__realo--phonebrowser@2x.png": {
+	"\/dist\/images\/artwork\/realo\/collage__phonebrowser@2x.png": {
 		"ft": 32768,
 		"iS": 688350,
 		"oA": 0,
-		"oAP": "\/dist\/images\/artwork\/collage__realo--phonebrowser@2x.png",
+		"oAP": "\/dist\/images\/artwork\/realo\/collage__phonebrowser@2x.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/dist\/images\/artwork\/collage__shelf--quicklook.png": {
+	"\/dist\/images\/artwork\/realo\/homedetail__phonemacbook.png": {
+		"ft": 32768,
+		"iS": 201705,
+		"oA": 0,
+		"oAP": "\/dist\/images\/artwork\/realo\/homedetail__phonemacbook.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/dist\/images\/artwork\/realo\/homedetail__phonemacbook@2x.png": {
+		"ft": 32768,
+		"iS": 713154,
+		"oA": 0,
+		"oAP": "\/dist\/images\/artwork\/realo\/homedetail__phonemacbook@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/dist\/images\/artwork\/shelf\/collage__quicklook.png": {
 		"ft": 32768,
 		"iS": 248729,
 		"oA": 0,
-		"oAP": "\/dist\/images\/artwork\/collage__shelf--quicklook.png",
+		"oAP": "\/dist\/images\/artwork\/shelf\/collage__quicklook.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/dist\/images\/artwork\/collage__shelf--quicklook@2x.png": {
+	"\/dist\/images\/artwork\/shelf\/collage__quicklook@2x.png": {
 		"ft": 32768,
 		"iS": 888028,
 		"oA": 0,
-		"oAP": "\/dist\/images\/artwork\/collage__shelf--quicklook@2x.png",
+		"oAP": "\/dist\/images\/artwork\/shelf\/collage__quicklook@2x.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,

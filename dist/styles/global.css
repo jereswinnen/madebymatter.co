@@ -376,7 +376,7 @@ h2 {
       font-size: 1.5rem; } }
   @media (min-width: 1040px) {
     h2 {
-      font-size: 1.75rem; } }
+      font-size: 1.875rem; } }
   h2 strong {
     display: block; }
 
@@ -390,6 +390,9 @@ h3 {
   @media (min-width: 860px) {
     h3 {
       font-size: 1.375rem; } }
+  @media (min-width: 1040px) {
+    h3 {
+      font-size: 1.5rem; } }
 
 h4 {
   margin-bottom: 2rem;
@@ -596,7 +599,7 @@ a {
     padding: 10vh 0; }
   .c-section--stone {
     background: #eff0f2; }
-  .c-section--diabetik {
+  .c-section--realo {
     background: #171982; }
   .c-section--darkest {
     color: rgba(255, 255, 255, 0.5);
@@ -645,7 +648,7 @@ a {
         font-size: 1.5rem; } }
     @media (min-width: 1040px) {
       .c-article h2.c-article__lede {
-        font-size: 1.75rem; } }
+        font-size: 1.875rem; } }
     .c-article h2.c-article__lede strong {
       display: inline; }
   @media (min-width: 860px) {
