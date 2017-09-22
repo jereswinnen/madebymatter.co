@@ -373,10 +373,12 @@ h2 {
   color: #333; }
   @media (min-width: 860px) {
     h2 {
-      font-size: 1.5rem; } }
+      font-size: 1.5rem;
+      letter-spacing: -0.01rem; } }
   @media (min-width: 1040px) {
     h2 {
-      font-size: 1.875rem; } }
+      font-size: 1.875rem;
+      letter-spacing: -0.025rem; } }
   h2 strong {
     display: block; }
 
@@ -645,10 +647,12 @@ a {
     line-height: 1.35; }
     @media (min-width: 860px) {
       .c-article h2.c-article__lede {
-        font-size: 1.5rem; } }
+        font-size: 1.5rem;
+        letter-spacing: -0.01rem; } }
     @media (min-width: 1040px) {
       .c-article h2.c-article__lede {
-        font-size: 1.875rem; } }
+        font-size: 1.875rem;
+        letter-spacing: -0.025rem; } }
     .c-article h2.c-article__lede strong {
       display: inline; }
   @media (min-width: 860px) {
@@ -657,6 +661,9 @@ a {
 
 .c-section__content--inner .c-article:first-child {
   margin-bottom: 10vh; }
+
+.c-section--bleed .c-section__content--inner .c-article:first-child {
+  margin-bottom: 0; }
 
 .c-figure:not(.c-section--diabetik .c-figure, .c-section--realo .c-figure, .c-section--shelf .c-figure, .c-section--immobrown .c-figure, .c-section--nintendo .c-figure, .c-section--castaway .c-figure) {
   margin-bottom: 2vh; }

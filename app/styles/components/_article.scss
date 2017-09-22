@@ -21,3 +21,6 @@
 .c-section__content--inner .c-article:first-child {
    margin-bottom: 10vh;
 }
+.c-section--bleed .c-section__content--inner .c-article:first-child {
+   margin-bottom: 0;
+}
