@@ -1,0 +1,68 @@
+// =======================================================================
+// Global Variables
+// =======================================================================
+
+// Units
+$u__base-line-height: 1.5;
+$u__max-width: 67.5rem; //1080px
+
+// Colours
+/// Neutral
+$c__neutral--white: #fff;
+$c__neutral--lightest: #eee;
+$c__neutral--light: #999;
+$c__neutral--mid: #555;
+$c__neutral--dark: #333;
+$c__neutral--darkest: #111;
+$c__neutral--black: #000;
+
+$c__muted--light: transparentize($c__neutral--white, .5);
+$c__muted--dark: transparentize($c__neutral--black, .5);
+$c__faint--light: transparentize($c__neutral--white, .95);
+$c__faint--dark: transparentize($c__neutral--black, .95);
+
+/// Palette
+$c__realo--hero: #171982;
+$c__shelf--hero: #171982;
+$c__diabetik--hero: #171982;
+$c__nintendo--hero: #171982;
+$c__immobrown--hero: #171982;
+$c__castaway--hero: #171982;
+$c__stone--lightest: hsb(50, 2, 94);
+$c__stone--lightest: #eff0f2;
+
+/// Status
+$c__status--loading: hsb(21, 64, 100);
+$c__status--success: hsb(112, 40, 90);
+$c__status--error: #ff5d5d;
+
+// Font weights
+$fw__ultralight: 100;
+$fw__thin: 200;
+$fw__light: 300;
+$fw__regular: 400;
+$fw__medium: 500;
+$fw__semibold: 600;
+$fw__bold: 700;
+$fw__heavy: 800;
+$fw__black: 900;
+
+// Box shadows
+$layer__one: 0 1px 2px 1px transparentize($c__neutral--black, .9);
+
+// Border radii
+$radius__micro: 2px;
+$radius__mini: 4px;
+$radius__base: 6px;
+$radius__midi: 8px;
+$radius__maxi: 12px;
+
+// Timing functions
+$easing__bezier: cubic-bezier(.03, .98, .52, .99);
+
+// Breakpoints
+$b__small: 360px;
+//$b__medium: 680px;
+$b__medium: 860px;
+$b__large: 1040px;
+$b__xlarge: 1280px;

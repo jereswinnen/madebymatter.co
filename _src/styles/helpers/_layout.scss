@@ -1,0 +1,139 @@
+// =======================================================================
+// Layout
+// =======================================================================
+
+body {
+   .c-masthead, .c-hero, .c-section, .c-footer {
+      padding-left: 6vw;
+      padding-right: 6vw;
+   }
+   @media(min-width: $b__medium) {
+      display: grid;
+      grid-column-gap: 4vw;
+      grid-template-columns: [bleed-start] 1fr [extend-start] 1fr [content-start] minmax(0, 40em) [content-end] 1fr [extend-end] 1fr [bleed-end];
+      .c-masthead, .c-hero, .c-section, .c-footer {
+         padding-left: 0;
+         padding-right: 0;
+      }
+      .c-masthead, .c-footer {
+         grid-column: extend;
+      }
+      .c-main {
+         display: grid;
+         grid-column: bleed;
+         grid-template-columns: inherit;
+         .c-hero {
+            grid-column: content;
+         }
+         .c-section, .c-section--extend {
+            grid-column: extend;
+         }
+         .c-section--abreast,
+         .c-section--abreastreverse,
+         .c-section--triad,
+         .c-section .c-section__abreast,
+         .c-section .c-section__abreast--reverse,
+         .c-section .c-section__triad {
+            display: grid;
+            grid-column: extend;
+            grid-column-gap: 4vw;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+         }
+         .c-section--triad, .c-section .c-section__triad {
+            grid-template-columns: repeat(3, minmax(0, 1fr));
+         }
+         .c-section--abreastreverse, .c-section__abreast--reverse {
+            *:first-child {
+               order: 2;
+            }
+            *:last-child {
+               order: 1;
+            }
+         }
+         .c-section--bleed {
+            display: grid;
+            grid-column: bleed;
+            grid-template-columns: inherit;
+            .c-section__content--inner {
+               display: grid;
+               grid-column: extend;
+               grid-template-columns: inherit;
+               //grid-column: 1/4; //ability to play with assymetry
+               header {
+                  grid-column: bleed;
+               }
+               .c-article, .c-figure {
+                  grid-column: content;
+               }
+               .c-section__content--extend {
+                  grid-column: bleed;
+               }
+            }
+            .c-section__content--extend {
+               grid-column: bleed;
+            }
+         }
+      }
+   }
+}
+
+// Layout helpers
+.l-nomarginb {
+   margin-bottom: 0 !important;
+}
+
+// Flex modules
+.l-flex {
+   @media(min-width: $b__medium) {
+      display: flex;
+      &.l-flex--collage {
+         flex-direction: column;
+         .l-flex--collage__row1, .l-flex--collage__row2 {
+            position: relative;
+            margin-bottom: 2vw;
+            display: flex;
+            align-items: flex-end;
+            //max-width: 94%;
+            &:last-child {
+               margin-bottom: 0;
+            }
+            .c-figure, .c-figure img {
+               margin-bottom: 0;
+            }
+            .c-item {
+               margin-right: 2vw;
+               box-sizing: border-box;
+               /*a {
+                  .c-figure img {
+                     transform: translate3d(0, 0, 0);
+                     transition: transform .32s ease-in-out;
+                  }
+                  &:hover .c-figure img {
+                     transform: translate3d(0, -10px, 0);
+                  }
+               }*/
+               &:nth-child(even) {
+                  margin-right: 0;
+               }
+            }
+         }
+         .l-flex--collage__row1 {
+            left: -6%;
+            .c-item:nth-child(1) {
+               flex: 1 0 60%;
+               max-width: 60%;
+
+            }
+         }
+         .l-flex--collage__row2 {
+            left: 6%;
+            align-self: flex-end;
+            align-items: flex-start;
+            .c-item:nth-child(2) {
+               flex: 1 0 60%;
+               max-width: 60%;
+            }
+         }
+      }
+   }
+}

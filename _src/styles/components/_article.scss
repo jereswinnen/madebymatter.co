@@ -1,0 +1,26 @@
+// =======================================================================
+// Article
+// =======================================================================
+
+.c-article {
+   margin-bottom: 5vh;
+   .c-article__header {
+      margin-bottom: 5vh;
+   }
+   h2.c-article__lede {
+      margin-bottom: 2.25rem; //36px
+      @include fs__maxi;
+      strong {
+         display: inline;
+      }
+   }
+   @media(min-width: $b__medium) {
+      margin-bottom: 0;
+   }
+}
+.c-section__content--inner .c-article:first-child {
+   margin-bottom: 10vh;
+}
+.c-section--bleed .c-section__content--inner .c-article:first-child:not(.c-section--bleed.c-section--darkest .c-section__content--inner .c-article:first-child) {
+   margin-bottom: 0;
+}

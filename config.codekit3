@@ -15,37 +15,127 @@
 		"oAP": "\/.gitignore",
 		"oF": 0
 		},
-	"\/app\/scripts\/site.js": {
+	"\/404.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/404.html",
+		"oF": 0
+		},
+	"\/_config.yml": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/_config.yml",
+		"oF": 0
+		},
+	"\/_includes\/connect-with-me.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_includes\/connect-with-me.html",
+		"oF": 0
+		},
+	"\/_includes\/html-footer.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_includes\/html-footer.html",
+		"oF": 0
+		},
+	"\/_includes\/html-header.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_includes\/html-header.html",
+		"oF": 0
+		},
+	"\/_includes\/site-footer.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_includes\/site-footer.html",
+		"oF": 0
+		},
+	"\/_includes\/site-header.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_includes\/site-header.html",
+		"oF": 0
+		},
+	"\/_layouts\/home.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_layouts\/home.html",
+		"oF": 0
+		},
+	"\/_layouts\/profile.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_layouts\/profile.html",
+		"oF": 0
+		},
+	"\/_posts\/2017-09-22-welcome-to-jekyll.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_posts\/2017-09-22-welcome-to-jekyll.markdown",
+		"oF": 0
+		},
+	"\/_site\/404.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/404.html",
+		"oF": 0
+		},
+	"\/_site\/feed.xml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/feed.xml",
+		"oF": 0
+		},
+	"\/_site\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/index.html",
+		"oF": 0
+		},
+	"\/_site\/jekyll\/update\/2017\/09\/22\/welcome-to-jekyll.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/jekyll\/update\/2017\/09\/22\/welcome-to-jekyll.html",
+		"oF": 0
+		},
+	"\/_site\/profile.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/profile.html",
+		"oF": 0
+		},
+	"\/_src\/scripts\/site.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/dist\/scripts\/site.min.js",
+		"oAP": "\/assets\/scripts\/site.min.js",
 		"oF": 2,
 		"sC": 0,
 		"tS": 0
 		},
-	"\/app\/scripts\/tilt.min.js": {
+	"\/_src\/scripts\/tilt.min.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 1,
 		"oAP": "\/dist\/styles\/tilt.min-min.js",
 		"oF": 0,
-		"sC": 1,
+		"sC": 0,
 		"tS": 0
 		},
-	"\/app\/scripts\/wow.min.js": {
+	"\/_src\/scripts\/wow.min.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 1,
 		"oAP": "\/dist\/styles\/wow.min-min.js",
 		"oF": 0,
-		"sC": 1,
+		"sC": 0,
 		"tS": 0
 		},
-	"\/app\/styles\/base\/_embed.scss": {
+	"\/_src\/styles\/base\/_embed.scss": {
 		"aP": 1,
 		"bl": 1,
 		"dP": 10,
@@ -58,7 +148,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/app\/styles\/base\/_forms.scss": {
+	"\/_src\/styles\/base\/_forms.scss": {
 		"aP": 1,
 		"bl": 1,
 		"dP": 10,
@@ -71,7 +161,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/app\/styles\/base\/_grouping.scss": {
+	"\/_src\/styles\/base\/_grouping.scss": {
 		"aP": 1,
 		"bl": 1,
 		"dP": 10,
@@ -84,7 +174,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/app\/styles\/base\/_links.scss": {
+	"\/_src\/styles\/base\/_links.scss": {
 		"aP": 1,
 		"bl": 1,
 		"dP": 10,
@@ -97,7 +187,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/app\/styles\/base\/_text.scss": {
+	"\/_src\/styles\/base\/_text.scss": {
 		"aP": 1,
 		"bl": 1,
 		"dP": 10,
@@ -110,7 +200,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/app\/styles\/components\/_article.scss": {
+	"\/_src\/styles\/components\/_article.scss": {
 		"aP": 1,
 		"bl": 1,
 		"dP": 10,
@@ -123,7 +213,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/app\/styles\/components\/_branding.scss": {
+	"\/_src\/styles\/components\/_branding.scss": {
 		"aP": 1,
 		"bl": 1,
 		"dP": 10,
@@ -136,7 +226,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/app\/styles\/components\/_cta.scss": {
+	"\/_src\/styles\/components\/_cta.scss": {
 		"aP": 1,
 		"bl": 1,
 		"dP": 10,
@@ -149,7 +239,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/app\/styles\/components\/_figure.scss": {
+	"\/_src\/styles\/components\/_figure.scss": {
 		"aP": 1,
 		"bl": 1,
 		"dP": 10,
@@ -162,7 +252,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/app\/styles\/components\/_footer.scss": {
+	"\/_src\/styles\/components\/_footer.scss": {
 		"aP": 1,
 		"bl": 1,
 		"dP": 10,
@@ -175,7 +265,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/app\/styles\/components\/_hero.scss": {
+	"\/_src\/styles\/components\/_hero.scss": {
 		"aP": 1,
 		"bl": 1,
 		"dP": 10,
@@ -188,7 +278,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/app\/styles\/components\/_item.scss": {
+	"\/_src\/styles\/components\/_item.scss": {
 		"aP": 1,
 		"bl": 1,
 		"dP": 10,
@@ -201,7 +291,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/app\/styles\/components\/_link.scss": {
+	"\/_src\/styles\/components\/_link.scss": {
 		"aP": 1,
 		"bl": 1,
 		"dP": 10,
@@ -214,7 +304,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/app\/styles\/components\/_list.scss": {
+	"\/_src\/styles\/components\/_list.scss": {
 		"aP": 1,
 		"bl": 1,
 		"dP": 10,
@@ -227,7 +317,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/app\/styles\/components\/_masthead.scss": {
+	"\/_src\/styles\/components\/_masthead.scss": {
 		"aP": 1,
 		"bl": 1,
 		"dP": 10,
@@ -240,7 +330,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/app\/styles\/components\/_nav.scss": {
+	"\/_src\/styles\/components\/_nav.scss": {
 		"aP": 1,
 		"bl": 1,
 		"dP": 10,
@@ -253,7 +343,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/app\/styles\/components\/_section.scss": {
+	"\/_src\/styles\/components\/_section.scss": {
 		"aP": 1,
 		"bl": 1,
 		"dP": 10,
@@ -266,7 +356,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/app\/styles\/components\/_typography.scss": {
+	"\/_src\/styles\/components\/_typography.scss": {
 		"aP": 1,
 		"bl": 1,
 		"dP": 10,
@@ -279,7 +369,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/app\/styles\/global.scss": {
+	"\/_src\/styles\/global.scss": {
 		"aP": 1,
 		"bl": 1,
 		"dP": 10,
@@ -287,12 +377,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/dist\/styles\/global.css",
+		"oAP": "\/assets\/styles\/global.css",
 		"oF": 2,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/app\/styles\/helpers\/_animations.scss": {
+	"\/_src\/styles\/helpers\/_animations.scss": {
 		"aP": 1,
 		"bl": 1,
 		"dP": 10,
@@ -305,7 +395,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/app\/styles\/helpers\/_debug.scss": {
+	"\/_src\/styles\/helpers\/_debug.scss": {
 		"aP": 1,
 		"bl": 1,
 		"dP": 10,
@@ -318,7 +408,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/app\/styles\/helpers\/_functions.scss": {
+	"\/_src\/styles\/helpers\/_functions.scss": {
 		"aP": 1,
 		"bl": 1,
 		"dP": 10,
@@ -331,7 +421,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/app\/styles\/helpers\/_layout.scss": {
+	"\/_src\/styles\/helpers\/_layout.scss": {
 		"aP": 1,
 		"bl": 1,
 		"dP": 10,
@@ -344,7 +434,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/app\/styles\/helpers\/_mixins.scss": {
+	"\/_src\/styles\/helpers\/_mixins.scss": {
 		"aP": 1,
 		"bl": 1,
 		"dP": 10,
@@ -357,7 +447,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/app\/styles\/helpers\/_variables.scss": {
+	"\/_src\/styles\/helpers\/_variables.scss": {
 		"aP": 1,
 		"bl": 1,
 		"dP": 10,
@@ -370,188 +460,182 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/casestudy.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/casestudy.html",
-		"oF": 0
-		},
-	"\/dist\/images\/artwork\/diabetik\/collage__twins.png": {
+	"\/assets\/images\/artwork\/diabetik\/collage__twins.png": {
 		"ft": 32768,
 		"iS": 40026,
 		"oA": 0,
-		"oAP": "\/dist\/images\/artwork\/diabetik\/collage__twins.png",
+		"oAP": "\/assets\/images\/artwork\/diabetik\/collage__twins.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/dist\/images\/artwork\/diabetik\/collage__twins@2x.png": {
+	"\/assets\/images\/artwork\/diabetik\/collage__twins@2x.png": {
 		"ft": 32768,
 		"iS": 95342,
 		"oA": 0,
-		"oAP": "\/dist\/images\/artwork\/diabetik\/collage__twins@2x.png",
+		"oAP": "\/assets\/images\/artwork\/diabetik\/collage__twins@2x.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/dist\/images\/artwork\/nintendo\/collage__triad.png": {
+	"\/assets\/images\/artwork\/nintendo\/collage__triad.png": {
 		"ft": 32768,
 		"iS": 186433,
 		"oA": 0,
-		"oAP": "\/dist\/images\/artwork\/nintendo\/collage__triad.png",
+		"oAP": "\/assets\/images\/artwork\/nintendo\/collage__triad.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/dist\/images\/artwork\/nintendo\/collage__triad@2x.png": {
+	"\/assets\/images\/artwork\/nintendo\/collage__triad@2x.png": {
 		"ft": 32768,
 		"iS": 564525,
 		"oA": 0,
-		"oAP": "\/dist\/images\/artwork\/nintendo\/collage__triad@2x.png",
+		"oAP": "\/assets\/images\/artwork\/nintendo\/collage__triad@2x.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/dist\/images\/artwork\/realo\/collage__phonebrowser.png": {
+	"\/assets\/images\/artwork\/realo\/collage__phonebrowser.png": {
 		"ft": 32768,
 		"iS": 185768,
 		"oA": 0,
-		"oAP": "\/dist\/images\/artwork\/realo\/collage__phonebrowser.png",
+		"oAP": "\/assets\/images\/artwork\/realo\/collage__phonebrowser.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/dist\/images\/artwork\/realo\/collage__phonebrowser@2x.png": {
+	"\/assets\/images\/artwork\/realo\/collage__phonebrowser@2x.png": {
 		"ft": 32768,
 		"iS": 688350,
 		"oA": 0,
-		"oAP": "\/dist\/images\/artwork\/realo\/collage__phonebrowser@2x.png",
+		"oAP": "\/assets\/images\/artwork\/realo\/collage__phonebrowser@2x.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/dist\/images\/artwork\/realo\/homedetail__phonemacbook.png": {
+	"\/assets\/images\/artwork\/realo\/homedetail__phonemacbook.png": {
 		"ft": 32768,
 		"iS": 201705,
 		"oA": 0,
-		"oAP": "\/dist\/images\/artwork\/realo\/homedetail__phonemacbook.png",
+		"oAP": "\/assets\/images\/artwork\/realo\/homedetail__phonemacbook.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/dist\/images\/artwork\/realo\/homedetail__phonemacbook@2x.png": {
+	"\/assets\/images\/artwork\/realo\/homedetail__phonemacbook@2x.png": {
 		"ft": 32768,
 		"iS": 713154,
 		"oA": 0,
-		"oAP": "\/dist\/images\/artwork\/realo\/homedetail__phonemacbook@2x.png",
+		"oAP": "\/assets\/images\/artwork\/realo\/homedetail__phonemacbook@2x.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/dist\/images\/artwork\/shelf\/collage__quicklook.png": {
+	"\/assets\/images\/artwork\/shelf\/collage__quicklook.png": {
 		"ft": 32768,
 		"iS": 248729,
 		"oA": 0,
-		"oAP": "\/dist\/images\/artwork\/shelf\/collage__quicklook.png",
+		"oAP": "\/assets\/images\/artwork\/shelf\/collage__quicklook.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/dist\/images\/artwork\/shelf\/collage__quicklook@2x.png": {
+	"\/assets\/images\/artwork\/shelf\/collage__quicklook@2x.png": {
 		"ft": 32768,
 		"iS": 888028,
 		"oA": 0,
-		"oAP": "\/dist\/images\/artwork\/shelf\/collage__quicklook@2x.png",
+		"oAP": "\/assets\/images\/artwork\/shelf\/collage__quicklook@2x.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/dist\/images\/favicons\/apple-touch-icon--180.png": {
+	"\/assets\/images\/favicons\/apple-touch-icon--180.png": {
 		"ft": 32768,
-		"iS": 3068,
+		"iS": 1071,
 		"oA": 0,
-		"oAP": "\/dist\/images\/favicons\/apple-touch-icon--180.png",
+		"oAP": "\/assets\/images\/favicons\/apple-touch-icon--180.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/dist\/images\/favicons\/base--16.png": {
+	"\/assets\/images\/favicons\/base--16.png": {
 		"ft": 32768,
-		"iS": 414,
+		"iS": 190,
 		"oA": 0,
-		"oAP": "\/dist\/images\/favicons\/base--16.png",
+		"oAP": "\/assets\/images\/favicons\/base--16.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/dist\/images\/favicons\/base--256.png": {
+	"\/assets\/images\/favicons\/base--256.png": {
 		"ft": 32768,
-		"iS": 4881,
+		"iS": 1572,
 		"oA": 0,
-		"oAP": "\/dist\/images\/favicons\/base--256.png",
+		"oAP": "\/assets\/images\/favicons\/base--256.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/dist\/images\/favicons\/base--32.png": {
+	"\/assets\/images\/favicons\/base--32.png": {
 		"ft": 32768,
-		"iS": 580,
+		"iS": 259,
 		"oA": 0,
-		"oAP": "\/dist\/images\/favicons\/base--32.png",
+		"oAP": "\/assets\/images\/favicons\/base--32.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/dist\/images\/favicons\/base--48.png": {
+	"\/assets\/images\/favicons\/base--48.png": {
 		"ft": 32768,
 		"iS": 329,
 		"oA": 0,
-		"oAP": "\/dist\/images\/favicons\/base--48.png",
+		"oAP": "\/assets\/images\/favicons\/base--48.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/dist\/images\/favicons\/safari-pinned-tabs.svg": {
+	"\/assets\/images\/favicons\/safari-pinned-tabs.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/dist\/images\/favicons\/safari-pinned-tabs.svg",
+		"oAP": "\/assets\/images\/favicons\/safari-pinned-tabs.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/dist\/scripts\/site.min.js": {
+	"\/assets\/scripts\/site.min.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -561,29 +645,29 @@
 		"sC": 1,
 		"tS": 0
 		},
-	"\/dist\/styles\/global.css": {
+	"\/assets\/styles\/global.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/dist\/styles\/global-min.css",
+		"oAP": "\/assets\/styles\/global-min.css",
 		"oF": 0,
-		"oS": 0
+		"oS": 3
 		},
-	"\/index.html": {
+	"\/Gemfile": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/index.html",
+		"oAP": "\/Gemfile",
 		"oF": 0
 		},
-	"\/profile.html": {
+	"\/Gemfile.lock": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/profile.html",
+		"oAP": "\/Gemfile.lock",
 		"oF": 0
 		},
-	"\/README.md": {
+	"\/index.md": {
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
@@ -591,8 +675,8 @@
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
-		"oA": 2,
-		"oAP": "\/README.md",
+		"oA": 1,
+		"oAP": "\/index.html",
 		"oF": 0,
 		"oFM": 0,
 		"oS": 0,
@@ -601,11 +685,23 @@
 		"rFN": 0,
 		"uCM": 0
 		},
-	"\/work.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/work.html",
-		"oF": 0
+	"\/profile.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 1,
+		"oAP": "\/profile.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
 		}
 	},
 "hooks": [
@@ -2464,7 +2560,7 @@
 		"strictUnits": 0
 		},
 	"languageDefaultsMARKDOWN": {
-		"autoOutputAction": 2,
+		"autoOutputAction": 1,
 		"autoOutputPathFilenamePattern": "*.html",
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",

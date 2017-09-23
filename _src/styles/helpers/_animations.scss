@@ -1,0 +1,60 @@
+// =======================================================================
+// Animations
+// =======================================================================
+
+@keyframes figureScroller {
+   0% {
+      transform: translate3d(0%, 0%, 0);
+   }
+   50% {
+      transform: translate3d(-50%, 0%, 0);
+   }
+   100% {
+      transform: translate3d(0%, 0%, 0);
+   }
+}
+
+// Animate.css
+.animated {
+   animation-timing-function: cubic-bezier(.215, .61, .355, 1);
+   animation-duration: .8s;
+   //animation-duration: 1s;
+   animation-fill-mode: both;
+}
+@keyframes fadeIn {
+   from {
+      opacity: 0;
+   }
+   to {
+      opacity: 1;
+   }
+}
+.fadeIn {
+   animation-name: fadeIn;
+}
+@keyframes fadeInDown {
+   from {
+      opacity: 0;
+      transform: translate3d(0, -100%, 0);
+   }
+   to {
+      opacity: 1;
+      transform: none;
+   }
+}
+.fadeInDown {
+   animation-name: fadeInDown;
+}
+@keyframes fadeInUp {
+   from {
+      opacity: 0;
+      transform: translate3d(0, 100%, 0);
+   }
+   to {
+      opacity: 1;
+      transform: none;
+   }
+}
+.fadeInUp {
+   animation-name: fadeInUp;
+}

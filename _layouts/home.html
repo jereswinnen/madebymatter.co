@@ -1,0 +1,35 @@
+{% include html-header.html %}
+{% include site-header.html %}
+<main class="c-main">
+   <section class="c-hero">
+      <article class="c-article">
+         <header class="c-article__header js--wow fadeInUp">
+            <h1>A <strong>creative developer</strong> and <strong>designer</strong> with a focus on digital product design for <strong>mobile platforms</strong>.</h1>
+         </header>
+         <p class="c-article__lede js--wow fadeInUp" data-wow-delay=".25s">{{ content }}</p>
+      </article>
+   </section>
+   <section class="c-section c-section--extend">
+      <div class="l-flex l-flex--collage">
+         <div class="l-flex--collage__row1">
+            <div class="c-item c-item--work js--tilt">
+               <a href="#"><figure class="c-figure"><img src="/assets/images/artwork/shelf/collage__quicklook.png" srcset="/assets/images/artwork/shelf/collage__quicklook.png 1x, /assets/images/artwork/shelf/collage__quicklook@2x.png 2x" alt="Shelf for iPad"></figure></a>
+            </div>
+            <div class="c-item c-item--work js--tilt">
+               <a href="#"><figure class="c-figure"><img src="/assets/images/artwork/diabetik/collage__twins.png" srcset="/assets/images/artwork/diabetik/collage__twins.png 1x, /assets/images/artwork/diabetik/collage__twins@2x.png 2x" alt="Diabetik"></figure></a>
+            </div>
+         </div><!--end row1-->
+         <div class="l-flex--collage__row2">
+            <div class="c-item c-item--work js--tilt">
+               <a href="#"><figure class="c-figure"><img src="/assets/images/artwork/nintendo/collage__triad.png" srcset="/assets/images/artwork/nintendo/collage__triad.png 1x, /assets/images/artwork/nintendo/collage__triad@2x.png 2x" alt="Nintendo Switch"></figure></a>
+            </div>
+            <div class="c-item c-item--work js--tilt">
+               <a href="#"><figure class="c-figure"><img src="/assets/images/artwork/realo/homedetail__phonemacbook.png" srcset="/assets/images/artwork/realo/homedetail__phonemacbook.png 1x, /assets/images/artwork/realo/homedetail__phonemacbook@2x.png 2x" alt="Realo"></figure></a>
+            </div>
+         </div><!--end row1-->
+      </div><!--end flex-collage-->
+   </section>
+   {% include connect-with-me.html title="Let's make something <strong>great</strong> together." %}
+</main>
+<!--{% include site-footer.html %}-->
+{% include html-footer.html %}
