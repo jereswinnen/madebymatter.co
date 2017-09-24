@@ -12,6 +12,12 @@
    .c-figure, .c-figure * {
       margin-bottom: 0;
    }
+   .c-figure img {
+      transition: all .6s $easing__bezier;
+   }
+   &:hover .c-figure img {
+      transform: scale(1.025);
+   }
    @media(min-width: $b__medium) {
       margin-bottom: 0;
       padding: 3vw;

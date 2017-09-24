@@ -16,7 +16,7 @@
 
 // Animate.css
 .animated {
-   animation-timing-function: cubic-bezier(.215, .61, .355, 1);
+   animation-timing-function: $easing__bezier;
    animation-duration: .8s;
    //animation-duration: 1s;
    animation-fill-mode: both;
