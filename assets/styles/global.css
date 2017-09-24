@@ -387,7 +387,7 @@ h2 {
 h3 {
   margin-bottom: 1rem;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-  font-weight: normal;
+  font-weight: 500;
   font-size: 1.25rem;
   line-height: 1.4;
   color: currentColor;
@@ -676,6 +676,10 @@ a {
     margin-bottom: 2vh; }
   .c-figure:not(.c-section--diabetik .c-figure, .c-section--realo .c-figure, .c-section--shelf .c-figure, .c-section--immobrown .c-figure, .c-section--nintendo .c-figure, .c-section--castaway .c-figure) figcaption {
     text-align: center; }
+
+.c-figure--stone {
+  padding: 5vw;
+  background: #eff0f2; }
 
 .c-figure--scroller {
   margin-bottom: 5vh;

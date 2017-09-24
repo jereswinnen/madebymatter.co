@@ -11,6 +11,10 @@
       text-align: center;
    }
 }
+.c-figure--stone {
+   padding: 5vw;
+   background: $c__stone--lightest;
+}
 .c-figure--scroller {
    margin-bottom: 5vh;
    overflow: hidden;
