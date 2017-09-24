@@ -23,6 +23,9 @@ twitter_username: jereswinnen
 github_username: jereswinnen
 dribbble_username: jereswinnen
 
+# Includes
+include: [_pages]
+
 # Build settings
 markdown: kramdown
 # theme: minima
