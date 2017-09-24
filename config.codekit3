@@ -69,6 +69,12 @@
 		"oAP": "\/_layouts\/profile.html",
 		"oF": 0
 		},
+	"\/_layouts\/profile_ori.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_layouts\/profile_ori.html",
+		"oF": 0
+		},
 	"\/_pages\/index.md": {
 		"cS": 0,
 		"eF": 1,

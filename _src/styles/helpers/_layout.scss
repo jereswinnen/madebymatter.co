@@ -28,6 +28,9 @@ body {
          .c-section, .c-section--extend {
             grid-column: extend;
          }
+         .c-section--content {
+            grid-column: content;
+         }
          .c-section--abreast,
          .c-section--abreastreverse,
          .c-section--triad,

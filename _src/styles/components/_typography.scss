@@ -10,7 +10,6 @@ h1 {
    @include fs__mega;
    color: $c__neutral--darkest;
    strong {
-      //@include ff--serif($fw__bold);
       @include ff--sans-serif($fw__bold);
    }
 }
@@ -20,7 +19,7 @@ h2 {
    @include fs__maxi;
    color: $c__neutral--dark;
    strong {
-      display: block;
+      //display: inline-block;
    }
 }
 h3 {
@@ -28,6 +27,7 @@ h3 {
    @include ff--sans-serif;
    @include fs__midi;
    color: currentColor;
+   color: $c__primary;
 }
 h4 {
    margin-bottom: 2rem;
