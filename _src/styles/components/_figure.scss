@@ -16,14 +16,13 @@
    padding: 7vw;
    background: $c__stone--lightest;
    figcaption {
+      display: none;
       position: absolute;
       padding: 3vw;
       left: 0;
       bottom: 0;
       width: 40%;
       background: $c__stone--lightest;
-      //background: transparentize($c__stone--lightest, .1);
-      //-webkit-backdrop-filter: blur(15px);
       text-align: left !important;
       z-index: 9999;
    }
@@ -36,5 +35,8 @@
    }
    @media(min-width: $b__medium) {
       padding: 5vw;
+      figcaption {
+         display: block;
+      }
    }
 }

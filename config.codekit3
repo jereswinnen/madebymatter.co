@@ -15,16 +15,16 @@
 		"oAP": "\/.gitignore",
 		"oF": 0
 		},
-	"\/404.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/404.html",
-		"oF": 0
-		},
 	"\/_config.yml": {
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/_config.yml",
+		"oF": 0
+		},
+	"\/_data\/projects.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_data\/projects.yml",
 		"oF": 0
 		},
 	"\/_includes\/connect-with-me.html": {
@@ -115,12 +115,6 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_posts\/2017-09-22-welcome-to-jekyll.markdown",
-		"oF": 0
-		},
-	"\/_site\/404.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_site\/404.html",
 		"oF": 0
 		},
 	"\/_site\/assets\/images\/artwork\/diabetik\/collage__twins.png": {
@@ -307,6 +301,16 @@
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
+		},
+	"\/_site\/assets\/styles\/global.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/_site\/assets\/styles\/global-min.css",
+		"oF": 0,
+		"oS": 3
 		},
 	"\/_site\/feed.xml": {
 		"ft": 8192,

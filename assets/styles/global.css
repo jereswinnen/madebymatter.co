@@ -682,6 +682,7 @@ a {
   padding: 7vw;
   background: #eff0f2; }
   .c-figure--work figcaption {
+    display: none;
     position: absolute;
     padding: 3vw;
     left: 0;
@@ -699,7 +700,9 @@ a {
             transform: scale(1.025); }
   @media (min-width: 860px) {
     .c-figure--work {
-      padding: 5vw; } }
+      padding: 5vw; }
+      .c-figure--work figcaption {
+        display: block; } }
 
 .c-list {
   padding: 0;
@@ -762,31 +765,3 @@ a {
     .c-item--work {
       margin-bottom: 0;
       padding: 3vw; } }
-
-.c-item--manifesto {
-  /*position: relative;
-   &:before {
-      position: absolute;
-      top: -1rem; //16px
-      left: -2rem; //32px
-      font-size: 6.5rem; //104px
-      font-weight: $fw__heavy;
-      content: '1';
-      //color: $c__stone--lightest;
-      z-index: -1;
-   }
-   &:nth-child(2):before {
-      content: '2';
-   }
-   &:nth-child(3):before {
-      content: '3';
-   }
-   &:nth-child(4):before {
-      content: '4';
-   }
-   &:nth-child(5):before {
-      content: '5';
-   }
-   &:nth-child(6):before {
-      content: '6';
-   }*/ }
