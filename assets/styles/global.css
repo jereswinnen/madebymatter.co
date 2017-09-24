@@ -122,7 +122,7 @@ body .c-masthead, body .c-hero, body .c-section, body .c-footer {
       body .c-main .c-section .c-section__triad {
         display: grid;
         grid-column: extend;
-        grid-column-gap: 4vw;
+        grid-gap: 4vw;
         grid-template-columns: repeat(2, minmax(0, 1fr)); }
       body .c-main .c-section--triad, body .c-main .c-section .c-section__triad {
         grid-template-columns: repeat(3, minmax(0, 1fr)); }
@@ -755,3 +755,25 @@ a {
     .c-item--work {
       margin-bottom: 0;
       padding: 3vw; } }
+
+.c-item--manifesto {
+  position: relative; }
+  .c-item--manifesto:before {
+    position: absolute;
+    top: -1rem;
+    left: -2rem;
+    font-size: 6.5rem;
+    font-weight: 800;
+    content: '1';
+    color: #eff0f2;
+    z-index: -1; }
+  .c-item--manifesto:nth-child(2):before {
+    content: '2'; }
+  .c-item--manifesto:nth-child(3):before {
+    content: '3'; }
+  .c-item--manifesto:nth-child(4):before {
+    content: '4'; }
+  .c-item--manifesto:nth-child(5):before {
+    content: '5'; }
+  .c-item--manifesto:nth-child(6):before {
+    content: '6'; }
