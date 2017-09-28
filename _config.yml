@@ -21,3 +21,8 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - config.codekit3
+
+collections:
+  projects:
+    output: true
+    permalink: /work/:title/

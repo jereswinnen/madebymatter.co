@@ -57,6 +57,12 @@
 		"oAP": "\/_includes\/site-header.html",
 		"oF": 0
 		},
+	"\/_layouts\/case.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_layouts\/case.html",
+		"oF": 0
+		},
 	"\/_layouts\/home.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -117,6 +123,12 @@
 		"oAP": "\/_posts\/2017-09-22-welcome-to-jekyll.markdown",
 		"oF": 0
 		},
+	"\/_projects\/diabetik.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_projects\/diabetik.markdown",
+		"oF": 0
+		},
 	"\/_site\/feed.xml": {
 		"ft": 8192,
 		"oA": 2,
@@ -139,6 +151,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/profile\/index.html",
+		"oF": 0
+		},
+	"\/_site\/work\/diabetik\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/work\/diabetik\/index.html",
 		"oF": 0
 		},
 	"\/_src\/scripts\/site.js": {
