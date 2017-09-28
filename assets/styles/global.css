@@ -610,8 +610,7 @@ a {
     background: #171982; }
   .c-section--darkest {
     color: rgba(255, 255, 255, 0.5);
-    background: #111;
-    background: #1c1c1c; }
+    background: #111; }
     .c-section--darkest ::-moz-selection {
       background: rgba(255, 255, 255, 0.05); }
     .c-section--darkest ::selection {
