@@ -4,9 +4,14 @@
    <section class="c-hero">
       <article class="c-article">
          <header class="c-article__header js--wow fadeInUp">
-            <h1><strong>Matter</strong> is the online playground of digital product designer, <strong>Jeremy Swinnen</strong>.</h1>
+            <h1><strong>{{ page.title }}.</strong> {{ page.tagline }}</h1>
          </header>
          {{ content }}
+         <ul class="l-flex c-list c-list--deliverables js--wow fadeInUp">
+            {% for item in page.deliverables %}
+            <li class="c-list__item">{{ item }}</li>
+            {% endfor %}
+         </ul>
       </article>
    </section>
    <section class="c-section c-section--bleed">
