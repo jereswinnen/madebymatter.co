@@ -14,20 +14,22 @@
          </ul>
       </article>
    </section>
-   <section class="c-section c-section--bleed c-section--stone">
-      <div class="c-section__content--inner">
-         <article class="c-article js--wow fadeInUp">
-            {{ content }}
-         </article>
-      </div>
-   </section>
    {% include case-section-bleed-hero.html
+      img="https://images.unsplash.com/photo-1473269276654-ec06ffa8b38e?dpr=1&auto=compress,format&fit=crop&w=3750&h=&q=80&cs=tinysrgb&crop="
+      img2x="https://images.unsplash.com/photo-1473269276654-ec06ffa8b38e?dpr=1&auto=compress,format&fit=crop&w=3750&h=&q=80&cs=tinysrgb&crop="
+      imgalt="This is the alt text for the provided image"
+   %}
+   <section class="c-section c-section--content">
+      <article class="c-article js--wow fadeInUp">
+         {{ content }}
+      </article>
+   </section>
+   {% include case-section-bleed-stone.html
       img="/assets/images/artwork/shelf/collage__quicklook.png"
       img2x="/assets/images/artwork/shelf/collage__quicklook@2x.png"
       imgalt="This is the alt text for the provided image"
-      caption="This is an example if there's a caption attached to the image"
    %}
-   <section class="c-section c-section--bleed c-section--stone">
+   <section class="c-section c-section--bleed c-section--tone">
       <div class="c-section__content--inner">
          <article class="c-article js--wow fadeInUp">
             {{ page.sections['design'] | markdownify }}

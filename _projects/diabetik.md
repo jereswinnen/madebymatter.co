@@ -1,17 +1,17 @@
 ---
 layout: case
-title:  "Diabetik"
-tagline: "Elegant diabetes management at your fingertips."
+title:  diabetik
+tagline: Elegant diabetes management at your fingertips.
+lede: I worked together with Nial Giacomelli, a diabetic himself, on creating a delightful user experience for people who suffer from diabetes. The result is an app that's modern, intuitive and fun to use.
 deliverables:
    - Branding
    - User interface design
    - Iconography
    - Web design
-hero__img:
----
-## I worked together with Nial Giacomelli, a diabetic himself, on creating a delightful user experience for people who suffer from diabetes. The result is an app that's modern, intuitive and fun to use.
-{: .c-article__lede}
 
+sections:
+   design: This is the **end note** of the post.
+---
 To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
 
 Jekyll also offers powerful support for code snippets:

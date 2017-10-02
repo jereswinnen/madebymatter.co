@@ -27,6 +27,24 @@
 		"oAP": "\/_data\/projects.yml",
 		"oF": 0
 		},
+	"\/_includes\/case-section-bleed-hero.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_includes\/case-section-bleed-hero.html",
+		"oF": 0
+		},
+	"\/_includes\/case-section-bleed-stone.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_includes\/case-section-bleed-stone.html",
+		"oF": 0
+		},
+	"\/_includes\/case-section-bleed.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_includes\/case-section-bleed.html",
+		"oF": 0
+		},
 	"\/_includes\/connect-with-me.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -57,6 +75,12 @@
 		"oAP": "\/_includes\/site-header.html",
 		"oF": 0
 		},
+	"\/_layouts\/case-shelf.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_layouts\/case-shelf.html",
+		"oF": 0
+		},
 	"\/_layouts\/case.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -79,6 +103,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_layouts\/profile_ori.html",
+		"oF": 0
+		},
+	"\/_layouts\/work.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_layouts\/work.html",
 		"oF": 0
 		},
 	"\/_pages\/index.md": {
@@ -109,6 +139,24 @@
 		"ft": 4096,
 		"oA": 1,
 		"oAP": "\/_pages\/profile.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/_pages\/work.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 1,
+		"oAP": "\/_pages\/work.html",
 		"oF": 0,
 		"oFM": 0,
 		"oS": 0,
@@ -159,9 +207,27 @@
 		"rFN": 0,
 		"uCM": 0
 		},
+	"\/_projects\/shelf.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 1,
+		"oAP": "\/_projects\/shelf.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
 	"\/_site\/assets\/images\/artwork\/diabetik\/collage__twins.png": {
 		"ft": 32768,
-		"iS": 40026,
+		"iS": 47620,
 		"oA": 0,
 		"oAP": "\/_site\/assets\/images\/artwork\/diabetik\/collage__twins.png",
 		"oF": 0,
@@ -172,7 +238,7 @@
 		},
 	"\/_site\/assets\/images\/artwork\/diabetik\/collage__twins@2x.png": {
 		"ft": 32768,
-		"iS": 95342,
+		"iS": 137550,
 		"oA": 0,
 		"oAP": "\/_site\/assets\/images\/artwork\/diabetik\/collage__twins@2x.png",
 		"oF": 0,
@@ -183,7 +249,7 @@
 		},
 	"\/_site\/assets\/images\/artwork\/nintendo\/collage__triad.png": {
 		"ft": 32768,
-		"iS": 186433,
+		"iS": 174206,
 		"oA": 0,
 		"oAP": "\/_site\/assets\/images\/artwork\/nintendo\/collage__triad.png",
 		"oF": 0,
@@ -194,7 +260,7 @@
 		},
 	"\/_site\/assets\/images\/artwork\/nintendo\/collage__triad@2x.png": {
 		"ft": 32768,
-		"iS": 564525,
+		"iS": 549966,
 		"oA": 0,
 		"oAP": "\/_site\/assets\/images\/artwork\/nintendo\/collage__triad@2x.png",
 		"oF": 0,
@@ -249,7 +315,7 @@
 		},
 	"\/_site\/assets\/images\/artwork\/shelf\/collage__quicklook.png": {
 		"ft": 32768,
-		"iS": 248729,
+		"iS": 250809,
 		"oA": 0,
 		"oAP": "\/_site\/assets\/images\/artwork\/shelf\/collage__quicklook.png",
 		"oF": 0,
@@ -260,7 +326,7 @@
 		},
 	"\/_site\/assets\/images\/artwork\/shelf\/collage__quicklook@2x.png": {
 		"ft": 32768,
-		"iS": 888028,
+		"iS": 882084,
 		"oA": 0,
 		"oAP": "\/_site\/assets\/images\/artwork\/shelf\/collage__quicklook@2x.png",
 		"oF": 0,
@@ -402,10 +468,22 @@
 		"oAP": "\/_site\/work\/diabetik\/index.html",
 		"oF": 0
 		},
+	"\/_site\/work\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/work\/index.html",
+		"oF": 0
+		},
 	"\/_site\/work\/realo\/index.html": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/work\/realo\/index.html",
+		"oF": 0
+		},
+	"\/_site\/work\/shelf\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/work\/shelf\/index.html",
 		"oF": 0
 		},
 	"\/_src\/scripts\/site.js": {
@@ -765,7 +843,7 @@
 		},
 	"\/assets\/images\/artwork\/diabetik\/collage__twins.png": {
 		"ft": 32768,
-		"iS": 40026,
+		"iS": 47620,
 		"oA": 0,
 		"oAP": "\/assets\/images\/artwork\/diabetik\/collage__twins.png",
 		"oF": 0,
@@ -776,7 +854,7 @@
 		},
 	"\/assets\/images\/artwork\/diabetik\/collage__twins@2x.png": {
 		"ft": 32768,
-		"iS": 95342,
+		"iS": 137550,
 		"oA": 0,
 		"oAP": "\/assets\/images\/artwork\/diabetik\/collage__twins@2x.png",
 		"oF": 0,
@@ -787,7 +865,7 @@
 		},
 	"\/assets\/images\/artwork\/nintendo\/collage__triad.png": {
 		"ft": 32768,
-		"iS": 186433,
+		"iS": 174206,
 		"oA": 0,
 		"oAP": "\/assets\/images\/artwork\/nintendo\/collage__triad.png",
 		"oF": 0,
@@ -798,7 +876,7 @@
 		},
 	"\/assets\/images\/artwork\/nintendo\/collage__triad@2x.png": {
 		"ft": 32768,
-		"iS": 564525,
+		"iS": 549966,
 		"oA": 0,
 		"oAP": "\/assets\/images\/artwork\/nintendo\/collage__triad@2x.png",
 		"oF": 0,
@@ -853,7 +931,7 @@
 		},
 	"\/assets\/images\/artwork\/shelf\/collage__quicklook.png": {
 		"ft": 32768,
-		"iS": 248729,
+		"iS": 250809,
 		"oA": 0,
 		"oAP": "\/assets\/images\/artwork\/shelf\/collage__quicklook.png",
 		"oF": 0,
@@ -864,7 +942,7 @@
 		},
 	"\/assets\/images\/artwork\/shelf\/collage__quicklook@2x.png": {
 		"ft": 32768,
-		"iS": 888028,
+		"iS": 882084,
 		"oA": 0,
 		"oAP": "\/assets\/images\/artwork\/shelf\/collage__quicklook@2x.png",
 		"oF": 0,

@@ -7,6 +7,10 @@ body {
       padding-left: 6vw;
       padding-right: 6vw;
    }
+   .c-section--shelf {
+      padding-left: 0;
+      padding-right: 0;
+   }
    @media(min-width: $b__medium) {
       display: grid;
       grid-column-gap: 4vw;
@@ -96,7 +100,6 @@ body {
             margin-bottom: 2vw;
             display: flex;
             align-items: flex-end;
-            //max-width: 94%;
             &:last-child {
                margin-bottom: 0;
             }
@@ -106,15 +109,6 @@ body {
             .c-item {
                margin-right: 2vw;
                box-sizing: border-box;
-               /*a {
-                  .c-figure img {
-                     transform: translate3d(0, 0, 0);
-                     transition: transform .32s ease-in-out;
-                  }
-                  &:hover .c-figure img {
-                     transform: translate3d(0, -10px, 0);
-                  }
-               }*/
                &:nth-child(even) {
                   margin-right: 0;
                }
