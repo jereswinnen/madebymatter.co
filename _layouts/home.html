@@ -1,15 +1,15 @@
 {% include html-header.html %}
-{% include site-header.html %}
 <main class="c-main">
    <section class="c-hero">
+      {% include site-header.html %}
       <article class="c-article">
          <header class="c-article__header js--wow fadeInUp">
             <h1>A <strong>creative developer</strong> and <strong>designer</strong> with a focus on digital product design for <strong>mobile platforms</strong>.</h1>
          </header>
-         <p class="c-article__lede js--wow fadeInUp" data-wow-delay=".25s">{{ content }}</p>
+         <!--<p class="c-article__lede js--wow fadeInUp" data-wow-delay=".25s">{{ content }}</p>-->
       </article>
    </section>
-   <section class="c-section c-section--extend">
+   <!--<section class="c-section c-section--extend">
       <div class="l-flex l-flex--collage">
          <div class="l-flex--collage__row1">
             <div class="c-item c-item--work js--tilt">
@@ -18,7 +18,7 @@
             <div class="c-item c-item--work js--tilt">
                <a href="#"><figure class="c-figure"><img src="/assets/images/artwork/diabetik/collage__twins.png" srcset="/assets/images/artwork/diabetik/collage__twins.png 1x, /assets/images/artwork/diabetik/collage__twins@2x.png 2x" alt="Diabetik"></figure></a>
             </div>
-         </div><!--end row1-->
+         </div>
          <div class="l-flex--collage__row2">
             <div class="c-item c-item--work js--tilt">
                <a href="#"><figure class="c-figure"><img src="/assets/images/artwork/nintendo/collage__triad.png" srcset="/assets/images/artwork/nintendo/collage__triad.png 1x, /assets/images/artwork/nintendo/collage__triad@2x.png 2x" alt="Nintendo Switch"></figure></a>
@@ -26,10 +26,18 @@
             <div class="c-item c-item--work js--tilt">
                <a href="#"><figure class="c-figure"><img src="/assets/images/artwork/realo/homedetail__phonemacbook.png" srcset="/assets/images/artwork/realo/homedetail__phonemacbook.png 1x, /assets/images/artwork/realo/homedetail__phonemacbook@2x.png 2x" alt="Realo"></figure></a>
             </div>
-         </div><!--end row2-->
-      </div><!--end flex-collage-->
+         </div>
+      </div>
+   </section>-->
+   <!--{% include connect-with-me.html title="Let's make something <strong>great</strong> together." %}-->
+   <section class="c-section c-section--extend">
+      {% for project in site.data.projects %}
+      <div class="c-item">
+         <a href="{{ project.link }}"><figure class="c-figure c-figure--full"><img src="{{ project.cover-img }}" srcset="{{ project.cover-img }} 1x, {{ project.cover-img2x }} 2x" alt="{{ project.name }}"></figure></a>
+         <p><a href="{{ project.link }}">{{ project.name }}</a> &mdash; {{ project.tagline }}</p>
+      </div>
+      {% endfor %}
    </section>
-   {% include connect-with-me.html title="Let's make something <strong>great</strong> together." %}
 </main>
-<!--{% include site-footer.html %}-->
+{% include site-footer.html %}
 {% include html-footer.html %}

@@ -4,7 +4,17 @@
 
 .c-masthead {
    display: flex;
-   justify-content: space-between;
-   padding-top: 5vh;
-   padding-bottom: 5vh;
+   align-items: center;
+   margin-bottom: 6vh;
+   .c-branding, .c-nav__item {
+      margin-right: 4vw;
+   }
+   .c-nav__item:last-child {
+      margin-right: 0;
+   }
+   @media(min-width: $b__large) {
+      .c-branding, .c-nav__item {
+         //margin-right: 2.4vw;
+      }
+   }
 }

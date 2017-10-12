@@ -1,47 +1,47 @@
-- diabetik:
-  name: Diabetik
-  tagline: Elegant diabetes management at your fingertips.
-  deliverables: Branding, User interface design, Iconography, Web design
-  cover-img: "/assets/images/artwork/diabetik/collage__twins.png"
-  cover-img2x: "/assets/images/artwork/diabetik/collage__twins@2x.png"
-  link: /work/diabetik/
+- shelf:
+  name: Shelf
+  tagline: Drag. Drop. Do.
+  deliverables: Branding, User interface design, Iconography, Web design, Web development
+  cover-img: "/assets/images/artwork/shelf/home__cover.png"
+  cover-img2x: "/assets/images/artwork/shelf/home__cover@2x.png"
+  link: /work/shelf/
 
 - realo:
   name: Realo
   tagline: Building a next generation real estate platform.
   deliverables: Branding, User interface design, Iconography, Web design, Pattern library
-  cover-img: "/assets/images/artwork/realo/homedetail__phonemacbook.png"
-  cover-img2x: "/assets/images/artwork/realo/homedetail__phonemacbook@2x.png"
+  cover-img: "/assets/images/artwork/realo/home__cover.png"
+  cover-img2x: "/assets/images/artwork/realo/home__cover@2x.png"
   link: /work/realo/
 
-- shelf:
-  name: Shelf
-  tagline: Drag. Drop. Do.
-  deliverables: Branding, User interface design, Iconography, Web design, Web development
-  cover-img: "/assets/images/artwork/shelf/collage__quicklook.png"
-  cover-img2x: "/assets/images/artwork/shelf/collage__quicklook@2x.png"
-  link: /work/shelf/
-
-- castaway:
-  name: Castaway
-  tagline: Drag. Drop. Do.
-  deliverables: User interface design, Iconography
-  cover-img: "/assets/images/artwork/diabetik/collage__twins.png"
-  cover-img2x: "/assets/images/artwork/diabetik/collage__twins@2x.png"
-  link: /work/castaway/
+- diabetik:
+  name: Diabetik
+  tagline: Elegant diabetes management at your fingertips.
+  deliverables: Branding, User interface design, Iconography, Web design
+  cover-img: "/assets/images/artwork/diabetik/home__cover.png"
+  cover-img2x: "/assets/images/artwork/diabetik/home__cover@2x.png"
+  link: /work/diabetik/
 
 - immobrown:
   name: Immo Brown
   tagline: Drag. Drop. Do.
   deliverables: Web design, Iconography
-  cover-img: "/assets/images/artwork/diabetik/collage__twins.png"
-  cover-img2x: "/assets/images/artwork/diabetik/collage__twins@2x.png"
+  cover-img: "/assets/images/artwork/immobrown/home__cover.png"
+  cover-img2x: "/assets/images/artwork/immobrown/home__cover@2x.png"
   link: /work/immobrown/
+
+- castaway:
+  name: Castaway
+  tagline: Finally, a great podcast app for macOS.
+  deliverables: User interface design, Iconography
+  cover-img: "/assets/images/artwork/castaway/home__cover.png"
+  cover-img2x: "/assets/images/artwork/castaway/home__cover@2x.png"
+  link: /work/castaway/
 
 - nintendo:
   name: Nintendo
   tagline: Drag. Drop. Do.
   deliverables: User interface design, Iconography
-  cover-img: "/assets/images/artwork/nintendo/collage__triad.png"
-  cover-img2x: "/assets/images/artwork/nintendo/collage__triad@2x.png"
+  cover-img: "/assets/images/artwork/nintendo/home__cover.png"
+  cover-img2x: "/assets/images/artwork/nintendo/home__cover@2x.png"
   link: /work/nintendo/

@@ -9,12 +9,12 @@ $u__max-width: 67.5rem; //1080px
 // Colours
 /// Neutral
 $c__neutral--white: #fff;
-$c__neutral--lightest: #eee;
+$c__neutral--lightest: #ccc;
 $c__neutral--light: #999;
 $c__neutral--mid: #555;
 $c__neutral--dark: #333;
-$c__neutral--darkest: #111;
-$c__neutral--black: #000;
+$c__neutral--darkest: #1f1f1f;
+$c__neutral--black: #0d0d0d;
 
 $c__muted--light: transparentize($c__neutral--white, .5);
 $c__muted--dark: transparentize($c__neutral--black, .5);

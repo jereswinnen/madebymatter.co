@@ -3,7 +3,21 @@
 // =======================================================================
 
 .c-item {
-
+   margin-bottom: 8vh;
+   //overflow: hidden;
+   .c-figure {
+      margin-bottom: 1rem;
+      overflow: hidden;
+      img {
+         transition: all .6s $easing__bezier;
+      }
+   }
+   &:hover .c-figure img {
+      transform: scale(1.025);
+   }
+   p a {
+      text-decoration: none;
+   }
 }
 .c-item--work {
    margin-bottom: 4vh;

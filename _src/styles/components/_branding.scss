@@ -3,10 +3,10 @@
 // =======================================================================
 
 .c-branding {
-   display: inline-block;
+   height: 20px;
    .c-branding__svg {
       width: 130px;
-      fill: $c__neutral--darkest;
+      fill: $c__neutral--white;
       @media (min-width: $b__large) {
          width: 140px;
       }

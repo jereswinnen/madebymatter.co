@@ -9,16 +9,15 @@ html {
    -webkit-font-smoothing: antialiased;
 }
 ::selection {
-   background: $c__faint--dark;
+   background: $c__faint--light;
 }
 body {
    margin: 0;
-   //font-size: 100%;
    @include fs__base;
    @include ff--sans-serif($fw__regular);
    line-height: $u__base-line-height;
-   color: $c__neutral--dark;
-   //background: #f5f5f5;
+   color: $c__neutral--lightest;
+   background: $c__neutral--black;
 }
 article, aside, footer, header, main, nav, section {
    display: block;

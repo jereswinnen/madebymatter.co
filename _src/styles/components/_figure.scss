@@ -2,13 +2,30 @@
 // Figure
 // =======================================================================
 
-.c-figure:not(.c-section--diabetik .c-figure, .c-section--realo .c-figure, .c-section--shelf .c-figure, .c-section--immobrown .c-figure, .c-section--nintendo .c-figure, .c-section--castaway .c-figure, .c-item--work .c-figure) {
+.c-figure {
    margin-bottom: 2vh;
    img {
       margin-bottom: 2vh;
    }
    figcaption {
       text-align: center;
+   }
+}
+.c-figure--contained {
+   margin-bottom: 0;
+   padding: 4rem;
+   background: $c__neutral--darkest;
+   border-radius: $radius__midi; //8px
+   img {
+      margin-bottom: 0;
+   }
+}
+.c-figure--full {
+   margin-bottom: 0;
+   background: $c__neutral--darkest;
+   border-radius: $radius__midi; //8px
+   img {
+      margin-bottom: -0.5rem;
    }
 }
 .c-figure--work {

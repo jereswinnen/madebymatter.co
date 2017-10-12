@@ -3,38 +3,29 @@
 // =======================================================================
 
 body {
-   .c-masthead, .c-hero, .c-section, .c-footer {
+   .c-hero, .c-section, .c-footer {
       padding-left: 6vw;
       padding-right: 6vw;
-   }
-   .c-section--shelf {
-      padding-left: 0;
-      padding-right: 0;
    }
    @media(min-width: $b__medium) {
       display: grid;
       grid-column-gap: 4vw;
-      grid-template-columns: [bleed-start] 1fr [extend-start] 1fr [content-start] minmax(0, 40em) [content-end] 1fr [extend-end] 1fr [bleed-end];
-      .c-masthead, .c-hero, .c-section, .c-footer {
+      grid-template-columns: [bleed-start] 1fr [extend-start] 1fr [content-start] minmax(0, 32em) [content-end] 1fr [extend-end] 1fr [bleed-end];
+      .c-hero, .c-section, .c-footer {
          padding-left: 0;
          padding-right: 0;
-      }
-      .c-masthead, .c-footer {
-         grid-column: extend;
       }
       .c-main {
          display: grid;
          grid-column: bleed;
          grid-template-columns: inherit;
-         .c-hero {
+         .c-hero, .c-section {
             grid-column: content;
          }
-         .c-section, .c-section--extend {
+         .c-section--extend {
             grid-column: extend;
          }
-         .c-section--content {
-            grid-column: content;
-         }
+         /*
          .c-section--abreast,
          .c-section--abreastreverse,
          .c-section--triad,
@@ -57,10 +48,11 @@ body {
                order: 1;
             }
          }
+         */
          .c-section--bleed {
-            display: grid;
+            //display: grid;
             grid-column: bleed;
-            grid-template-columns: inherit;
+            //grid-template-columns: inherit;
             .c-section__content--inner {
                display: grid;
                grid-column: extend;
@@ -81,12 +73,10 @@ body {
             }
          }
       }
+      .c-footer {
+         grid-column: content;
+      }
    }
-}
-
-// Layout helpers
-.l-nomarginb {
-   margin-bottom: 0 !important;
 }
 
 // Flex modules
