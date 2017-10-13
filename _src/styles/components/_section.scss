@@ -13,57 +13,23 @@
       }
    }
    &--content, &--bleed {
-      margin-bottom: 0;
       padding: 0;
    }
-   &--darkest {
-      ::selection {
-         background: $c__faint--light;
-      }
-      color: $c__muted--light;
-      background: $c__neutral--darkest;
-      .c-cta {
-         &--primary {
-            color: $c__neutral--darkest;
-            background: $c__neutral--lightest;
-            &:hover {
-               color: $c__neutral--lightest;
-               background: $c__neutral--mid;
-            }
+   &--collage {
+      .c-figure {
+         margin-bottom: 0;
+         img {
+            margin-bottom: -0.5rem;
          }
-         &--link {
-            &:after {
-               background: rgba(255, 255, 255, .5);
-            }
+         &:nth-child(1) {
+            margin-bottom: 2rem;
          }
       }
-      a {
-         color: $c__neutral--white;
-         &:active {
-            color: $c__neutral--light;
-         }
-      }
-      h1, h2, h3 {
-         color: $c__neutral--white;
-      }
-      h4 {
-         color: $c__neutral--mid;
-      }
-      .c-list--segmented .c-list__item {
-         border-bottom: 1px solid $c__neutral--dark;
+      .l-flex.l-flex--abreast .c-figure {
+         margin-bottom: 0;
          &:first-child {
-            border-top: 1px solid $c__neutral--dark;
+            margin-right: 2rem;
          }
       }
-   }
-   &--realo {
-      background: $c__realo--hero;
-   }
-   &--diabetik {
-      background: $c__diabetik--hero;
-   }
-   &--shelf {
-      background: none;
-      padding: 0;
    }
 }

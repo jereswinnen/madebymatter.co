@@ -12,48 +12,13 @@
    }
 }
 .c-figure--contained {
-   margin-bottom: 0;
-   padding: 4rem;
+   padding: 3rem;
    background: $c__neutral--darkest;
-   border-radius: $radius__midi; //8px
-   img {
-      margin-bottom: 0;
-   }
 }
 .c-figure--full {
    margin-bottom: 0;
    background: $c__neutral--darkest;
-   border-radius: $radius__midi; //8px
    img {
       margin-bottom: -0.5rem;
-   }
-}
-.c-figure--work {
-   position: relative;
-   padding: 7vw;
-   background: $c__stone--lightest;
-   figcaption {
-      display: none;
-      position: absolute;
-      padding: 3vw;
-      left: 0;
-      bottom: 0;
-      width: 40%;
-      background: $c__stone--lightest;
-      text-align: left !important;
-      z-index: 9999;
-   }
-   img {
-      margin-bottom: 0 !important;
-      transition: all .6s $easing__bezier;
-   }
-   &:hover img {
-      transform: scale(1.025);
-   }
-   @media(min-width: $b__medium) {
-      padding: 5vw;
-      figcaption {
-         display: block;
-      }
    }
 }

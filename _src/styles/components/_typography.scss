@@ -25,7 +25,7 @@ h3 {
    color: currentColor;
 }
 h4 {
-   margin-bottom: 2rem;
+   margin-bottom: 3rem;
    @include ff--sans-serif($fw__medium);
    @include fs__micro;
    color: $c__muted--light;

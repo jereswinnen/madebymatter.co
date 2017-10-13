@@ -1,5 +1,5 @@
 ---
-layout: case
+layout: case-diabetik
 title:  diabetik
 tagline: Elegant diabetes management at your fingertips.
 lede: I worked together with Nial Giacomelli, a diabetic himself, on creating a delightful user experience for people who suffer from diabetes. The result is an app that's modern, intuitive and fun to use.

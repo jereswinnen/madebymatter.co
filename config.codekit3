@@ -27,22 +27,22 @@
 		"oAP": "\/_data\/projects.yml",
 		"oF": 0
 		},
-	"\/_includes\/case-section-bleed-hero.html": {
+	"\/_includes\/case-section-bleed-collage.html": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/_includes\/case-section-bleed-hero.html",
-		"oF": 0
-		},
-	"\/_includes\/case-section-bleed-stone.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_includes\/case-section-bleed-stone.html",
+		"oAP": "\/_includes\/case-section-bleed-collage.html",
 		"oF": 0
 		},
 	"\/_includes\/case-section-bleed.html": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_includes\/case-section-bleed.html",
+		"oF": 0
+		},
+	"\/_includes\/case-section-extend.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_includes\/case-section-extend.html",
 		"oF": 0
 		},
 	"\/_includes\/connect-with-me.html": {
@@ -75,16 +75,22 @@
 		"oAP": "\/_includes\/site-header.html",
 		"oF": 0
 		},
+	"\/_layouts\/case-diabetik.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_layouts\/case-diabetik.html",
+		"oF": 0
+		},
+	"\/_layouts\/case-realo.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_layouts\/case-realo.html",
+		"oF": 0
+		},
 	"\/_layouts\/case-shelf.html": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_layouts\/case-shelf.html",
-		"oF": 0
-		},
-	"\/_layouts\/case.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_layouts\/case.html",
 		"oF": 0
 		},
 	"\/_layouts\/home.html": {
@@ -97,12 +103,6 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_layouts\/profile.html",
-		"oF": 0
-		},
-	"\/_layouts\/profile_ori.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_layouts\/profile_ori.html",
 		"oF": 0
 		},
 	"\/_pages\/index.md": {
@@ -140,12 +140,6 @@
 		"pME": 1,
 		"rFN": 0,
 		"uCM": 0
-		},
-	"\/_posts\/2017-09-22-welcome-to-jekyll.markdown": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_posts\/2017-09-22-welcome-to-jekyll.markdown",
-		"oF": 0
 		},
 	"\/_projects\/diabetik.md": {
 		"cS": 0,
@@ -428,12 +422,6 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/index.html",
-		"oF": 0
-		},
-	"\/_site\/jekyll\/update\/2017\/09\/22\/welcome-to-jekyll.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_site\/jekyll\/update\/2017\/09\/22\/welcome-to-jekyll.html",
 		"oF": 0
 		},
 	"\/_site\/profile\/index.html": {

@@ -8,29 +8,19 @@
    .c-figure {
       margin-bottom: 1rem;
       overflow: hidden;
+      border-radius: $radius__midi; //8px
       img {
          transition: all .6s $easing__bezier;
       }
    }
    &:hover .c-figure img {
-      transform: scale(1.025);
+      transform: scale(1.045);
+   }
+   &:active .c-figure img {
+      opacity: .85;
+      transition-duration: .001s;
    }
    p a {
       text-decoration: none;
-   }
-}
-.c-item--work {
-   margin-bottom: 4vh;
-   padding: 6vw;
-   background: $c__stone--lightest;
-   .c-figure img {
-      transition: all .6s $easing__bezier;
-   }
-   &:hover .c-figure img {
-      transform: scale(1.025);
-   }
-   @media(min-width: $b__medium) {
-      margin-bottom: 0;
-      padding: 3vw;
    }
 }

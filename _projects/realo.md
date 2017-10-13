@@ -1,14 +1,16 @@
 ---
-layout: case
-title:  "realo"
-tagline: "Building a next generation real estate platform."
+layout: case-realo
+title:  realo
+tagline: Building a next generation real estate platform.
+lede: I worked together with Nial Giacomelli, a diabetic himself, on creating a delightful user experience for people who suffer from diabetes. The result is an app that's modern, intuitive and fun to use.
 deliverables:
    - Branding
    - User interface design
    - Iconography
    - Web design
-   - Pattern library
-hero__img:
+
+sections:
+   design: This is the **end note** of the post.
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
