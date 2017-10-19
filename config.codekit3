@@ -27,6 +27,12 @@
 		"oAP": "\/_data\/projects.yml",
 		"oF": 0
 		},
+	"\/_includes\/case-figure.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_includes\/case-figure.html",
+		"oF": 0
+		},
 	"\/_includes\/case-section-bleed-collage.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -211,6 +217,50 @@
 		"iS": 1174509,
 		"oA": 0,
 		"oAP": "\/_site\/assets\/images\/artwork\/castaway\/home__cover@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/_site\/assets\/images\/artwork\/diabetik\/case__diabetik--heroleft.png": {
+		"ft": 32768,
+		"iS": 23520,
+		"oA": 0,
+		"oAP": "\/_site\/assets\/images\/artwork\/diabetik\/case__diabetik--heroleft.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/_site\/assets\/images\/artwork\/diabetik\/case__diabetik--heroleft@2x.png": {
+		"ft": 32768,
+		"iS": 65284,
+		"oA": 0,
+		"oAP": "\/_site\/assets\/images\/artwork\/diabetik\/case__diabetik--heroleft@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/_site\/assets\/images\/artwork\/diabetik\/case__diabetik--heroright.png": {
+		"ft": 32768,
+		"iS": 23543,
+		"oA": 0,
+		"oAP": "\/_site\/assets\/images\/artwork\/diabetik\/case__diabetik--heroright.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/_site\/assets\/images\/artwork\/diabetik\/case__diabetik--heroright@2x.png": {
+		"ft": 32768,
+		"iS": 62193,
+		"oA": 0,
+		"oAP": "\/_site\/assets\/images\/artwork\/diabetik\/case__diabetik--heroright@2x.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -827,6 +877,50 @@
 		"iS": 1174509,
 		"oA": 0,
 		"oAP": "\/assets\/images\/artwork\/castaway\/home__cover@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/images\/artwork\/diabetik\/case__diabetik--heroleft.png": {
+		"ft": 32768,
+		"iS": 23520,
+		"oA": 0,
+		"oAP": "\/assets\/images\/artwork\/diabetik\/case__diabetik--heroleft.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/images\/artwork\/diabetik\/case__diabetik--heroleft@2x.png": {
+		"ft": 32768,
+		"iS": 65284,
+		"oA": 0,
+		"oAP": "\/assets\/images\/artwork\/diabetik\/case__diabetik--heroleft@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/images\/artwork\/diabetik\/case__diabetik--heroright.png": {
+		"ft": 32768,
+		"iS": 23543,
+		"oA": 0,
+		"oAP": "\/assets\/images\/artwork\/diabetik\/case__diabetik--heroright.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/images\/artwork\/diabetik\/case__diabetik--heroright@2x.png": {
+		"ft": 32768,
+		"iS": 62193,
+		"oA": 0,
+		"oAP": "\/assets\/images\/artwork\/diabetik\/case__diabetik--heroright@2x.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,

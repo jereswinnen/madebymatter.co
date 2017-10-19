@@ -23,8 +23,8 @@
 .animated {
   -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
           animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
-  -webkit-animation-duration: .8s;
-          animation-duration: .8s;
+  -webkit-animation-duration: 1.4s;
+          animation-duration: 1.4s;
   -webkit-animation-fill-mode: both;
           animation-fill-mode: both; }
 
@@ -47,8 +47,8 @@
 @-webkit-keyframes fadeInDown {
   from {
     opacity: 0;
-    -webkit-transform: translate3d(0, -100%, 0);
-            transform: translate3d(0, -100%, 0); }
+    -webkit-transform: translate3d(0, -20%, 0);
+            transform: translate3d(0, -20%, 0); }
   to {
     opacity: 1;
     -webkit-transform: none;
@@ -57,8 +57,8 @@
 @keyframes fadeInDown {
   from {
     opacity: 0;
-    -webkit-transform: translate3d(0, -100%, 0);
-            transform: translate3d(0, -100%, 0); }
+    -webkit-transform: translate3d(0, -20%, 0);
+            transform: translate3d(0, -20%, 0); }
   to {
     opacity: 1;
     -webkit-transform: none;
@@ -71,8 +71,8 @@
 @-webkit-keyframes fadeInUp {
   from {
     opacity: 0;
-    -webkit-transform: translate3d(0, 100%, 0);
-            transform: translate3d(0, 100%, 0); }
+    -webkit-transform: translate3d(0, 20%, 0);
+            transform: translate3d(0, 20%, 0); }
   to {
     opacity: 1;
     -webkit-transform: none;
@@ -81,8 +81,8 @@
 @keyframes fadeInUp {
   from {
     opacity: 0;
-    -webkit-transform: translate3d(0, 100%, 0);
-            transform: translate3d(0, 100%, 0); }
+    -webkit-transform: translate3d(0, 20%, 0);
+            transform: translate3d(0, 20%, 0); }
   to {
     opacity: 1;
     -webkit-transform: none;
@@ -206,6 +206,10 @@ body {
   @media (min-width: 1040px) {
     body {
       font-size: 1.25rem; } }
+  @media (min-width: 860px) {
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+      font-weight: 300; } }
 
 article, aside, footer, header, main, nav, section {
   display: block; }
@@ -384,6 +388,7 @@ strong {
 small {
   font-size: 0.75rem;
   line-height: 1.25;
+  font-weight: 400;
   color: rgba(255, 255, 255, 0.5); }
   @media (min-width: 1040px) {
     small {
@@ -409,14 +414,16 @@ code {
 figcaption p {
   font-size: 0.75rem;
   line-height: 1.25;
-  color: #555; }
+  color: #555;
+  font-weight: 400; }
   @media (min-width: 1040px) {
     figcaption p {
       font-size: 0.8125rem;
       line-height: 1.5; } }
 
 blockquote {
-  margin: 0; }
+  margin: 0;
+  font-weight: 400; }
   blockquote p {
     color: rgba(13, 13, 13, 0.5);
     hanging-punctuation: first; }
@@ -439,52 +446,34 @@ a {
     text-decoration: none; }
   a:active {
     color: #999; }
+  @media (min-width: 860px) {
+    a {
+      font-weight: 500; } }
 
 .c-cta {
+  position: relative;
   display: inline-block;
-  padding: 0.75rem 1.15rem;
   text-decoration: none; }
-  .c-cta--primary {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-    font-weight: 600;
-    font-size: 0.75rem;
-    line-height: 1.25;
-    text-transform: uppercase;
-    letter-spacing: 0.1rem;
-    color: #ccc;
-    background: #1f1f1f;
-    border-radius: 4px; }
-    @media (min-width: 1040px) {
-      .c-cta--primary {
-        font-size: 0.8125rem;
-        line-height: 1.5; } }
-    .c-cta--primary:hover {
-      color: #ccc;
-      background: #555; }
-    .c-cta--primary:active {
-      opacity: .8; }
-  .c-cta--link {
+  .c-cta--link span {
     position: relative;
-    padding: 0; }
-    .c-cta--link:after {
+    display: inline-block;
+    overflow: hidden; }
+    .c-cta--link span::before {
       position: absolute;
-      left: 0;
-      bottom: 0;
-      width: 120%;
-      height: 100%;
+      top: 94%;
+      width: 100%;
+      height: 2px;
+      background: #fff;
       content: '';
-      background: rgba(0, 0, 0, 0.1);
-      -webkit-transform: scaleX(0);
-              transform: scaleX(0);
-      -webkit-transform-origin: bottom left;
-              transform-origin: bottom left;
-      -webkit-transition: -webkit-transform 0.3s;
-      transition: -webkit-transform 0.3s;
-      transition: transform 0.3s;
-      transition: transform 0.3s, -webkit-transform 0.3s; }
-    .c-cta--link:hover:after {
-      -webkit-transform: scaleX(1);
-              transform: scaleX(1); }
+      -webkit-transform: translate3d(-100%, 0, 0);
+              transform: translate3d(-100%, 0, 0);
+      -webkit-transition: -webkit-transform 0.6s cubic-bezier(0.215, 0.61, 0.355, 1);
+      transition: -webkit-transform 0.6s cubic-bezier(0.215, 0.61, 0.355, 1);
+      transition: transform 0.6s cubic-bezier(0.215, 0.61, 0.355, 1);
+      transition: transform 0.6s cubic-bezier(0.215, 0.61, 0.355, 1), -webkit-transform 0.6s cubic-bezier(0.215, 0.61, 0.355, 1); }
+  .c-cta--link:hover span::before {
+    -webkit-transform: translate3d(100%, 0, 0);
+            transform: translate3d(100%, 0, 0); }
 
 .c-masthead {
   display: -webkit-box;
@@ -558,20 +547,8 @@ a {
   margin-bottom: 8vh; }
   .c-article .c-article__header {
     margin-bottom: 4vh; }
-  .c-article h2.c-article__lede {
-    margin-bottom: 4vh;
-    font-size: 1.375rem;
-    line-height: 1.35; }
-    @media (min-width: 860px) {
-      .c-article h2.c-article__lede {
-        font-size: 1.5rem;
-        letter-spacing: -0.01rem; } }
-    @media (min-width: 1040px) {
-      .c-article h2.c-article__lede {
-        font-size: 1.875rem;
-        letter-spacing: -0.025rem; } }
-    .c-article h2.c-article__lede strong {
-      display: inline; }
+  .c-article .c-article__lede {
+    margin-bottom: 4vh; }
 
 .c-footer {
   padding-top: 4vh;
@@ -604,6 +581,7 @@ a {
 .c-list--deliverables .c-list__item {
   font-size: 0.875rem;
   line-height: 1.4;
+  font-weight: 400 !important;
   color: #999; }
   @media (min-width: 1040px) {
     .c-list--deliverables .c-list__item {

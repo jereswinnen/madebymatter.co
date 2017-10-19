@@ -40,6 +40,7 @@ strong {
 }
 small {
    @include fs__micro;
+   font-weight: $fw__regular;
    color: $c__muted--light;
 }
 p {
@@ -61,12 +62,14 @@ figcaption {
    p {
       @include fs__micro;
       color: $c__neutral--mid;
+      font-weight: $fw__regular;
    }
 }
 
 // Blockquote
 blockquote {
    margin: 0;
+   font-weight: $fw__regular;
    p {
       color: $c__muted--dark;
       hanging-punctuation: first;

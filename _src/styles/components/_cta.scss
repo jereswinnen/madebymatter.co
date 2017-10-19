@@ -2,42 +2,27 @@
 // Primary & secondary calls to action
 // =======================================================================
 .c-cta {
+   position: relative;
    display: inline-block;
-   padding: 0.75rem 1.15rem;
    text-decoration: none;
-   &--primary {
-      @include ff--sans-serif($fw__semibold);
-      @include fs__micro;
-      text-transform: uppercase;
-      letter-spacing: 0.1rem;
-      color: $c__neutral--lightest;
-      background: $c__neutral--darkest;
-      border-radius: $radius__mini;
-      &:hover {
-         color: $c__neutral--lightest;
-         background: $c__neutral--mid;
-      }
-      &:active {
-         opacity: .8;
-      }
-   }
    &--link {
-      position: relative;
-      padding: 0;
-      &:after {
-         position: absolute;
-         left: 0;
-         bottom: 0;
-         width: 120%;
-         height: 100%;
-         content: '';
-         background: rgba(0, 0, 0, .1);
-         transform: scaleX(0);
-         transform-origin: bottom left;
-         transition: transform 0.3s;
+      span {
+         position: relative;
+         display: inline-block;
+         overflow: hidden;
+         &::before {
+            position: absolute;
+            top: 94%;
+            width: 100%;
+            height: 2px;
+            background: $c__neutral--white;
+            content: '';
+            transform: translate3d(-100%,0,0);
+            transition: transform .6s $easing__bezier;
+         }
       }
-      &:hover:after {
-         transform: scaleX(1);
+      &:hover span::before {
+         transform: translate3d(100%,0,0);
       }
    }
 }

@@ -9,35 +9,15 @@
          <!--<p class="c-article__lede js--wow fadeInUp" data-wow-delay=".25s">{{ content }}</p>-->
       </article>
    </section>
-   <!--<section class="c-section c-section--extend">
-      <div class="l-flex l-flex--collage">
-         <div class="l-flex--collage__row1">
-            <div class="c-item c-item--work js--tilt">
-               <a href="#"><figure class="c-figure"><img src="/assets/images/artwork/shelf/collage__quicklook.png" srcset="/assets/images/artwork/shelf/collage__quicklook.png 1x, /assets/images/artwork/shelf/collage__quicklook@2x.png 2x" alt="Shelf for iPad"></figure></a>
-            </div>
-            <div class="c-item c-item--work js--tilt">
-               <a href="#"><figure class="c-figure"><img src="/assets/images/artwork/diabetik/collage__twins.png" srcset="/assets/images/artwork/diabetik/collage__twins.png 1x, /assets/images/artwork/diabetik/collage__twins@2x.png 2x" alt="Diabetik"></figure></a>
-            </div>
-         </div>
-         <div class="l-flex--collage__row2">
-            <div class="c-item c-item--work js--tilt">
-               <a href="#"><figure class="c-figure"><img src="/assets/images/artwork/nintendo/collage__triad.png" srcset="/assets/images/artwork/nintendo/collage__triad.png 1x, /assets/images/artwork/nintendo/collage__triad@2x.png 2x" alt="Nintendo Switch"></figure></a>
-            </div>
-            <div class="c-item c-item--work js--tilt">
-               <a href="#"><figure class="c-figure"><img src="/assets/images/artwork/realo/homedetail__phonemacbook.png" srcset="/assets/images/artwork/realo/homedetail__phonemacbook.png 1x, /assets/images/artwork/realo/homedetail__phonemacbook@2x.png 2x" alt="Realo"></figure></a>
-            </div>
-         </div>
-      </div>
-   </section>-->
-   <!--{% include connect-with-me.html title="Let's make something <strong>great</strong> together." %}-->
    <section class="c-section c-section--extend">
       {% for project in site.data.projects %}
-      <div class="c-item">
+      <div class="c-item js--wow fadeInUp">
          <a href="{{ project.link }}"><figure class="c-figure c-figure--full"><img src="{{ project.cover-img }}" srcset="{{ project.cover-img }} 1x, {{ project.cover-img2x }} 2x" alt="{{ project.name }}"></figure></a>
          <p><a href="{{ project.link }}">{{ project.name }}</a> &mdash; {{ project.tagline }}</p>
       </div>
       {% endfor %}
    </section>
+   {% include connect-with-me.html title="Like what you just saw? Let's work together and make something <strong>amazing</strong>!" %}
 </main>
 {% include site-footer.html %}
 {% include html-footer.html %}

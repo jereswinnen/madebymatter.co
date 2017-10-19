@@ -6,8 +6,8 @@
          <header class="c-article__header js--wow fadeInUp">
             <h1><strong>{{ page.title | capitalize }}.</strong> {{ page.tagline }}</h1>
          </header>
-         <h2 class="c-article__lede">{{ page.lede }}</h2>
-         <ul class="c-list c-list--deliverables js--wow fadeInUp">
+         <h2 class="c-article__lede js--wow fadeInUp" data-wow-delay=".2s">{{ page.lede }}</h2>
+         <ul class="c-list c-list--deliverables js--wow fadeInUp" data-wow-delay=".4s">
             {% for item in page.deliverables %}
             <li class="c-list__item">{{ item }}</li>
             {% endfor %}
@@ -17,33 +17,35 @@
    {% include case-section-bleed-collage.html
       img="/assets/images/artwork/diabetik/home__cover.png"
       img2x="/assets/images/artwork/diabetik/home__cover@2x.png"
-      imgalt="This is the alt text for the provided image"
+      imgalt="Diabetik for iOS"
 
-      imgsecondary="http://www.ultimaficha.com.br/wp-content/uploads/2017/04/Gran-Turismo-Sport-Porsche-1.jpg"
-      imgsecondary2x="http://www.ultimaficha.com.br/wp-content/uploads/2017/04/Gran-Turismo-Sport-Porsche-1.jpg"
-      imgsecondaryalt="This is the alt text for the provided secondary image"
+      imgsecondary="/assets/images/artwork/diabetik/case__diabetik--heroleft.png"
+      imgsecondary2x="/assets/images/artwork/diabetik/case__diabetik--heroleft@2x.png"
+      imgsecondaryalt="Diabetik for iPhone"
 
-      imgtertiary="http://cdn.wccftech.com/wp-content/uploads/2017/10/Gran-Turismo-Sport-Preview-02-Long-Straight.jpg"
-      imgtertiary2x="http://cdn.wccftech.com/wp-content/uploads/2017/10/Gran-Turismo-Sport-Preview-02-Long-Straight.jpg"
-      imgtertiaryalt="This is the alt text for the provided tertiary image"
+      imgtertiary="/assets/images/artwork/diabetik/case__diabetik--heroright.png"
+      imgtertiary2x="/assets/images/artwork/diabetik/case__diabetik--heroright@2x.png"
+      imgtertiaryalt="Diabetik for iPhone"
    %}
    <section class="c-section c-section--content">
       <article class="c-article js--wow fadeInUp">
          {{ content }}
       </article>
    </section>
-   {% include case-section-extend.html
-      img="/assets/images/artwork/diabetik/home__cover.png"
-      img2x="/assets/images/artwork/diabetik/home__cover@2x.png"
-      imgalt="This is the alt text for when the image couldn't be retrieved from the server"
-      caption="This is a caption for the provided image."
-   %}
-   {% include case-section-extend.html
-      img="/assets/images/artwork/diabetik/home__cover.png"
-      img2x="/assets/images/artwork/diabetik/home__cover@2x.png"
-      imgalt="This is the alt text for when the image couldn't be retrieved from the server"
-      caption="This is a caption for the provided image."
-   %}
+   <section class="c-section c-section--extend">
+      {% include case-figure.html
+         img="/assets/images/artwork/diabetik/home__cover.png"
+         img2x="/assets/images/artwork/diabetik/home__cover@2x.png"
+         imgalt="This is the alt text for when the image couldn't be retrieved from the server"
+         caption="This is a caption for the provided image."
+      %}
+      {% include case-figure.html
+         img="/assets/images/artwork/diabetik/home__cover.png"
+         img2x="/assets/images/artwork/diabetik/home__cover@2x.png"
+         imgalt="This is the alt text for when the image couldn't be retrieved from the server"
+         caption="This is a caption for the provided image."
+      %}
+   </section>
    <section class="c-section c-section--bleed" style="display:none;">
       <div class="c-section__content--inner">
          <article class="c-article js--wow fadeInUp">
@@ -51,7 +53,7 @@
          </article>
       </div>
    </section>
-   {% include connect-with-me.html title="Like what you just saw? Let's work together and make something <strong>great</strong>!" %}
+   {% include connect-with-me.html title="Like what you just saw? Let's work together and make something <strong>amazing</strong>!" %}
 </main>
-<!--{% include site-footer.html %}-->
+{% include site-footer.html %}
 {% include html-footer.html %}

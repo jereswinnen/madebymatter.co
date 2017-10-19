@@ -13,6 +13,7 @@
 .c-list--deliverables {
    .c-list__item {
       @include fs__mini;
+      font-weight: $fw__regular !important;
       color: $c__neutral--light;
       @media(min-width: $b__medium) {
          display: inline;

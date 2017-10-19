@@ -13,4 +13,7 @@ a {
    &:active {
       color: $c__neutral--light;
    }
+   @media(min-width: $b__medium) {
+      font-weight: $fw__medium;
+   }
 }
