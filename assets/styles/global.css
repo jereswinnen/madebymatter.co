@@ -107,57 +107,13 @@ body .c-hero, body .c-section, body .c-footer {
     body .c-main {
       display: grid;
       grid-column: bleed;
-      grid-template-columns: inherit;
-      /*
-         .c-section--abreast,
-         .c-section--abreastreverse,
-         .c-section--triad,
-         .c-section .c-section__abreast,
-         .c-section .c-section__abreast--reverse,
-         .c-section .c-section__triad {
-            display: grid;
-            grid-column: extend;
-            grid-gap: 4vw;
-            grid-template-columns: repeat(2, minmax(0, 1fr));
-         }
-         .c-section--triad, .c-section .c-section__triad {
-            grid-template-columns: repeat(3, minmax(0, 1fr));
-         }
-         .c-section--abreastreverse, .c-section__abreast--reverse {
-            *:first-child {
-               order: 2;
-            }
-            *:last-child {
-               order: 1;
-            }
-         }
-         */ }
+      grid-template-columns: inherit; }
       body .c-main .c-hero, body .c-main .c-section {
         grid-column: content; }
       body .c-main .c-section--extend {
         grid-column: extend; }
       body .c-main .c-section--bleed {
-        grid-column: bleed;
-        /*
-            .c-section__content--inner {
-               display: grid;
-               grid-column: extend;
-               grid-template-columns: inherit;
-               //grid-column: 1/4; //ability to play with assymetry
-               header {
-                  grid-column: bleed;
-               }
-               .c-article, .c-figure {
-                  grid-column: content;
-               }
-               .c-section__content--extend {
-                  grid-column: bleed;
-               }
-            }
-            .c-section__content--extend {
-               grid-column: bleed;
-            }
-            */ }
+        grid-column: bleed; }
     body .c-footer {
       grid-column: content; } }
 
@@ -169,15 +125,16 @@ body .c-hero, body .c-section, body .c-footer {
   padding-bottom: 0 !important; }
 
 @media (min-width: 860px) {
-  .l-flex {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex; }
-    .l-flex .l-flex--abreast .c-figure {
-      -webkit-box-flex: 1;
-          -ms-flex: 1 0 50%;
-              flex: 1 0 50%;
-      max-width: 50%; } }
+  .l-grid--abreast {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 2rem; } }
+
+@media (min-width: 860px) {
+  .l-grid--triad {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 2rem; } }
 
 html {
   -webkit-box-sizing: border-box;
@@ -518,7 +475,7 @@ a {
         color: #fff; }
 
 .c-section {
-  margin-bottom: 5vh;
+  margin-bottom: 4vh;
   padding: 10vh 0; }
   .c-section--extend {
     margin-bottom: 10vh;
@@ -527,16 +484,14 @@ a {
       margin-bottom: 0; }
   .c-section--content, .c-section--bleed {
     padding: 0; }
+  .c-section--bleed .c-section__content--extend {
+    margin-bottom: 6vh; }
   .c-section--collage .c-figure {
-    margin-bottom: 0; }
+    margin-bottom: 2rem; }
     .c-section--collage .c-figure img {
       margin-bottom: -0.5rem; }
-    .c-section--collage .c-figure:nth-child(1) {
-      margin-bottom: 2rem; }
-  .c-section--collage .l-flex.l-flex--abreast .c-figure {
+  .c-section--collage .l-grid--abreast .c-figure {
     margin-bottom: 0; }
-    .c-section--collage .l-flex.l-flex--abreast .c-figure:first-child {
-      margin-right: 2rem; }
 
 .c-hero {
   padding: 12vh 0; }
@@ -643,3 +598,12 @@ a {
             transition-duration: .001s; }
   .c-item p a {
     text-decoration: none; }
+
+.c-item--skill:nth-child(1) {
+  background: red; }
+
+.c-item--skill:nth-child(2) {
+  background: blue; }
+
+.c-item--skill:nth-child(3) {
+  background: green; }

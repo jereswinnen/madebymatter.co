@@ -4,7 +4,6 @@
 
 .c-item {
    margin-bottom: 8vh;
-   //overflow: hidden;
    .c-figure {
       margin-bottom: 1rem;
       overflow: hidden;
@@ -22,5 +21,17 @@
    }
    p a {
       text-decoration: none;
+   }
+}
+.c-item--skill {
+   //margin-bottom: 0;
+   &:nth-child(1) {
+      background: red;
+   }
+   &:nth-child(2) {
+      background: blue;
+   }
+   &:nth-child(3) {
+      background: green;
    }
 }

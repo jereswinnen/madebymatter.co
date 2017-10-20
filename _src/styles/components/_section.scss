@@ -3,7 +3,7 @@
 // =======================================================================
 
 .c-section {
-   margin-bottom: 5vh;
+   margin-bottom: 4vh;
    padding: 10vh 0;
    &--extend {
       margin-bottom: 10vh;
@@ -15,21 +15,18 @@
    &--content, &--bleed {
       padding: 0;
    }
+   &--bleed .c-section__content--extend {
+      margin-bottom: 6vh;
+   }
    &--collage {
       .c-figure {
-         margin-bottom: 0;
+         margin-bottom: 2rem;
          img {
             margin-bottom: -0.5rem;
          }
-         &:nth-child(1) {
-            margin-bottom: 2rem;
-         }
       }
-      .l-flex.l-flex--abreast .c-figure {
+      .l-grid--abreast .c-figure {
          margin-bottom: 0;
-         &:first-child {
-            margin-right: 2rem;
-         }
       }
    }
 }
