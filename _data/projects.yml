@@ -1,25 +1,25 @@
-- shelf:
-  name: Shelf
-  tagline: Drag. Drop. Do.
-  deliverables: Branding, User interface design, Iconography, Web design, Web development
-  cover-img: "/assets/images/artwork/shelf/home__cover.png"
-  cover-img2x: "/assets/images/artwork/shelf/home__cover@2x.png"
-  link: /work/shelf/
+#- shelf:
+#  name: Shelf
+#  tagline: Drag. Drop. Do.
+#  deliverables: Branding, User interface design, Iconography, Web design, Web development
+#  cover-img: "/assets/images/artwork/shelf/home__cover.png"
+#  cover-img2x: "/assets/images/artwork/shelf/home__cover@2x.png"
+#  link: /work/shelf/
 
 - realo:
   name: Realo
   tagline: Building a next generation real estate platform.
   deliverables: Branding, User interface design, Iconography, Web design, Pattern library
-  cover-img: "/assets/images/artwork/realo/home__cover.png"
-  cover-img2x: "/assets/images/artwork/realo/home__cover@2x.png"
+  cover-img: "https://res.cloudinary.com/matter/image/upload/v1508592459/work/realo/case__realo--cover.png"
+  cover-img2x: "https://res.cloudinary.com/matter/image/upload/v1508592459/work/realo/case__realo--cover_2x.png"
   link: /work/realo/
 
 - diabetik:
   name: Diabetik
   tagline: Elegant diabetes management at your fingertips.
   deliverables: Branding, User interface design, Iconography, Web design
-  cover-img: "/assets/images/artwork/diabetik/home__cover.png"
-  cover-img2x: "/assets/images/artwork/diabetik/home__cover@2x.png"
+  cover-img: "https://res.cloudinary.com/matter/image/upload/v1508588061/work/diabetik/case__diabetik--cover_2x.png"
+  cover-img2x: "https://res.cloudinary.com/matter/image/upload/v1508588062/work/diabetik/case__diabetik--cover_2x.png"
   link: /work/diabetik/
 
 - immobrown:

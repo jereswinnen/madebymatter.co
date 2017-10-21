@@ -14,6 +14,9 @@
 .c-figure--contained {
    padding: 3rem;
    background: $c__neutral--darkest;
+   img {
+      margin-bottom: 0;
+   }
 }
 .c-figure--full {
    margin-bottom: 0;

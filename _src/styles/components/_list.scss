@@ -18,7 +18,7 @@
       @media(min-width: $b__medium) {
          display: inline;
          &:after {
-            padding: 0 0.5rem;
+            padding: 0 0.8rem;
             content: '\2022';
             color: $c__neutral--dark;
          }

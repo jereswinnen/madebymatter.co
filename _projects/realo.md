@@ -2,7 +2,7 @@
 layout: case-realo
 title:  realo
 tagline: Building a next generation real estate platform.
-lede: I worked together with Nial Giacomelli, a diabetic himself, on creating a delightful user experience for people who suffer from diabetes. The result is an app that's modern, intuitive and fun to use.
+lede: Joining this startup as the first designer on the team, my job was to create a design system flexible enough to be used on a variety of platforms. 
 deliverables:
    - Branding
    - User interface design

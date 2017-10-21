@@ -522,6 +522,8 @@ a {
 .c-figure--contained {
   padding: 3rem;
   background: #1f1f1f; }
+  .c-figure--contained img {
+    margin-bottom: 0; }
 
 .c-figure--full {
   margin-bottom: 0;
@@ -549,7 +551,7 @@ a {
     .c-list--deliverables .c-list__item {
       display: inline; }
       .c-list--deliverables .c-list__item:after {
-        padding: 0 0.5rem;
+        padding: 0 0.8rem;
         content: '\2022';
         color: #333; }
       .c-list--deliverables .c-list__item:last-child:after {
