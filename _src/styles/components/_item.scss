@@ -24,14 +24,22 @@
    }
 }
 .c-item--skill {
-   //margin-bottom: 0;
+   padding: 2.4rem;
+   //text-align: center;
+   border-radius: $radius__midi;
+   h3 {
+      color: $c__neutral--white;
+   }
+   p {
+      margin-bottom: 0;
+   }
    &:nth-child(1) {
-      background: red;
+      background: #4e3f71;
    }
    &:nth-child(2) {
-      background: blue;
+      background: #3c4c76;
    }
    &:nth-child(3) {
-      background: green;
+      background: #326168;
    }
 }

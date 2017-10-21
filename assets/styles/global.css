@@ -477,6 +477,8 @@ a {
 .c-section {
   margin-bottom: 4vh;
   padding: 10vh 0; }
+  .c-section .c-section__header {
+    margin-bottom: 6vh; }
   .c-section--extend {
     margin-bottom: 10vh;
     padding: 0; }
@@ -490,8 +492,9 @@ a {
     margin-bottom: 2rem; }
     .c-section--collage .c-figure img {
       margin-bottom: -0.5rem; }
-  .c-section--collage .l-grid--abreast .c-figure {
-    margin-bottom: 0; }
+  @media (min-width: 860px) {
+    .c-section--collage .l-grid--abreast .c-figure {
+      margin-bottom: 0; } }
 
 .c-hero {
   padding: 12vh 0; }
@@ -599,11 +602,16 @@ a {
   .c-item p a {
     text-decoration: none; }
 
-.c-item--skill:nth-child(1) {
-  background: red; }
-
-.c-item--skill:nth-child(2) {
-  background: blue; }
-
-.c-item--skill:nth-child(3) {
-  background: green; }
+.c-item--skill {
+  padding: 2.4rem;
+  border-radius: 8px; }
+  .c-item--skill h3 {
+    color: #fff; }
+  .c-item--skill p {
+    margin-bottom: 0; }
+  .c-item--skill:nth-child(1) {
+    background: #4e3f71; }
+  .c-item--skill:nth-child(2) {
+    background: #3c4c76; }
+  .c-item--skill:nth-child(3) {
+    background: #326168; }

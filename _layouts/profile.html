@@ -2,8 +2,8 @@
 <main class="c-main">
    <section class="c-hero">
       {% include site-header.html %}
-      <article class="c-article">
-         <header class="c-article__header js--wow fadeInUp">
+      <article class="c-article js--wow fadeInUp">
+         <header class="c-article__header">
             <h1><strong>Matter</strong> is the online playground of digital product designer, <strong>Jeremy Swinnen</strong>.</h1>
          </header>
          {{ content }}
@@ -15,15 +15,15 @@
       </header>
       <div class="c-setion">
          <div class="l-grid l-grid--triad">
-            <div class="c-item c-item--skill">
+            <div class="c-item c-item--skill js--wow fadeInUp">
                <h3>Digital Product Design</h3>
                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt placeat quos repudiandae sunt non, in voluptatum vero cupiditate praesentium culpa at sed, architecto illo ea? Impedit eaque, odit sit. Veritatis.</p>
             </div>
-            <div class="c-item c-item--skill">
+            <div class="c-item c-item--skill js--wow fadeInUp" data-wow-delay=".2s">
                <h3>Responsive Web Design</h3>
                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur vitae tenetur nobis earum est, quia neque possimus amet modi iure perferendis quidem dolorem adipisci nostrum. Ratione molestiae obcaecati, minima voluptate.</p>
             </div>
-            <div class="c-item c-item--skill">
+            <div class="c-item c-item--skill js--wow fadeInUp" data-wow-delay=".4s">
                <h3>Front-end Development</h3>
                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo vero praesentium eaque, animi magni atque maxime, optio possimus qui totam est voluptatem explicabo, id, perferendis rerum ullam. Reiciendis, amet, quas.</p>
             </div>
@@ -32,5 +32,5 @@
    </section>
    {% include connect-with-me.html title="Let's work together and make something <strong>great</strong>!" %}
 </main>
-<!--{% include site-footer.html %}-->
+{% include site-footer.html %}
 {% include html-footer.html %}
