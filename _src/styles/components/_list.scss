@@ -33,6 +33,7 @@
    .c-list__item {
       margin-bottom: 2vh;
       padding: 1.25rem;
+      cursor: pointer;
       border: 1px solid $c__neutral--darkest;
       border-radius: $radius__base;
       transition: all .24s $easing__bezier;

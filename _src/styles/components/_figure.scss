@@ -12,10 +12,13 @@
    }
 }
 .c-figure--contained {
-   padding: 3rem;
+   padding: 1rem;
    background: $c__neutral--darkest;
    img {
       margin-bottom: 0;
+   }
+   @media(min-width: $b__medium) {
+      padding: 3rem;
    }
 }
 .c-figure--full {

@@ -5,16 +5,17 @@
 .c-masthead {
    display: flex;
    align-items: center;
-   margin-bottom: 8vh;
+   margin-bottom: 12vh;
    .c-branding, .c-nav__item {
-      margin-right: 4vw;
+      margin-right: 6vw;
    }
    .c-nav__item:last-child {
       margin-right: 0;
    }
-   @media(min-width: $b__large) {
+   @media(min-width: $b__medium) {
+      margin-bottom: 8vh;
       .c-branding, .c-nav__item {
-         //margin-right: 2.4vw;
+         margin-right: 4vw;
       }
    }
 }

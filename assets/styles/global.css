@@ -23,8 +23,8 @@
 .animated {
   -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
           animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
-  -webkit-animation-duration: 1.4s;
-          animation-duration: 1.4s;
+  -webkit-animation-duration: 1.5s;
+          animation-duration: 1.5s;
   -webkit-animation-fill-mode: both;
           animation-fill-mode: both; }
 
@@ -439,11 +439,16 @@ a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-bottom: 8vh; }
+  margin-bottom: 12vh; }
   .c-masthead .c-branding, .c-masthead .c-nav__item {
-    margin-right: 4vw; }
+    margin-right: 6vw; }
   .c-masthead .c-nav__item:last-child {
     margin-right: 0; }
+  @media (min-width: 860px) {
+    .c-masthead {
+      margin-bottom: 8vh; }
+      .c-masthead .c-branding, .c-masthead .c-nav__item {
+        margin-right: 4vw; } }
 
 .c-branding {
   height: 20px; }
@@ -520,10 +525,13 @@ a {
     text-align: center; }
 
 .c-figure--contained {
-  padding: 3rem;
+  padding: 1rem;
   background: #1f1f1f; }
   .c-figure--contained img {
     margin-bottom: 0; }
+  @media (min-width: 860px) {
+    .c-figure--contained {
+      padding: 3rem; } }
 
 .c-figure--full {
   margin-bottom: 0;
@@ -561,6 +569,7 @@ a {
 .c-list--segmented .c-list__item {
   margin-bottom: 2vh;
   padding: 1.25rem;
+  cursor: pointer;
   border: 1px solid #1f1f1f;
   border-radius: 6px;
   -webkit-transition: all 0.24s cubic-bezier(0.215, 0.61, 0.355, 1);

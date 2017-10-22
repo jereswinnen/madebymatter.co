@@ -19,29 +19,61 @@
       img2x="https://res.cloudinary.com/matter/image/upload/v1508592459/work/realo/case__realo--cover_2x.png"
       imgalt="iPhone and Macbook side by side"
 
-      imgsecondary="https://res.cloudinary.com/matter/image/upload/v1508588572/work/diabetik/case__diabetik--heroleft.png"
-      imgsecondary2x="https://res.cloudinary.com/matter/image/upload/v1508588572/work/diabetik/case__diabetik--heroleft_2x.png"
-      imgsecondaryalt="Side menu close-up on iPhone"
+      imgsecondary="https://res.cloudinary.com/matter/image/upload/v1508661126/work/realo/case__realo--heroleft.png"
+      imgsecondary2x="https://res.cloudinary.com/matter/image/upload/v1508661126/work/realo/case__realo--heroleft_2x.png"
+      imgsecondaryalt="Agency close-up on iPhone"
 
-      imgtertiary="https://res.cloudinary.com/matter/image/upload/v1508588572/work/diabetik/case__diabetik--heroright.png"
-      imgtertiary2x="https://res.cloudinary.com/matter/image/upload/v1508588572/work/diabetik/case__diabetik--heroright_2x.png"
-      imgtertiaryalt="Journal close-up on iPad"
+      imgtertiary="https://res.cloudinary.com/matter/image/upload/v1508660751/work/realo/case__realo--heroright.png"
+      imgtertiary2x="https://res.cloudinary.com/matter/image/upload/v1508660751/work/realo/case__realo--heroright_2x.png"
+      imgtertiaryalt="Realo branding"
    %}
    <section class="c-section c-section--content">
       <article class="c-article js--wow fadeInUp">
          {{ content }}
       </article>
    </section>
-   {% include case-section-extend.html
-      img=""
-      img2x=""
-      imgalt="This is the alt text for when the image couldn't be retrieved from the server"
-   %}
-   {% include case-section-extend.html
-      img=""
-      img2x=""
-      imgalt="This is the alt text for when the image couldn't be retrieved from the server"
-   %}
+   <section class="c-section c-section--extend">
+      {% include case-figure.html
+         img="https://res.cloudinary.com/matter/image/upload/v1508688297/work/realo/case__realo--machome.png"
+         img2x="https://res.cloudinary.com/matter/image/upload/v1508688298/work/realo/case__realo--machome_2x.png"
+         imgalt="Find your next home"
+      %}
+      {% include case-figure.html
+         img="https://res.cloudinary.com/matter/image/upload/v1508688297/work/realo/case__realo--machomescroll.png"
+         img2x="https://res.cloudinary.com/matter/image/upload/v1508688298/work/realo/case__realo--machomescroll_2x.png"
+         imgalt="Find your next home - scrolled"
+      %}
+      {% include case-figure.html
+         img="https://res.cloudinary.com/matter/image/upload/v1508661995/work/realo/case__realo--macagency.png"
+         img2x="https://res.cloudinary.com/matter/image/upload/v1508661996/work/realo/case__realo--macagency_2x.png"
+         imgalt="Agency detail"
+      %}
+      {% include case-figure.html
+         img="https://res.cloudinary.com/matter/image/upload/v1508661995/work/realo/case__realo--macagencyscroll.png"
+         img2x="https://res.cloudinary.com/matter/image/upload/v1508661995/work/realo/case__realo--macagencyscroll_2x.png"
+         imgalt="Agency detail - scrolled"
+      %}
+      {% include case-figure.html
+         img="https://res.cloudinary.com/matter/image/upload/v1508685114/work/realo/case__realo--responsivesearch.png"
+         img2x="https://res.cloudinary.com/matter/image/upload/v1508685114/work/realo/case__realo--responsivesearch_2x.png"
+         imgalt="Responsive search"
+      %}
+      {% include case-figure.html
+         img="https://res.cloudinary.com/matter/image/upload/v1508686594/work/realo/case__realo--responsivesearchduo.png"
+         img2x="https://res.cloudinary.com/matter/image/upload/v1508686595/work/realo/case__realo--responsivesearchduo_2x.png"
+         imgalt="Responsive search duo"
+      %}
+      {% include case-figure.html
+         img="https://res.cloudinary.com/matter/image/upload/v1508687301/work/realo/case__realo--iphonetriad.png"
+         img2x="https://res.cloudinary.com/matter/image/upload/v1508687302/work/realo/case__realo--iphonetriad_2x.png"
+         imgalt="Search, home detail and agency mobile views"
+      %}
+      {% include case-figure.html
+         img="https://res.cloudinary.com/matter/image/upload/v1508687786/work/realo/case__realo--maccareers.png"
+         img2x="https://res.cloudinary.com/matter/image/upload/v1508687787/work/realo/case__realo--maccareers_2x.png"
+         imgalt="Job listings"
+      %}
+   </section>
    <section class="c-section c-section--bleed" style="display:none;">
       <div class="c-section__content--inner">
          <article class="c-article js--wow fadeInUp">
@@ -51,5 +83,5 @@
    </section>
    {% include connect-with-me.html title="Like what you just saw? Let's work together and make something <strong>great</strong>!" %}
 </main>
-<!--{% include site-footer.html %}-->
+{% include site-footer.html %}
 {% include html-footer.html %}
