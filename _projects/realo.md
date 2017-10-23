@@ -1,8 +1,8 @@
 ---
 layout: case-realo
-title:  realo
+title:  Realo
 tagline: Building a next generation real estate platform.
-lede: Joining this startup as the first designer on the team, my job was to create a design system flexible enough to be used on a variety of platforms. 
+lede: Joining this startup as the first designer on the team, my job was to create a design system flexible enough to be used on a variety of platforms.
 deliverables:
    - Branding
    - User interface design

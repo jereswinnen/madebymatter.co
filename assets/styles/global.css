@@ -445,10 +445,8 @@ a {
   .c-masthead .c-nav__item:last-child {
     margin-right: 0; }
   @media (min-width: 860px) {
-    .c-masthead {
-      margin-bottom: 8vh; }
-      .c-masthead .c-branding, .c-masthead .c-nav__item {
-        margin-right: 4vw; } }
+    .c-masthead .c-branding, .c-masthead .c-nav__item {
+      margin-right: 4vw; } }
 
 .c-branding {
   height: 20px; }
@@ -508,10 +506,11 @@ a {
 
 .c-article {
   margin-bottom: 8vh; }
-  .c-article .c-article__header {
+  .c-article .c-article__header, .c-article .c-article__lede {
     margin-bottom: 4vh; }
-  .c-article .c-article__lede {
-    margin-bottom: 4vh; }
+  @media (min-width: 860px) {
+    .c-article .c-article__header, .c-article .c-article__lede {
+      margin-bottom: 5vh; } }
 
 .c-footer {
   padding-top: 4vh;

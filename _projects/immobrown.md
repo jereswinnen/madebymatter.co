@@ -1,19 +1,14 @@
 ---
-layout: case-shelf
-title:  Shelf
-tagline: Drag. Drop. Do.
-lede: Together with a small team of dedicated developers from New York, I designed an app for people who work with files on a daily basis from their iPad.
+layout: case-immobrown
+title:  Immo Brown
+tagline: Finally, a great podcast app for macOS.
+lede: Joining this startup as the first designer on the team, my job was to create a design system flexible enough to be used on a variety of platforms.
 deliverables:
-   - Branding
-   - User interface design
-   - Iconography
    - Web design
-   - Web development
-
-sections:
-   design: This is the **end note** of the post.
+   - Iconography
 ---
-## Drag and drop on steroids
+You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+
 To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
 
 Jekyll also offers powerful support for code snippets:
