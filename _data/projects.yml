@@ -26,8 +26,8 @@
   name: Immo Brown
   tagline: Drag. Drop. Do.
   deliverables: Web design, Iconography
-  cover-img: "/assets/images/artwork/immobrown/home__cover.png"
-  cover-img2x: "/assets/images/artwork/immobrown/home__cover@2x.png"
+  cover-img: "https://res.cloudinary.com/matter/image/upload/v1508755455/work/immobrown/case__immobrown--cover.png"
+  cover-img2x: "https://res.cloudinary.com/matter/image/upload/v1508755455/work/immobrown/case__immobrown--cover_2x.png"
   link: /work/immobrown/
 
 - castaway:
@@ -42,6 +42,6 @@
   name: Nintendo
   tagline: Drag. Drop. Do.
   deliverables: User interface design, Iconography
-  cover-img: "/assets/images/artwork/nintendo/home__cover.png"
-  cover-img2x: "/assets/images/artwork/nintendo/home__cover@2x.png"
+  cover-img: "https://res.cloudinary.com/matter/image/upload/v1508835976/work/nintendo/case__nintendo--cover.png"
+  cover-img2x: "https://res.cloudinary.com/matter/image/upload/v1508835976/work/nintendo/case__nintendo--cover_2x.png"
   link: /work/nintendo/
