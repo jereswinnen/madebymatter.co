@@ -21,16 +21,6 @@ $c__muted--dark: transparentize($c__neutral--black, .5);
 $c__faint--light: transparentize($c__neutral--white, .95);
 $c__faint--dark: transparentize($c__neutral--black, .95);
 
-/// Palette
-$c__primary: hsb(224, 82, 72);
-$c__realo--hero: #171982;
-$c__shelf--hero: #171982;
-$c__diabetik--hero: #313237;
-$c__nintendo--hero: #171982;
-$c__immobrown--hero: #171982;
-$c__castaway--hero: #171982;
-$c__stone--lightest: #eff0f2;
-
 /// Status
 $c__status--loading: hsb(21, 64, 100);
 $c__status--success: hsb(112, 40, 90);
@@ -47,9 +37,6 @@ $fw__bold: 700;
 $fw__heavy: 800;
 $fw__black: 900;
 
-// Box shadows
-$layer__one: 0 1px 2px 1px transparentize($c__neutral--black, .9);
-
 // Border radii
 $radius__micro: 2px;
 $radius__mini: 4px;
@@ -59,11 +46,9 @@ $radius__maxi: 12px;
 
 // Timing functions
 $easing__bezier: cubic-bezier(.215, .61, .355, 1);
-$easing__bezier--at: cubic-bezier(0.665, 0.015, 0.140, 1.060);
 
 // Breakpoints
 $b__small: 360px;
-//$b__medium: 680px;
-$b__medium: 860px;
+$b__medium: 680px;
 $b__large: 1040px;
 $b__xlarge: 1280px;

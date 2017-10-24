@@ -96,7 +96,7 @@ body .c-hero, body .c-section, body .c-footer {
   padding-left: 6vw;
   padding-right: 6vw; }
 
-@media (min-width: 860px) {
+@media (min-width: 680px) {
   body {
     display: grid;
     grid-column-gap: 4vw;
@@ -124,13 +124,13 @@ body .c-hero, body .c-section, body .c-footer {
   padding-top: 0 !important;
   padding-bottom: 0 !important; }
 
-@media (min-width: 860px) {
+@media (min-width: 680px) {
   .l-grid--abreast {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-column-gap: 2rem; } }
 
-@media (min-width: 860px) {
+@media (min-width: 680px) {
   .l-grid--triad {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -157,13 +157,13 @@ body {
   line-height: 1.5;
   color: #ccc;
   background: #0d0d0d; }
-  @media (min-width: 860px) {
+  @media (min-width: 680px) {
     body {
       font-size: 1.125rem; } }
   @media (min-width: 1040px) {
     body {
       font-size: 1.25rem; } }
-  @media (min-width: 860px) {
+  @media (min-width: 680px) {
     body {
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
       font-weight: 300; } }
@@ -282,7 +282,7 @@ h1 {
   line-height: 1.3;
   letter-spacing: -0.025rem;
   color: #fff; }
-  @media (min-width: 860px) {
+  @media (min-width: 680px) {
     h1 {
       font-size: 2.25rem; } }
   @media (min-width: 1040px) {
@@ -299,7 +299,7 @@ h2 {
   font-size: 1.375rem;
   line-height: 1.35;
   color: #fff; }
-  @media (min-width: 860px) {
+  @media (min-width: 680px) {
     h2 {
       font-size: 1.5rem;
       letter-spacing: -0.01rem; } }
@@ -315,7 +315,7 @@ h3 {
   font-size: 1.25rem;
   line-height: 1.4;
   color: currentColor; }
-  @media (min-width: 860px) {
+  @media (min-width: 680px) {
     h3 {
       font-size: 1.375rem; } }
   @media (min-width: 1040px) {
@@ -387,7 +387,7 @@ blockquote {
   blockquote cite {
     font-size: 1rem;
     color: #fff; }
-    @media (min-width: 860px) {
+    @media (min-width: 680px) {
       blockquote cite {
         font-size: 1.125rem; } }
     @media (min-width: 1040px) {
@@ -403,7 +403,7 @@ a {
     text-decoration: none; }
   a:active {
     color: #999; }
-  @media (min-width: 860px) {
+  @media (min-width: 680px) {
     a {
       font-weight: 500; } }
 
@@ -444,7 +444,7 @@ a {
     margin-right: 6vw; }
   .c-masthead .c-nav__item:last-child {
     margin-right: 0; }
-  @media (min-width: 860px) {
+  @media (min-width: 680px) {
     .c-masthead .c-branding, .c-masthead .c-nav__item {
       margin-right: 4vw; } }
 
@@ -495,7 +495,7 @@ a {
     margin-bottom: 2rem; }
     .c-section--collage .c-figure img {
       margin-bottom: -0.5rem; }
-  @media (min-width: 860px) {
+  @media (min-width: 680px) {
     .c-section--collage .l-grid--abreast .c-figure {
       margin-bottom: 0; } }
 
@@ -508,7 +508,7 @@ a {
   margin-bottom: 8vh; }
   .c-article .c-article__header, .c-article .c-article__lede {
     margin-bottom: 4vh; }
-  @media (min-width: 860px) {
+  @media (min-width: 680px) {
     .c-article .c-article__header, .c-article .c-article__lede {
       margin-bottom: 5vh; } }
 
@@ -528,7 +528,7 @@ a {
   background: #1f1f1f; }
   .c-figure--contained img {
     margin-bottom: 0; }
-  @media (min-width: 860px) {
+  @media (min-width: 680px) {
     .c-figure--contained {
       padding: 3rem; } }
 
@@ -554,7 +554,7 @@ a {
     .c-list--deliverables .c-list__item {
       font-size: 0.9375rem;
       line-height: 1.5; } }
-  @media (min-width: 860px) {
+  @media (min-width: 680px) {
     .c-list--deliverables .c-list__item {
       display: inline; }
       .c-list--deliverables .c-list__item:after {
@@ -589,7 +589,7 @@ a {
     background: #1f1f1f;
     -webkit-transform: scale(1.03);
             transform: scale(1.03); }
-  @media (min-width: 860px) {
+  @media (min-width: 680px) {
     .c-list--segmented .c-list__item {
       opacity: .8; } }
 
