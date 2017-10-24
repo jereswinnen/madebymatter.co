@@ -38,6 +38,7 @@
       border-radius: $radius__base;
       transition: all .24s $easing__bezier;
       a {
+         display: block;
          text-decoration: none;
          &:hover {
             color: $c__neutral--white;

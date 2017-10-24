@@ -574,6 +574,7 @@ a {
   -webkit-transition: all 0.24s cubic-bezier(0.215, 0.61, 0.355, 1);
   transition: all 0.24s cubic-bezier(0.215, 0.61, 0.355, 1); }
   .c-list--segmented .c-list__item a {
+    display: block;
     text-decoration: none; }
     .c-list--segmented .c-list__item a:hover {
       color: #fff; }
