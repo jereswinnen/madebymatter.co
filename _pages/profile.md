@@ -1,6 +1,6 @@
 ---
 layout: profile
-title: profile
+title: Profile
 permalink: /profile/
 ---
 ## Over the past few years I've had the opportunity to collaborate with start-ups and smart people from all over the world.

@@ -613,15 +613,21 @@ a {
     text-decoration: none; }
 
 .c-item--skill {
+  margin-bottom: 2vh;
   padding: 2.4rem;
   border-radius: 8px; }
   .c-item--skill h3 {
+    margin-bottom: 0;
     color: #fff; }
-  .c-item--skill p {
-    margin-bottom: 0; }
   .c-item--skill:nth-child(1) {
-    background: #4e3f71; }
+    background: #975e57; }
   .c-item--skill:nth-child(2) {
-    background: #3c4c76; }
+    background: #6a3957; }
   .c-item--skill:nth-child(3) {
+    background: #603f6a; }
+  .c-item--skill:nth-child(4) {
+    background: #4e3f71; }
+  .c-item--skill:nth-child(5) {
+    background: #3c4c76; }
+  .c-item--skill:nth-child(6) {
     background: #326168; }

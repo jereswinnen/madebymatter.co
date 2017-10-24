@@ -1,28 +1,16 @@
 ---
 layout: case-immobrown
 title:  Immo Brown
-tagline: Finally, a great podcast app for macOS.
-lede: Joining this startup as the first designer on the team, my job was to create a design system flexible enough to be used on a variety of platforms.
+tagline: An elegant new website for an exclusive real estate agent.
 deliverables:
    - Web design
    - Iconography
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+While working as a designer at [FW4], one of the first projects I did was Immo Brown. This exclusive real estate agent was in dire need of a modern website to present their real estate portfolio.
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+By using dark colors combined with simple iconography I created a luxury look for them. The result is a responsive, modern website that perfectly present their portfolio.
 
-Jekyll also offers powerful support for code snippets:
+[www.immobrownknokke.be]
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
-
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+[FW4]: http://www.fw4.be
+[www.immobrownknokke.be]: http://www.immobrownknokke.be

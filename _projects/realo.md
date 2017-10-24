@@ -12,22 +12,12 @@ deliverables:
 sections:
    design: This is the **end note** of the post.
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+I joined Realo in the winter of 2014. As the only designer on the team, my job was to create a design system flexible enough to be used on a variety of platforms. This was a project with lots of challenges and pitfalls because of the sheer amount of screens and scenarios a user can find themselves in. Together with Bregt Colpaert, my Head of Product, I created a design that's universal in terms of design language while at the same time has a unique style.
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+Realo has been built with a mobile-first approach from the start. By using this approach, we make sure the site loads fast on mobile devices while still providing a complete package in terms of feature set. Nearly every feature on desktop is available on a smartphone, thanks to some clever design decisions. I worked very closely with our engineering (frontend and backend) teams to make sure the design is consistent and implemented well.
 
-Jekyll also offers powerful support for code snippets:
+Over the course of almost a year, I learned a lot on how to work effectively in a multilingual team. Since I had a tight deadline every week, I had to manage my time and stay focused.
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+[www.realo.com]
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+[www.realo.com]: http://www.realo.com

@@ -1,28 +1,12 @@
 ---
 layout: case-nintendo
 title:  Nintendo
-tagline: Finally, a great podcast app for macOS.
-lede: Joining this startup as the first designer on the team, my job was to create a design system flexible enough to be used on a variety of platforms.
+tagline: Stay connected to your games and friends on the go.
+lede: Nintendo Switch is a fascinating solution to play remotely; unfortunately the mobile app is lacking.
 deliverables:
    - User interface design
    - Iconography
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+I bought my Nintendo Switch in March 2017. From the get-go I was sold on the idea of bringing the world of Hyrule and many others with me. Like most gaming consoles, Nintendo made a mobile app for people to look at their play time and more; unfortunately, the app is lacking both in features and design.
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
-
-Jekyll also offers powerful support for code snippets:
-
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
-
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+This is a self-initiated project to explore how an improved version of this app would work and look like. To me, branding is very important and this is shown throughout the app. Nintendo's signature red color for the main sections of the app and the "eShop orange" for the eShop. The user can look at the battery life of their Switch, see who's online, add a friend and browse newly released games on the Nintendo eShop.

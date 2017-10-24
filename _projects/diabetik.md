@@ -12,20 +12,14 @@ deliverables:
 sections:
    design: This is the **end note** of the post.
 ---
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+"Can good design help save lives?". This is how Nial's post on Dribbble was titled. After watching the introduction video on [Kickstarter], I immediately started working on exploring some ideas.
 
-Jekyll also offers powerful support for code snippets:
+<style>.embed-container { position: relative; padding-bottom: 56.25%; margin: 5vh 0; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://player.vimeo.com/video/59348097?color=ffffff&byline=0&portrait=0' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+Diabetik has been built to make managing all aspects of diabetes easier. From the ability to monitor medication habits to setting location based reminders to make sure you never forget your insulin. By using an innovative new technology called Smart Input, the application we've built looks at your medication usage and uses that information to determine which medicine you're mostly likely to be taking at any given point in time. By learning your habits, it's able to pre-populate fields that other applications make you type out by hand or select from menus - cutting the time needed to enter information from minutes to seconds.
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+It lets you monitor every aspect of your health, from tracking carbs and watching your diet to physical activities. It can even remind you to take your medication when you next leave the house.
 
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+As a result, Diabetik is loved by thousands of people and has been **featured in the App Store**.
+
+[Kickstarter]: https://www.kickstarter.com/projects/nialg/the-diabetic-journal
