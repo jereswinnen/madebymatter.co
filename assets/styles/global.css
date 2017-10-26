@@ -371,7 +371,7 @@ code {
 figcaption p {
   font-size: 0.75rem;
   line-height: 1.25;
-  color: #555;
+  color: #999;
   font-weight: 400; }
   @media (min-width: 1040px) {
     figcaption p {
@@ -455,7 +455,7 @@ a {
     fill: #fff; }
     @media (min-width: 1040px) {
       .c-branding .c-branding__svg {
-        width: 140px; } }
+        width: 150px; } }
 
 .c-nav .c-nav__items {
   padding: 0;
@@ -475,7 +475,9 @@ a {
       .c-nav .c-nav__items .c-nav__item a:hover {
         color: #fff; }
       .c-nav .c-nav__items .c-nav__item a.c-nav__item--selected {
-        color: #fff; }
+        padding-bottom: 0.4rem;
+        color: #fff;
+        border-bottom: 2px solid #999; }
 
 .c-section {
   margin-bottom: 4vh;
@@ -522,13 +524,21 @@ a {
     margin-bottom: 2vh; }
   .c-figure figcaption {
     text-align: center; }
+    .c-figure figcaption p {
+      margin-bottom: 0.5rem; }
+    @media (min-width: 680px) {
+      .c-figure figcaption {
+        margin-top: -0.5rem; } }
+    @media (min-width: 1040px) {
+      .c-figure figcaption {
+        margin-top: -1.5rem; } }
 
 .c-figure--contained {
   padding: 1rem;
   background: #1f1f1f; }
   .c-figure--contained img {
     margin-bottom: 0; }
-  @media (min-width: 680px) {
+  @media (min-width: 1040px) {
     .c-figure--contained {
       padding: 3rem; } }
 

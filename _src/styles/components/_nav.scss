@@ -17,7 +17,9 @@
                color: $c__neutral__white;
             }
             &.c-nav__item--selected {
+               padding-bottom: 0.4rem;
                color: $c__neutral--white;
+               border-bottom: 2px solid $c__neutral--light;
             }
          }
       }

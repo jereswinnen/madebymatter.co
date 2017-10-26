@@ -9,6 +9,15 @@
    }
    figcaption {
       text-align: center;
+      p {
+         margin-bottom: 0.5rem;
+      }
+      @media(min-width: $b__medium) {
+         margin-top: -0.5rem;
+      }
+      @media(min-width: $b__large) {
+         margin-top: -1.5rem;
+      }
    }
 }
 .c-figure--contained {
@@ -17,7 +26,7 @@
    img {
       margin-bottom: 0;
    }
-   @media(min-width: $b__medium) {
+   @media(min-width: $b__large) {
       padding: 3rem;
    }
 }
