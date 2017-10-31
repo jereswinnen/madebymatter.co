@@ -3,7 +3,7 @@
 // =======================================================================
 
 body {
-   .c-hero, .c-section, .c-footer {
+   .c-hero, .c-section:not(.c-section--collage), .c-footer {
       padding-left: 6vw;
       padding-right: 6vw;
    }

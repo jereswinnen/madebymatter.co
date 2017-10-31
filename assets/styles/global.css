@@ -92,7 +92,7 @@
   -webkit-animation-name: fadeInUp;
           animation-name: fadeInUp; }
 
-body .c-hero, body .c-section, body .c-footer {
+body .c-hero, body .c-section:not(.c-section--collage), body .c-footer {
   padding-left: 6vw;
   padding-right: 6vw; }
 
