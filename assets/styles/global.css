@@ -455,8 +455,7 @@ a {
 .c-branding {
   height: 20px; }
   .c-branding .c-branding__svg {
-    width: 130px;
-    fill: #fff; }
+    width: 130px; }
     @media (min-width: 1040px) {
       .c-branding .c-branding__svg {
         width: 150px; } }
