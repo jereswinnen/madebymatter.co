@@ -37,6 +37,9 @@
       border: 1px solid $c__neutral--darkest;
       border-radius: $radius__base;
       transition: all .24s $easing__bezier;
+      transform: translateZ(0);
+      will-change: auto;
+      text-rendering: auto;
       a {
          display: block;
          text-decoration: none;

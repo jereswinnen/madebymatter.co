@@ -586,7 +586,11 @@ a {
   border: 1px solid #1f1f1f;
   border-radius: 6px;
   -webkit-transition: all 0.24s cubic-bezier(0.215, 0.61, 0.355, 1);
-  transition: all 0.24s cubic-bezier(0.215, 0.61, 0.355, 1); }
+  transition: all 0.24s cubic-bezier(0.215, 0.61, 0.355, 1);
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+  will-change: auto;
+  text-rendering: auto; }
   .c-list--segmented .c-list__item a {
     display: block;
     text-decoration: none; }
