@@ -7,7 +7,6 @@ All the code that lives inside this repository is hand-written by me, Jeremy Swi
 
 ## Libraries Used
 - Novo: https://github.com/jereswinnen/Novo
-- Tilt.js: https://github.com/gijsroge/tilt.js
 - WOW.js: https://github.com/matthieua/WOW
 
 ## Disclaimer
