@@ -4,7 +4,7 @@
 
 // Units
 $u__base-line-height: 1.5;
-$u__max-width: 67.5rem; //1080px
+//$u__max-width: 67.5rem; //1080px
 
 // Colours
 /// Neutral
@@ -24,7 +24,7 @@ $c__faint--dark: transparentize($c__neutral--black, .95);
 /// Status
 $c__status--loading: hsb(21, 64, 100);
 $c__status--success: hsb(112, 40, 90);
-$c__status--error: #ff5d5d;
+$c__status--error: hsb(0, 64, 100);
 
 // Font weights
 $fw__ultralight: 100;
@@ -48,7 +48,7 @@ $radius__maxi: 12px;
 $easing__bezier: cubic-bezier(.215, .61, .355, 1);
 
 // Breakpoints
-$b__small: 360px;
+//$b__small: 360px;
 $b__medium: 680px;
 $b__large: 1040px;
 $b__xlarge: 1280px;

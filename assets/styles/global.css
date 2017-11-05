@@ -129,6 +129,12 @@ body .c-section--collage {
   padding-bottom: 0 !important; }
 
 @media (min-width: 680px) {
+  .l-grid--extend {
+    clear: both;
+    display: grid;
+    grid-column: extend; } }
+
+@media (min-width: 680px) {
   .l-grid--abreast {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
