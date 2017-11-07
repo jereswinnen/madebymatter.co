@@ -27,6 +27,12 @@
 		"oAP": "\/_data\/projects.yml",
 		"oF": 0
 		},
+	"\/_includes\/case-figure--nobg.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_includes\/case-figure--nobg.html",
+		"oF": 0
+		},
 	"\/_includes\/case-figure.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -1214,10 +1220,20 @@
 		"oAP": "\/_site\/work\/shelf\/index.html",
 		"oF": 0
 		},
-	"\/_src\/scripts\/site.js": {
+	"\/_src\/scripts\/modal.min.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
+		"oA": 0,
+		"oAP": "\/dist\/styles\/modal.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/_src\/scripts\/site.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
 		"oA": 0,
 		"oAP": "\/assets\/scripts\/site.min.js",
 		"oF": 2,
@@ -1228,7 +1244,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/dist\/styles\/tilt.min-min.js",
 		"oF": 0,
 		"sC": 0,
@@ -1439,6 +1455,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/_src\/styles\/components\/_modal.scss": {
+		"aP": 1,
+		"bl": 1,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/dist\/styles\/_modal.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/_src\/styles\/components\/_nav.scss": {
 		"aP": 1,
 		"bl": 1,
@@ -1565,6 +1594,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/dist\/styles\/_variables.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/_src\/styles\/themes\/_light.scss": {
+		"aP": 1,
+		"bl": 1,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/dist\/styles\/_light.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1

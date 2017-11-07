@@ -1,4 +1,6 @@
-{% include html-header.html %}
+{% include html-header.html
+   theme="t--light"
+%}
 <main class="c-main">
    <section class="c-hero">
       {% include site-header.html %}
@@ -7,6 +9,9 @@
             <h1><strong>{{ page.title | capitalize }}.</strong> {{ page.tagline }}</h1>
          </header>
          <h2 class="c-article__lede js--wow fadeInUp" data-wow-delay=".2s">{{ page.lede }}</h2>
+         <!--
+         <a href="#modal--diabetik" rel="modal:open" class="c-cta c-cta--primary">Open modal</a>
+         -->
          <ul class="c-list c-list--deliverables js--wow fadeInUp" data-wow-delay=".4s">
             {% for item in page.deliverables %}
             <li class="c-list__item">{{ item }}</li>
@@ -77,6 +82,19 @@
       </div>
    </section>
    {% include connect-with-me.html title="Like what you just saw? Let's work together and make something <strong>amazing</strong>!" %}
+   <!--experimental modal
+   <section id="modal--diabetik" class="c-modal">
+      <section class="c-modal__content">
+         <article class="c-article">
+            <header class="c-article__header">
+               <h1><strong>Display</strong></h1>
+               <h2 class="c-article__lede">New 4.7‑inch and 5.5‑inch Retina HD displays.</h2>
+               <a href="#close" rel="modal:close" class="c-cta c-cta--primary">Close modal</a>
+            </header>
+         </article>
+      </section>
+   </section>
+   -->
 </main>
 {% include site-footer.html %}
 {% include html-footer.html %}

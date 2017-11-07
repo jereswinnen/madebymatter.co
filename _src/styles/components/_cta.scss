@@ -5,6 +5,13 @@
    position: relative;
    display: inline-block;
    text-decoration: none;
+   &--primary {
+      margin-bottom: 2rem;
+      padding: 0.5rem 1rem;
+      @include fs__mini;
+      background: #555;
+      border-radius: $radius__mini;
+   }
    &--link {
       span {
          position: relative;

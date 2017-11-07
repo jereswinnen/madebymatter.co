@@ -49,13 +49,6 @@ body {
 }
 
 // Grid modules
-.l-grid--extend {
-   @media(min-width: $b__medium) {
-      clear: both;
-      display: grid;
-      grid-column: extend;
-   }
-}
 .l-grid--abreast {
    @media(min-width: $b__medium) {
       display: grid;
