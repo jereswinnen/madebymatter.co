@@ -4,7 +4,7 @@
 
 // Font families
 @mixin ff--sans-serif($font-weight: normal) {
-	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+	font-family: 'IBM Plex Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
 	font-weight: $font-weight;
 }
 @mixin ff--monospaced($font-weight: normal) {

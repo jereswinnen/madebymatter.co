@@ -2,6 +2,15 @@
 // Typography
 // =======================================================================
 
+// Body
+body {
+   @include ff--sans-serif($fw__regular);
+   @include fs__base;
+   @media(min-width: $b__medium) {
+      //@include ff--sans-serif($fw__light) //turn on with San Francisco;
+   }
+}
+
 // Headings
 h1 {
    margin-bottom: 1.625rem;

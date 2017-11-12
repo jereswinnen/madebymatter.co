@@ -49,17 +49,20 @@ body {
 }
 
 // Grid modules
-.l-grid--abreast {
+.l-grid {
    @media(min-width: $b__medium) {
       display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      grid-column-gap: 2rem;
+      grid-column-gap: 3rem;
+      &--abreast {
+         grid-template-columns: repeat(2, 1fr);
+      }
+      &--triad {
+         grid-template-columns: repeat(3, 1fr);
+      }
    }
 }
-.l-grid--triad {
-   @media(min-width: $b__medium) {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      grid-column-gap: 2rem;
-   }
+
+.l-grid--abreast > * {
+   padding: 3rem;
+   background: rgba(255, 255, 255, .1);
 }

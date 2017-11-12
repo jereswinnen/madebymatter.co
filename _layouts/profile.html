@@ -1,13 +1,25 @@
-{% include html-header.html %}
+{% include html-header.html
+   theme=""
+%}
 <main class="c-main">
    <section class="c-hero">
       {% include site-header.html %}
       <article class="c-article js--wow fadeInUp">
          <header class="c-article__header">
-            <h1><strong>Matter</strong> is the online playground of digital product designer, <strong>Jeremy Swinnen</strong>.</h1>
+            <h1><strong>Matter</strong> is the design studio of digital product designer, <strong>Jeremy Swinnen</strong>.</h1>
          </header>
          {{ content }}
       </article>
+   </section>
+   <section class="c-section c-section--extend" style="background: grey; display:none;>
+      <div class="l-grid l-grid--abreast">
+         <div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+         </div>
+         <div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+         </div>
+      </div>
    </section>
    <section class="c-section c-section--extend">
       <header class="c-section__header">
