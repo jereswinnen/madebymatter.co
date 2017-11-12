@@ -1163,16 +1163,6 @@
 		"sC": 1,
 		"tS": 0
 		},
-	"\/_site\/assets\/styles\/global.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/_site\/assets\/styles\/global-min.css",
-		"oF": 0,
-		"oS": 3
-		},
 	"\/_site\/blog\/index.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -1200,24 +1190,6 @@
 		"oA": 2,
 		"oAP": "\/_site\/profile\/index.html",
 		"oF": 0
-		},
-	"\/_site\/README.md": {
-		"cB": 0,
-		"cS": 0,
-		"eF": 1,
-		"eL": 1,
-		"ema": 1,
-		"eSQ": 1,
-		"ft": 4096,
-		"oA": 1,
-		"oAP": "\/_site\/README.html",
-		"oF": 0,
-		"oFM": 0,
-		"oS": 0,
-		"pHT": 0,
-		"pME": 1,
-		"rFN": 0,
-		"uCM": 0
 		},
 	"\/_site\/work\/castaway\/index.html": {
 		"cB": 0,

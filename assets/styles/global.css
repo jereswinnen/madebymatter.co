@@ -263,6 +263,9 @@ textarea {
 :-ms-input-placeholder {
   color: #555; }
 
+::-ms-input-placeholder {
+  color: #555; }
+
 ::placeholder {
   color: #555; }
 
@@ -270,6 +273,9 @@ textarea {
   opacity: 0.5; }
 
 :focus:-ms-input-placeholder {
+  opacity: 0.5; }
+
+:focus::-ms-input-placeholder {
   opacity: 0.5; }
 
 :focus::placeholder {
