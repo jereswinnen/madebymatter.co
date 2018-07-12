@@ -1618,7 +1618,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/_src\/styles\/themes\/_light.scss": {
+	"\/_src\/styles\/themes\/_dark.scss": {
 		"aP": 1,
 		"bl": 1,
 		"dP": 10,
@@ -1626,7 +1626,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/dist\/styles\/_light.css",
+		"oAP": "\/dist\/styles\/_dark.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1

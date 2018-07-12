@@ -253,3 +253,7 @@ a {
   list-style: none; }
   .c-list .c-list__item {
     margin-bottom: 1vh; }
+
+.t--dark body {
+  color: white;
+  background: red; }
