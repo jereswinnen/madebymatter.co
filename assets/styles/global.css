@@ -239,11 +239,6 @@ a {
   a:active {
     color: red; }
 
-.c-hero {
-  padding: 12vh 0; }
-  .c-hero .c-article {
-    margin-bottom: 0; }
-
 .c-footer {
   padding-top: 4vh;
   padding-bottom: 4vh; }

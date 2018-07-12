@@ -1191,6 +1191,16 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/_site\/assets\/styles\/global.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/_site\/assets\/styles\/global-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"\/_site\/blog\/index.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -1432,19 +1442,6 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/dist\/styles\/_footer.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/_src\/styles\/components\/_hero.scss": {
-		"aP": 1,
-		"bl": 1,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/dist\/styles\/_hero.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
