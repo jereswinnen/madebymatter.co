@@ -3,66 +3,30 @@
 // =======================================================================
 
 body {
-   .c-hero, .c-section, .c-footer {
-      padding-left: 6vw;
-      padding-right: 6vw;
+   .c-masthead, .c-main, .c-footer {
+      padding-left: 1.5rem;
+      padding-right: 1.5rem;
    }
-   .c-section--collage {
-      padding-left: 0vw;
-      padding-right: 0vw;
-   }
-   @media(min-width: $b__medium) {
-      display: grid;
-      grid-column-gap: 4vw;
-      grid-template-columns: [bleed-start] 1fr [extend-start] 1fr [content-start] minmax(0, 34em) [content-end] 1fr [extend-end] 1fr [bleed-end];
-      .c-hero, .c-section, .c-footer {
+   @media(min-width: map-get($breakpoints, medium)) {
+      &.l-grid--mw {
+         margin: 0 auto;
+         max-width: 38rem; //567px
+      }
+      .c-masthead, .c-main, .c-footer {
          padding-left: 0;
          padding-right: 0;
       }
-      .c-main {
-         display: grid;
-         grid-column: bleed;
-         grid-template-columns: inherit;
-         .c-hero, .c-section {
-            grid-column: content;
-         }
-         .c-section--extend {
-            grid-column: extend;
-         }
-         .c-section--bleed {
-            grid-column: bleed;
-         }
-      }
-      .c-footer {
-         grid-column: content;
-      }
    }
-}
-
-// Layout helpers
-.l-nomarginb {
-   margin-bottom: 0 !important;
-}
-.l-nopadding {
-   padding-top: 0 !important;
-   padding-bottom: 0 !important;
 }
 
 // Grid modules
 .l-grid {
-   @media(min-width: $b__medium) {
+   @media(min-width: map-get($breakpoints, medium)) {
       display: grid;
-      grid-column-gap: 3rem;
-      &--abreast {
-         grid-template-columns: repeat(2, 1fr);
-      }
-      &--triad {
-         grid-template-columns: repeat(3, 1fr);
+      grid-column-gap: 2rem;
+      grid-template-columns: 2fr, 1fr, minmax(1fr, 38em), 1fr, 2fr;
+      &--bleed {
+         grid-column: auto/span 5;
       }
    }
-}
-
-.l-grid--abreast > * {
-   padding: 3rem;
-   background: rgba(255, 255, 255, .1);
 }
