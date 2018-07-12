@@ -318,6 +318,41 @@
 		"rFN": 0,
 		"uCM": 0
 		},
+	"\/_site\/assets\/fonts\/27645c8a-608b-4abf-a2f1-c4407b576723.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/assets\/fonts\/27645c8a-608b-4abf-a2f1-c4407b576723.woff",
+		"oF": 0
+		},
+	"\/_site\/assets\/fonts\/39bb8fb3-84a4-4ab8-ae45-db1834f5d807.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/assets\/fonts\/39bb8fb3-84a4-4ab8-ae45-db1834f5d807.woff2",
+		"oF": 0
+		},
+	"\/_site\/assets\/fonts\/96fd4fb4-75db-412f-986d-d65380ee0ccf.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/assets\/fonts\/96fd4fb4-75db-412f-986d-d65380ee0ccf.woff",
+		"oF": 0
+		},
+	"\/_site\/assets\/fonts\/e0d80810-f7e3-4fea-8c57-ef8116f0465d.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/assets\/fonts\/e0d80810-f7e3-4fea-8c57-ef8116f0465d.woff2",
+		"oF": 0
+		},
+	"\/_site\/assets\/fonts\/f01b7f8c-22f9-4b50-9ad7-d3a17cf65b06.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/assets\/fonts\/f01b7f8c-22f9-4b50-9ad7-d3a17cf65b06.woff2",
+		"oF": 0
+		},
 	"\/_site\/assets\/images\/artwork\/castaway\/case__castaway--addpodcast.png": {
 		"ft": 32768,
 		"iS": 208770,
@@ -1163,16 +1198,6 @@
 		"sC": 1,
 		"tS": 0
 		},
-	"\/_site\/assets\/styles\/global.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/_site\/assets\/styles\/global-min.css",
-		"oF": 0,
-		"oS": 3
-		},
 	"\/_site\/blog\/index.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -1651,6 +1676,34 @@
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
+		},
+	"\/assets\/fonts\/27645c8a-608b-4abf-a2f1-c4407b576723.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/27645c8a-608b-4abf-a2f1-c4407b576723.woff",
+		"oF": 0
+		},
+	"\/assets\/fonts\/39bb8fb3-84a4-4ab8-ae45-db1834f5d807.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/39bb8fb3-84a4-4ab8-ae45-db1834f5d807.woff2",
+		"oF": 0
+		},
+	"\/assets\/fonts\/96fd4fb4-75db-412f-986d-d65380ee0ccf.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/96fd4fb4-75db-412f-986d-d65380ee0ccf.woff",
+		"oF": 0
+		},
+	"\/assets\/fonts\/e0d80810-f7e3-4fea-8c57-ef8116f0465d.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/e0d80810-f7e3-4fea-8c57-ef8116f0465d.woff2",
+		"oF": 0
 		},
 	"\/assets\/images\/artwork\/castaway\/case__castaway--addpodcast.png": {
 		"ft": 32768,

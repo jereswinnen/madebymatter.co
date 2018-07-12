@@ -1,3 +1,15 @@
+@font-face {
+  font-family: NhU;
+  font-weight: normal;
+  font-style: normal;
+  src: url("/assets/fonts/e0d80810-f7e3-4fea-8c57-ef8116f0465d.woff2") format("woff2"), url("/assets/fonts/27645c8a-608b-4abf-a2f1-c4407b576723.woff") format("woff"); }
+
+@font-face {
+  font-family: NhU;
+  font-weight: bold;
+  font-style: normal;
+  src: url("/assets/fonts/39bb8fb3-84a4-4ab8-ae45-db1834f5d807.woff2") format("woff2"), url("/assets/fonts/96fd4fb4-75db-412f-986d-d65380ee0ccf.woff") format("woff"); }
+
 @-webkit-keyframes figureScroller {
   0% {
     -webkit-transform: translate3d(0%, 0%, 0);
