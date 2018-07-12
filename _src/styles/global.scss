@@ -8,7 +8,6 @@
 @import "helpers/functions";
 @import "helpers/variables";
 @import "helpers/mixins";
-@import "helpers/animations";
 @import "helpers/layout";
 
 // Base
@@ -33,6 +32,3 @@
 @import "components/list";
 @import "components/item";
 @import "components/modal";
-
-// Themes
-@import "themes/light";
