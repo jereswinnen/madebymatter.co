@@ -10,18 +10,6 @@
   font-style: normal;
   src: url("/assets/fonts/39bb8fb3-84a4-4ab8-ae45-db1834f5d807.woff2") format("woff2"), url("/assets/fonts/96fd4fb4-75db-412f-986d-d65380ee0ccf.woff") format("woff"); }
 
-body .c-masthead, body .c-main, body .c-footer {
-  padding-left: 1.5rem;
-  padding-right: 1.5rem; }
-
-@media (min-width: 700px) {
-  body.l-grid--mw {
-    margin: 0 auto;
-    max-width: 38rem; }
-  body .c-masthead, body .c-main, body .c-footer {
-    padding-left: 0;
-    padding-right: 0; } }
-
 @media (min-width: 700px) {
   .l-grid {
     display: grid;
@@ -38,10 +26,10 @@ html {
   -webkit-font-smoothing: antialiased; }
 
 ::-moz-selection {
-  background: #f3ec55; }
+  background: #fdf99e; }
 
 ::selection {
-  background: #f3ec55; }
+  background: #fdf99e; }
 
 body {
   margin: 0;
@@ -165,7 +153,7 @@ body {
   font-family: "NhU", "BlinkMacSystemFont", -apple-system, "Helvetica Neue", Helvetica, sans-serif;
   font-size: 1rem;
   line-height: 1.5;
-  color: #111; }
+  color: #0d0d0d; }
   @media screen and (min-width: 700px) {
     body {
       font-size: 1.125rem;
@@ -179,8 +167,7 @@ h1 {
   margin-bottom: 6px;
   font-size: 1.5rem;
   line-height: 1.5;
-  color: #111;
-  font-weight: 800;
+  color: #0d0d0d;
   letter-spacing: -0.035545rem; }
   @media screen and (min-width: 700px) {
     h1 {
@@ -191,7 +178,7 @@ h2 {
   margin-bottom: 6px;
   font-size: 1.5rem;
   line-height: 2;
-  color: #111;
+  color: #0d0d0d;
   letter-spacing: -0.016743rem; }
   @media screen and (min-width: 700px) {
     h2 {
@@ -201,7 +188,7 @@ h2 {
 h3, .c-article__lede {
   font-size: 1.25rem;
   line-height: 1.5;
-  color: #111; }
+  color: #0d0d0d; }
 
 small {
   font-size: 0.875rem;
@@ -235,12 +222,6 @@ a {
   a:hover {
     color: currentColor;
     text-decoration: none; }
-  a:active {
-    color: red; }
-
-.c-footer {
-  padding-top: 4vh;
-  padding-bottom: 4vh; }
 
 .c-list {
   padding: 0;

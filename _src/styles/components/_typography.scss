@@ -6,26 +6,25 @@
 body {
    font-family: $ff-sans-serif;
    @include font-size($body-font-sizes);
-   color: $c-text;
+   color: $c-darkest;
 }
 
 // Headings
 h1 {
    margin-bottom: $u-spacer;
    @include font-size($h1-font-sizes);
-   color: $c-text;
-   font-weight: 800;
+   color: $c-darkest;
    letter-spacing: -0.035545rem;
 }
 h2 {
    margin-bottom: $u-spacer;
    @include font-size($h2-font-sizes);
-   color: $c-text;
+   color: $c-darkest;
    letter-spacing: -0.016743rem;
 }
 h3, .c-article__lede {
    @include font-size($h3-font-sizes);
-   color: $c-text;
+   color: $c-darkest;
 }
 small {
    @include font-size($small-font-sizes);

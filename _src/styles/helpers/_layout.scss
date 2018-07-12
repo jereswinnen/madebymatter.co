@@ -3,20 +3,7 @@
 // =======================================================================
 
 body {
-   .c-masthead, .c-main, .c-footer {
-      padding-left: 1.5rem;
-      padding-right: 1.5rem;
-   }
-   @media(min-width: map-get($breakpoints, medium)) {
-      &.l-grid--mw {
-         margin: 0 auto;
-         max-width: 38rem; //567px
-      }
-      .c-masthead, .c-main, .c-footer {
-         padding-left: 0;
-         padding-right: 0;
-      }
-   }
+   
 }
 
 // Grid modules

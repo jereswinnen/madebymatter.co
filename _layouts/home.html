@@ -1,23 +1,16 @@
-{% include html-header.html %}
-<main class="c-main">
-   <section class="c-hero">
-      {% include site-header.html %}
-      <article class="c-article">
-         <header class="c-article__header js--wow fadeInUp">
-            <h1>A <strong>creative developer</strong> and <strong>designer</strong> with a focus on digital product design for <strong>mobile platforms</strong>.</h1>
-         </header>
-         <!--<p class="c-article__lede js--wow fadeInUp" data-wow-delay=".25s">{{ content }}</p>-->
-      </article>
-   </section>
-   <section class="c-section c-section--extend">
-      {% for project in site.data.projects %}
-      <div class="c-item js--wow fadeInUp">
-         <a href="{{ project.link }}"><figure class="c-figure c-figure--full"><img src="{{ project.cover-img }}" srcset="{{ project.cover-img }} 1x, {{ project.cover-img2x }} 2x" alt="{{ project.name }}"></figure></a>
-         <p><a href="{{ project.link }}">{{ project.name }}</a> &mdash; {{ project.tagline }}</p>
+{% include html-header.html
+   theme="th--dark"   
+%}
+{% include site-header.html %}
+<main>
+   <article class="c-article">
+      <header class="c-article__header">
+         <h1>Jeremy is a creative developer and designer from Antwerp, Belgium. He's currently focusing on digital product design for mobile platforms.</h1>
+      </header>
+      <div class="c-article__body">
+         {{ content }}
       </div>
-      {% endfor %}
-   </section>
-   {% include connect-with-me.html title="Like what you just saw? Let's work together and make something <strong>amazing</strong>!" %}
+   </article>
 </main>
 {% include site-footer.html %}
 {% include html-footer.html %}
