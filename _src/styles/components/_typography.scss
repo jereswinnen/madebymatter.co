@@ -29,14 +29,14 @@ h3, .c-article__lede {
 }
 small {
    @include font-size($small-font-sizes);
-   color: $c-meta;
+   color: $c-mid;
 }
 
 //Figcaption
 figcaption {
    p {
       @include fs__mini;
-      color: $c-meta;
+      color: $c-mid;
    }
 }
 
@@ -50,6 +50,6 @@ blockquote {
       hanging-punctuation: first;
    }
    cite {
-      color: $c-meta;
+      color: $c-mid;
    }
 }

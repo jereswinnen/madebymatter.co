@@ -6,7 +6,7 @@
 $ff-sans-serif: "JS-Neue", "BlinkMacSystemFont", -apple-system, "Helvetica Neue", Helvetica, sans-serif;
 
 /// Spacers
-$u-spacer: 5px;
+$u-spacer: 6px;
 $u-spacer--s: $u-spacer * 2;
 $u-spacer--m: $u-spacer * 3;
 $u-spacer--l: $u-spacer * 4;
@@ -15,11 +15,10 @@ $u-spacer--xxl: $u-spacer * 9;
 $u-spacer--xxxl: $u-spacer * 12;
 
 /// Colours
-$c-lightest: #fcfaf5;
-$c-darkest: #0e0e22;
-$c-mid: #84838c;
-$c-text: #000;
-$c-meta: #999;
+$c-lightest: #f7f7f7;
+$c-darkest: #0d0d0d;
+$c-mid: #999;
+$c-text: #111;
 $c-accent: #f3ec55;
 $c-accent--teal: #097874;
 $c-accent--pink: #ce8fb7;

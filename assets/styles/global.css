@@ -66,7 +66,7 @@ a {
     outline: 0; }
 
 p {
-  margin: 0 0 5px; }
+  margin: 0 0 6px; }
 
 b, strong {
   font-weight: bold; }
@@ -165,17 +165,17 @@ body {
   font-family: "JS-Neue", "BlinkMacSystemFont", -apple-system, "Helvetica Neue", Helvetica, sans-serif;
   font-size: 1rem;
   line-height: 1.5;
-  color: #000; }
+  color: #111; }
   @media screen and (min-width: 700px) {
     body {
       font-size: 1.125rem;
       line-height: 1.6; } }
 
 h1 {
-  margin-bottom: 5px;
+  margin-bottom: 6px;
   font-size: 2rem;
   line-height: 1.5;
-  color: #000;
+  color: #111;
   font-weight: 800;
   letter-spacing: -0.035545rem; }
   @media screen and (min-width: 700px) {
@@ -184,10 +184,10 @@ h1 {
       line-height: 1.5; } }
 
 h2 {
-  margin-bottom: 5px;
+  margin-bottom: 6px;
   font-size: 1.5rem;
   line-height: 2;
-  color: #000;
+  color: #111;
   letter-spacing: -0.016743rem; }
   @media screen and (min-width: 700px) {
     h2 {
@@ -197,7 +197,7 @@ h2 {
 h3, .c-article__lede {
   font-size: 1.25rem;
   line-height: 1.5;
-  color: #000; }
+  color: #111; }
 
 small {
   font-size: 0.875rem;
@@ -213,7 +213,7 @@ figcaption p {
   color: #999; }
 
 blockquote {
-  margin: 5px; }
+  margin: 6px; }
   blockquote p {
     font-size: 1.375rem;
     line-height: 1.45;
