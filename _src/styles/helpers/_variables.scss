@@ -3,7 +3,7 @@
 // =======================================================================
 
 /// Font families
-$ff-sans-serif: "JS-Neue", "BlinkMacSystemFont", -apple-system, "Helvetica Neue", Helvetica, sans-serif;
+$ff-sans-serif: "NhU", "BlinkMacSystemFont", -apple-system, "Helvetica Neue", Helvetica, sans-serif;
 
 /// Spacers
 $u-spacer: 6px;
@@ -34,15 +34,15 @@ $breakpoints: (
 // Font sizes
 $body-font-sizes: (
    null: (1rem, 1.5), //16px
-   medium: (1.125rem, 1.6) // 18px
+   medium: (1.125rem, 1.6), // 18px
+   large: (1.25rem, 1.5) // 20px
 );
 $small-font-sizes: (
-   null: (0.875rem, 1.5), //14px
-   large: (1rem, 1.5) // 16px
+   null: (0.875rem, 1.5) //14px
 );
 $h1-font-sizes: (
-   null: (2rem, 1.5), //32px
-   medium: (2.25rem, 1.5) //36px
+   null: (1.5rem, 1.5), //24px
+   medium: (2.625rem, 1.5) //42px
 );
 $h2-font-sizes: (
    null: (1.5rem, 2), //24px

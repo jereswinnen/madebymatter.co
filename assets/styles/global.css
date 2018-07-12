@@ -162,7 +162,7 @@ textarea {
   outline: none; }
 
 body {
-  font-family: "JS-Neue", "BlinkMacSystemFont", -apple-system, "Helvetica Neue", Helvetica, sans-serif;
+  font-family: "NhU", "BlinkMacSystemFont", -apple-system, "Helvetica Neue", Helvetica, sans-serif;
   font-size: 1rem;
   line-height: 1.5;
   color: #111; }
@@ -170,17 +170,21 @@ body {
     body {
       font-size: 1.125rem;
       line-height: 1.6; } }
+  @media screen and (min-width: 1040px) {
+    body {
+      font-size: 1.25rem;
+      line-height: 1.5; } }
 
 h1 {
   margin-bottom: 6px;
-  font-size: 2rem;
+  font-size: 1.5rem;
   line-height: 1.5;
   color: #111;
   font-weight: 800;
   letter-spacing: -0.035545rem; }
   @media screen and (min-width: 700px) {
     h1 {
-      font-size: 2.25rem;
+      font-size: 2.625rem;
       line-height: 1.5; } }
 
 h2 {
