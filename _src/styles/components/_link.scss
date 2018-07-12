@@ -3,17 +3,13 @@
 // =======================================================================
 
 a {
-   font-weight: $fw__semibold;
-   color: $c__neutral--white;
+   color: currentColor;
    text-decoration: underline;
    &:hover {
       color: currentColor;
       text-decoration: none;
    }
    &:active {
-      color: $c__neutral--light;
-   }
-   @media(min-width: $b__medium) {
-      font-weight: $fw__medium;
+      color: red;
    }
 }

@@ -3,10 +3,10 @@
 // =======================================================================
 
 p {
-   margin: 0 0 1.5rem 0;
+   margin: 0 0 $u-spacer;
 }
 b, strong {
-   @include ff--sans-serif($fw__regular);
+   font-weight: bold;
 }
 small {
    //font-size: 75%; //14px

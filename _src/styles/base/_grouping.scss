@@ -9,13 +9,13 @@ html {
    -webkit-font-smoothing: antialiased;
 }
 ::selection {
-   background: $c__faint--light;
+   background: $c-accent;
 }
 body {
    margin: 0;
-   line-height: $u__base-line-height;
-   color: $c__neutral--lightest;
-   background: $c__neutral--black;
+   font-feature-settings: "calt", "liga", "hist", "onum", "pnum";
+   hypens: auto;
+   background: white;
 }
 article, aside, footer, header, main, nav, section {
    display: block;

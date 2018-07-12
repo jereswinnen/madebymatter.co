@@ -3,18 +3,5 @@
 // =======================================================================
 
 .c-masthead {
-   display: flex;
-   align-items: center;
-   margin-bottom: 12vh;
-   .c-branding, .c-nav__item {
-      margin-right: 6vw;
-   }
-   .c-nav__item:last-child {
-      margin-right: 0;
-   }
-   @media(min-width: $b__medium) {
-      .c-branding, .c-nav__item {
-         margin-right: 4vw;
-      }
-   }
+   
 }

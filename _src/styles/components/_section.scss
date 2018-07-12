@@ -3,35 +3,5 @@
 // =======================================================================
 
 .c-section {
-   margin-bottom: 4vh;
-   padding: 10vh 0;
-   .c-section__header {
-      margin-bottom: 6vh;
-   }
-   &--extend {
-      margin-bottom: 10vh;
-      padding: 0;
-      &:last-child {
-         margin-bottom: 0;
-      }
-   }
-   &--content, &--bleed {
-      padding: 0;
-   }
-   &--bleed .c-section__content--extend {
-      margin-bottom: 6vh;
-   }
-   &--collage {
-      .c-figure {
-         margin-bottom: 2rem;
-         img {
-            margin-bottom: -0.5rem;
-         }
-      }
-      @media(min-width: $b__medium) {
-         .l-grid--abreast .c-figure {
-            margin-bottom: 0;
-         }
-      }
-   }
+   
 }

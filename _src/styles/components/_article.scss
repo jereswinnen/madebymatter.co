@@ -3,13 +3,5 @@
 // =======================================================================
 
 .c-article {
-   margin-bottom: 8vh;
-   .c-article__header, .c-article__lede {
-      margin-bottom: 4vh;
-   }
-   @media(min-width: $b__medium) {
-      .c-article__header, .c-article__lede {
-         margin-bottom: 5vh;
-      }
-   }
+   
 }
