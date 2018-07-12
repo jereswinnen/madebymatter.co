@@ -1,54 +1,58 @@
 // =======================================================================
-// Global Variables
+// Global Variables & Maps
 // =======================================================================
 
-// Units
-$u__base-line-height: 1.5;
-//$u__max-width: 67.5rem; //1080px
+/// Font families
+$ff-sans-serif: "JS-Neue", "BlinkMacSystemFont", -apple-system, "Helvetica Neue", Helvetica, sans-serif;
+$ff-monospace: Monaco, monospace;
 
-// Colours
-/// Neutral
-$c__neutral--white: #fff;
-$c__neutral--lightest: #ccc;
-$c__neutral--light: #999;
-$c__neutral--mid: #555;
-$c__neutral--dark: #333;
-$c__neutral--darkest: #1f1f1f;
-$c__neutral--black: #0d0d0d;
+/// Spacers
+$u-spacer: 5px;
+$u-spacer--s: $u-spacer * 2;
+$u-spacer--m: $u-spacer * 3;
+$u-spacer--l: $u-spacer * 4;
+$u-spacer--xl: $u-spacer * 6;
+$u-spacer--xxl: $u-spacer * 9;
+$u-spacer--xxxl: $u-spacer * 12;
 
-$c__muted--light: transparentize($c__neutral--white, .5);
-$c__muted--dark: transparentize($c__neutral--black, .5);
-$c__faint--light: transparentize($c__neutral--white, .95);
-$c__faint--dark: transparentize($c__neutral--black, .95);
+/// Colours
+$c-lightest: #fcfaf5;
+$c-darkest: #0e0e22;
+$c-mid: #84838c;
+$c-text: #000;
+$c-meta: #999;
+$c-accent: #097874;
+$c-accent--alt: #ce8fb7;
 
-/// Status
-$c__status--loading: hsb(21, 64, 100);
-$c__status--success: hsb(112, 40, 90);
-$c__status--error: hsb(0, 64, 100);
-
-// Font weights
-$fw__ultralight: 100;
-$fw__thin: 200;
-$fw__light: 300;
-$fw__regular: 400;
-$fw__medium: 500;
-$fw__semibold: 600;
-$fw__bold: 700;
-$fw__heavy: 800;
-$fw__black: 900;
-
-// Border radii
-$radius__micro: 2px;
-$radius__mini: 4px;
-$radius__base: 6px;
-$radius__midi: 8px;
-$radius__maxi: 12px;
-
-// Timing functions
-$easing__bezier: cubic-bezier(.215, .61, .355, 1);
-
+/// Maps
 // Breakpoints
-//$b__small: 360px;
-$b__medium: 680px;
-$b__large: 1040px;
-$b__xlarge: 1280px;
+$breakpoints: (
+   //small: 360px,
+   medium: 700px,
+   large: 1040px,
+   xlarge: 1280px
+);
+// Font sizes
+$body-font-sizes: (
+   null: (1rem, 1.5), //16px
+   medium: (1.125rem, 1.6) // 18px
+);
+$small-font-sizes: (
+   null: (0.875rem, 1.5), //14px
+   large: (1rem, 1.5) // 16px
+);
+$h1-font-sizes: (
+   null: (2rem, 1.5), //32px
+   medium: (2.25rem, 1.5) //36px
+);
+$h2-font-sizes: (
+   null: (1.5rem, 2), //24px
+   medium: (1.5rem, 2) //24px
+);
+$h3-font-sizes: (
+   null: (1.25rem, 1.5) //20px
+);
+$small-font-sizes: (
+   null: (0.875rem, 1.5), //14px
+   medium: (1rem, 1.5) //16px
+);
