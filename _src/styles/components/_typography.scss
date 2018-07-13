@@ -10,8 +10,9 @@ body {
 }
 
 // Headings
-h1 {
+h1, .c-article__lede {
    margin-bottom: $u-spacer;
+   font-family: $ff-serif;
    @include font-size($h1-font-sizes);
    color: $c-darkest;
    letter-spacing: -0.035545rem;
@@ -19,12 +20,16 @@ h1 {
 h2 {
    margin-bottom: $u-spacer;
    @include font-size($h2-font-sizes);
+   font-weight: bold;
    color: $c-darkest;
    letter-spacing: -0.016743rem;
 }
-h3, .c-article__lede {
+h3 {
+   margin-bottom: $u-spacer;
    @include font-size($h3-font-sizes);
    color: $c-darkest;
+   text-transform: uppercase;
+   letter-spacing: 0.025892rem;
 }
 small {
    @include font-size($small-font-sizes);
@@ -43,9 +48,6 @@ figcaption {
 blockquote {
    margin: $u-spacer;
    p {
-      @include fs__maxi;
-      line-height: 1.45;
-      font-weight: bold;
       hanging-punctuation: first;
    }
    cite {
