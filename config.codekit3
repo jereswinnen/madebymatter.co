@@ -16,6 +16,13 @@
 		"oAP": "\/.gitignore",
 		"oF": 0
 		},
+	"\/.ruby-version": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/.ruby-version",
+		"oF": 0
+		},
 	"\/_config.yml": {
 		"cB": 0,
 		"ft": 8192,
@@ -310,13 +317,6 @@
 		"pME": 1,
 		"rFN": 0,
 		"uCM": 0
-		},
-	"\/_site\/assets\/fonts\/371467_0_0.woff2": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_site\/assets\/fonts\/371467_0_0.woff2",
-		"oF": 0
 		},
 	"\/_site\/assets\/fonts\/NhU-bd-2018-07-04.woff": {
 		"cB": 0,
@@ -1204,6 +1204,16 @@
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
+		},
+	"\/_site\/assets\/styles\/global.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/_site\/assets\/styles\/global-min.css",
+		"oF": 0,
+		"oS": 3
 		},
 	"\/_site\/blog\/index.html": {
 		"cB": 0,
