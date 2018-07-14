@@ -219,6 +219,9 @@ a {
     color: currentColor;
     text-decoration: none; }
 
+.c-footer {
+  border-top: 1px solid #999; }
+
 .c-list {
   padding: 0;
   list-style: none; }
