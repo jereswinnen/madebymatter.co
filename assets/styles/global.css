@@ -15,14 +15,6 @@
   font-style: normal;
   src: url("/assets/fonts/RcL-md-2018-07-13.woff2") format("woff2"), url("/assets/fonts/RcL-md-2018-07-13.woff") format("woff"); }
 
-@media (min-width: 700px) {
-  .l-grid {
-    display: grid;
-    grid-column-gap: 2rem;
-    grid-template-columns: 2fr, 1fr, minmax(1fr, 38em), 1fr, 2fr; }
-    .l-grid--bleed {
-      grid-column: auto/span 5; } }
-
 html {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -218,6 +210,134 @@ a {
   a:hover {
     color: currentColor;
     text-decoration: none; }
+
+.c-masthead {
+  margin: 24px 0 54px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+  .c-masthead .c-masthead__brand a {
+    font-size: 0.875rem;
+    line-height: 1.5;
+    text-decoration: none; }
+  .c-masthead .c-nav--primary {
+    display: none; }
+  .c-masthead .c-nav--secondary {
+    display: none; }
+  @media (min-width: 700px) {
+    .c-masthead {
+      -webkit-box-align: initial;
+          -ms-flex-align: initial;
+              align-items: initial;
+      -webkit-box-pack: initial;
+          -ms-flex-pack: initial;
+              justify-content: initial;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column; }
+      .c-masthead .c-masthead__brand, .c-masthead .c-masthead__toggle {
+        display: none; }
+      .c-masthead .c-nav--primary, .c-masthead .c-nav--secondary {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex; } }
+
+.c-masthead .c-masthead__toggle a, .c-masthead--modal .c-masthead__toggle a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 22px;
+  height: 22px; }
+  .c-masthead .c-masthead__toggle a svg, .c-masthead--modal .c-masthead__toggle a svg {
+    fill: #0d0d0d; }
+
+.c-masthead--modal {
+  position: fixed;
+  padding: 24px;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: none;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 100%;
+  background: #0d0d0d;
+  color: #fff;
+  overflow: auto;
+  z-index: 20; }
+  .c-masthead--modal .c-masthead__toggle a svg {
+    fill: #fff; }
+  .c-masthead--modal .c-nav {
+    -ms-flex-item-align: center;
+        align-self: center; }
+    .c-masthead--modal .c-nav .c-nav__items {
+      display: initial; }
+      .c-masthead--modal .c-nav .c-nav__items .c-nav__item {
+        margin-bottom: 6px; }
+        .c-masthead--modal .c-nav .c-nav__items .c-nav__item:first-child {
+          margin-bottom: 12px; }
+        .c-masthead--modal .c-nav .c-nav__items .c-nav__item:last-child {
+          margin-bottom: 0; }
+
+.c-nav {
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+  .c-nav .c-nav__items {
+    padding: 0;
+    list-style: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+    .c-nav .c-nav__items .c-nav__item {
+      margin-right: 12px; }
+      .c-nav .c-nav__items .c-nav__item:last-child {
+        margin-right: 0; }
+      .c-nav .c-nav__items .c-nav__item a {
+        font-size: 0.875rem;
+        line-height: 1.5;
+        text-decoration: none; }
+  .c-nav--primary {
+    margin-bottom: 6px;
+    padding-bottom: 6px;
+    border-bottom: 1px solid #0d0d0d; }
+    .c-nav--primary .c-nav__items {
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+      width: 100%; }
+
+.c-masthead--modal .c-nav .c-nav__items .c-nav__item {
+  margin-right: 0; }
+  .c-masthead--modal .c-nav .c-nav__items .c-nav__item a {
+    font-size: 1.125rem;
+    line-height: 1.5; }
+    @media screen and (min-width: 700px) {
+      .c-masthead--modal .c-nav .c-nav__items .c-nav__item a {
+        font-size: 1.375rem;
+        line-height: 1.5; } }
 
 .c-footer {
   border-top: 1px solid #999; }

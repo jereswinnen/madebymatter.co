@@ -1,17 +1,46 @@
 <header class="c-masthead">
-   <nav class="c-nav">
+   <div class="c-masthead__brand"><a href="/">Jeremy Swinnen</a></div><!--MOBILE ONLY-->
+   <div class="c-masthead__toggle"><!--MOBILE ONLY-->
+      <a href="/">
+         <svg width="14" height="9" fill="none">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M14 0H0v2h14V0zm0 7H0v2h14V7z" fill=""/>
+         </svg>
+      </a>
+   </div>
+   <nav class="c-nav c-nav--primary" role="navigation">
       <ul class="c-nav__items">
          <li class="c-nav__item"><a href="/">Jeremy Swinnen</a></li>
          <li class="c-nav__item"><a href="/profile/" title="Profile"{% if page.url contains '/profile' %}class=" c-nav__item--selected"{% endif %}>Profile</a></li>
       </ul>
    </nav>
-   <nav class="c-nav">
+   <nav class="c-nav c-nav--secondary" role="navigation">
+      <small>Selected work:</small>
       <ul class="c-nav__items">
-         <li class="c-nav__item"><a href="/work/shelf/" title="Shelf" {% if page.url contains '/work/shelf' %}class=" c-nav__item--selected"{% endif %}>Shelf</a></li>
+            <li class="c-nav__item"><a href="/work/shelf/" title="Shelf"{% if page.url contains '/work/shelf' %}class=" c-nav__item--selected"{% endif %}>Shelf</a></li>
+            <li class="c-nav__item"><a href="/work/realo/" title="Realo"{% if page.url contains '/work/realo' %}class=" c-nav__item--selected"{% endif %}>Realo</a></li>
+            <li class="c-nav__item"><a href="/work/hocusfocus/" title="Hocus Focus"{% if page.url contains '/work/hocusfocus' %}class=" c-nav__item--selected"{% endif %}>Hocus Focus</a></li>
+            <li class="c-nav__item"><a href="/work/diabetik/" title="Diabetik"{% if page.url contains '/work/diabetik' %}class=" c-nav__item--selected"{% endif %}>Diabetik</a></li>
+            <li class="c-nav__item"><a href="/work/immobrown/" title="Immo Brown"{% if page.url contains '/work/immobrown' %}class=" c-nav__item--selected"{% endif %}>Immo Brown</a></li>
+      </ul>
+   </nav>
+</header>
+<div class="c-masthead--modal"><!--MOBILE ONLY-->
+   <div class="c-masthead__toggle">
+      <a href="/">
+         <svg width="12" height="12" fill="none">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M5.657 4.243L1.414 0 0 1.414l4.243 4.243L0 9.9l1.414 1.414L5.657 7.07l4.242 4.243 1.415-1.415L7.07 5.657l4.243-4.243L9.9 0 5.657 4.243z" fill=""/>
+         </svg>
+      </a>   
+   </div>
+   <nav class="c-nav" role="navigation">
+      <ul class="c-nav__items">
+         <li class="c-nav__item"><a href="/profile/" title="Profile"{% if page.url contains '/profile' %}class=" c-nav__item--selected"{% endif %}>Profile</a></li>
+         <li class="c-nav__item"><small>Selected work</small></li>
+         <li class="c-nav__item"><a href="/work/shelf/" title="Shelf"{% if page.url contains '/work/shelf' %}class=" c-nav__item--selected"{% endif %}>Shelf</a></li>
          <li class="c-nav__item"><a href="/work/realo/" title="Realo"{% if page.url contains '/work/realo' %}class=" c-nav__item--selected"{% endif %}>Realo</a></li>
          <li class="c-nav__item"><a href="/work/hocusfocus/" title="Hocus Focus"{% if page.url contains '/work/hocusfocus' %}class=" c-nav__item--selected"{% endif %}>Hocus Focus</a></li>
          <li class="c-nav__item"><a href="/work/diabetik/" title="Diabetik"{% if page.url contains '/work/diabetik' %}class=" c-nav__item--selected"{% endif %}>Diabetik</a></li>
          <li class="c-nav__item"><a href="/work/immobrown/" title="Immo Brown"{% if page.url contains '/work/immobrown' %}class=" c-nav__item--selected"{% endif %}>Immo Brown</a></li>
       </ul>
    </nav>
-</header>
+</div>

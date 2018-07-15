@@ -3,17 +3,11 @@
 // =======================================================================
 
 body {
-   
+   @media(min-width: map-get($breakpoints, medium)) {
+      //display: grid;
+      //grid-column-gap: 2rem;
+      //grid-template-columns: 1fr 1fr 4fr 1fr 1fr;
+   }   
 }
 
 // Grid modules
-.l-grid {
-   @media(min-width: map-get($breakpoints, medium)) {
-      display: grid;
-      grid-column-gap: 2rem;
-      grid-template-columns: 2fr, 1fr, minmax(1fr, 38em), 1fr, 2fr;
-      &--bleed {
-         grid-column: auto/span 5;
-      }
-   }
-}

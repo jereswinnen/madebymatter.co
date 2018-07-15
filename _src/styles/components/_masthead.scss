@@ -3,5 +3,76 @@
 // =======================================================================
 
 .c-masthead {
-   
+   margin: $u-spacer--l 0 $u-spacer--xxl 0;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   .c-masthead__brand a {
+      @include font-size($small-font-sizes);
+      text-decoration: none;
+   }
+   .c-nav--primary {
+      display: none;   
+   }
+   .c-nav--secondary {
+      display: none;   
+   }
+   @media(min-width: map-get($breakpoints, medium)) {
+      align-items: initial;
+      justify-content: initial;
+      flex-direction: column;
+      .c-masthead__brand, .c-masthead__toggle {
+         display: none;
+      } 
+      .c-nav--primary, .c-nav--secondary {
+         display: flex;
+      }    
+   }
+}
+.c-masthead .c-masthead__toggle, .c-masthead--modal .c-masthead__toggle {
+   a {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 22px;
+      height: 22px;
+      //background: $c-accent;
+      svg {
+         fill: $c-darkest;
+      }
+   }
+}
+.c-masthead--modal {
+   position: fixed;
+   padding: $u-spacer--l;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   display: none; //flex is default
+   flex-direction: row-reverse;
+   justify-content: space-between;
+   height: 100%;
+   background: $c-darkest;
+   color: #fff;
+   overflow: auto;
+   z-index: 20;
+   .c-masthead__toggle a svg {
+      fill: #fff;
+   }
+   .c-nav {
+      align-self: center;
+      .c-nav__items {
+         display: initial;
+         .c-nav__item {
+            margin-bottom: $u-spacer;
+            &:first-child {
+               margin-bottom: $u-spacer--s;
+            }
+            &:last-child {
+               margin-bottom: 0;
+            }
+         }
+      }
+   }
 }

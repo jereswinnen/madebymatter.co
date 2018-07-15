@@ -3,5 +3,36 @@
 // =======================================================================
 
 .c-nav {
-   
+   align-items: baseline;
+   justify-content: space-between;
+   .c-nav__items {
+      padding: 0;
+      list-style: none;
+      display: flex;
+      .c-nav__item {
+         margin-right: $u-spacer--s;
+         &:last-child {
+            margin-right: 0;
+         }
+         a {
+            @include font-size($small-font-sizes);
+            text-decoration: none;
+         }
+      }
+   }
+   &--primary {
+      margin-bottom: $u-spacer;
+      padding-bottom: $u-spacer;
+      border-bottom: 1px solid $c-darkest;
+      .c-nav__items {
+         justify-content: space-between;
+         width: 100%;
+      }
+   }
+}
+.c-masthead--modal .c-nav .c-nav__items .c-nav__item {
+   margin-right: 0;
+   a {
+      @include font-size($h2-font-sizes);
+   }
 }
