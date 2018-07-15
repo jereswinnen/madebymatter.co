@@ -49,12 +49,14 @@
    right: 0;
    bottom: 0;
    left: 0;
-   display: none; //flex is default
+   display: flex;
    flex-direction: row-reverse;
    justify-content: space-between;
    height: 100%;
    background: $c-darkest;
    color: #fff;
+   opacity: 0;
+   pointer-events: none;
    overflow: auto;
    z-index: 20;
    .c-masthead__toggle a svg {

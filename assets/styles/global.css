@@ -271,7 +271,9 @@ a {
   right: 0;
   bottom: 0;
   left: 0;
-  display: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: reverse;
       -ms-flex-direction: row-reverse;
@@ -282,6 +284,8 @@ a {
   height: 100%;
   background: #0d0d0d;
   color: #fff;
+  opacity: 0;
+  pointer-events: none;
   overflow: auto;
   z-index: 20; }
   .c-masthead--modal .c-masthead__toggle a svg {
