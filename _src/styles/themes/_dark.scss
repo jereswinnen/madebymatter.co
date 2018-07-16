@@ -5,6 +5,15 @@
 .t--dark {
 	body {
 		color: white;
-		background: red;
+      background: $c-darkest;
+      h1 {
+         color: white;
+      }
+      .c-masthead .c-masthead__toggle a svg {
+         fill: #fff;
+      }
+      .c-nav--primary {
+         border-bottom: 1px solid #fff;
+      }
 	}
 }

@@ -369,4 +369,10 @@ a {
 
 .t--dark body {
   color: white;
-  background: red; }
+  background: #0d0d0d; }
+  .t--dark body h1 {
+    color: white; }
+  .t--dark body .c-masthead .c-masthead__toggle a svg {
+    fill: #fff; }
+  .t--dark body .c-nav--primary {
+    border-bottom: 1px solid #fff; }
