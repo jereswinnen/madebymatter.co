@@ -17,6 +17,13 @@
          a {
             @include font-size($small-font-sizes);
             text-decoration: none;
+            &:hover {
+               text-decoration: underline;
+            }
+            &.c-nav__item--selected {
+               padding: 0 $u-spacer--xs;
+               background: $c-accent;
+            }
          }
       }
    }
