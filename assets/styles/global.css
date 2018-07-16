@@ -15,6 +15,24 @@
   font-style: normal;
   src: url("/assets/fonts/RcL-md-2018-07-13.woff2") format("woff2"), url("/assets/fonts/RcL-md-2018-07-13.woff") format("woff"); }
 
+html body {
+  padding: 0 24px; }
+
+@media (min-width: 700px) {
+  html .o-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr); }
+  html .o-grid--inherit {
+    grid-template-columns: inherit; }
+  html .o-grid__bleed {
+    grid-column: 1 / span 6; }
+  html .o-grid__twothirds {
+    grid-column: 1 / span 4; }
+  html .o-grid__half {
+    grid-column: 1 / span 3; }
+  html .o-grid__onethird {
+    grid-column: 1 / span 2; } }
+
 html {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -235,6 +253,7 @@ a {
     display: none; }
   @media (min-width: 700px) {
     .c-masthead {
+      margin: 24px 0 72px 0;
       -webkit-box-align: initial;
           -ms-flex-align: initial;
               align-items: initial;
@@ -262,7 +281,7 @@ a {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  width: 22px;
+  width: 18px;
   height: 22px; }
   .c-masthead .c-masthead__toggle a svg, .c-masthead--modal .c-masthead__toggle a svg {
     fill: #0d0d0d; }
@@ -358,6 +377,7 @@ a {
   margin-bottom: 72px; }
 
 .c-footer {
+  margin-bottom: 54px;
   padding-top: 6px;
   border-top: 1px solid #999; }
 

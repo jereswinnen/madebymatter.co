@@ -2,12 +2,30 @@
 // Layout
 // =======================================================================
 
-body {
+html {
+   body {
+      padding: 0 $u-spacer--l;
+   }
    @media(min-width: map-get($breakpoints, medium)) {
-      //display: grid;
-      //grid-column-gap: 2rem;
-      //grid-template-columns: 1fr 1fr 4fr 1fr 1fr;
-   }   
+      .o-grid {
+         display: grid;
+         //grid-template-columns: 1fr 2fr 2fr 1fr;
+         grid-template-columns: repeat(6, 1fr);
+      }
+      .o-grid--inherit {
+         grid-template-columns: inherit;
+      }
+      .o-grid__bleed {
+         grid-column: 1 / span 6;
+      }
+      .o-grid__twothirds {
+         grid-column: 1 / span 4;
+      }
+      .o-grid__half {
+         grid-column: 1 / span 3;
+      }
+      .o-grid__onethird {
+         grid-column: 1 / span 2;
+      }
+   }
 }
-
-// Grid modules

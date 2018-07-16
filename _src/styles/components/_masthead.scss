@@ -15,9 +15,10 @@
       display: none;   
    }
    .c-nav--secondary {
-      display: none;   
+      display: none;
    }
    @media(min-width: map-get($breakpoints, medium)) {
+      margin: $u-spacer--l 0 $u-spacer--xxxl 0;
       align-items: initial;
       justify-content: initial;
       flex-direction: column;
@@ -34,9 +35,8 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      width: 22px;
+      width: 18px;
       height: 22px;
-      //background: $c-accent;
       svg {
          fill: $c-darkest;
       }
