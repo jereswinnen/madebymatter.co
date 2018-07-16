@@ -30,7 +30,7 @@
       }    
    }
 }
-.c-masthead .c-masthead__toggle, .c-masthead--modal .c-masthead__toggle {
+.c-masthead .c-masthead__toggle, .c-masthead-modal .c-masthead__toggle {
    a {
       display: flex;
       align-items: center;
@@ -42,7 +42,7 @@
       }
    }
 }
-.c-masthead--modal {
+.c-masthead-modal {
    position: fixed;
    padding: $u-spacer--l;
    top: 0;
@@ -59,6 +59,7 @@
    pointer-events: none;
    overflow: auto;
    z-index: 20;
+   transition: all .3s cubic-bezier(.455,.03,.515,.955);
    .c-masthead__toggle a svg {
       fill: #fff;
    }
@@ -77,7 +78,7 @@
          }
       }
    }
-   &-open {
+   &--open {
       opacity: 1;
       pointer-events: auto;
    }

@@ -1195,16 +1195,6 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/_site\/assets\/scripts\/site.min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/dist\/styles\/site.min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
 	"\/_site\/blog\/index.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -1293,16 +1283,6 @@
 		"oAP": "\/_site\/work\/shelf\/index.html",
 		"oF": 0
 		},
-	"\/_src\/scripts\/modal.min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/dist\/styles\/modal.min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
 	"\/_src\/scripts\/site.js": {
 		"ft": 64,
 		"ma": 0,
@@ -1310,26 +1290,6 @@
 		"oA": 0,
 		"oAP": "\/assets\/scripts\/site.min.js",
 		"oF": 2,
-		"sC": 0,
-		"tS": 0
-		},
-	"\/_src\/scripts\/tilt.min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/dist\/styles\/tilt.min-min.js",
-		"oF": 0,
-		"sC": 0,
-		"tS": 0
-		},
-	"\/_src\/scripts\/wow.min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "\/dist\/styles\/wow.min-min.js",
-		"oF": 0,
 		"sC": 0,
 		"tS": 0
 		},
