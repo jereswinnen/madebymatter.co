@@ -22,7 +22,7 @@
       align-items: initial;
       justify-content: initial;
       flex-direction: column;
-      .c-masthead__brand, .c-masthead__toggle {
+      .c-masthead__brand {
          display: none;
       } 
       .c-nav--primary, .c-nav--secondary {
@@ -30,16 +30,34 @@
       }    
    }
 }
-.c-masthead .c-masthead__toggle, .c-masthead-modal .c-masthead__toggle {
-   a {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      width: 18px;
-      height: 22px;
-      svg {
-         fill: $c-darkest;
-      }
+.c-masthead-toggle {
+   position: absolute;
+   top: 24px;
+   right: 24px;
+   z-index: 22;
+   a svg {
+      fill: $c-darkest;
+      background: #555;
+   }
+   &--click {
+      a svg {
+         .c-masthead-toggle__head, .c-masthead-toggle__toes {
+            //transform-origin: top right;
+            //transform-origin: 19px 14px;
+            transform-origin: 50% 50%;
+            transition: all .12s cubic-bezier(.455,.03,.515,.955);
+         }
+         .c-masthead-toggle__head {
+            transform: translateY(8px) rotate(-45deg);
+            //transform: rotate(-45deg);     
+         }
+         .c-masthead-toggle__toes {
+            //transform: rotate(45deg);
+         }   
+      } 
+   }
+   @media(min-width: map-get($breakpoints, medium)) {
+      display: none;   
    }
 }
 .c-masthead-modal {
@@ -50,8 +68,6 @@
    bottom: 0;
    left: 0;
    display: flex;
-   flex-direction: row-reverse;
-   justify-content: space-between;
    height: 100%;
    background: $c-darkest;
    color: #fff;
@@ -59,10 +75,7 @@
    pointer-events: none;
    overflow: auto;
    z-index: 20;
-   transition: all .3s cubic-bezier(.455,.03,.515,.955);
-   .c-masthead__toggle a svg {
-      fill: #fff;
-   }
+   transition: all .28s cubic-bezier(.455,.03,.515,.955);
    .c-nav {
       align-self: center;
       .c-nav__items {

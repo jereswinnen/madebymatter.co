@@ -26,6 +26,11 @@
             }
          }
       }
+      @media(min-width: map-get($breakpoints, medium)) {
+         .c-nav__item {
+            margin-right: $u-spacer--m;
+         }
+      }
    }
    &--primary {
       margin-bottom: $u-spacer;

@@ -264,27 +264,32 @@ a {
       -webkit-box-direction: normal;
           -ms-flex-direction: column;
               flex-direction: column; }
-      .c-masthead .c-masthead__brand, .c-masthead .c-masthead__toggle {
+      .c-masthead .c-masthead__brand {
         display: none; }
       .c-masthead .c-nav--primary, .c-masthead .c-nav--secondary {
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex; } }
 
-.c-masthead .c-masthead__toggle a, .c-masthead-modal .c-masthead__toggle a {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  width: 18px;
-  height: 22px; }
-  .c-masthead .c-masthead__toggle a svg, .c-masthead-modal .c-masthead__toggle a svg {
-    fill: #0d0d0d; }
+.c-masthead-toggle {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  z-index: 22; }
+  .c-masthead-toggle a svg {
+    fill: #0d0d0d;
+    background: #555; }
+  .c-masthead-toggle--click a svg .c-masthead-toggle__head, .c-masthead-toggle--click a svg .c-masthead-toggle__toes {
+    -webkit-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+    -webkit-transition: all 0.12s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+    transition: all 0.12s cubic-bezier(0.455, 0.03, 0.515, 0.955); }
+  .c-masthead-toggle--click a svg .c-masthead-toggle__head {
+    -webkit-transform: translateY(8px) rotate(-45deg);
+            transform: translateY(8px) rotate(-45deg); }
+  @media (min-width: 700px) {
+    .c-masthead-toggle {
+      display: none; } }
 
 .c-masthead-modal {
   position: fixed;
@@ -296,13 +301,6 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: reverse;
-      -ms-flex-direction: row-reverse;
-          flex-direction: row-reverse;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
   height: 100%;
   background: #0d0d0d;
   color: #fff;
@@ -310,10 +308,8 @@ a {
   pointer-events: none;
   overflow: auto;
   z-index: 20;
-  -webkit-transition: all 0.3s cubic-bezier(0.455, 0.03, 0.515, 0.955);
-  transition: all 0.3s cubic-bezier(0.455, 0.03, 0.515, 0.955); }
-  .c-masthead-modal .c-masthead__toggle a svg {
-    fill: #fff; }
+  -webkit-transition: all 0.28s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  transition: all 0.28s cubic-bezier(0.455, 0.03, 0.515, 0.955); }
   .c-masthead-modal .c-nav {
     -ms-flex-item-align: center;
         align-self: center; }
@@ -355,6 +351,9 @@ a {
         .c-nav .c-nav__items .c-nav__item a.c-nav__item--selected {
           padding: 0 3px;
           background: #fdf99e; }
+    @media (min-width: 700px) {
+      .c-nav .c-nav__items .c-nav__item {
+        margin-right: 18px; } }
   .c-nav--primary {
     margin-bottom: 6px;
     padding-bottom: 6px;
@@ -400,7 +399,7 @@ a {
   background: #0d0d0d; }
   .t--dark body h1 {
     color: white; }
-  .t--dark body .c-masthead .c-masthead__toggle a svg {
+  .t--dark body .c-masthead-toggle a svg {
     fill: #fff; }
   .t--dark body .c-nav--primary {
     border-bottom: 1px solid #fff; }

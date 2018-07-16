@@ -1,12 +1,5 @@
 <header class="o-grid__bleed c-masthead">
    <div class="c-masthead__brand"><a href="/">Jeremy Swinnen</a></div><!--MOBILE ONLY-->
-   <div class="c-masthead__toggle"><!--MOBILE ONLY-->
-      <a href="/">
-         <svg width="14" height="9" fill="none">
-            <path fill-rule="evenodd" clip-rule="evenodd" d="M14 0H0v2h14V0zm0 7H0v2h14V7z" fill=""/>
-         </svg>
-      </a>
-   </div>
    <nav class="c-nav c-nav--primary" role="navigation">
       <ul class="c-nav__items">
          <li class="c-nav__item"><a href="/">Jeremy Swinnen</a></li>
@@ -24,14 +17,15 @@
       </ul>
    </nav>
 </header>
+<div class="c-masthead-toggle"><!--MOBILE ONLY-->
+   <a href="/">
+      <svg width="28" height="28" viewBox="-6 -9 28 28">
+         <rect class="c-masthead-toggle__head" width="16" height="2" ></rect>
+         <rect class="c-masthead-toggle__toes" width="16" height="2" y="8"></rect>
+      </svg>
+   </a>
+</div>
 <div class="c-masthead-modal"><!--MOBILE ONLY-->
-   <div class="c-masthead__toggle">
-      <a href="/">
-         <svg width="12" height="12" fill="none">
-            <path fill-rule="evenodd" clip-rule="evenodd" d="M5.657 4.243L1.414 0 0 1.414l4.243 4.243L0 9.9l1.414 1.414L5.657 7.07l4.242 4.243 1.415-1.415L7.07 5.657l4.243-4.243L9.9 0 5.657 4.243z" fill=""/>
-         </svg>
-      </a>   
-   </div>
    <nav class="c-nav" role="navigation">
       <ul class="c-nav__items">
          <li class="c-nav__item"><a href="/profile/" title="Profile"{% if page.url contains '/profile' %}class=" c-nav__item--selected"{% endif %}>Profile</a></li>
