@@ -3,6 +3,9 @@
 // =======================================================================
 
 .t--dark {
+   ::selection {
+      color: $c-darkest;
+   }
 	body {
 		color: white;
       background: $c-darkest;

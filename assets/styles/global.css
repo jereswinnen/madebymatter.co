@@ -387,6 +387,12 @@ a {
   .c-list .c-list__item {
     margin-bottom: 1vh; }
 
+.t--dark ::-moz-selection {
+  color: #0d0d0d; }
+
+.t--dark ::selection {
+  color: #0d0d0d; }
+
 .t--dark body {
   color: white;
   background: #0d0d0d; }
