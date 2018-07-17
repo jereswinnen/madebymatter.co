@@ -277,16 +277,25 @@ a {
   right: 24px;
   z-index: 22; }
   .c-masthead-toggle a svg {
-    fill: #0d0d0d;
-    background: #555; }
-  .c-masthead-toggle--click a svg .c-masthead-toggle__head, .c-masthead-toggle--click a svg .c-masthead-toggle__toes {
-    -webkit-transform-origin: 50% 50%;
-            transform-origin: 50% 50%;
-    -webkit-transition: all 0.12s cubic-bezier(0.455, 0.03, 0.515, 0.955);
-    transition: all 0.12s cubic-bezier(0.455, 0.03, 0.515, 0.955); }
+    display: block;
+    fill: #0d0d0d; }
+    .c-masthead-toggle a svg * {
+      -webkit-transform-origin: 15px 15px;
+              transform-origin: 15px 15px;
+      -webkit-transition: all 0.12s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+      transition: all 0.12s cubic-bezier(0.455, 0.03, 0.515, 0.955); }
+    .c-masthead-toggle a svg .c-masthead-toggle__head {
+      -webkit-transform: translateY(-4px);
+              transform: translateY(-4px); }
+    .c-masthead-toggle a svg .c-masthead-toggle__toes {
+      -webkit-transform: translateY(4px);
+              transform: translateY(4px); }
   .c-masthead-toggle--click a svg .c-masthead-toggle__head {
-    -webkit-transform: translateY(8px) rotate(-45deg);
-            transform: translateY(8px) rotate(-45deg); }
+    -webkit-transform: rotate(-45deg);
+            transform: rotate(-45deg); }
+  .c-masthead-toggle--click a svg .c-masthead-toggle__toes {
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg); }
   @media (min-width: 700px) {
     .c-masthead-toggle {
       display: none; } }

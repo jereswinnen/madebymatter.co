@@ -36,23 +36,26 @@
    right: 24px;
    z-index: 22;
    a svg {
+      display: block;
       fill: $c-darkest;
-      background: #555;
+      * {
+         transform-origin: 15px 15px;
+         transition: all .12s cubic-bezier(.455,.03,.515,.955);
+      }
+      .c-masthead-toggle__head {
+         transform: translateY(-4px);
+      }
+      .c-masthead-toggle__toes {
+         transform: translateY(4px);
+      }
    }
    &--click {
       a svg {
-         .c-masthead-toggle__head, .c-masthead-toggle__toes {
-            //transform-origin: top right;
-            //transform-origin: 19px 14px;
-            transform-origin: 50% 50%;
-            transition: all .12s cubic-bezier(.455,.03,.515,.955);
-         }
          .c-masthead-toggle__head {
-            transform: translateY(8px) rotate(-45deg);
-            //transform: rotate(-45deg);     
+            transform: rotate(-45deg);   
          }
          .c-masthead-toggle__toes {
-            //transform: rotate(45deg);
+            transform: rotate(45deg);
          }   
       } 
    }
