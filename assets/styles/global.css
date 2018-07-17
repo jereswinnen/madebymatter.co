@@ -16,7 +16,7 @@
   src: url("/assets/fonts/RcL-md-2018-07-13.woff2") format("woff2"), url("/assets/fonts/RcL-md-2018-07-13.woff") format("woff"); }
 
 html .o-grid__fullbleed {
-  margin: -24px;
+  margin: 0 -6vw;
   grid-column: 1 / span 6;
   clear: both; }
 
@@ -24,6 +24,8 @@ html body {
   padding: 0 24px; }
 
 @media (min-width: 700px) {
+  html body {
+    padding: 0 6vw; }
   html .o-grid {
     display: grid;
     grid-template-columns: repeat(6, 1fr); }

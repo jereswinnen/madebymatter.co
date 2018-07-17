@@ -4,7 +4,7 @@
 
 html {
    .o-grid__fullbleed {
-      margin: 0 -$u-spacer--l;
+      margin: 0 -6vw;
       grid-column: 1 / span 6;
       clear: both;   
    }
@@ -12,6 +12,9 @@ html {
       padding: 0 $u-spacer--l;
    }
    @media(min-width: map-get($breakpoints, medium)) {
+      body {
+         padding: 0 6vw;
+      }
       .o-grid {
          display: grid;
          //grid-template-columns: 1fr 2fr 2fr 1fr;
