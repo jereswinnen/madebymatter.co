@@ -3,5 +3,16 @@
 // =======================================================================
 
 .c-article {
-   margin-bottom: $u-spacer--xxxl;
+   margin-bottom: $u-spacer--xxl;
+   .c-article__header {
+      .c-article__title {
+         margin-bottom: $u-spacer--s;
+      }
+   }
+   @media(min-width: map-get($breakpoints, medium)) {
+      margin-bottom: $u-spacer--xl;
+      .c-article__header .c-article__title {
+         margin-bottom: $u-spacer--l;   
+      }
+   }
 }

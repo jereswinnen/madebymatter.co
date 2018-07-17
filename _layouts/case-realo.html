@@ -1,101 +1,23 @@
 {% include html-header.html %}
-<main class="c-main">
-   <section class="c-hero">
-      {% include site-header.html %}
-      <article class="c-article">
-         <header class="c-article__header js--wow fadeInUp">
-            <h1><strong>{{ page.title | capitalize }}.</strong> {{ page.tagline }}</h1>
-         </header>
-         <h2 class="c-article__lede js--wow fadeInUp" data-wow-delay=".2s">{{ page.lede }}</h2>
-         <ul class="c-list c-list--deliverables js--wow fadeInUp" data-wow-delay=".4s">
-            {% for item in page.deliverables %}
-            <li class="c-list__item">{{ item }}</li>
-            {% endfor %}
-         </ul>
-      </article>
+{% include site-header.html %}
+<main class="o-grid o-grid--inherit o-grid__bleed c-main">
+   <article class="o-grid__bleed c-article">
+      <header class="c-article__header">
+         <h2 class="c-article__title">Realo</h2>
+         <h1 class="c-article__tagline">Building a real estate platform for the next generation of home owners.</h1>
+      </header>
+   </article>
+   <section class="o-grid__fullbleed c-section c-section--scroller">
+      <figure class="c-figure">
+         <img src="https://images.unsplash.com/photo-1530795403846-b1cd783487ff?ixlib=rb-0.3.5&s=59c950fede02fea47cccf952fa9c6386&auto=format&fit=crop&w=1841&q=80" alt="">
+      </figure>
+      <figure class="c-figure">
+         <img src="https://images.unsplash.com/photo-1526941461373-31d4ba25291a?ixlib=rb-0.3.5&s=0764d906dcfbbfaef7faf6a4e2d13125&auto=format&fit=crop&w=3761&q=80" alt="">
+      </figure>
+      <figure class="c-figure">
+         <img src="https://images.unsplash.com/photo-1528640454247-a0572df8c0f4?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=255fbc23bfb02e48c820e70829d37c6e&auto=format&fit=crop&w=1860&q=80" alt="">
+      </figure>
    </section>
-   {% include case-section-bleed-collage.html
-      img="https://res.cloudinary.com/matter/image/upload/v1508592459/work/realo/case__realo--cover.png"
-      img2x="https://res.cloudinary.com/matter/image/upload/v1508592459/work/realo/case__realo--cover_2x.png"
-      imgalt="iPhone and Macbook side by side"
-
-      imgsecondary="https://res.cloudinary.com/matter/image/upload/v1508661126/work/realo/case__realo--heroleft.png"
-      imgsecondary2x="https://res.cloudinary.com/matter/image/upload/v1508661126/work/realo/case__realo--heroleft_2x.png"
-      imgsecondaryalt="Agency close-up on iPhone"
-
-      imgtertiary="https://res.cloudinary.com/matter/image/upload/v1508660751/work/realo/case__realo--heroright.png"
-      imgtertiary2x="https://res.cloudinary.com/matter/image/upload/v1508660751/work/realo/case__realo--heroright_2x.png"
-      imgtertiaryalt="Realo branding"
-   %}
-   <section class="c-section c-section--content">
-      <article class="c-article js--wow fadeInUp">
-         {{ content }}
-      </article>
-   </section>
-   <section class="c-section c-section--extend">
-      {% include case-figure.html
-         img="https://res.cloudinary.com/matter/image/upload/v1508688297/work/realo/case__realo--machome.png"
-         img2x="https://res.cloudinary.com/matter/image/upload/v1508688298/work/realo/case__realo--machome_2x.png"
-         imgalt="Find your next home"
-         caption="The user is welcomed by an inviting homepage where he/she can search for a home."
-      %}
-      {% include case-figure.html
-         img="https://res.cloudinary.com/matter/image/upload/v1508688297/work/realo/case__realo--machomescroll.png"
-         img2x="https://res.cloudinary.com/matter/image/upload/v1508688298/work/realo/case__realo--machomescroll_2x.png"
-         imgalt="Find your next home - scrolled"
-         caption="Scrolled version of the homepage."
-      %}
-      {% include case-figure.html
-         img="https://res.cloudinary.com/matter/image/upload/v1508661995/work/realo/case__realo--macagency.png"
-         img2x="https://res.cloudinary.com/matter/image/upload/v1508661996/work/realo/case__realo--macagency_2x.png"
-         imgalt="Agency detail"
-         caption="The agency page gives the user a complete overview of their listings, employees and reviews."
-      %}
-      <!--experimental case-figure-->
-      <!--{% include case-figure--nobg.html
-         img="http://res.cloudinary.com/matter/image/upload/v1509885669/work/realo/case__realo--sites.png"
-         img2x="http://res.cloudinary.com/matter/image/upload/v1509885670/work/realo/case__realo--sites_2x.png"
-         imgalt="Agency detail"
-      %}-->
-      {% include case-figure.html
-         img="https://res.cloudinary.com/matter/image/upload/v1508661995/work/realo/case__realo--macagencyscroll.png"
-         img2x="https://res.cloudinary.com/matter/image/upload/v1508661995/work/realo/case__realo--macagencyscroll_2x.png"
-         imgalt="Agency detail - scrolled"
-         caption="At the bottom of the agency page, the user can submit a review if they have worked with this agency before."
-      %}
-      {% include case-figure.html
-         img="https://res.cloudinary.com/matter/image/upload/v1508685114/work/realo/case__realo--responsivesearch.png"
-         img2x="https://res.cloudinary.com/matter/image/upload/v1508685114/work/realo/case__realo--responsivesearch_2x.png"
-         imgalt="Responsive search"
-         caption="Realo was built from the ground up using a 'mobile-first' approach."
-      %}
-      {% include case-figure.html
-         img="https://res.cloudinary.com/matter/image/upload/v1508686594/work/realo/case__realo--responsivesearchduo.png"
-         img2x="https://res.cloudinary.com/matter/image/upload/v1508686595/work/realo/case__realo--responsivesearchduo_2x.png"
-         imgalt="Responsive search duo"
-         caption="Realo is a first-class citizen on every screen size."
-      %}
-      {% include case-figure.html
-         img="https://res.cloudinary.com/matter/image/upload/v1508687301/work/realo/case__realo--iphonetriad.png"
-         img2x="https://res.cloudinary.com/matter/image/upload/v1508687302/work/realo/case__realo--iphonetriad_2x.png"
-         imgalt="Search, home detail and agency mobile views"
-         caption="Clear typography and attractive iconography makes the mobile pages even more pleasant to use."
-      %}
-      {% include case-figure.html
-         img="https://res.cloudinary.com/matter/image/upload/v1508687786/work/realo/case__realo--maccareers.png"
-         img2x="https://res.cloudinary.com/matter/image/upload/v1508687787/work/realo/case__realo--maccareers_2x.png"
-         imgalt="Job listings"
-         caption="Internal company pages each have a distinct look supplemented with colorful icons."
-      %}
-   </section>
-   <section class="c-section c-section--bleed" style="display:none;">
-      <div class="c-section__content--inner">
-         <article class="c-article js--wow fadeInUp">
-            {{ page.sections['design'] | markdownify }}
-         </article>
-      </div>
-   </section>
-   {% include connect-with-me.html title="Like what you just saw? Let's work together and make something <strong>great</strong>!" %}
 </main>
 {% include site-footer.html %}
 {% include html-footer.html %}

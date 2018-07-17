@@ -49,8 +49,9 @@
          transform: translateY(4px);
       }
    }
-   &--click {
+   &.c-masthead-toggle--click {
       a svg {
+         fill: #fff;
          .c-masthead-toggle__head {
             transform: rotate(-45deg);   
          }
@@ -94,7 +95,7 @@
          }
       }
    }
-   &--open {
+   &.c-masthead-modal--open {
       opacity: 1;
       pointer-events: auto;
    }

@@ -23,7 +23,6 @@ h1, .c-article__lede {
 h2 {
    margin-bottom: $u-spacer;
    @include font-size($h2-font-sizes);
-   font-weight: bold;
    color: $c-darkest;
    letter-spacing: -0.016743rem;
 }

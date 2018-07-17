@@ -15,6 +15,11 @@
   font-style: normal;
   src: url("/assets/fonts/RcL-md-2018-07-13.woff2") format("woff2"), url("/assets/fonts/RcL-md-2018-07-13.woff") format("woff"); }
 
+html .o-grid__fullbleed {
+  margin: -24px;
+  grid-column: 1 / span 6;
+  clear: both; }
+
 html body {
   padding: 0 24px; }
 
@@ -193,12 +198,11 @@ h2 {
   margin-bottom: 6px;
   font-size: 1.125rem;
   line-height: 1.5;
-  font-weight: bold;
   color: #0d0d0d;
   letter-spacing: -0.016743rem; }
   @media screen and (min-width: 700px) {
     h2 {
-      font-size: 1.375rem;
+      font-size: 1.25rem;
       line-height: 1.5; } }
 
 h3 {
@@ -290,12 +294,14 @@ a {
     .c-masthead-toggle a svg .c-masthead-toggle__toes {
       -webkit-transform: translateY(4px);
               transform: translateY(4px); }
-  .c-masthead-toggle--click a svg .c-masthead-toggle__head {
-    -webkit-transform: rotate(-45deg);
-            transform: rotate(-45deg); }
-  .c-masthead-toggle--click a svg .c-masthead-toggle__toes {
-    -webkit-transform: rotate(45deg);
-            transform: rotate(45deg); }
+  .c-masthead-toggle.c-masthead-toggle--click a svg {
+    fill: #fff; }
+    .c-masthead-toggle.c-masthead-toggle--click a svg .c-masthead-toggle__head {
+      -webkit-transform: rotate(-45deg);
+              transform: rotate(-45deg); }
+    .c-masthead-toggle.c-masthead-toggle--click a svg .c-masthead-toggle__toes {
+      -webkit-transform: rotate(45deg);
+              transform: rotate(45deg); }
   @media (min-width: 700px) {
     .c-masthead-toggle {
       display: none; } }
@@ -330,7 +336,7 @@ a {
           margin-bottom: 12px; }
         .c-masthead-modal .c-nav .c-nav__items .c-nav__item:last-child {
           margin-bottom: 0; }
-  .c-masthead-modal--open {
+  .c-masthead-modal.c-masthead-modal--open {
     opacity: 1;
     pointer-events: auto; }
 
@@ -380,13 +386,44 @@ a {
     line-height: 1.5; }
     @media screen and (min-width: 700px) {
       .c-masthead-modal .c-nav .c-nav__items .c-nav__item a {
-        font-size: 1.375rem;
+        font-size: 1.25rem;
         line-height: 1.5; } }
 
+.c-section.c-section--scroller {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow-x: auto;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-overflow-scrolling: touch;
+  padding: 24px 0;
+  background: #f7f7f7; }
+  .c-section.c-section--scroller::-webkit-scrollbar {
+    display: none; }
+  .c-section.c-section--scroller .c-figure {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 auto;
+            flex: 0 0 auto;
+    margin-right: 12px; }
+    .c-section.c-section--scroller .c-figure img {
+      height: 50vh; }
+  @media (min-width: 700px) {
+    .c-section.c-section--scroller .c-figure {
+      margin-right: 24px; } }
+
 .c-article {
-  margin-bottom: 72px; }
+  margin-bottom: 54px; }
+  .c-article .c-article__header .c-article__title {
+    margin-bottom: 12px; }
+  @media (min-width: 700px) {
+    .c-article {
+      margin-bottom: 36px; }
+      .c-article .c-article__header .c-article__title {
+        margin-bottom: 24px; } }
 
 .c-footer {
+  margin-top: 72px;
   margin-bottom: 54px;
   padding-top: 6px;
   border-top: 1px solid #999; }
