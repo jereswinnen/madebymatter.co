@@ -19,14 +19,26 @@
          margin-right: $u-spacer--s;
          img {
             height: 50vh;
+            object-fit: cover;
          }
       }
       @media(min-width: map-get($breakpoints, medium)) {
+         padding: $u-spacer--xl 0;
          .c-figure {
             margin-right: $u-spacer--l;
             img {
-               height: 60vh;
+               height: 65vh;
             }  
+         }
+      }
+      @media(min-width: map-get($breakpoints, large)) {
+         padding: $u-spacer--xxl 0;
+         .c-figure {
+            margin-right: $u-spacer--xl;
+            img {
+               height: initial;
+               //max-height: none;
+            }
          }
       }
    }

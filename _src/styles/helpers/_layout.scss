@@ -4,7 +4,7 @@
 
 html {
    .o-grid__fullbleed {
-      margin: 0 -6vw;
+      margin: 0 -$u-spacer--l;
       grid-column: 1 / span 6;
       clear: both;   
    }
@@ -12,6 +12,9 @@ html {
       padding: 0 $u-spacer--l;
    }
    @media(min-width: map-get($breakpoints, medium)) {
+      .o-grid__fullbleed {
+         margin: 0 -6vw;
+      }
       body {
          padding: 0 6vw;
       }
@@ -34,6 +37,14 @@ html {
       }
       .o-grid__onethird {
          grid-column: 1 / span 2;
+      }
+   }
+   @media(min-width: map-get($breakpoints, large)) {
+      .o-grid__fullbleed {
+         margin: 0 -10vw;
+      }
+      body {
+         padding: 0 10vw;
       }
    }
 }

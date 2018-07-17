@@ -16,7 +16,7 @@
   src: url("/assets/fonts/RcL-md-2018-07-13.woff2") format("woff2"), url("/assets/fonts/RcL-md-2018-07-13.woff") format("woff"); }
 
 html .o-grid__fullbleed {
-  margin: 0 -6vw;
+  margin: -24px;
   grid-column: 1 / span 6;
   clear: both; }
 
@@ -24,6 +24,8 @@ html body {
   padding: 0 24px; }
 
 @media (min-width: 700px) {
+  html .o-grid__fullbleed {
+    margin: 0 -6vw; }
   html body {
     padding: 0 6vw; }
   html .o-grid {
@@ -39,6 +41,12 @@ html body {
     grid-column: 1 / span 3; }
   html .o-grid__onethird {
     grid-column: 1 / span 2; } }
+
+@media (min-width: 1040px) {
+  html .o-grid__fullbleed {
+    margin: 0 -10vw; }
+  html body {
+    padding: 0 10vw; } }
 
 html {
   -webkit-box-sizing: border-box;
@@ -412,12 +420,23 @@ a {
             flex: 0 0 auto;
     margin-right: 12px; }
     .c-section.c-section--scroller .c-figure img {
-      height: 50vh; }
+      height: 50vh;
+      -o-object-fit: cover;
+         object-fit: cover; }
   @media (min-width: 700px) {
-    .c-section.c-section--scroller .c-figure {
-      margin-right: 24px; }
-      .c-section.c-section--scroller .c-figure img {
-        height: 60vh; } }
+    .c-section.c-section--scroller {
+      padding: 36px 0; }
+      .c-section.c-section--scroller .c-figure {
+        margin-right: 24px; }
+        .c-section.c-section--scroller .c-figure img {
+          height: 65vh; } }
+  @media (min-width: 1040px) {
+    .c-section.c-section--scroller {
+      padding: 54px 0; }
+      .c-section.c-section--scroller .c-figure {
+        margin-right: 36px; }
+        .c-section.c-section--scroller .c-figure img {
+          height: initial; } }
 
 .c-article {
   margin-bottom: 54px; }
