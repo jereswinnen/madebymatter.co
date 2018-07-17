@@ -2,41 +2,31 @@
 // Sections
 // =======================================================================
 
-.flickity-enabled {
-   position: relative;
- }
- .flickity-enabled:focus { outline: none; }
- .flickity-viewport {
-   overflow: hidden;
-   position: relative;
-   height: 100%;
- }
- .flickity-slider {
-   position: absolute;
-   width: 100%;
-   height: 100%;
-   * {
-      margin-right: $u-spacer--m;
-   }
- }
 .c-section {
    &.c-section--scroller {
+      display: flex;
+      align-items: baseline;
+      overflow-x: auto;
+      flex-wrap: nowrap;
+      -webkit-overflow-scrolling: touch;
       padding: $u-spacer--l 0;
       background: $c-lightest;
+      &::-webkit-scrollbar {
+         display: none;
+      }
       .c-figure {
-         //margin-right: $u-spacer--m;
-         &--sizephone {
-            width: 375px;
-            height: 667px;
-         }
-         &--sizetablet {
-            width: 1024px;
-            height: 768px;   
+         flex: 0 0 auto;
+         margin-right: $u-spacer--s;
+         img {
+            height: 50vh;
          }
       }
       @media(min-width: map-get($breakpoints, medium)) {
          .c-figure {
-            //margin-right: $u-spacer--l;  
+            margin-right: $u-spacer--l;
+            img {
+               height: 60vh;
+            }  
          }
       }
    }

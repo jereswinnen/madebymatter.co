@@ -1265,6 +1265,16 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/_site\/assets\/scripts\/site.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/dist\/styles\/site.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/_site\/assets\/styles\/global.css": {
 		"aP": 1,
 		"bl": 0,
@@ -1355,16 +1365,6 @@
 		"oA": 2,
 		"oAP": "\/_site\/work\/shelf\/index.html",
 		"oF": 0
-		},
-	"\/_src\/scripts\/flickity.min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "\/dist\/styles\/flickity.min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
 		},
 	"\/_src\/scripts\/site.js": {
 		"ft": 64,

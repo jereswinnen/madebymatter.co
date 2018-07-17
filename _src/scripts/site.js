@@ -1,5 +1,3 @@
-// @codekit-prepend "flickity.min.js";
-
 // =======================================================================
 // Site scripts
 // =======================================================================
@@ -16,16 +14,5 @@ var toggleClick = function toggleClick(e) {
 
 mastheadToggle.addEventListener('click', toggleClick, false);
 
-// Flickity Scroller
-$('.c-section--scroller').flickity({
-   freeScroll: true,
-   wrapAround: true,
-   draggable: false,
-   autoPlay: true,
-   cellAlign: 'left',
-   prevNextButtons: false,
-   pageDots: false
-});
-$('.c-section--scroller').on( 'change.flickity', function( event, index ) {
-   $('.c-section--scroller').flickity( 'next', true, false );
-});
+// Scroller
+$('.c-section--scroller').animate({ scrollLeft: 2000 }, 35000, "linear");
