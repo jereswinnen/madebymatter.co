@@ -1,13 +1,10 @@
-// =======================================================================
-// Imports
-// =======================================================================
-
-// Imported scripts go here ;)
+// @codekit-prepend "flickity.min.js";
 
 // =======================================================================
 // Site scripts
 // =======================================================================
 
+// Masthead Modal + Toggle
 var mastheadToggle = document.querySelector('.c-masthead-toggle');
 var mastheadModal = document.querySelector('.c-masthead-modal');
 
@@ -19,4 +16,13 @@ var toggleClick = function toggleClick(e) {
 
 mastheadToggle.addEventListener('click', toggleClick, false);
 
-$('.c-section--scroller').animate({ scrollLeft: 800 }, 10000, "linear");
+// Flickity Scroller
+$('.c-section--scroller').flickity({
+   freeScroll: true,
+   wrapAround: true,
+   draggable: false,
+   autoPlay: true,
+   cellAlign: 'left',
+   prevNextButtons: false,
+   pageDots: false
+});

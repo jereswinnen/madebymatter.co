@@ -1195,6 +1195,94 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/_site\/assets\/images\/new\/phone.png": {
+		"ft": 32768,
+		"iS": 228689,
+		"oA": 0,
+		"oAP": "\/_site\/assets\/images\/new\/phone.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/_site\/assets\/images\/new\/phone@2x.png": {
+		"ft": 32768,
+		"iS": 735322,
+		"oA": 0,
+		"oAP": "\/_site\/assets\/images\/new\/phone@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/_site\/assets\/images\/new\/phoneflip.png": {
+		"ft": 32768,
+		"iS": 228594,
+		"oA": 0,
+		"oAP": "\/_site\/assets\/images\/new\/phoneflip.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/_site\/assets\/images\/new\/phoneflip@2x.png": {
+		"ft": 32768,
+		"iS": 736516,
+		"oA": 0,
+		"oAP": "\/_site\/assets\/images\/new\/phoneflip@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/_site\/assets\/images\/new\/tablet.png": {
+		"ft": 32768,
+		"iS": 580779,
+		"oA": 0,
+		"oAP": "\/_site\/assets\/images\/new\/tablet.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/_site\/assets\/images\/new\/tablet@2x.png": {
+		"ft": 32768,
+		"iS": 1740505,
+		"oA": 0,
+		"oAP": "\/_site\/assets\/images\/new\/tablet@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/_site\/assets\/images\/new\/tabletflip.png": {
+		"ft": 32768,
+		"iS": 578713,
+		"oA": 0,
+		"oAP": "\/_site\/assets\/images\/new\/tabletflip.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/_site\/assets\/images\/new\/tabletflip@2x.png": {
+		"ft": 32768,
+		"iS": 1736399,
+		"oA": 0,
+		"oAP": "\/_site\/assets\/images\/new\/tabletflip@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/_site\/assets\/scripts\/site.min.js": {
 		"ft": 64,
 		"ma": 0,
@@ -1204,16 +1292,6 @@
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
-		},
-	"\/_site\/assets\/styles\/global.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/_site\/assets\/styles\/global-min.css",
-		"oF": 0,
-		"oS": 3
 		},
 	"\/_site\/blog\/index.html": {
 		"cB": 0,
@@ -1302,6 +1380,26 @@
 		"oA": 2,
 		"oAP": "\/_site\/work\/shelf\/index.html",
 		"oF": 0
+		},
+	"\/_src\/scripts\/flickity.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/dist\/styles\/flickity.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/_src\/scripts\/lightslider.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/dist\/styles\/lightslider-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
 		},
 	"\/_src\/scripts\/site.js": {
 		"ft": 64,
@@ -2488,6 +2586,94 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"\/assets\/images\/new\/phone.png": {
+		"ft": 32768,
+		"iS": 228689,
+		"oA": 0,
+		"oAP": "\/assets\/images\/new\/phone.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/images\/new\/phone@2x.png": {
+		"ft": 32768,
+		"iS": 735322,
+		"oA": 0,
+		"oAP": "\/assets\/images\/new\/phone@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/images\/new\/phoneflip.png": {
+		"ft": 32768,
+		"iS": 228594,
+		"oA": 0,
+		"oAP": "\/assets\/images\/new\/phoneflip.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/images\/new\/phoneflip@2x.png": {
+		"ft": 32768,
+		"iS": 736516,
+		"oA": 0,
+		"oAP": "\/assets\/images\/new\/phoneflip@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/images\/new\/tablet.png": {
+		"ft": 32768,
+		"iS": 580779,
+		"oA": 0,
+		"oAP": "\/assets\/images\/new\/tablet.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/images\/new\/tablet@2x.png": {
+		"ft": 32768,
+		"iS": 1740505,
+		"oA": 0,
+		"oAP": "\/assets\/images\/new\/tablet@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/images\/new\/tabletflip.png": {
+		"ft": 32768,
+		"iS": 578713,
+		"oA": 0,
+		"oAP": "\/assets\/images\/new\/tabletflip.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/images\/new\/tabletflip@2x.png": {
+		"ft": 32768,
+		"iS": 1736399,
+		"oA": 0,
+		"oAP": "\/assets\/images\/new\/tabletflip@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/assets\/scripts\/site.min.js": {
 		"ft": 64,

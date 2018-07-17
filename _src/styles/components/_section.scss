@@ -2,30 +2,38 @@
 // Sections
 // =======================================================================
 
+.flickity-enabled {
+   position: relative;
+ }
+ 
+ .flickity-enabled:focus { outline: none; }
+ 
+ .flickity-viewport {
+   overflow: hidden;
+   position: relative;
+   height: 100%;
+ }
+ 
+ .flickity-slider {
+   position: absolute;
+   width: 100%;
+   height: 100%;
+ }
 .c-section {
    &.c-section--scroller {
-      display: flex;
-      //align-items: baseline;
-      overflow-x: auto;
-      flex-wrap: nowrap;
-      -webkit-overflow-scrolling: touch;
       padding: $u-spacer--l 0;
       background: $c-lightest;
-      &::-webkit-scrollbar {
-         display: none;
-      }
       .c-figure {
-         flex: 0 0 auto;
-         margin-right: $u-spacer--s;
+         //margin-right: $u-spacer--m;
          img {
             //display: block;
             //width: 100%;
-            height: 50vh;
+            //height: 50vh;
          }
       }
       @media(min-width: map-get($breakpoints, medium)) {
          .c-figure {
-            margin-right: $u-spacer--l;  
+            //margin-right: $u-spacer--l;  
          }
       }
    }
