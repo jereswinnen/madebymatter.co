@@ -404,10 +404,18 @@ a {
   position: absolute;
   width: 100%;
   height: 100%; }
+  .flickity-slider * {
+    margin-right: 18px; }
 
 .c-section.c-section--scroller {
   padding: 24px 0;
   background: #f7f7f7; }
+  .c-section.c-section--scroller .c-figure--sizephone {
+    width: 375px;
+    height: 667px; }
+  .c-section.c-section--scroller .c-figure--sizetablet {
+    width: 1024px;
+    height: 768px; }
 
 .c-article {
   margin-bottom: 54px; }

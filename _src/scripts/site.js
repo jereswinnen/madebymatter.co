@@ -26,3 +26,6 @@ $('.c-section--scroller').flickity({
    prevNextButtons: false,
    pageDots: false
 });
+$('.c-section--scroller').on( 'change.flickity', function( event, index ) {
+   $('.c-section--scroller').flickity( 'next', true, false );
+});

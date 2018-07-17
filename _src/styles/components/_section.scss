@@ -5,19 +5,19 @@
 .flickity-enabled {
    position: relative;
  }
- 
  .flickity-enabled:focus { outline: none; }
- 
  .flickity-viewport {
    overflow: hidden;
    position: relative;
    height: 100%;
  }
- 
  .flickity-slider {
    position: absolute;
    width: 100%;
    height: 100%;
+   * {
+      margin-right: $u-spacer--m;
+   }
  }
 .c-section {
    &.c-section--scroller {
@@ -25,10 +25,13 @@
       background: $c-lightest;
       .c-figure {
          //margin-right: $u-spacer--m;
-         img {
-            //display: block;
-            //width: 100%;
-            //height: 50vh;
+         &--sizephone {
+            width: 375px;
+            height: 667px;
+         }
+         &--sizetablet {
+            width: 1024px;
+            height: 768px;   
          }
       }
       @media(min-width: map-get($breakpoints, medium)) {
