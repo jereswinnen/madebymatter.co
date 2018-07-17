@@ -10,7 +10,7 @@ body {
 }
 
 // Headings
-h1, .c-article__lede {
+h1, .c-article__lede, .c-section--quote p {
    margin-bottom: $u-spacer--m;
    font-family: $ff-serif;
    @include font-size($h1-font-sizes);
@@ -40,19 +40,5 @@ small {
 
 //Figcaption
 figcaption {
-   p {
-      @include fs__mini;
-      color: $c-mid;
-   }
-}
-
-// Blockquote
-blockquote {
-   margin: $u-spacer;
-   p {
-      hanging-punctuation: first;
-   }
-   cite {
-      color: $c-mid;
-   }
+   color: $c-mid;
 }

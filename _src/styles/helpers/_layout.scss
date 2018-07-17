@@ -4,7 +4,8 @@
 
 html {
    .o-grid__fullbleed {
-      margin: 0 -$u-spacer--l;
+      margin-left: -$u-spacer--l;
+      margin-right: -$u-spacer--l;
       grid-column: 1 / span 6;
       clear: both;   
    }
@@ -13,18 +14,27 @@ html {
    }
    @media(min-width: map-get($breakpoints, medium)) {
       .o-grid__fullbleed {
-         margin: 0 -6vw;
+         margin-left: -6vw;
+         margin-right: -6vw;
       }
       body {
          padding: 0 6vw;
       }
       .o-grid {
          display: grid;
-         //grid-template-columns: 1fr 2fr 2fr 1fr;
          grid-template-columns: repeat(6, 1fr);
       }
       .o-grid--inherit {
          grid-template-columns: inherit;
+      }
+      .o-grid--offset {
+         grid-gap: $u-spacer--l;
+         grid-template-columns: repeat(2, 1fr);
+         .c-section__item {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+         }
       }
       .o-grid__bleed {
          grid-column: 1 / span 6;
@@ -41,7 +51,8 @@ html {
    }
    @media(min-width: map-get($breakpoints, large)) {
       .o-grid__fullbleed {
-         margin: 0 -10vw;
+         margin-left: -10vw;
+         margin-right: -10vw;
       }
       body {
          padding: 0 10vw;
