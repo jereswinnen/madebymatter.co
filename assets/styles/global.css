@@ -200,8 +200,7 @@ body {
   font-family: "NhU", "BlinkMacSystemFont", -apple-system, "Helvetica Neue", Helvetica, sans-serif;
   font-size: 1rem;
   line-height: 1.5;
-  color: #0d0d0d;
-  color: red; }
+  color: #0d0d0d; }
   @media screen and (min-width: 700px) {
     body {
       font-size: 1.25rem;

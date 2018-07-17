@@ -7,7 +7,6 @@ body {
    font-family: $ff-sans-serif;
    @include font-size($body-font-sizes);
    color: $c-darkest;
-   color: red;
 }
 
 // Headings
