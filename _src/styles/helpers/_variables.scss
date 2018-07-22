@@ -7,16 +7,32 @@ $ff-sans-serif: "NhU", "BlinkMacSystemFont", -apple-system, "Helvetica Neue", He
 $ff-serif: "RcL", Arial, serif;
 
 /// Spacers
-$u-spacer: 6px;
+$u-spacer: 5px;
 $u-spacer--xs: $u-spacer / 2;
-$u-spacer--s: $u-spacer * 2;
-$u-spacer--m: $u-spacer * 3;
-$u-spacer--l: $u-spacer * 4;
-$u-spacer--xl: $u-spacer * 6;
-$u-spacer--xxl: $u-spacer * 9;
-$u-spacer--xxxl: $u-spacer * 12;
+$u-spacer--s: $u-spacer * 2; //10px
+$u-spacer--m: $u-spacer * 3; //15px
+$u-spacer--l: $u-spacer * 4; //20px
+$u-spacer--xl: $u-spacer * 6; //30px
+$u-spacer--xxl: $u-spacer * 9; //45px
+$u-spacer--xxxl: $u-spacer * 12; //60px
 
 /// Colours
+$c-neutral--lightest: #f0f0f0;
+$c-neutral--light: #ccc;
+$c-neutral--mid: #adadad;
+$c-neutral--darkest: #1a1a1a;
+
+$c-shelf--lightest: #fadce8;
+$c-shelf: #eb4b89;   
+$c-realo--lightest: #d9defc;
+$c-realo: #556dfa;
+$c-hocusfocus--lightest: #e2dcfa;
+$c-hocusfocus: #947bff;
+$c-diabetik--lightest: #dcf9fa;
+$c-diabetik: #55c2c5;
+$c-immobrown--lightest: #faeedc;
+$c-immobrown: #ecb968;
+
 $c-lightest: #f7f7f7;
 $c-mid: #999;
 $c-darkest: #0d0d0d;
