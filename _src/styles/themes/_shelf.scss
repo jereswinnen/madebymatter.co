@@ -1,22 +1,13 @@
 // =======================================================================
-// Dark theme
+// Shelf theme
 // =======================================================================
 
-.t--dark {
+.t--shelf {
    ::selection {
       color: $c-neutral--darkest;
    }
 	body {
 		color: white;
       background: $c-neutral--darkest;
-      h1 {
-         color: white;
-      }
-      .c-masthead-toggle a svg {
-         fill: #fff;
-      }
-      .c-nav--primary {
-         border-bottom: 1px solid #fff;
-      }
 	}
 }
