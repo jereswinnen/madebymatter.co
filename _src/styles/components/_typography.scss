@@ -6,7 +6,7 @@
 body {
    font-family: $ff-sans-serif;
    @include font-size($body-font-sizes);
-   color: $c-darkest;
+   color: $c-neutral--darkest;
 }
 
 // Headings
@@ -14,7 +14,7 @@ h1, .c-article__lede, .c-section--quote p {
    margin-bottom: $u-spacer--m;
    font-family: $ff-serif;
    @include font-size($h1-font-sizes);
-   color: $c-darkest;
+   color: $c-neutral--darkest;
    letter-spacing: -0.035545rem;
    @media(min-width: map-get($breakpoints, medium)) {
       margin-bottom: $u-spacer--xl;
@@ -23,22 +23,22 @@ h1, .c-article__lede, .c-section--quote p {
 h2 {
    margin-bottom: $u-spacer;
    @include font-size($h2-font-sizes);
-   color: $c-darkest;
+   color: $c-neutral--darkest;
    letter-spacing: -0.016743rem;
 }
 h3 {
    margin-bottom: $u-spacer;
    @include font-size($h3-font-sizes);
-   color: $c-darkest;
+   color: $c-neutral--darkest;
    text-transform: uppercase;
    letter-spacing: 0.025892rem;
 }
 small {
    @include font-size($small-font-sizes);
-   color: $c-mid;
+   color: $c-neutral--mid;
 }
 
 //Figcaption
 figcaption {
-   color: $c-mid;
+   color: $c-neutral--mid;
 }

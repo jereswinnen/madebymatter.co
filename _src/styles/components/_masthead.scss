@@ -37,7 +37,7 @@
    z-index: 22;
    a svg {
       display: block;
-      fill: $c-darkest;
+      fill: $c-neutral--darkest;
       * {
          transform-origin: 15px 15px;
          transition: all .12s cubic-bezier(.455,.03,.515,.955);
@@ -73,7 +73,7 @@
    left: 0;
    display: flex;
    height: 100%;
-   background: $c-darkest;
+   background: $c-neutral--darkest;
    color: #fff;
    opacity: 0;
    pointer-events: none;

@@ -22,7 +22,6 @@
             }
             &.c-nav__item--selected {
                padding: 0 $u-spacer--xs;
-               background: $c-accent;
             }
          }
       }
@@ -35,7 +34,7 @@
    &--primary {
       margin-bottom: $u-spacer;
       padding-bottom: $u-spacer;
-      border-bottom: 1px solid $c-darkest;
+      border-bottom: 1px solid $c-neutral--darkest;
       .c-nav__items {
          justify-content: space-between;
          width: 100%;

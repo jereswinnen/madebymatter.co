@@ -4,11 +4,11 @@
 
 .t--dark {
    ::selection {
-      color: $c-darkest;
+      color: $c-neutral--darkest;
    }
 	body {
 		color: white;
-      background: $c-darkest;
+      background: $c-neutral--darkest;
       h1 {
          color: white;
       }
