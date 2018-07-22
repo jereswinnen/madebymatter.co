@@ -10,15 +10,12 @@ body {
 }
 
 // Headings
-h1, .c-article__lede, .c-section--quote p {
+h1, .c-article__lede {
    margin-bottom: $u-spacer--m;
    font-family: $ff-serif;
    @include font-size($h1-font-sizes);
-   color: $c-neutral--darkest;
+   color: white;
    letter-spacing: -0.035545rem;
-   @media(min-width: map-get($breakpoints, medium)) {
-      margin-bottom: $u-spacer--xl;
-   }
 }
 h2 {
    margin-bottom: $u-spacer;

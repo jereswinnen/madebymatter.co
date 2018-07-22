@@ -15,7 +15,7 @@ body {
    margin: 0;
    font-feature-settings: "calt", "liga", "hist", "onum", "pnum";
    hypens: auto;
-   background: white;
+   background: $c-neutral--mid;
 }
 article, aside, footer, header, main, nav, section {
    display: block;
