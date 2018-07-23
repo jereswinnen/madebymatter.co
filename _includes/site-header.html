@@ -1,40 +1,61 @@
 <header class="o-grid__bleed c-masthead">
-   <div class="c-masthead__brand"><a href="/">Jeremy Swinnen</a></div><!--MOBILE ONLY-->
-   <nav class="c-nav c-nav--primary" role="navigation">
-      <ul class="c-nav__items">
-         <li class="c-nav__item"><a href="/">Jeremy Swinnen</a></li>
-         <li class="c-nav__item"><a href="/profile/" title="Profile"{% if page.url contains '/profile' %}class=" c-nav__item--selected"{% endif %}>Profile</a></li>
-      </ul>
-   </nav>
-   <nav class="c-nav c-nav--secondary" role="navigation">
-      <small>Selected work:</small>
-      <ul class="c-nav__items">
+   <header class="c-masthead__header">
+      <div class="c-masthead__toggle">
+         <a href="/">
+            <svg width="30" height="30" viewBox="0 0 30 30">
+               <rect width="16" height="2" x="7" y="14"></rect>
+               <rect width="16" height="2" x="7" y="14"></rect>
+            </svg>
+         </a>
+      </div>
+      <div class="c-masthead__brand">
+         <a href="/"><b>Jeremy Swinnen</b></a>
+      </div>
+      <div class="c-masthead__cta">
+         <a href="/contact/" title="Contact">
+            <svg width="15" height="16" viewBox="0 0 15 16">
+               <path d="M10.84 2.488c-.944-.496-2.032-.752-3.264-.752-1.344 0-2.496.304-3.488.912A6.105 6.105 0 0 0 1.8 5.128C1.256 6.168 1 7.304 1 8.552c0 1.312.256 2.432.768 3.376a5.212 5.212 0 0 0 2.208 2.192c.96.512 2.08.752 3.36.752 1.584 0 2.96-.32 4.112-.992l-.624-1.216c-.944.576-2.112.848-3.488.848-1.008 0-1.888-.192-2.624-.592a3.97 3.97 0 0 1-1.728-1.712c-.416-.736-.608-1.632-.608-2.656 0-1.024.192-1.952.608-2.784.4-.832.992-1.472 1.776-1.952s1.728-.72 2.816-.72c.96 0 1.808.192 2.544.576.72.384 1.28.928 1.68 1.632.384.704.592 1.504.592 2.432 0 .88-.16 1.552-.464 2-.304.464-.672.688-1.12.688-.24 0-.416-.064-.528-.224-.128-.144-.176-.384-.176-.736 0-.416.064-1.072.192-1.936.128-.864.272-1.76.464-2.656H8.984c-.032.128-.096.448-.192.928H8.76c-.304-.72-.864-1.088-1.68-1.088-.608 0-1.136.176-1.6.512-.464.336-.832.816-1.088 1.424-.272.608-.416 1.312-.416 2.096 0 1.024.224 1.792.656 2.336.416.544 1.008.816 1.76.816.944 0 1.648-.432 2.096-1.328h.032c.096.448.32.768.672.992.336.224.768.336 1.312.336.592 0 1.136-.144 1.632-.448.48-.304.88-.768 1.184-1.408.288-.624.448-1.392.448-2.304 0-1.2-.256-2.256-.768-3.152a5.343 5.343 0 0 0-2.16-2.096zM6.312 6.984c.288-.416.64-.624 1.072-.624.32 0 .576.128.752.384.176.256.272.592.272 1.04 0 .784-.144 1.392-.432 1.808-.288.432-.624.64-1.024.64a.897.897 0 0 1-.784-.4c-.192-.256-.272-.64-.272-1.152 0-.72.128-1.28.416-1.696z"/>
+            </svg>
+         </a>   
+      </div>
+   </header>
+   <div class="c-masthead__content">
+      <nav class="c-nav" role="navigation">
+         <h3>Selected work</h3>
+         <ul class="c-nav__items c-nav__items--projects">
             <li class="c-nav__item"><a href="/work/shelf/" title="Shelf"{% if page.url contains '/work/shelf' %}class=" c-nav__item--selected"{% endif %}>Shelf</a></li>
             <li class="c-nav__item"><a href="/work/realo/" title="Realo"{% if page.url contains '/work/realo' %}class=" c-nav__item--selected"{% endif %}>Realo</a></li>
             <li class="c-nav__item"><a href="/work/hocusfocus/" title="Hocus Focus"{% if page.url contains '/work/hocusfocus' %}class=" c-nav__item--selected"{% endif %}>Hocus Focus</a></li>
             <li class="c-nav__item"><a href="/work/diabetik/" title="Diabetik"{% if page.url contains '/work/diabetik' %}class=" c-nav__item--selected"{% endif %}>Diabetik</a></li>
             <li class="c-nav__item"><a href="/work/immobrown/" title="Immo Brown"{% if page.url contains '/work/immobrown' %}class=" c-nav__item--selected"{% endif %}>Immo Brown</a></li>
-      </ul>
-   </nav>
+         </ul>
+         <ul class="c-nav__items">
+            <li class="c-nav__item"><a href="/profile/" title="Profile"{% if page.url contains '/profile' %}class=" c-nav__item--selected"{% endif %}>Profile</a></li>
+            <li class="c-nav__item"><a href="/contact/" title="Contact"{% if page.url contains '/contact' %}class=" c-nav__item--selected"{% endif %}>Contact</a></li>
+         </ul>
+      </nav>
+      <div class="c-masthead__social">
+         <div class="c-masthead__cta">
+            <a href="https://www.twitter.com/jereswinnen" title="Twitter">
+               <svg width="20" height="17" viewBox="0 0 20 17">
+                  <path d="M6.29 16.27c7.55 0 11.67-6.25 11.67-11.67v-.53c.8-.59 1.49-1.3 2.04-2.13-.75.33-1.54.55-2.36.65a4.12 4.12 0 0 0 1.8-2.27c-.8.48-1.68.81-2.6 1a4.1 4.1 0 0 0-7 3.74A11.65 11.65 0 0 1 1.39.76a4.1 4.1 0 0 0 1.27 5.49c-.65-.03-1.29-.2-1.86-.53v.05A4.1 4.1 0 0 0 4.1 9.8a4.1 4.1 0 0 1-1.86.07 4.1 4.1 0 0 0 3.83 2.85A8.23 8.23 0 0 1 0 14.42a11.62 11.62 0 0 0 6.29 1.84"/>
+               </svg>
+            </a>  
+         </div>
+         <div class="c-masthead__cta">
+            <a href="https://www.github.com/jereswinnen" title="Github">
+               <svg width="20" height="20" viewBox="0 0 20 20">
+                  <path d="M9.995 0a9.836 9.836 0 0 0-6.477 2.442 10.321 10.321 0 0 0-3.39 6.17c-.379 2.403.088 4.868 1.317 6.951a10.04 10.04 0 0 0 5.394 4.418c.5.102.679-.226.679-.492l-.01-1.743c-2.777.615-3.366-1.374-3.366-1.374-.46-1.19-1.108-1.507-1.108-1.507-.9-.636.07-.615.07-.615.998.072 1.528 1.056 1.528 1.056.898 1.558 2.337 1.107 2.906.85.1-.665.35-1.117.63-1.373-2.218-.256-4.545-1.138-4.545-5.064 0-1.128.39-2.04 1.029-2.758a3.781 3.781 0 0 1 .1-2.706S5.59 3.978 7.497 5.3a9.33 9.33 0 0 1 4.994 0c1.908-1.333 2.746-1.045 2.746-1.045.55 1.404.2 2.46.1 2.706.64.718 1.03 1.64 1.03 2.758 0 3.936-2.338 4.798-4.565 5.054.36.318.679.943.679 1.896l-.01 2.82c0 .266.18.594.69.492a10.04 10.04 0 0 0 5.394-4.42 10.478 10.478 0 0 0 1.314-6.955 10.32 10.32 0 0 0-3.394-6.17A9.835 9.835 0 0 0 9.995 0z"/>
+               </svg>
+            </a>  
+         </div>
+         <div class="c-masthead__cta">
+            <a href="https://www.dribbble.com/jereswinnen" title="Dribbble">
+               <svg width="20" height="20" viewBox="0 0 20 20">
+                  <path d="M0 10c0-1.813.447-3.487 1.34-5.02a9.93 9.93 0 0 1 3.64-3.64C6.513.447 8.187 0 10 0c1.813 0 3.487.447 5.02 1.34a9.929 9.929 0 0 1 3.64 3.64C19.553 6.513 20 8.187 20 10c0 1.813-.447 3.487-1.34 5.02a9.929 9.929 0 0 1-3.64 3.64C13.487 19.553 11.813 20 10 20c-1.813 0-3.487-.447-5.02-1.34a9.93 9.93 0 0 1-3.64-3.64C.447 13.487 0 11.813 0 10zm1.66 0c0 2.08.7 3.913 2.1 5.5.64-1.253 1.653-2.447 3.04-3.58s2.74-1.847 4.06-2.14c-.2-.467-.393-.887-.58-1.26-2.293.733-4.773 1.1-7.44 1.1-.52 0-.907-.007-1.16-.02 0 .053-.003.12-.01.2-.007.08-.01.147-.01.2zm.26-2.06c.293.027.727.04 1.3.04 2.227 0 4.34-.3 6.34-.9-1.013-1.8-2.127-3.3-3.34-4.5A8.12 8.12 0 0 0 3.51 4.8a8.539 8.539 0 0 0-1.59 3.14zm2.98 8.64c1.507 1.173 3.207 1.76 5.1 1.76.987 0 1.967-.187 2.94-.56a29.372 29.372 0 0 0-1.56-6.62c-1.227.267-2.463.94-3.71 2.02-1.247 1.08-2.17 2.213-2.77 3.4zM7.96 1.94c1.173 1.213 2.26 2.727 3.26 4.54 1.813-.76 3.18-1.727 4.1-2.9C13.773 2.3 12 1.66 10 1.66c-.68 0-1.36.093-2.04.28zm3.98 5.96c.2.427.427.967.68 1.62.987-.093 2.06-.14 3.22-.14.827 0 1.647.02 2.46.06-.107-1.813-.76-3.427-1.96-4.84-.867 1.293-2.333 2.393-4.4 3.3zm1.18 3.02c.68 1.973 1.14 4 1.38 6.08a8.345 8.345 0 0 0 2.58-2.62 8.078 8.078 0 0 0 1.2-3.46c-.973-.067-1.86-.1-2.66-.1-.733 0-1.567.033-2.5.1z"/>
+               </svg>
+            </a>  
+         </div>
+      </div>
+   </div>
 </header>
-<div class="c-masthead-toggle"><!--MOBILE ONLY-->
-   <a href="/">
-      <svg width="30" height="30" viewBox="0 0 30 30">
-         <rect class="c-masthead-toggle__head" width="16" height="2" x="7" y="14"></rect>
-         <rect class="c-masthead-toggle__toes" width="16" height="2" x="7" y="14"></rect>
-      </svg>
-   </a>
-</div>
-<div class="c-masthead-modal"><!--MOBILE ONLY-->
-   <nav class="c-nav" role="navigation">
-      <ul class="c-nav__items">
-         <li class="c-nav__item"><a href="/profile/" title="Profile"{% if page.url contains '/profile' %}class=" c-nav__item--selected"{% endif %}>Profile</a></li>
-         <li class="c-nav__item"><small>Selected work</small></li>
-         <li class="c-nav__item"><a href="/work/shelf/" title="Shelf"{% if page.url contains '/work/shelf' %}class=" c-nav__item--selected"{% endif %}>Shelf</a></li>
-         <li class="c-nav__item"><a href="/work/realo/" title="Realo"{% if page.url contains '/work/realo' %}class=" c-nav__item--selected"{% endif %}>Realo</a></li>
-         <li class="c-nav__item"><a href="/work/hocusfocus/" title="Hocus Focus"{% if page.url contains '/work/hocusfocus' %}class=" c-nav__item--selected"{% endif %}>Hocus Focus</a></li>
-         <li class="c-nav__item"><a href="/work/diabetik/" title="Diabetik"{% if page.url contains '/work/diabetik' %}class=" c-nav__item--selected"{% endif %}>Diabetik</a></li>
-         <li class="c-nav__item"><a href="/work/immobrown/" title="Immo Brown"{% if page.url contains '/work/immobrown' %}class=" c-nav__item--selected"{% endif %}>Immo Brown</a></li>
-      </ul>
-   </nav>
-</div>

@@ -24,11 +24,11 @@ h2 {
    letter-spacing: -0.016743rem;
 }
 h3 {
-   margin-bottom: $u-spacer;
+   margin-bottom: $u-spacer--l;
    @include font-size($h3-font-sizes);
    color: $c-neutral--darkest;
    text-transform: uppercase;
-   letter-spacing: 0.025892rem;
+   letter-spacing: 0.07892rem;
 }
 small {
    @include font-size($small-font-sizes);

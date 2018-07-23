@@ -3,13 +3,13 @@
 // =======================================================================
 
 // Masthead Modal + Toggle
-var mastheadToggle = document.querySelector('.c-masthead-toggle');
-var mastheadModal = document.querySelector('.c-masthead-modal');
+var masthead = document.querySelector('.c-masthead');
+var mastheadToggle = document.querySelector('.c-masthead__toggle');
 
 var toggleClick = function toggleClick(e) {
    e.preventDefault();
-   mastheadModal.classList.toggle('c-masthead-modal--open');
-   mastheadToggle.classList.toggle('c-masthead-toggle--click');
+   masthead.classList.toggle('c-masthead--open');
+   mastheadToggle.classList.toggle('c-masthead__toggle--click');
 };
 
 mastheadToggle.addEventListener('click', toggleClick, false);

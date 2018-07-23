@@ -8,7 +8,6 @@ $ff-serif: "RcL", Arial, serif;
 
 /// Spacers
 $u-spacer: 5px;
-$u-spacer--xs: $u-spacer / 2;
 $u-spacer--s: $u-spacer * 2; //10px
 $u-spacer--m: $u-spacer * 3; //15px
 $u-spacer--l: $u-spacer * 4; //20px
@@ -17,10 +16,12 @@ $u-spacer--xxl: $u-spacer * 9; //45px
 $u-spacer--xxxl: $u-spacer * 12; //60px
 
 /// Colours
+$c-neutral--faintlight: transparentize($color: #fff, $amount: 0.92);
 $c-neutral--lightest: #f0f0f0;
 $c-neutral--light: #ccc;
 $c-neutral--mid: #adadad;
 $c-neutral--darkest: #1a1a1a;
+$c-neutral--faintdark: transparentize($color: $c-neutral--darkest, $amount: 0.92);
 
 $c-shelf--lightest: #fadce8;
 $c-shelf: #eb4b89;   
@@ -58,5 +59,6 @@ $h2-font-sizes: (
    medium: (1.25rem, 1.5) //20px
 );
 $h3-font-sizes: (
-   null: (0.875rem, 1.5) //14px
+   null: (0.75rem, 1.5), //12px   
+   medium: (0.875rem, 1.5) //14px
 );

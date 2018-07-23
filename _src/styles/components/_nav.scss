@@ -3,47 +3,55 @@
 // =======================================================================
 
 .c-nav {
-   align-items: baseline;
-   justify-content: space-between;
+   margin-bottom: $u-spacer--xl;
+   padding: 0 $u-spacer--l;
+   h3 {
+      color: $c-neutral--mid;
+   }
    .c-nav__items {
       padding: 0;
       list-style: none;
+      .c-nav__item {
+         margin-bottom: $u-spacer--s;
+         a {
+            font-size: 1.125rem; //18px
+         }
+      }
+   }
+   .c-nav__items--projects {
+      padding-left: $u-spacer--l;
+      .c-nav__item {
+         display: flex;
+         align-items: center;
+         &:after {
+            margin-left: $u-spacer--m;
+            display: block;
+            flex: 1 0 auto;
+            height: 1px;
+            content: '';   
+         }
+         &:nth-child(1):after {
+            background: $c-shelf;
+         }
+         &:nth-child(2):after {
+            background: $c-realo;
+         }
+         &:nth-child(3):after {
+            background: $c-hocusfocus;
+         }
+         &:nth-child(4):after {
+            background: $c-diabetik;
+         }
+         &:nth-child(5):after {
+            background: $c-immobrown;
+         }
+      }
+   }
+   .c-nav__items--social {
       display: flex;
       .c-nav__item {
-         margin-right: $u-spacer--s;
-         &:last-child {
-            margin-right: 0;
-         }
-         a {
-            @include font-size($small-font-sizes);
-            text-decoration: none;
-            &:hover {
-               text-decoration: underline;
-            }
-            &.c-nav__item--selected {
-               padding: 0 $u-spacer--xs;
-            }
-         }
+         flex: 1 0 auto;
+         background: red;
       }
-      @media(min-width: map-get($breakpoints, medium)) {
-         .c-nav__item {
-            margin-right: $u-spacer--m;
-         }
-      }
-   }
-   &--primary {
-      margin-bottom: $u-spacer;
-      padding-bottom: $u-spacer;
-      border-bottom: 1px solid $c-neutral--darkest;
-      .c-nav__items {
-         justify-content: space-between;
-         width: 100%;
-      }
-   }
-}
-.c-masthead-modal .c-nav .c-nav__items .c-nav__item {
-   margin-right: 0;
-   a {
-      @include font-size($h2-font-sizes);
    }
 }
