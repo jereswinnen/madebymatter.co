@@ -8,12 +8,13 @@ $ff-serif: "RcL", Arial, serif;
 
 /// Spacers
 $u-spacer: 5px;
-$u-spacer--s: $u-spacer * 2; //10px
-$u-spacer--m: $u-spacer * 3; //15px
-$u-spacer--l: $u-spacer * 4; //20px
-$u-spacer--xl: $u-spacer * 6; //30px
-$u-spacer--xxl: $u-spacer * 9; //45px
-$u-spacer--xxxl: $u-spacer * 12; //60px
+$u-spacer--xs: $u-spacer * 2; //10px
+$u-spacer--s: $u-spacer * 3; //15px
+$u-spacer--m: $u-spacer * 4; //20px
+$u-spacer--l: $u-spacer * 8; //40px
+$u-spacer--xl: $u-spacer * 10; //50px
+$u-spacer--xxl: $u-spacer * 12; //60px
+$u-spacer--xxxl: $u-spacer * 16; //80px
 
 /// Colours
 $c-neutral--faintlight: transparentize($color: #fff, $amount: 0.92);

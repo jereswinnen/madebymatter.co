@@ -3,15 +3,13 @@
 // =======================================================================
 
 .c-article {
-   margin-bottom: $u-spacer--xxl;
+   margin-bottom: $u-spacer--xl;
    .c-article__header {
       .c-article__title {
-         margin-bottom: $u-spacer--s;
+         text-align: center;
       }
    }
    @media(min-width: map-get($breakpoints, medium)) {
-      .c-article__header .c-article__title {
-         margin-bottom: $u-spacer--l;   
-      }
+      
    }
 }

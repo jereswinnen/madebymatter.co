@@ -104,7 +104,7 @@ sub, sup {
   font-size: 75%;
   line-height: 0;
   position: relative;
-  vertical-align: basline; }
+  vertical-align: baseline; }
 
 sup {
   top: -0.5em; }
@@ -251,7 +251,7 @@ a {
     text-decoration: none; }
 
 .c-masthead {
-  margin: 20px 0 45px 0;
+  margin: 20px 0 50px 0;
   color: white;
   background: rgba(26, 26, 26, 0.94);
   -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -341,14 +341,14 @@ a {
           height: 100%; }
 
 .c-masthead--open .c-masthead__header {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.08); }
 
 .c-masthead--open .c-masthead__content {
   display: block; }
 
 .c-nav {
-  margin-bottom: 30px;
+  margin-bottom: 40px;
   padding: 0 20px; }
   .c-nav h3 {
     color: #adadad; }
@@ -393,11 +393,10 @@ a {
     .c-nav .c-nav__items--social .c-nav__item {
       -webkit-box-flex: 1;
           -ms-flex: 1 0 auto;
-              flex: 1 0 auto;
-      background: red; }
+              flex: 1 0 auto; }
 
 .c-section {
-  margin-bottom: 30px; }
+  margin-bottom: 50px; }
   .c-section:last-child {
     margin-bottom: 0; }
   .c-section.c-section--scroller {
@@ -411,7 +410,7 @@ a {
     -ms-flex-wrap: nowrap;
         flex-wrap: nowrap;
     -webkit-overflow-scrolling: touch;
-    padding: 20px 0;
+    padding: 40px 0;
     background: #f0f0f0; }
     .c-section.c-section--scroller::-webkit-scrollbar {
       display: none; }
@@ -427,69 +426,27 @@ a {
            object-fit: cover; }
     @media (min-width: 700px) {
       .c-section.c-section--scroller {
-        padding: 30px 0; }
+        padding: 50px 0; }
         .c-section.c-section--scroller .c-figure {
-          margin-right: 20px; }
+          margin-right: 40px; }
           .c-section.c-section--scroller .c-figure img {
             height: 65vh; } }
-    @media (min-width: 1040px) {
-      .c-section.c-section--scroller {
-        padding: 45px 0; }
-        .c-section.c-section--scroller .c-figure {
-          margin-right: 30px; }
-          .c-section.c-section--scroller .c-figure img {
-            height: initial; } }
-  .c-section.c-section--quote {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    padding: 20px;
-    background: #1a1a1a; }
-    .c-section.c-section--quote p, .c-section.c-section--quote cite small {
-      color: #fff;
-      text-align: center; }
-    .c-section.c-section--quote cite {
-      font-style: normal; }
-      .c-section.c-section--quote cite:before {
-        margin-right: 5px;
-        display: inline-block;
-        width: 6px;
-        height: 6px;
-        content: '';
-        background: white;
-        border-radius: 3px;
-        vertical-align: middle; }
-  @media (min-width: 700px) {
-    .c-section {
-      margin-bottom: 60px; }
-      .c-section.c-section--quote {
-        padding: 30px 20px; } }
 
 .c-article {
-  margin-bottom: 45px; }
+  margin-bottom: 50px; }
   .c-article .c-article__header .c-article__title {
-    margin-bottom: 10px; }
-  @media (min-width: 700px) {
-    .c-article .c-article__header .c-article__title {
-      margin-bottom: 20px; } }
+    text-align: center; }
 
 .c-footer {
-  margin-top: 60px;
-  margin-bottom: 45px;
+  margin-top: 80px;
+  margin-bottom: 60px;
   padding-top: 5px;
   border-top: 1px solid #adadad; }
 
 .c-figure {
-  margin-bottom: 30px; }
+  margin-bottom: 50px; }
   .c-figure.c-figure--bg {
-    padding: 20px;
+    padding: 40px;
     background: #f0f0f0; }
     .c-figure.c-figure--bg figcaption {
       text-align: center; }
@@ -498,13 +455,13 @@ a {
       margin-bottom: 0; } }
   @media (min-width: 1040px) {
     .c-figure.c-figure--bg {
-      padding: 30px; } }
+      padding: 50px; } }
 
 .c-list {
   padding: 0;
   list-style: none; }
   .c-list .c-list__item {
-    margin-bottom: 1vh; }
+    margin-bottom: 15px; }
 
 .t--dark ::-moz-selection {
   color: #1a1a1a; }

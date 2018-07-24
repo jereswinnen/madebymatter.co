@@ -4,13 +4,13 @@
 
 html {
    .o-grid__fullbleed {
-      margin-left: -$u-spacer--l;
-      margin-right: -$u-spacer--l;
+      margin-left: -$u-spacer--m;
+      margin-right: -$u-spacer--m;
       grid-column: 1 / span 6;
       clear: both;   
    }
    body {
-      padding: 0 $u-spacer--l;
+      padding: 0 $u-spacer--m;
    }
    @media(min-width: map-get($breakpoints, medium)) {
       .o-grid__fullbleed {
@@ -28,7 +28,7 @@ html {
          grid-template-columns: inherit;
       }
       .o-grid--offset {
-         grid-gap: $u-spacer--l;
+         grid-gap: $u-spacer--m;
          grid-template-columns: repeat(2, 1fr);
          .c-section__item {
             display: flex;

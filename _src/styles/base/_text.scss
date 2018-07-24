@@ -3,7 +3,7 @@
 // =======================================================================
 
 p {
-   margin: 0 0 $u-spacer--m;
+   margin: 0 0 $u-spacer--s;
 }
 b, strong {
    font-weight: bold;
@@ -15,7 +15,7 @@ sub, sup {
 	font-size: 75%;
 	line-height: 0;
 	position: relative;
-	vertical-align: basline;
+	vertical-align: baseline;
 }
 sup {
 	top: -0.5em;

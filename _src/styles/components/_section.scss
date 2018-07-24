@@ -20,7 +20,7 @@
       }
       .c-figure {
          flex: 0 0 auto;
-         margin-right: $u-spacer--s;
+         margin-right: $u-spacer--xs;
          margin-bottom: 0;
          img {
             height: 50vh;
@@ -35,47 +35,6 @@
                height: 65vh;
             }  
          }
-      }
-      @media(min-width: map-get($breakpoints, large)) {
-         padding: $u-spacer--xxl 0;
-         .c-figure {
-            margin-right: $u-spacer--xl;
-            img {
-               height: initial;
-               //max-height: none;
-            }
-         }
-      }
-   }
-   &.c-section--quote {
-      display: flex;
-      align-items: center;
-      //justify-content: center;
-      flex-direction: column;
-      padding: $u-spacer--l;
-      background: $c-neutral--darkest;
-      p, cite small {
-         color: #fff;
-         text-align: center;
-      }
-      cite {
-         font-style: normal;
-         &:before {
-            margin-right: $u-spacer;
-            display: inline-block;
-            width: 6px;
-            height: 6px;
-            content: '';
-            background: white;
-            border-radius: 3px;
-            vertical-align: middle;
-         } 
-      }
-   }
-   @media(min-width: map-get($breakpoints, medium)) {
-      margin-bottom: $u-spacer--xxxl;
-      &.c-section--quote {
-         padding: $u-spacer--xl $u-spacer--l;
       }
    }
 }

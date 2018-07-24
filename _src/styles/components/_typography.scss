@@ -11,7 +11,7 @@ body {
 
 // Headings
 h1, .c-article__lede {
-   margin-bottom: $u-spacer--m;
+   margin-bottom: $u-spacer--s;
    font-family: $ff-serif;
    @include font-size($h1-font-sizes);
    color: white;
@@ -24,7 +24,7 @@ h2 {
    letter-spacing: -0.016743rem;
 }
 h3 {
-   margin-bottom: $u-spacer--l;
+   margin-bottom: $u-spacer--m;
    @include font-size($h3-font-sizes);
    color: $c-neutral--darkest;
    text-transform: uppercase;

@@ -3,7 +3,7 @@
 // =======================================================================
 
 .c-masthead {
-   margin: $u-spacer--l 0 $u-spacer--xxl 0;
+   margin: $u-spacer--m 0 $u-spacer--xl 0;
    color: white;
    //background: $c-neutral--darkest;
    background: transparentize($color: $c-neutral--darkest, $amount: 0.06);
@@ -88,7 +88,7 @@
 }
 .c-masthead--open {
    .c-masthead__header {
-      margin-bottom: $u-spacer--xl;
+      margin-bottom: $u-spacer--m;
       border-bottom: 1px solid $c-neutral--faintlight;
    }
    .c-masthead__content {

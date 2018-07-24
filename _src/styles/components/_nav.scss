@@ -3,8 +3,8 @@
 // =======================================================================
 
 .c-nav {
-   margin-bottom: $u-spacer--xl;
-   padding: 0 $u-spacer--l;
+   margin-bottom: $u-spacer--l;
+   padding: 0 $u-spacer--m;
    h3 {
       color: $c-neutral--mid;
    }
@@ -12,19 +12,19 @@
       padding: 0;
       list-style: none;
       .c-nav__item {
-         margin-bottom: $u-spacer--s;
+         margin-bottom: $u-spacer--xs;
          a {
             font-size: 1.125rem; //18px
          }
       }
    }
    .c-nav__items--projects {
-      padding-left: $u-spacer--l;
+      padding-left: $u-spacer--m;
       .c-nav__item {
          display: flex;
          align-items: center;
          &:after {
-            margin-left: $u-spacer--m;
+            margin-left: $u-spacer--s;
             display: block;
             flex: 1 0 auto;
             height: 1px;
@@ -51,7 +51,6 @@
       display: flex;
       .c-nav__item {
          flex: 1 0 auto;
-         background: red;
       }
    }
 }
