@@ -32,7 +32,7 @@ h3 {
 }
 small {
    @include font-size($small-font-sizes);
-   color: $c-neutral--mid;
+   //color: $c-neutral--mid;
 }
 
 //Figcaption

@@ -237,8 +237,7 @@ h3 {
 
 small {
   font-size: 0.875rem;
-  line-height: 1.5;
-  color: #adadad; }
+  line-height: 1.5; }
 
 figcaption {
   color: #adadad; }
@@ -437,10 +436,10 @@ a {
     text-align: center; }
 
 .c-footer {
-  margin-top: 80px;
-  margin-bottom: 60px;
+  margin-bottom: 20px;
   padding-top: 5px;
-  border-top: 1px solid #adadad; }
+  color: #1a1a1a;
+  border-top: 1px solid #1a1a1a; }
 
 .c-figure {
   margin-bottom: 50px; }
