@@ -4,21 +4,4 @@
 
 .c-figure {
    margin-bottom: $u-spacer--xl;
-   &.c-figure--bg {
-      padding: $u-spacer--l;
-      background: $c-neutral--lightest;
-      figcaption {
-         text-align: center;
-      }
-   }
-   @media(min-width: map-get($breakpoints, medium)) {
-      &.c-figure--bg {
-         margin-bottom: 0;
-      }
-   }
-   @media(min-width: map-get($breakpoints, large)) {
-      &.c-figure--bg {
-         padding: $u-spacer--xl;
-      }
-   }
 }

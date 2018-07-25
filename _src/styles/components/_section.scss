@@ -3,38 +3,35 @@
 // =======================================================================
 
 .c-section {
-   margin-bottom: $u-spacer--xl;
-   &:last-child {
-      margin-bottom: 0;
+   margin-bottom: $u-spacer--2xl;
+}
+.c-section--scroller {
+   display: flex;
+   align-items: baseline;
+   overflow-x: auto;
+   flex-wrap: nowrap;
+   -webkit-overflow-scrolling: touch;
+   padding: $u-spacer--l 0;
+   background: $c-neutral--lightest;
+   &::-webkit-scrollbar {
+      display: none;
    }
-   &.c-section--scroller {
-      display: flex;
-      align-items: baseline;
-      overflow-x: auto;
-      flex-wrap: nowrap;
-      -webkit-overflow-scrolling: touch;
-      padding: $u-spacer--l 0;
-      background: $c-neutral--lightest;
-      &::-webkit-scrollbar {
-         display: none;
+   .c-figure {
+      flex: 0 0 auto;
+      margin-right: $u-spacer--xs;
+      margin-bottom: 0;
+      img {
+         height: 50vh;
+         object-fit: cover;
       }
+   }
+   @media(min-width: map-get($breakpoints, medium)) {
+      padding: $u-spacer--xl 0;
       .c-figure {
-         flex: 0 0 auto;
-         margin-right: $u-spacer--xs;
-         margin-bottom: 0;
+         margin-right: $u-spacer--l;
          img {
-            height: 50vh;
-            object-fit: cover;
-         }
-      }
-      @media(min-width: map-get($breakpoints, medium)) {
-         padding: $u-spacer--xl 0;
-         .c-figure {
-            margin-right: $u-spacer--l;
-            img {
-               height: 65vh;
-            }  
-         }
+            height: 65vh;
+         }  
       }
    }
 }

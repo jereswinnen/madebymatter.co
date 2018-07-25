@@ -13,8 +13,9 @@ $u-spacer--s: $u-spacer * 3; //15px
 $u-spacer--m: $u-spacer * 4; //20px
 $u-spacer--l: $u-spacer * 8; //40px
 $u-spacer--xl: $u-spacer * 10; //50px
-$u-spacer--xxl: $u-spacer * 12; //60px
-$u-spacer--xxxl: $u-spacer * 16; //80px
+$u-spacer--2xl: $u-spacer * 12; //60px
+$u-spacer--3xl: $u-spacer * 16; //80px
+$u-spacer--4xl: $u-spacer * 20; //100px
 
 /// Colours
 $c-neutral--faintlight: transparentize($color: #fff, $amount: 0.92);
@@ -34,6 +35,14 @@ $c-diabetik--lightest: #dcf9fa;
 $c-diabetik: #55c2c5;
 $c-immobrown--lightest: #faeedc;
 $c-immobrown: #ecb968;
+
+/// Transitions
+//$t-bezier: cubic-bezier(.455, .03, .515, .955);
+$t-bezier: cubic-bezier(.165, .84, .44, 1);
+
+/// Shadows
+$s-layerone: 0 0 2px transparentize($color: $c-neutral--darkest, $amount: 0.9), 0 6px 15px transparentize($color: $c-neutral--darkest, $amount: 0.9);
+$s-layertwo: 0 5px 15px transparentize($color: $c-neutral--darkest, $amount: 0.9), 0 15px 35px transparentize($color: $c-neutral--darkest, $amount: 0.93);
 
 /// Maps
 // Breakpoints

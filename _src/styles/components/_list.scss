@@ -9,3 +9,57 @@
       margin-bottom: $u-spacer--s;
    }
 }
+.c-list--projects {
+   .c-list__item {
+      margin-bottom: $u-spacer--l;
+      &:last-child {
+         margin-bottom: 0;
+      }
+      a {
+         display: block;
+         text-decoration: none;
+         background: $c-neutral--light;
+         box-shadow: $s-layerone;
+         transition: all .4s $t-bezier;
+         &:hover {
+            box-shadow: $s-layertwo;
+            transform: translateY(-4px);
+            b {
+               transform: translateX(8px);
+               svg {
+                  opacity: 1;
+                  transform: translateX(6px);
+               }
+            }
+         }
+         &:active {
+            box-shadow: $s-layerone;
+            transform: none;
+         }
+         .c-figure {
+            margin-bottom: 0;
+            background: white;
+            img {
+               margin-bottom: -$u-spacer;
+            }  
+         }
+         aside {
+            padding: $u-spacer--s $u-spacer--m;
+            b {
+               display: flex;
+               align-items: baseline;
+               transition: all .4s $t-bezier;
+               svg {
+                  display: block;
+                  opacity: 0;
+                  fill: currentColor;
+                  transition: all .4s $t-bezier;  
+               }
+            }
+            p {
+               margin-bottom: 0;
+            }
+         }
+      }
+   }
+}
