@@ -15,4 +15,4 @@ var toggleClick = function toggleClick(e) {
 mastheadToggle.addEventListener('click', toggleClick, false);
 
 // Scroller
-$('.c-section--scroller').animate({ scrollLeft: 2000 }, 38000, "linear");
+$('.c-section--scroller').animate({ scrollLeft: 2200 }, 70000, "linear");

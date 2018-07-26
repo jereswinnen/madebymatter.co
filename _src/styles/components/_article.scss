@@ -5,8 +5,21 @@
 .c-article {
    margin-bottom: $u-spacer--xl;
    .c-article__header {
-      .c-article__title {
+      .c-article__title, .c-article__tagline {
          text-align: center;
+      }
+   }
+   .c-article__body {
+
+   }
+   .c-article__aside {
+      padding: $u-spacer--m;
+      background: $c-neutral--faintdark;
+      dd {
+         margin: 0 0 $u-spacer--xs 0;
+         &:last-child {
+            margin: 0;
+         }
       }
    }
    @media(min-width: map-get($breakpoints, medium)) {

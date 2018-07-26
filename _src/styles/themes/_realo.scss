@@ -4,10 +4,12 @@
 
 .t--realo {
    ::selection {
-      color: $c-neutral--darkest;
+      background: $c-neutral--faintdark;
    }
 	body {
-		color: white;
-      background: $c-neutral--darkest;
+		background: $c-realo--lightest;
+      .c-article__tite, .c-article__tagline {
+         color: $c-realo;
+      }
 	}
 }

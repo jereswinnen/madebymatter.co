@@ -1,31 +1,37 @@
-{% include html-header.html %}
+{% include html-header.html
+   theme="t--realo"   
+%}
 {% include site-header.html %}
 <main class="o-grid o-grid--inherit o-grid__bleed c-main">
-   <article class="o-grid__bleed c-article">
-      <header class="c-article__header">
-         <h2 class="c-article__title">Realo</h2>
+   <article class="o-grid o-grid--inherit o-grid__bleed c-article">
+      <header class="o-grid__bleed c-article__header">
+         <!--<h3 class="c-article__title">Realo</h3>-->
          <h1 class="c-article__tagline">Building a real estate platform for the next generation of homeowners.</h1>
       </header>
    </article>
    <section class="o-grid__fullbleed c-section c-section--scroller">
       <figure class="c-figure">
-         <img src="/assets/images/new/phone.png" alt="">
+         <img src="/assets/images/artwork/realo/case__realo--singlephonehome.png" srcset="/assets/images/artwork/realo/case__realo--singlephonehome.png 1x, /assets/images/artwork/realo/case__realo--singlephonehome@2x.png 2x" alt="View a home">
       </figure>
       <figure class="c-figure">
-         <img src="/assets/images/new/tablet.png" alt="">
-      </figure>
-      <figure class="c-figure">
-         <img src="/assets/images/new/phone.png" alt="">
-      </figure>
-      <figure class="c-figure">
-         <img src="/assets/images/new/tablet.png" alt="">
+         <img src="/assets/images/artwork/realo/case__realo--singletabletsearch.png" srcset="/assets/images/artwork/realo/case__realo--singletabletsearch.png 1x, /assets/images/artwork/realo/case__realo--singletabletsearch@2x.png 2x" alt="Search for a home">
       </figure>
    </section>
-   <article class="o-grid__half c-article">
-      <div class="c-article__body">
-         {{ content }}
-      </div>
-   </article>
+   <section class="c-section">
+      <article class="o-grid__half c-article">
+         <div class="c-article__body">
+            {{ content }}
+         </div>
+         <dl class="c-article__aside">
+            <dt><small><b>Deliverables</b></small></dt>
+            <dd><small>Design system, responsive web design, marketing, iconography, iOS app</small></dd>
+            <dt><small><b>Period</b></small></dt>
+            <dd><small>02/2014 - 12/2014</small></dd>
+            <dt><small><b>Visit</b></small></dt>
+            <dd><small><a href="#">www.realo.com</a></small></dd>
+         </dl>
+      </article>
+   </section>
    <section class="o-grid o-grid--offset o-grid__bleed c-section c-section--gallery">
       <div class="c-section__item">
          <figure class="c-figure c-figure--bg">

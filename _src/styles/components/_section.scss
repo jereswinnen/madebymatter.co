@@ -11,14 +11,13 @@
    overflow-x: auto;
    flex-wrap: nowrap;
    -webkit-overflow-scrolling: touch;
-   padding: $u-spacer--l 0;
-   background: $c-neutral--lightest;
+   //padding: $u-spacer--l 0;
    &::-webkit-scrollbar {
       display: none;
    }
    .c-figure {
       flex: 0 0 auto;
-      margin-right: $u-spacer--xs;
+      margin-right: $u-spacer--m;
       margin-bottom: 0;
       img {
          height: 50vh;
