@@ -10,13 +10,13 @@
       }
    }
    .c-article__body {
-
+      margin-bottom: $u-spacer--l;
    }
    .c-article__aside {
       padding: $u-spacer--m;
       background: $c-neutral--faintdark;
       dd {
-         margin: 0 0 $u-spacer--xs 0;
+         margin: 0 0 $u-spacer--s 0;
          &:last-child {
             margin: 0;
          }

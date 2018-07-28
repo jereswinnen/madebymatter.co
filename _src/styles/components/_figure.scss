@@ -4,4 +4,15 @@
 
 .c-figure {
    margin-bottom: $u-spacer--xl;
+   figcaption {
+      color: currentColor;
+   }
+}
+.c-figure--bg {
+   padding-bottom: $u-spacer--m;
+   background: white;
+   figcaption {
+      padding: 0 $u-spacer--m;
+      text-align: center;
+   }
 }

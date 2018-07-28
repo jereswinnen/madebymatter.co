@@ -10,7 +10,7 @@ body {
 }
 
 // Headings
-h1, .c-article__lede {
+h1, .c-article__lede, .c-blockquote__text, .c-article__tagline {
    margin-bottom: $u-spacer--s;
    font-family: $ff-serif;
    @include font-size($h1-font-sizes);
@@ -32,10 +32,13 @@ h3 {
 }
 small {
    @include font-size($small-font-sizes);
-   //color: $c-neutral--mid;
 }
-
-//Figcaption
-figcaption {
-   color: $c-neutral--mid;
+blockquote {
+   margin: 0;
+   .c-blockquote__text {
+      color: $c-neutral--darkest;
+   }
+}
+cite, .c-blockquote__author {
+   font-style: normal;
 }

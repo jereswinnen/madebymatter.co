@@ -1,6 +1,16 @@
 // =======================================================================
 // Primary & secondary calls to action
 // =======================================================================
-.c-cta {
-   
+.c-button {
+   padding: $u-spacer--xs $u-spacer--s;
+   background: white;
+   border-radius: $u-radius--xs;
+   box-shadow: $s-layerone;
+   transition: all .4s $t-bezier;
+   &:hover {
+      transform: translateY(-2px);
+   }
+   &:active {
+      background: transparentize($color: white, $amount: 0.15);
+   }
 }

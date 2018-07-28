@@ -1319,16 +1319,6 @@
 		"sC": 1,
 		"tS": 0
 		},
-	"\/_site\/assets\/styles\/global.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/_site\/assets\/styles\/global-min.css",
-		"oF": 0,
-		"oS": 3
-		},
 	"\/_site\/feed.xml": {
 		"cB": 0,
 		"ft": 8192,
@@ -2859,7 +2849,7 @@
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
-	"alwaysUseExternalServer": 0,
+	"alwaysUseExternalServer": 1,
 	"animateCSSInjections": 1,
 	"autoBuildNewItems": 1,
 	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
@@ -4250,7 +4240,7 @@
 			}
 		},
 	"esLintSourceType": 0,
-	"externalServerAddress": "http:\/\/localhost:8888",
+	"externalServerAddress": "http:\/\/127.0.0.1:4000",
 	"gitIgnoreBuildFolder": 1,
 	"hideConfigFile": 0,
 	"jsCheckerReservedNamesString": "",

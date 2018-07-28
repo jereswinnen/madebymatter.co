@@ -8,8 +8,24 @@
    }
 	body {
 		background: $c-realo--lightest;
-      .c-article__tite, .c-article__tagline {
-         color: $c-realo;
+      .c-button {
+         color: white;
+         background: $c-realo;
+         &:active {
+            background: transparentize($color: $c-realo, $amount: 0.15);
+         }
+      }
+      .c-article {
+         .c-article__tite, .c-article__tagline, .c-article__lede {
+            color: $c-realo;
+         }
+      }
+      .c-section--quote {
+         border-top-color: $c-realo;
+         border-bottom-color: $c-realo;
+         .c-blockquote__text {
+            color: $c-realo;
+         }
       }
 	}
 }

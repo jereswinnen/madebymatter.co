@@ -17,6 +17,12 @@ $u-spacer--2xl: $u-spacer * 12; //60px
 $u-spacer--3xl: $u-spacer * 16; //80px
 $u-spacer--4xl: $u-spacer * 20; //100px
 
+///Radii
+$u-radius--xs: 3px;
+$u-radius--s: 6px;
+$u-radius--m: 10px;
+$u-radius--l: 16px;
+
 /// Colours
 $c-neutral--faintlight: transparentize($color: #fff, $amount: 0.92);
 $c-neutral--lightest: #f0f0f0;

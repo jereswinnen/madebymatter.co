@@ -5,6 +5,22 @@
 .c-section {
    margin-bottom: $u-spacer--2xl;
 }
+.c-section--faintdark {
+   padding: $u-spacer--l $u-spacer--m;
+   background: $c-neutral--faintdark;
+   .c-article {
+      margin-bottom: 0;
+      .c-article__lede {
+         color: $c-neutral--darkest;
+      }
+   }
+}
+.c-section--quote {
+   //padding: $u-spacer--l 0;
+   //border-top: 2px solid $c-neutral--darkest;
+   //border-bottom: 2px solid $c-neutral--darkest;
+   text-align: center;
+}
 .c-section--scroller {
    display: flex;
    align-items: baseline;

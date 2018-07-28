@@ -8,7 +8,7 @@
          <h1 class="c-article__title">Jeremy is a creative developer and designer from Antwerp, Belgium. He&rsquo;s focusing on digital product design for mobile platforms.</h1>
       </header>
    </article>
-   <section class="c-section">
+   <section class="o-grid o-grid--inherit o-grid__bleed c-section">
       <ul class="c-list c-list--projects">
          <li class="c-list__item">
             <a href="#">
@@ -76,6 +76,18 @@
             </a>
          </li>  
       </ul>     
+   </section>
+   <section class="o-grid__fullbleed c-section c-section--faintdark">
+      <article class="c-article">
+         <header class="c-article__header">
+            <h3>Work with me</h3>
+            <h2 class="c-article__lede">Interested in working together with me?</h2>
+         </header>
+         <div class="c-article__body">
+            {{ content | truncate: 320 }}
+         </div>
+         <button class="c-button">Work with me</button>
+      </article>
    </section>
 </main>
 {% include site-footer.html %}
