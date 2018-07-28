@@ -24,7 +24,6 @@
    overflow-x: auto;
    flex-wrap: nowrap;
    -webkit-overflow-scrolling: touch;
-   //padding: $u-spacer--l 0;
    &::-webkit-scrollbar {
       display: none;
    }
@@ -33,17 +32,11 @@
       margin-right: $u-spacer--m;
       margin-bottom: 0;
       img {
-         height: 50vh;
-         object-fit: cover;
+         max-height: 50vh;
+         width: auto;
       }
    }
    @media(min-width: map-get($breakpoints, medium)) {
       padding: $u-spacer--xl 0;
-      .c-figure {
-         margin-right: $u-spacer--l;
-         img {
-            height: 65vh;
-         }  
-      }
    }
 }
