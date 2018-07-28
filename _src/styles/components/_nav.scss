@@ -3,12 +3,19 @@
 // =======================================================================
 
 .c-nav {
-   margin-bottom: $u-spacer--l;
+   margin-bottom: $u-spacer--m;
    padding: 0 $u-spacer--m;
    h3 {
       color: $c-neutral--mid;
    }
+   .c-button {
+      display: block;
+      width: 100%;
+      color: $c-neutral--darkest !important;
+      background: white !important;
+   }
    .c-nav__items {
+      margin-bottom: $u-spacer--m;
       padding: 0;
       list-style: none;
       .c-nav__item {
@@ -18,33 +25,34 @@
          }
       }
    }
-   .c-nav__items--projects {
-      padding-left: $u-spacer--m;
-      .c-nav__item {
-         display: flex;
-         align-items: center;
-         &:after {
-            margin-left: $u-spacer--s;
-            display: block;
-            flex: 1 0 auto;
-            height: 1px;
-            content: '';   
-         }
-         &:nth-child(1):after {
-            background: $c-shelf;
-         }
-         &:nth-child(2):after {
-            background: $c-realo;
-         }
-         &:nth-child(3):after {
-            background: $c-hocusfocus;
-         }
-         &:nth-child(4):after {
-            background: $c-diabetik;
-         }
-         &:nth-child(5):after {
-            background: $c-immobrown;
-         }
+   .c-nav__items--projects .c-nav__item {
+      display: flex;
+      align-items: center;
+      transition: padding-left .4s $t-bezier;
+      &:hover {
+         padding-left: $u-spacer--xs;
+      }
+      &:after {
+         margin-left: $u-spacer--s;
+         display: block;
+         flex: 1 0 auto;
+         height: 1px;
+         content: '';   
+      }
+      &:nth-child(1):after {
+         background: $c-shelf;
+      }
+      &:nth-child(2):after {
+         background: $c-realo;
+      }
+      &:nth-child(3):after {
+         background: $c-hocusfocus;
+      }
+      &:nth-child(4):after {
+         background: $c-diabetik;
+      }
+      &:nth-child(5):after {
+         background: $c-immobrown;
       }
    }
    .c-nav__items--social {
