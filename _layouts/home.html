@@ -1,13 +1,13 @@
 {% include html-header.html %}
 {% include site-header.html %}
-<main class="o-grid o-grid--inherit o-grid__bleed">
-   <article class="o-grid o-grid--inherit o-grid__bleed c-article">
-      <header class="o-grid__bleed c-article__header">
+<main class="c-main">
+   <article class="o-grid__extralarge c-article">
+      <header class="c-article__header">
          <h1 class="c-article__title">Jeremy is a creative developer and designer from Antwerp, Belgium. He&rsquo;s focusing on digital product design for mobile platforms.</h1>
       </header>
    </article>
-   <section class="o-grid o-grid--inherit o-grid__bleed c-section">
-      <ul class="c-list c-list--projects">
+   <section class="o-grid__extend c-section">
+      <ul class="o-grid__abreast c-list c-list--projects">
          <li class="c-list__item">
             <a href="#">
                <figure class="c-figure">
@@ -18,6 +18,19 @@
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M8 11.657l-1-1 3.907-3.907H0v-1.5h10.907L7 1.343l1-1L13.657 6 8 11.657z"/>
                   </svg></b>
                   <p>An iPad app for power users who work with documents on a daily basis.</p>
+               </aside>
+            </a>
+         </li>
+         <li class="c-list__item">
+            <a href="#">
+               <figure class="c-figure">
+                  <img src="/assets/images/artwork/nintendo/case__nintendo--cover.png" srcset="/assets/images/artwork/nintendo/case__nintendo--cover.png 1x, /assets/images/artwork/nintendo/case__nintendo--cover@2x.png 2x" alt="Hocus Focus">
+               </figure>
+               <aside>
+                  <b>Hocus Focus<svg width="14" height="12" viewBox="0 0 14 12">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M8 11.657l-1-1 3.907-3.907H0v-1.5h10.907L7 1.343l1-1L13.657 6 8 11.657z"/>
+                  </svg></b>
+                  <p>Magically bring back your productivity and focus.</p>
                </aside>
             </a>
          </li>
@@ -37,13 +50,13 @@
          <li class="c-list__item">
             <a href="#">
                <figure class="c-figure">
-                  <img src="/assets/images/artwork/hocusfocus/case__hocusfocus--cover.png" srcset="/assets/images/artwork/hocusfocus/case__hocusfocus--cover.png 1x, /assets/images/artwork/hocusfocus/case__hocusfocus--cover@2x.png 2x" alt="Hocus Focus">
+                  <img src="/assets/images/artwork/immobrown/case__immobrown--cover.png" srcset="/assets/images/artwork/immobrown/case__immobrown--cover.png 1x, /assets/images/artwork/immobrown/case__immobrown--cover@2x.png 2x" alt="Immo Brown">
                </figure>
                <aside>
-                  <b>Hocus Focus<svg width="14" height="12" viewBox="0 0 14 12">
+                  <b>Immo Brown<svg width="14" height="12" viewBox="0 0 14 12">
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M8 11.657l-1-1 3.907-3.907H0v-1.5h10.907L7 1.343l1-1L13.657 6 8 11.657z"/>
                   </svg></b>
-                  <p>Building a real estate platform for the next generation of homeowners.</p>
+                  <p>An opinionated new website for an exclusive real estate agent.</p>
                </aside>
             </a>
          </li>
@@ -59,23 +72,10 @@
                   <p>Elegant diabetes management at your fingertips.</p>
                </aside>
             </a>
-         </li>
-         <li class="c-list__item">
-            <a href="#">
-               <figure class="c-figure">
-                  <img src="/assets/images/artwork/immobrown/case__immobrown--cover.png" srcset="/assets/images/artwork/immobrown/case__immobrown--cover.png 1x, /assets/images/artwork/immobrown/case__immobrown--cover@2x.png 2x" alt="Immo Brown">
-               </figure>
-               <aside>
-                  <b>Immo Brown<svg width="14" height="12" viewBox="0 0 14 12">
-                  <path fill-rule="evenodd" clip-rule="evenodd" d="M8 11.657l-1-1 3.907-3.907H0v-1.5h10.907L7 1.343l1-1L13.657 6 8 11.657z"/>
-                  </svg></b>
-                  <p>An opinionated new website for an exclusive real estate agent.</p>
-               </aside>
-            </a>
          </li>  
       </ul>     
    </section>
-   <section class="o-grid__fullbleed c-section c-section--faintdark">
+   <section class="o-grid__extend c-section c-section--faintdark">
       <article class="c-article">
          <header class="c-article__header">
             <h3>Work with me</h3>
@@ -84,7 +84,6 @@
          <div class="c-article__body">
             {{ content | truncate: 320 }}
          </div>
-         <button class="c-button">Work with me</button>
       </article>
    </section>
 </main>

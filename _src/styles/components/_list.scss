@@ -24,6 +24,9 @@
          &:hover {
             box-shadow: $s-layertwo;
             transform: translateY(-4px);
+            .c-figure img {
+               transform: scale(1.05);
+            }
             b {
                transform: translateX(8px);
                svg {
@@ -39,8 +42,10 @@
          .c-figure {
             margin-bottom: 0;
             background: white;
+            overflow: hidden;
             img {
                margin-bottom: -$u-spacer;
+               transition: all 1.8s $t-bezier;
             }  
          }
          aside {
@@ -59,6 +64,16 @@
             p {
                margin-bottom: 0;
             }
+         }
+      }
+      @media(min-width: map-get($breakpoints, medium)) {
+         &:nth-child(even) {
+            transform: translateY(100px);
+         }
+      }
+      @media(min-width: map-get($breakpoints, large)) {
+         &:nth-child(even) {
+            //transform: translateY(120px);
          }
       }
    }
