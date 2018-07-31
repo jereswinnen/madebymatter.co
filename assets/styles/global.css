@@ -26,7 +26,7 @@ html body {
     grid-column-gap: 2.5vw;
     grid-template-columns: [bleed-start] 1fr [extend-start] minmax(0, 4.375em) [content-extra-large-start] minmax(0, 4.375em) [content-large-start] minmax(0, 4.375em) [content-small-start] repeat(4, minmax(0, 4.375em)) [content-small-end] minmax(0, 4.375em) [content-large-end] minmax(0, 4.375em) [content-extra-large-end] minmax(0, 4.375em) [extend-end] 1fr [bleed-end]; }
     html .o-grid .c-masthead {
-      grid-column: content-small; }
+      grid-column: content-large; }
     html .o-grid .c-main {
       display: grid;
       grid-column: bleed;
@@ -61,7 +61,7 @@ html body {
 
 @media (min-width: 1040px) {
   html .o-grid, html .o-grid .c-main .o-grid__abreast {
-    grid-column-gap: 4vw; } }
+    grid-column-gap: 3vw; } }
 
 html {
   -webkit-box-sizing: border-box;
