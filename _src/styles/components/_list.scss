@@ -68,12 +68,12 @@
       }
       @media(min-width: map-get($breakpoints, medium)) {
          &:nth-child(even) {
-            transform: translateY(100px);
+            transform: translateY(50px);
          }
       }
       @media(min-width: map-get($breakpoints, large)) {
          &:nth-child(even) {
-            //transform: translateY(120px);
+            //transform: translateY(100px);
          }
       }
    }

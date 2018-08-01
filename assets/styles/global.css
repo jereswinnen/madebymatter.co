@@ -17,6 +17,10 @@
 
 html body {
   padding: 0 20px; }
+  html body .c-masthead {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0; }
 
 @media (min-width: 700px) {
   html body {
@@ -624,8 +628,8 @@ a {
         margin-bottom: 0; }
   @media (min-width: 700px) {
     .c-list--projects .c-list__item:nth-child(even) {
-      -webkit-transform: translateY(100px);
-              transform: translateY(100px); } }
+      -webkit-transform: translateY(50px);
+              transform: translateY(50px); } }
 
 .t--dark ::-moz-selection {
   color: #1a1a1a; }

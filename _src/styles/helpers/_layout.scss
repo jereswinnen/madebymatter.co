@@ -5,6 +5,10 @@
 html {
    body {
       padding: 0 $u-spacer--m;
+      .c-masthead {
+         position: sticky;
+         top: 0;
+      }
    }
    @media(min-width: map-get($breakpoints, medium)) {
       body {
