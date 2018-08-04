@@ -7,7 +7,6 @@ All the code that lives inside this repository is written by me, Jeremy Swinnen.
 
 ## Libraries Used
 - Novo: https://github.com/jereswinnen/Novo
-- WOW.js: https://github.com/matthieua/WOW
 
 ## Disclaimer
 While I’m primarily a product designer, I do enjoy coding up the designs and interfaces I create. Some of the code you’re seeing here may contain some faults and not-so-clever ways of doing things, but this is something I do on the side.
